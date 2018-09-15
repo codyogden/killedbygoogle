@@ -1,0 +1,39 @@
+{
+  "name": "killedbygoogle",
+  "version": "0.0.0",
+  "description": "killedbygoogle.com",
+  "main": "src/index.js",
+  "repository": "git@github.com:codyogden/makesomecoffee.git",
+  "author": "Cody Ogden",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "node-sass": "^4.9.3",
+    "react-hot-loader": "^4.3.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "scripts": {
+    "build": "yarn lint && yarn webpack --mode=production",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
+    "lint": "eslint \"src/**/*.{jsx,js}\""
+  }
+}
