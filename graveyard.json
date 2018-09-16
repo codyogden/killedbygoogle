@@ -180,5 +180,12 @@
     "description": "Meebo was a browser-based instant messaging application which supported multiple IM services.",
     "link": "https://en.wikipedia.org/wiki/Meebo",
     "name": "Meebo"
+  },
+  {
+    "dateClose": "2012-12-31",
+    "dateOpen": "2007-12-06",
+    "description": "Google Chart API was an interactive Web service that creates graphical charts from user-supplied data.",
+    "link": "https://en.wikipedia.org/wiki/Google_Chart_API",
+    "name": "Google Chart API"
   }
 ]
