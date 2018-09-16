@@ -96,5 +96,12 @@
     "description": "Google Map Maker was a mapping and map editing service where users were able to draw features directly onto a map.",
     "link": "https://en.wikipedia.org/wiki/Google_Map_Maker",
     "name": "Google Map Maker"
+  },
+  {
+    "dateClose": "2017-09-01",
+    "dateOpen": "2007-03-01",
+    "description": "Trendalyzer was a data trend viewing platform.",
+    "link": "https://en.wikipedia.org/wiki/Google_Map_Maker",
+    "name": "Trendalyzer"
   }
 ]
