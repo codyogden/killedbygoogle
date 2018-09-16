@@ -124,5 +124,12 @@
     "description": "Google Swiffy was a web-based tool that converted SWF files to HTML5.",
     "link": "https://en.wikipedia.org/wiki/Google_Swiffy",
     "name": "Google Swiffy"
+  },
+  {
+    "dateClose": "2016-11-04",
+    "dateOpen": "2005-10-23",
+    "description": "Panoramio was geo-located tagging, photo sharing mashup product.",
+    "link": "https://en.wikipedia.org/wiki/Panoramio",
+    "name": "Panoramio"
   }
 ]
