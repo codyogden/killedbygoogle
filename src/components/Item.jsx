@@ -42,7 +42,7 @@ const eolIdiom = () => {
     'Expires',
     'Bites the big one',
     'Off to the glue factory',
-    'Another bites the dust',
+    'Another one bites the dust',
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
