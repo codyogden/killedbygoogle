@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/codyogden/killedbygoogle/master/assets/tombstone.svg" alt="tombstone" style="height: 80px; width: 80px">
+  <img src="assets/tombstone.svg" alt="tombstone" style="height: 80px; width: 80px">
   Killed by Google
 </div>
 
