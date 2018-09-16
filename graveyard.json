@@ -117,5 +117,12 @@
     "description": "Google Code was a service that provided revision control, an issue tracker, and a wiki for code documentation.",
     "link": "https://en.wikipedia.org/wiki/Google_Developers#Google_Code",
     "name": "Google Code"
+  },
+  {
+    "dateClose": "2016-07-01",
+    "dateOpen": "2011-07-01",
+    "description": "Google Swiffy was a web-based tool that converted SWF files to HTML5.",
+    "link": "https://en.wikipedia.org/wiki/Google_Swiffy",
+    "name": "Google Swiffy"
   }
 ]
