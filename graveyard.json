@@ -138,5 +138,12 @@
     "description": "Google Helpouts was an online collaboration service where users to share their expertise through live video.",
     "link": "https://en.wikipedia.org/wiki/Google_Helpouts",
     "name": "Google Helpouts"
+  },
+  {
+    "dateClose": "2015-06-30",
+    "dateOpen": "2008-09-01",
+    "description": "Google Moderator was a service that used crowdsourcing to rank user-submitted questions, suggestions and ideas.",
+    "link": "https://en.wikipedia.org/wiki/Google_Moderator",
+    "name": "Google Moderator"
   }
 ]
