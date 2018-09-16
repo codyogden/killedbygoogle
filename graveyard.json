@@ -166,5 +166,12 @@
     "description": "Quickoffice was a productivity suite for mobile devices which allowed viewing, creating and editing documents, presentations and spreadsheets.",
     "link": "https://en.wikipedia.org/wiki/Quickoffice",
     "name": "Quickoffice"
+  },
+  {
+    "dateClose": "2014-01-31",
+    "dateOpen": "2005-01-01",
+    "description": "Google Notifier alerted users to new messages in their Gmail account.",
+    "link": "https://www.theverge.com/2014/1/16/5316748/google-quietly-kills-off-its-notifier-service-for-mail-and-calendar",
+    "name": "Google Notifier"
   }
 ]
