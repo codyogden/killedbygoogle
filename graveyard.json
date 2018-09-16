@@ -199,7 +199,14 @@
     "dateClose": "2018-12-31",
     "dateOpen": "2002-01-01",
     "description": "Google Search Appliance was a rack-mounted device that provided document indexing functionality.",
-    "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance#Google_Mini",
+    "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance",
     "name": "Google Search Appliance"
+  },
+  {
+    "dateClose": "2019-03-30",
+    "dateOpen": "2009-12-01",
+    "description": "Google URL Shortener, also known as goo.gl, is a URL shortening service.",
+    "link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
+    "name": "Google URL Shortener"
   }
 ]
