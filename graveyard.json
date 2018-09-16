@@ -9,50 +9,57 @@
   {
     "dateClose": "2012-10-05",
     "dateOpen": "2011-02-09",
-    "name": "Sparrow",
+    "description": "Sparrow was an email client for OS X and iOS. They acquired and then killed it.",
     "link": "https://en.wikipedia.org/wiki/Sparrow_(email_client)",
-    "description": "Sparrow was an email client for OS X and iOS. They acquired and then killed it."
+    "name": "Sparrow"
   },
   {
     "dateClose": "2006-12-01",
     "dateOpen": "2002-04-18",
-    "name": "Google Answers",
+    "description": "Google Answers was an online knowledge market.",
     "link": "https://en.wikipedia.org/wiki/Google_Answers",
-    "description": "Google Answers was an online knowledge market."
+    "name": "Google Answers"
   },
   {
     "dateClose": "2006-05-08",
     "dateOpen": "2003-11-10",
-    "name": "Google Deskbar",
+    "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop.",
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
-    "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop."
+    "name": "Google Deskbar"
   },
   {
     "dateClose": "2006-10-10",
     "dateOpen": "2005-08-01",
-    "name": "Writely",
+    "description": "Writely was a Web-based word processor.",
     "link": "https://en.wikipedia.org/wiki/Writely",
-    "description": "Writely was a Web-based word processor."
+    "name": "Writely"
   },
   {
     "dateClose": "2007-12-01",
     "dateOpen": "2004",
-    "name": "Google Click-to-Call",
+    "description": "Google Click-to-Call allowed a user to speak directly over the phone to businesses found in search results.",
     "link": "https://en.wikipedia.org/wiki/AdWords#Google_Click-to-Call",
-    "description": "Google Click-to-Call allowed a user to speak directly over the phone to businesses found in search results."
+    "name": "Google Click-to-Call"
   },
   {
     "dateClose": "2013-07-01",
     "dateOpen": "2005-10-07",
-    "name": "Google Reader",
+    "description": "Google Reader was an RSS/Atom feed aggregator.",
     "link": "https://en.wikipedia.org/wiki/Google_Reader",
-    "description": "Google Reader was an RSS/Atom feed aggregator."
+    "name": "Google Reader"
   },
   {
     "dateClose": "2012-04-30",
     "dateOpen": "2009-09-01",
-    "name": "Google Wave",
+    "description": "Google Wave was an online communication and collaborative real-time editor tool.",
     "link": "https://en.wikipedia.org/wiki/Google_Wave",
-    "description": "Google Wave was an online communication and collaborative real-time editor tool."
+    "name": "Google Wave"
+  },
+  {
+    "dateClose": "2011-11-11",
+    "dateOpen": "2008-08-10",
+    "description": "Google Notebook allowed users to save and organize clips of information while conducting research online.",
+    "link": "https://en.wikipedia.org/wiki/Google_Notebook",
+    "name": "Google Notebook"
   }
 ]
