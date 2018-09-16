@@ -101,7 +101,14 @@
     "dateClose": "2017-09-01",
     "dateOpen": "2007-03-01",
     "description": "Trendalyzer was a data trend viewing platform.",
-    "link": "https://en.wikipedia.org/wiki/Google_Map_Maker",
+    "link": "https://en.wikipedia.org/wiki/Trendalyzer",
     "name": "Trendalyzer"
+  },
+  {
+    "dateClose": "2015-10-09",
+    "dateOpen": "2002-10-15",
+    "description": "Picasa was an image organizer and image viewer for organizing and editing digital photos.",
+    "link": "https://en.wikipedia.org/wiki/Picasa",
+    "name": "Picasa"
   }
 ]
