@@ -9,6 +9,10 @@ const ListContainer = styled.ul`
   margin: 0;
   padding: 0;
   min-height: 70vh;
+  @media screen and ( min-width: 650px ) {
+    display: flex;
+    flex-flow: row wrap;
+  }
 `;
 
 export default class List extends Component {
