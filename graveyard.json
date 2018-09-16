@@ -68,5 +68,12 @@
     "description": "Encryped Search provided users with anonymous internet searching.",
     "link": "https://en.wikipedia.org/wiki/Google_Notebook",
     "name": "Encrypted Search"
+  },
+  {
+    "dateClose": "2018-08-20",
+    "dateOpen": "2010-10-05",
+    "description": "Google Goggles was used for searches based on pictures taken by handheld devices.",
+    "link": "https://en.wikipedia.org/wiki/Google_Goggles",
+    "name": "Google Goggles"
   }
 ]
