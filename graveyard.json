@@ -49,8 +49,8 @@
     "description": "Google Reader was an RSS/Atom feed aggregator."
   },
   {
-    "dateClose": "2009-09-01",
-    "dateOpen": "2012-04-30",
+    "dateClose": "2012-04-30",
+    "dateOpen": "2009-09-01",
     "name": "Google Wave",
     "link": "https://en.wikipedia.org/wiki/Google_Wave",
     "description": "Google Wave was an online communication and collaborative real-time editor tool."
