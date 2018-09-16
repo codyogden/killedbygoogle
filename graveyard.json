@@ -131,5 +131,12 @@
     "description": "Panoramio was geo-located tagging, photo sharing mashup product.",
     "link": "https://en.wikipedia.org/wiki/Panoramio",
     "name": "Panoramio"
+  },
+  {
+    "dateClose": "2015-04-20",
+    "dateOpen": "2013-11-15",
+    "description": "Google Helpouts was an online collaboration service where users to share their expertise through live video.",
+    "link": "https://en.wikipedia.org/wiki/Google_Helpouts",
+    "name": "Google Helpouts"
   }
 ]
