@@ -13,7 +13,7 @@ const ListItem = styled.li`
   border-bottom: 1px solid #dedede;
   box-sizing: border-box;
   flex: 1 0 30%;
-  @media screen and ( max-width: 1000px ) {
+  @media screen and ( max-width: 1100px ) {
     flex: 1 0 50%;
   }
   h2 {
