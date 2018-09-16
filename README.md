@@ -15,6 +15,8 @@ To add a product, add it to `graveyard.json` file. You'll need the following inf
 - Description (`description`)
 - Link (`link`)
 
+The object should be appended to `graveyard.json` in the following format (note the alphabetical order of keys):
+
 ```
   {
     "dateClosed": "YYYY-MM-DD",
