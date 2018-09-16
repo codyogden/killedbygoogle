@@ -75,5 +75,12 @@
     "description": "Google Goggles was used for searches based on pictures taken by handheld devices.",
     "link": "https://en.wikipedia.org/wiki/Google_Goggles",
     "name": "Google Goggles"
+  },
+  {
+    "dateClose": "2013-11-01",
+    "dateOpen": "2005-05-19",
+    "description": "iGoogle was a customizable Ajax-based start page or personal web portal.",
+    "link": "https://en.wikipedia.org/wiki/IGoogle",
+    "name": "iGoogle"
   }
 ]
