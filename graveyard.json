@@ -187,5 +187,19 @@
     "description": "Google Chart API was an interactive Web service that creates graphical charts from user-supplied data.",
     "link": "https://en.wikipedia.org/wiki/Google_Chart_API",
     "name": "Google Chart API"
+  },
+  {
+    "dateClose": "2012-12-31",
+    "dateOpen": "2007-12-06",
+    "description": "Google Mini smaller version of the Google Search Appliance.",
+    "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance#Google_Mini",
+    "name": "Google Mini"
+  },
+  {
+    "dateClose": "2018-12-31",
+    "dateOpen": "2002-01-01",
+    "description": "Google Search Appliance was a rack-mounted device that provided document indexing functionality.",
+    "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance#Google_Mini",
+    "name": "Google Search Appliance"
   }
 ]
