@@ -152,5 +152,12 @@
     "description": "Google Questions and Answers was a free knowledge market that allowed users to collaboratively find good answers to their questions.",
     "link": "https://en.wikipedia.org/wiki/Google_Questions_and_Answers",
     "name": "Google Questions and Answers"
+  },
+  {
+    "dateClose": "2014-09-30",
+    "dateOpen": "2004-01-24",
+    "description": "Orkut was a social network designed to help users meet new and old friends and maintain existing relationships.",
+    "link": "https://en.wikipedia.org/wiki/Orkut",
+    "name": "Orkut"
   }
 ]
