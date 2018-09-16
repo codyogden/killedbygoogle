@@ -7,6 +7,7 @@ import './global.scss';
 import Header from './components/Header';
 import List from './components/List';
 import Search from './components/Search';
+import Footer from './components/Footer';
 
 export default class App extends Component {
   constructor() {
@@ -52,6 +53,7 @@ export default class App extends Component {
         <Header />
         <Search search={this.searchFilter} />
         <List items={listOfItems} />
+        <Footer />
       </div>
     );
   }

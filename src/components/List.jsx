@@ -8,6 +8,7 @@ const ListContainer = styled.ul`
   list-style-type: none;
   margin: 0;
   padding: 0;
+  min-height: 70vh;
 `;
 
 export default class List extends Component {
