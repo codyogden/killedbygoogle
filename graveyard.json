@@ -145,5 +145,12 @@
     "description": "Google Moderator was a service that used crowdsourcing to rank user-submitted questions, suggestions and ideas.",
     "link": "https://en.wikipedia.org/wiki/Google_Moderator",
     "name": "Google Moderator"
+  },
+  {
+    "dateClose": "2014-06-23",
+    "dateOpen": "2007-06-28",
+    "description": "Google Questions and Answers was a free knowledge market that allowed users to collaboratively find good answers to their questions.",
+    "link": "https://en.wikipedia.org/wiki/Google_Questions_and_Answers",
+    "name": "Google Questions and Answers"
   }
 ]
