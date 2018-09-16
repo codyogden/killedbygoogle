@@ -61,5 +61,12 @@
     "description": "Google Notebook allowed users to save and organize clips of information while conducting research online.",
     "link": "https://en.wikipedia.org/wiki/Google_Notebook",
     "name": "Google Notebook"
+  },
+  {
+    "dateClose": "2018-04-30",
+    "dateOpen": "2010-05-31",
+    "description": "Encryped Search provided users with anonymous internet searching.",
+    "link": "https://en.wikipedia.org/wiki/Google_Notebook",
+    "name": "Encrypted Search"
   }
 ]
