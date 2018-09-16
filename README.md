@@ -1,5 +1,5 @@
 <div style="text-align: center; height: 80px;">
-  <img src="assets/tombstone.svg" alt="tombstone" style="height: 80px; width: 80px">
+  <img src="assets/tombstone.png" alt="tombstone" style="height: 80px; width: 80px">
   Killed by Google
 </div>
 
