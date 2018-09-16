@@ -173,5 +173,12 @@
     "description": "Google Notifier alerted users to new messages in their Gmail account.",
     "link": "https://www.theverge.com/2014/1/16/5316748/google-quietly-kills-off-its-notifier-service-for-mail-and-calendar",
     "name": "Google Notifier"
+  },
+  {
+    "dateClose": "2012-07-11",
+    "dateOpen": "2005-09-14",
+    "description": "Meebo was a browser-based instant messaging application which supported multiple IM services.",
+    "link": "https://www.theverge.com/2014/1/16/5316748/google-quietly-kills-off-its-notifier-service-for-mail-and-calendar",
+    "name": "Meebo"
   }
 ]
