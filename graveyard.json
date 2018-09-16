@@ -82,5 +82,12 @@
     "description": "iGoogle was a customizable Ajax-based start page or personal web portal.",
     "link": "https://en.wikipedia.org/wiki/IGoogle",
     "name": "iGoogle"
+  },
+  {
+    "dateClose": "2017-02-16",
+    "dateOpen": "2016-05-16",
+    "description": "Google Spaces was an app for group discussions and messaging.",
+    "link": "https://en.wikipedia.org/wiki/Google_Spaces_(service)",
+    "name": "Google Spaces"
   }
 ]
