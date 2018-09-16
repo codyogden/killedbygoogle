@@ -69,25 +69,19 @@ export default class Item extends Component {
       if (new Date(dateClose) < yearFromNow) {
         return (
           <span>
-            {'Sentenced to death in '}
-            <time dateTime={dateClose}>{relativeDate}</time>
-            {', '}
+            {`Sentenced to death in ${relativeDate}, `}
           </span>
         );
       }
       return (
         <span>
-          {'Sentenced to death in '}
-          <time dateTime={dateClose}>{exactDate}</time>
-          {', '}
+          {`Sentenced to death in ${exactDate}, `}
         </span>
       );
     }
     return (
       <span>
-        {'Killed '}
-        <time dateTime={dateClose}>{relativeDate}</time>
-        {' ago, '}
+        {`Killed ${relativeDate} ago, `}
       </span>
     );
   }
@@ -104,9 +98,8 @@ export default class Item extends Component {
           <Description>
             {this.timePhrase()}
             {grave.description}
+            {` It was ${this.getYears()} years old.`}
           </Description>
-
-          {`It was ${this.getYears()} years old.`}
           <p>
             <a href={grave.link}>Read More</a>
           </p>
