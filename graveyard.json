@@ -208,5 +208,12 @@
     "description": "Google URL Shortener, also known as goo.gl, is a URL shortening service.",
     "link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
     "name": "Google URL Shortener"
+  },
+  {
+    "dateClose": "2011-12-15",
+    "dateOpen": "2010-02-09",
+    "description": "Google Buzz was a social networking, microblogging and messaging tool that integrated with Gmail.",
+    "link": "https://en.wikipedia.org/wiki/Google_Buzz",
+    "name": "Google Buzz"
   }
 ]
