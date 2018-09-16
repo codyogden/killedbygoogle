@@ -9,7 +9,7 @@ const ListContainer = styled.ul`
   margin: 0;
   padding: 0;
   min-height: 70vh;
-  @media screen and ( min-width: 650px ) {
+  @media screen and ( min-width: 850px ) {
     display: flex;
     flex-flow: row wrap;
   }

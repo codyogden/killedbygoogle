@@ -6,7 +6,7 @@ const SearchContainer = styled.div`
   width: 500px;
   max-width: 95%;
   box-sizing: border-box;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 20px auto;
 `;
 
 const SearchBox = styled.input`
