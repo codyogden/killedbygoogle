@@ -46,10 +46,9 @@ export default class Item extends Component {
     const { dateClose, dateOpen } = this.props;
     const diff = Math.floor(new Date(dateClose).getTime() - new Date(dateOpen).getTime());
     const day = 1000 * 60 * 60 * 24;
-
     const days = Math.floor(diff / day);
     const months = Math.floor(days / 31);
-    const years = Math.floor(months / 12);
+    const years = Math.round(months / 12, 1);
 
     return years;
   }
