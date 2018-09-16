@@ -110,5 +110,12 @@
     "description": "Picasa was an image organizer and image viewer for organizing and editing digital photos.",
     "link": "https://en.wikipedia.org/wiki/Picasa",
     "name": "Picasa"
+  },
+  {
+    "dateClose": "2016-01-15",
+    "dateOpen": "2005-03-17",
+    "description": "Google Code was a service that provided revision control, an issue tracker, and a wiki for code documentation.",
+    "link": "https://en.wikipedia.org/wiki/Google_Developers#Google_Code",
+    "name": "Google Code"
   }
 ]
