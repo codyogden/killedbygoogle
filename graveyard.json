@@ -9,50 +9,204 @@
   {
     "dateClose": "2012-10-05",
     "dateOpen": "2011-02-09",
-    "name": "Sparrow",
+    "description": "Sparrow was an email client for OS X and iOS. They acquired and then killed it.",
     "link": "https://en.wikipedia.org/wiki/Sparrow_(email_client)",
-    "description": "Sparrow was an email client for OS X and iOS. They acquired and then killed it."
+    "name": "Sparrow"
   },
   {
     "dateClose": "2006-12-01",
     "dateOpen": "2002-04-18",
-    "name": "Google Answers",
+    "description": "Google Answers was an online knowledge market.",
     "link": "https://en.wikipedia.org/wiki/Google_Answers",
-    "description": "Google Answers was an online knowledge market."
+    "name": "Google Answers"
   },
   {
     "dateClose": "2006-05-08",
     "dateOpen": "2003-11-10",
-    "name": "Google Deskbar",
+    "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop.",
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
-    "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop."
+    "name": "Google Deskbar"
   },
   {
     "dateClose": "2006-10-10",
     "dateOpen": "2005-08-01",
-    "name": "Writely",
+    "description": "Writely was a Web-based word processor.",
     "link": "https://en.wikipedia.org/wiki/Writely",
-    "description": "Writely was a Web-based word processor."
+    "name": "Writely"
   },
   {
     "dateClose": "2007-12-01",
     "dateOpen": "2004",
-    "name": "Google Click-to-Call",
+    "description": "Google Click-to-Call allowed a user to speak directly over the phone to businesses found in search results.",
     "link": "https://en.wikipedia.org/wiki/AdWords#Google_Click-to-Call",
-    "description": "Google Click-to-Call allowed a user to speak directly over the phone to businesses found in search results."
+    "name": "Google Click-to-Call"
   },
   {
     "dateClose": "2013-07-01",
     "dateOpen": "2005-10-07",
-    "name": "Google Reader",
+    "description": "Google Reader was an RSS/Atom feed aggregator.",
     "link": "https://en.wikipedia.org/wiki/Google_Reader",
-    "description": "Google Reader was an RSS/Atom feed aggregator."
+    "name": "Google Reader"
   },
   {
     "dateClose": "2012-04-30",
     "dateOpen": "2009-09-01",
-    "name": "Google Wave",
+    "description": "Google Wave was an online communication and collaborative real-time editor tool.",
     "link": "https://en.wikipedia.org/wiki/Google_Wave",
-    "description": "Google Wave was an online communication and collaborative real-time editor tool."
+    "name": "Google Wave"
+  },
+  {
+    "dateClose": "2011-11-11",
+    "dateOpen": "2008-08-10",
+    "description": "Google Notebook allowed users to save and organize clips of information while conducting research online.",
+    "link": "https://en.wikipedia.org/wiki/Google_Notebook",
+    "name": "Google Notebook"
+  },
+  {
+    "dateClose": "2018-04-30",
+    "dateOpen": "2010-05-31",
+    "description": "Encryped Search provided users with anonymous internet searching.",
+    "link": "https://en.wikipedia.org/wiki/Google_Notebook",
+    "name": "Encrypted Search"
+  },
+  {
+    "dateClose": "2018-08-20",
+    "dateOpen": "2010-10-05",
+    "description": "Google Goggles was used for searches based on pictures taken by handheld devices.",
+    "link": "https://en.wikipedia.org/wiki/Google_Goggles",
+    "name": "Google Goggles"
+  },
+  {
+    "dateClose": "2013-11-01",
+    "dateOpen": "2005-05-19",
+    "description": "iGoogle was a customizable Ajax-based start page or personal web portal.",
+    "link": "https://en.wikipedia.org/wiki/IGoogle",
+    "name": "iGoogle"
+  },
+  {
+    "dateClose": "2017-02-16",
+    "dateOpen": "2016-05-16",
+    "description": "Google Spaces was an app for group discussions and messaging.",
+    "link": "https://en.wikipedia.org/wiki/Google_Spaces_(service)",
+    "name": "Google Spaces"
+  },
+  {
+    "dateClose": "2017-03-31",
+    "dateOpen": "2008-06-23",
+    "description": "Google Map Maker was a mapping and map editing service where users were able to draw features directly onto a map.",
+    "link": "https://en.wikipedia.org/wiki/Google_Map_Maker",
+    "name": "Google Map Maker"
+  },
+  {
+    "dateClose": "2017-09-01",
+    "dateOpen": "2007-03-01",
+    "description": "Trendalyzer was a data trend viewing platform.",
+    "link": "https://en.wikipedia.org/wiki/Trendalyzer",
+    "name": "Trendalyzer"
+  },
+  {
+    "dateClose": "2015-10-09",
+    "dateOpen": "2002-10-15",
+    "description": "Picasa was an image organizer and image viewer for organizing and editing digital photos.",
+    "link": "https://en.wikipedia.org/wiki/Picasa",
+    "name": "Picasa"
+  },
+  {
+    "dateClose": "2016-01-15",
+    "dateOpen": "2005-03-17",
+    "description": "Google Code was a service that provided revision control, an issue tracker, and a wiki for code documentation.",
+    "link": "https://en.wikipedia.org/wiki/Google_Developers#Google_Code",
+    "name": "Google Code"
+  },
+  {
+    "dateClose": "2016-07-01",
+    "dateOpen": "2011-07-01",
+    "description": "Google Swiffy was a web-based tool that converted SWF files to HTML5.",
+    "link": "https://en.wikipedia.org/wiki/Google_Swiffy",
+    "name": "Google Swiffy"
+  },
+  {
+    "dateClose": "2016-11-04",
+    "dateOpen": "2005-10-23",
+    "description": "Panoramio was geo-located tagging, photo sharing mashup product.",
+    "link": "https://en.wikipedia.org/wiki/Panoramio",
+    "name": "Panoramio"
+  },
+  {
+    "dateClose": "2015-04-20",
+    "dateOpen": "2013-11-15",
+    "description": "Google Helpouts was an online collaboration service where users to share their expertise through live video.",
+    "link": "https://en.wikipedia.org/wiki/Google_Helpouts",
+    "name": "Google Helpouts"
+  },
+  {
+    "dateClose": "2015-06-30",
+    "dateOpen": "2008-09-01",
+    "description": "Google Moderator was a service that used crowdsourcing to rank user-submitted questions, suggestions and ideas.",
+    "link": "https://en.wikipedia.org/wiki/Google_Moderator",
+    "name": "Google Moderator"
+  },
+  {
+    "dateClose": "2014-06-23",
+    "dateOpen": "2007-06-28",
+    "description": "Google Questions and Answers was a free knowledge market that allowed users to collaboratively find good answers to their questions.",
+    "link": "https://en.wikipedia.org/wiki/Google_Questions_and_Answers",
+    "name": "Google Questions and Answers"
+  },
+  {
+    "dateClose": "2014-09-30",
+    "dateOpen": "2004-01-24",
+    "description": "Orkut was a social network designed to help users meet new and old friends and maintain existing relationships.",
+    "link": "https://en.wikipedia.org/wiki/Orkut",
+    "name": "Orkut"
+  },
+  {
+    "dateClose": "2014-01-06",
+    "dateOpen": "2013-09-19",
+    "description": "Quickoffice was a productivity suite for mobile devices which allowed viewing, creating and editing documents, presentations and spreadsheets.",
+    "link": "https://en.wikipedia.org/wiki/Quickoffice",
+    "name": "Quickoffice"
+  },
+  {
+    "dateClose": "2014-01-31",
+    "dateOpen": "2005-01-01",
+    "description": "Google Notifier alerted users to new messages in their Gmail account.",
+    "link": "https://www.theverge.com/2014/1/16/5316748/google-quietly-kills-off-its-notifier-service-for-mail-and-calendar",
+    "name": "Google Notifier"
+  },
+  {
+    "dateClose": "2012-07-11",
+    "dateOpen": "2005-09-14",
+    "description": "Meebo was a browser-based instant messaging application which supported multiple IM services.",
+    "link": "https://en.wikipedia.org/wiki/Meebo",
+    "name": "Meebo"
+  },
+  {
+    "dateClose": "2012-12-31",
+    "dateOpen": "2007-12-06",
+    "description": "Google Chart API was an interactive Web service that creates graphical charts from user-supplied data.",
+    "link": "https://en.wikipedia.org/wiki/Google_Chart_API",
+    "name": "Google Chart API"
+  },
+  {
+    "dateClose": "2012-12-31",
+    "dateOpen": "2007-12-06",
+    "description": "Google Mini smaller version of the Google Search Appliance.",
+    "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance#Google_Mini",
+    "name": "Google Mini"
+  },
+  {
+    "dateClose": "2018-12-31",
+    "dateOpen": "2002-01-01",
+    "description": "Google Search Appliance was a rack-mounted device that provided document indexing functionality.",
+    "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance",
+    "name": "Google Search Appliance"
+  },
+  {
+    "dateClose": "2019-03-30",
+    "dateOpen": "2009-12-01",
+    "description": "Google URL Shortener, also known as goo.gl, is a URL shortening service.",
+    "link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
+    "name": "Google URL Shortener"
   }
 ]

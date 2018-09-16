@@ -32,6 +32,21 @@ const Description = styled.p`
   padding-right: 2em;
 `;
 
+const eolIdiom = () => {
+  const items = [
+    'Sentenced to death',
+    '"Off with their heads!"',
+    'Kicking the bucket',
+    'Dead as a doorknob',
+    'Done for',
+    'Expires',
+    'Bites the big one',
+    'Off to the glue factory',
+    'Another bites the dust',
+  ];
+  return items[Math.floor(Math.random() * items.length)];
+};
+
 export default class Item extends Component {
   constructor() {
     super();
@@ -68,13 +83,13 @@ export default class Item extends Component {
       if (new Date(dateClose) < yearFromNow) {
         return (
           <span>
-            {`Sentenced to death in ${relativeDate}, `}
+            {`${eolIdiom()} in ${relativeDate}, `}
           </span>
         );
       }
       return (
         <span>
-          {`Sentenced to death in ${exactDate}, `}
+          {`${eolIdiom()} in ${exactDate}, `}
         </span>
       );
     }
