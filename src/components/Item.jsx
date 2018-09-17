@@ -1,40 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import { format, formatDistance } from 'date-fns';
 
-const ListItem = styled.li`
-  width: 500px;
-  max-width: 100%;
-  display: block;
-  margin: 5px auto;
-  padding: 15px 0;
-  display: flex;
-  border-bottom: 1px solid #dedede;
-  box-sizing: border-box;
-  flex: 0 0 30%;
-  @media screen and ( max-width: 1100px ) {
-    flex: 0 0 50%;
-  }
-  h2 {
-    margin: 0;
-  }
-`;
-
-const Icon = styled.img`
-  height: 50px;
-  width: 50px;
-`;
-
-const IconContainer = styled.div`
-  flex-basis: 100px;
-  flex-shrink: 0;
-  text-align: center;
-`;
-
-const Description = styled.p`
-  padding-right: 2em;
-`;
+// Import Styled Components
+import {
+  Description,
+  Icon,
+  IconContainer,
+  ListItem,
+} from './Item.atoms';
 
 const eolIdiom = () => {
   const items = [
@@ -52,11 +26,6 @@ const eolIdiom = () => {
 };
 
 export default class Item extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
   getIcon() {
     return (this.isPast()) ? <Icon src="assets/tombstone.svg" alt="Tombstone" /> : <Icon src="assets/guillotine.svg" alt="Guillotine" />;
   }

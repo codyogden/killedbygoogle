@@ -1,54 +1,41 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
+// Global CSS (e.g. body)
 import './global.scss';
 
+// Major Components
+import BannerMessage from './components/BannerMessage';
 import Header from './components/Header';
 import List from './components/List';
 import Search from './components/Search';
 import Footer from './components/Footer';
 
-const OSSMessage = styled.div`
-  background-color: #707070;
-  color: #FAFAFA;
-  padding: 8px 5px;
-  text-align: center;
-  box-sizing: border-box;
-  font-size: 0.8em;
-  a {
-    color: currentColor;
-  }
-`;
-
 export default class App extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    const { data } = props;
     this.state = {
-      listOfItems: [],
-      fullList: [],
-    };
-
-    this.searchFilter = this.searchFilter.bind(this);
-  }
-
-  componentWillMount() {
-    const { data } = this.props;
-    this.setState({
       listOfItems: data,
       fullList: data,
-    });
+    };
+
+    // Bindings
+    this.searchFilter = this.searchFilter.bind(this);
   }
 
   searchFilter(term) {
     const { fullList } = this.state;
     const regexp = new RegExp(term.toLowerCase(), 'i');
+    // If search goes empty
     if (term === '') {
+      // Reset the list.
       this.setState({
         listOfItems: fullList,
       });
     } else {
+      // Otherwise filter the list by name and description
       this.setState({
         listOfItems: fullList.filter(el => (
           regexp.test(el.name.toLowerCase())
@@ -58,12 +45,11 @@ export default class App extends Component {
     }
   }
 
-
   render() {
     const { listOfItems } = this.state;
     return (
       <div>
-        <OSSMessage><a href="https://github.com/codyogden/killedbygoogle/issues">Missing an Obituary? Let us know.</a></OSSMessage>
+        <BannerMessage><a href="https://github.com/codyogden/killedbygoogle/issues">Missing an Obituary? Let us know.</a></BannerMessage>
         <Header />
         <Search search={this.searchFilter} />
         <List items={listOfItems} />
@@ -77,10 +63,14 @@ App.propTypes = {
   data: PropTypes.arrayOf(PropTypes.any).isRequired,
 };
 
+// Retrieve static json
 fetch('graveyard.json')
   .then((response) => {
+    // Process it
     response.json().then((data) => {
+      // Sort by the dateClose (date discontinued)
       const graveyard = data.sort((a, b) => new Date(b.dateClose) - new Date(a.dateClose));
+      // Render the app
       render(<App data={graveyard} />, document.querySelector('#killedbygoogle'));
     });
   });
