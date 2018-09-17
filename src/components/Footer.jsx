@@ -4,9 +4,8 @@ import styled from 'styled-components';
 const FooterContainer = styled.footer`
   color: #fafafa;
   background-color: #333;
-  min-height: 300px;
   text-align: center;
-  padding: 30px 0 0 0;
+  padding: 30px 0;
   a {
     color: currentColor;
     text-decoration: none;
@@ -26,8 +25,7 @@ export default class Footer extends Component {
   render() {
     return (
       <FooterContainer>
-        <p>{'Can\'t find your favorite obituary?'}</p>
-        <a href="https://github.com/codyogden/killedbygoogle">Contribute on Github</a>
+        <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>
         {' - '}
         <a href="https://codyogden.com" rel="nofollow">Cody Ogden</a>
       </FooterContainer>

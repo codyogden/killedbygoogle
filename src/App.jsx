@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import './global.scss';
 
@@ -8,6 +9,18 @@ import Header from './components/Header';
 import List from './components/List';
 import Search from './components/Search';
 import Footer from './components/Footer';
+
+const OSSMessage = styled.div`
+  background-color: #707070;
+  color: #FAFAFA;
+  padding: 8px 5px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 0.8em;
+  a {
+    color: currentColor;
+  }
+`;
 
 export default class App extends Component {
   constructor() {
@@ -50,6 +63,7 @@ export default class App extends Component {
     const { listOfItems } = this.state;
     return (
       <div>
+        <OSSMessage><a href="https://github.com/codyogden/killedbygoogle/issues">Missing an Obituary? Let us know.</a></OSSMessage>
         <Header />
         <Search search={this.searchFilter} />
         <List items={listOfItems} />
