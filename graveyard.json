@@ -215,5 +215,12 @@
     "description": "Google Buzz was a social networking, microblogging and messaging tool that integrated with Gmail.",
     "link": "https://en.wikipedia.org/wiki/Google_Buzz",
     "name": "Google Buzz"
+  }, 
+  {
+    "dateClose": "2011-09-01",
+    "dateOpen": "2008-01-01",
+    "description": "Google Desktop allowed local searches of user's email messages, computer files, music, photos, chats, Web pages viewed",
+    "link": "https://en.wikipedia.org/wiki/Google_Desktop",
+    "name": "Google Desktop"
   }
 ]
