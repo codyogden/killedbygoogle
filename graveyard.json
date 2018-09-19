@@ -229,5 +229,12 @@
     "description": "Google Chrome Apps were a hosted or packaged web application that ran on the Google Chrome browser.",
     "link": "https://en.wikipedia.org/wiki/Google_Desktop",
     "name": "Google Chrome Apps"
+  },
+  {
+    "dateClose": "2006-09-15",
+    "dateOpen": "2002-01-01",
+    "description": "Google Public Service search provided government, non-profits, and academic organizations search results without ads.",
+    "link": "https://webmasters.googleblog.com/2006/09/for-those-wondering-about-public.html",
+    "name": "Google Public Service Search"
   }
 ]
