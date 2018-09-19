@@ -222,5 +222,12 @@
     "description": "Google Desktop allowed local searches of user's email messages, computer files, music, photos, chats, Web pages viewed.",
     "link": "https://en.wikipedia.org/wiki/Google_Desktop",
     "name": "Google Desktop"
+  },
+  {
+    "dateClose": "2017-12-06",
+    "dateOpen": "2010-12-06",
+    "description": "Google Chrome Apps were a hosted or packaged web application that ran on the Google Chrome browser.",
+    "link": "https://en.wikipedia.org/wiki/Google_Desktop",
+    "name": "Google Chrome Apps"
   }
 ]
