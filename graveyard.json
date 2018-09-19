@@ -243,5 +243,12 @@
     "description": "Google Video Marketplace was service that included a store where videos could be bought and rented.",
     "link": "https://www.hexus.net/tech/news/software/4324-google-video-marketplace/",
     "name": "Google Video Marketplace"
+  },
+  {
+    "dateClose": "2008-06-30",
+    "dateOpen": "2006-06-08",
+    "description": "Google Browser Sync was a Firefox extension that synced information like passwords and browsing history.",
+    "link": "https://en.wikipedia.org/wiki/Google_Browser_Sync",
+    "name": "Google Browser Sync"
   }
 ]
