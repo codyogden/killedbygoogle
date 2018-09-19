@@ -257,5 +257,12 @@
     "description": "Google Lively was a web-based virtual environemtn that provided a new way to access information.",
     "link": "https://en.wikipedia.org/wiki/Google_Lively",
     "name": "Google Lively"
+  },
+  {
+    "dateClose": "2008-05-15",
+    "dateOpen": "2002-08-01",
+    "description": "Hello was a service by Picasa that let users share pictures \"like you're sitting side-by-side.\"",
+    "link": "https://en.wikipedia.org/wiki/Picasa#Hello",
+    "name": "Hello"
   }
 ]
