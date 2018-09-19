@@ -264,5 +264,12 @@
     "description": "Hello was a service by Picasa that let users share pictures \"like you're sitting side-by-side.\"",
     "link": "https://en.wikipedia.org/wiki/Picasa#Hello",
     "name": "Hello"
+  },
+  {
+    "dateClose": "2008-11-24",
+    "dateOpen": "2006-10-01",
+    "description": "SearchMash was an experimental, non-branded search engine that Google used to be able to play around with new search technologies, concepts and interfaces.",
+    "link": "https://techcrunch.com/2008/11/24/why-did-google-discontinue-searchmash/",
+    "name": "SearchMash"
   }
 ]
