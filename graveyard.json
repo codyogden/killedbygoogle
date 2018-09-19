@@ -236,5 +236,12 @@
     "description": "Google Public Service search provided government, non-profits, and academic organizations search results without ads.",
     "link": "https://webmasters.googleblog.com/2006/09/for-those-wondering-about-public.html",
     "name": "Google Public Service Search"
+  },
+  {
+    "dateClose": "2007-08-11",
+    "dateOpen": "2006-01-07",
+    "description": "Google Video Marketplace was service that included a store where videos could be bought and rented.",
+    "link": "https://www.hexus.net/tech/news/software/4324-google-video-marketplace/",
+    "name": "Google Video Marketplace"
   }
 ]
