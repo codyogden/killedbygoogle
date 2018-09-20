@@ -278,5 +278,12 @@
     "description": "Dodgeball was a location-based social network where users texted their location to the service, and it notified them of friends and points of interest nearby.",
     "link": "https://en.wikipedia.org/wiki/Dodgeball_(service)",
     "name": "Dodgeball"
+  },
+  {
+    "dateClose": "2009-07-31",
+    "dateOpen": "2007-05-30",
+    "description": "Google Mashup Editor was an online web mashup creation service with publishing, syntax highlighting, and debugging.",
+    "link": "https://en.wikipedia.org/wiki/Google_Mashup_Editor",
+    "name": "Google Mashup Editor"
   }
 ]
