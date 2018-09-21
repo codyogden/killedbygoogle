@@ -292,5 +292,12 @@
     "description": "Google Ride Finder was a service that used GPS data to pinpoint and map the location of taxis, limos, and shuttle vehicles available for hire in 10 U.S. metro areas.",
     "link": "https://searchenginewatch.com/sew/news/2062429/new-from-google-labs-google-ride-finder#",
     "name": "Google Ride Finder"  
+  },
+  {
+    "dateClose": "2012-01-01",
+    "dateOpen": "2008-05-20",
+    "description": "Google Health was a personal health information centralization service that provided users a merged health record from multiple sources.",
+    "link": "https://en.wikipedia.org/wiki/Google_Health",
+    "name": "Google Health" 
   }
 ]
