@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Description = styled.p`
   padding-right: 2em;
+  font-size: 0.9em;
 `;
 
 export const Icon = styled.img`
@@ -31,4 +32,8 @@ flex: 0 0 30%;
 h2 {
   margin: 0;
 }
+`;
+
+export const AgeRange = styled.div`
+  font-size: 0.75em;
 `;

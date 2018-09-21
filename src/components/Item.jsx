@@ -4,6 +4,7 @@ import { format, formatDistance } from 'date-fns';
 
 // Import Styled Components
 import {
+  AgeRange,
   Description,
   Icon,
   IconContainer,
@@ -73,12 +74,33 @@ export default class Item extends Component {
     );
   }
 
+  ageRange(grave) {
+    if (!this.isPast()) {
+      const date = new Date(grave.dateClose);
+      return (
+        <AgeRange>
+          {date.toLocaleDateString('en-US', { month: 'long' })}
+          <br />
+          {date.toLocaleDateString('en-US', { year: 'numeric' })}
+        </AgeRange>
+      );
+    }
+    return (
+      <AgeRange>
+        {new Date(grave.dateOpen).getFullYear()}
+        {' - '}
+        {new Date(grave.dateClose).getFullYear()}
+      </AgeRange>
+    );
+  }
+
   render() {
     const { ...grave } = this.props;
     return (
       <ListItem>
         <IconContainer>
           {this.getIcon()}
+          {this.ageRange(grave)}
         </IconContainer>
         <div>
           <h2>{grave.name}</h2>
