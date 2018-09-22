@@ -19,24 +19,27 @@ export const IconContainer = styled.div`
 `;
 
 export const ListItem = styled.li`
-width: 500px;
-max-width: 100%;
-display: block;
-margin: 5px auto;
-padding: 15px 0;
-display: flex;
-border-bottom: 1px solid #dedede;
-box-sizing: border-box;
-flex: 0 0 30%;
-@media screen and ( max-width: 1100px ) {
-  flex: 0 0 50%;
-}
-h2 {
-  margin: 0;
-  font-weight: 300;
-}
+  width: 500px;
+  max-width: 100%;
+  display: block;
+  margin: 1em auto;
+  display: flex;
+  border-bottom: 1px solid #dedede;
+  box-sizing: border-box;
+  flex: 0 0 30%;
+  @media screen and ( max-width: 1100px ) {
+    flex: 0 0 50%;
+  }
+  h2 {
+    margin: 0;
+    font-weight: 300;
+  }
 `;
 
 export const AgeRange = styled.div`
   font-size: 0.75em;
+`;
+
+export const ContentContainer = styled.div`
+  padding-bottom: 1.25em;
 `;

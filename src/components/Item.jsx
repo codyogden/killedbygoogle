@@ -5,6 +5,7 @@ import { format, formatDistance } from 'date-fns';
 // Import Styled Components
 import {
   AgeRange,
+  ContentContainer,
   Description,
   Icon,
   IconContainer,
@@ -102,14 +103,14 @@ export default class Item extends Component {
           {this.getIcon()}
           {this.ageRange(grave)}
         </IconContainer>
-        <div>
+        <ContentContainer>
           <h2><a href={grave.link}>{grave.name}</a></h2>
           <Description>
             {this.timePhrase()}
             {grave.description}
             {` It was ${this.getYears()} years old.`}
           </Description>
-        </div>
+        </ContentContainer>
       </ListItem>
     );
   }
