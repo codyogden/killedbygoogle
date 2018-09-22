@@ -7,8 +7,8 @@ export const ListContainer = styled.ul`
     max-width: 1400px;
     margin: 0 auto;
     @media screen and ( min-width: 800px ) {
-    display: flex;
-    flex-flow: row wrap;
+      display: flex;
+      flex-flow: row wrap;
     }
 `;
 

@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #1980E5;
+  color: currentColor;
   border-bottom: 1px dotted currentColor;
   &:hover,
   &:focus {
