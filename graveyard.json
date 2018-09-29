@@ -327,5 +327,12 @@
     "description": "GOOG-411 (or Google Voice Local Search) was a telephone service that provided a speech-recognition-based business directory search.",
     "link": "https://en.wikipedia.org/wiki/GOOG-411",
     "name": "GOOG-411"
+  },
+  {
+    "dateClose": "2010-12-17",
+    "dateOpen": "2005-10-25",
+    "description": "Google Base was a database provided by Google into which any user can add almost any type of content, such as text, images, and structured information.",
+    "link": "https://en.wikipedia.org/wiki/Google_Base",
+    "name": "Google Base"
   }
 ]
