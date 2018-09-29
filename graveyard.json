@@ -310,8 +310,15 @@
   {
     "dateClose": "2010-02-19",
     "dateOpen": "1998-11-30",
-    "description": "Marratech was a Swedish company that made software for e-meetings (e.g., web conferencing, videoconferencing)",
+    "description": "Marratech was a Swedish company that made software for e-meetings (e.g., web conferencing, videoconferencing).",
     "link": "https://en.wikipedia.org/wiki/Marratech",
     "name": "Marratech e-meetings"
+  },
+  {
+    "dateClose": "2010-03-03",
+    "dateOpen": "2008-11-20",
+    "description": "SearchWiki was a Google Search feature which allowed logged-in users to annotate and re-order search results.",
+    "link": "https://en.wikipedia.org/wiki/Google_SearchWiki",
+    "name": "Google SearchWiki"
   }
 ]
