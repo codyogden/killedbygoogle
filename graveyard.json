@@ -334,5 +334,12 @@
     "description": "Google Base was a database provided by Google into which any user can add almost any type of content, such as text, images, and structured information.",
     "link": "https://en.wikipedia.org/wiki/Google_Base",
     "name": "Google Base"
+  },
+  {
+    "dateClose": "2002-05-20",
+    "dateOpen": "2011-07-31",
+    "description": "Google Labs was a technology playground used by Google to demonstrate and test new projects.",
+    "link": "https://en.wikipedia.org/wiki/Google_Labs",
+    "name": "Google Labs"
   }
 ]
