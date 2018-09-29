@@ -341,5 +341,12 @@
     "description": "Google Labs was a technology playground used by Google to demonstrate and test new projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Labs",
     "name": "Google Labs"
+  },
+  {
+    "dateClose": "2011-09-16",
+    "dateOpen": "2009-10-05",
+    "description": "Google PowerMeter was a software project of Google's philanthropic arm that helped consumers track their home electricity usage.",
+    "link": "https://en.wikipedia.org/wiki/Google_PowerMeter",
+    "name": "Google PowerMeter"
   }
 ]
