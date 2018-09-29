@@ -215,7 +215,7 @@
     "description": "Google Buzz was a social networking, microblogging and messaging tool that integrated with Gmail.",
     "link": "https://en.wikipedia.org/wiki/Google_Buzz",
     "name": "Google Buzz"
-  }, 
+  },
   {
     "dateClose": "2011-09-01",
     "dateOpen": "2008-01-01",
@@ -291,20 +291,27 @@
     "dateOpen": "2005-05-01",
     "description": "Google Ride Finder was a service that used GPS data to pinpoint and map the location of taxis, limos, and shuttle vehicles available for hire in 10 U.S. metro areas.",
     "link": "https://searchenginewatch.com/sew/news/2062429/new-from-google-labs-google-ride-finder#",
-    "name": "Google Ride Finder"  
+    "name": "Google Ride Finder"
   },
   {
     "dateClose": "2012-01-01",
     "dateOpen": "2008-05-20",
     "description": "Google Health was a personal health information centralization service that provided users a merged health record from multiple sources.",
     "link": "https://en.wikipedia.org/wiki/Google_Health",
-    "name": "Google Health" 
+    "name": "Google Health"
   },
   {
     "dateClose": "2012-08-21",
     "dateOpen": "1999-07-01",
     "description": "Postini was an e-mail, Web security, and archiving service that filtered e-mail spam and malware (before it was delivered to a client's mail server), e-mail archiving.",
     "link": "https://en.wikipedia.org/wiki/Postini",
-    "name": "Postini" 
+    "name": "Postini"
+  },
+  {
+    "dateClose": "2010-02-19",
+    "dateOpen": "1998-11-30",
+    "description": "Marratech was a Swedish company that made software for e-meetings (e.g., web conferencing, videoconferencing)",
+    "link": "https://en.wikipedia.org/wiki/Marratech",
+    "name": "Marratech e-meetings"
   }
 ]
