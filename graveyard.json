@@ -320,5 +320,12 @@
     "description": "SearchWiki was a Google Search feature which allowed logged-in users to annotate and re-order search results.",
     "link": "https://en.wikipedia.org/wiki/Google_SearchWiki",
     "name": "Google SearchWiki"
+  },
+  {
+    "dateClose": "2010-11-12",
+    "dateOpen": "2007-04-06",
+    "description": "GOOG-411 (or Google Voice Local Search) was a telephone service that provided a speech-recognition-based business directory search.",
+    "link": "https://en.wikipedia.org/wiki/GOOG-411",
+    "name": "GOOG-411"
   }
 ]
