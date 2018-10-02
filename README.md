@@ -34,3 +34,6 @@ Please be respectful, only use past tense.
 
 ### Link
 Link should be a resource that mentions the discontinuation date and talks about the product. Wikipedia is perfect.
+
+## Thanks Where Thanks is Due
+I'd like to thank the [Wikimedia Foundation](https://wikimediafoundation.org) and [Internet Archive](https://archive.org/) for their wonderful resources, including the ability to track down broken links, home page graphics, and screenshots of services from the past. They have been invaluable tools in gathering information and content for Killed by Google. If you are able, I encourage you to make a donation to these organizations for the wonderful work they do in sharing knowledge and preserving history.
