@@ -348,5 +348,12 @@
     "description": "Google PowerMeter was a software project of Google's philanthropic arm that helped consumers track their home electricity usage.",
     "link": "https://en.wikipedia.org/wiki/Google_PowerMeter",
     "name": "Google PowerMeter"
+  },
+  {
+    "dateClose": "2018-10-08",
+    "dateOpen": "2011-06-28",
+    "description": "Google+ was an Internet-based social network.",
+    "link": "https://en.wikipedia.org/wiki/Google%2B",
+    "name": "Google+"
   }
 ]
