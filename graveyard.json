@@ -383,5 +383,12 @@
     "description": "Google Showtimes was a standalone movie search result page.",
     "link": "https://techcrunch.com/2016/11/07/google-quietly-shutters-standalone-google-showtimes-movie-site/",
     "name": "Google Showtimes"
+  },
+  {
+    "dateClose": "2016-10-04",
+    "dateOpen": "2010-01-05",
+    "description": "Google Nexus was Google's line of flagship Android devices, superceded by Google Pixel.",
+    "link": "https://en.wikipedia.org/wiki/Google_Nexus",
+    "name": "Google Nexus"
   }
 ]
