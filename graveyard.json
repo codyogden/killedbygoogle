@@ -369,5 +369,12 @@
     "description": "Google Latitude was a location-aware feature of Google Maps, a successor to an earlier SMS-based service Dodgeball.",
     "link": "https://en.wikipedia.org/wiki/Google_Latitude",
     "name": "Google Latitude"
+  },
+  {
+    "dateClose": "2013-04-13",
+    "dateOpen": "2007-01-01",
+    "description": "Picnik was an online photo editing service that allowed users to edit, style, crop, and resize images.",
+    "link": "https://en.wikipedia.org/wiki/Picnik",
+    "name": "Picnik"
   }
 ]
