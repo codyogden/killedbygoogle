@@ -376,5 +376,12 @@
     "description": "Picnik was an online photo editing service that allowed users to edit, style, crop, and resize images.",
     "link": "https://en.wikipedia.org/wiki/Picnik",
     "name": "Picnik"
+  },
+  {
+    "dateClose": "2016-11-01",
+    "dateOpen": "2005-09-23",
+    "description": "Google Showtimes was a standalone movie search result page.",
+    "link": "https://techcrunch.com/2016/11/07/google-quietly-shutters-standalone-google-showtimes-movie-site/",
+    "name": "Google Showtimes"
   }
 ]
