@@ -362,5 +362,12 @@
     "description": "Google Schemer was a Google service for sharing and discovering things to do.",
     "link": "https://en.wikipedia.org/wiki/Google_Schemer",
     "name": "Google Schemer"
+  },
+  {
+    "dateClose": "2013-08-09",
+    "dateOpen": "2009-02-05",
+    "description": "Google Latitude was a location-aware feature of Google Maps, a successor to an earlier SMS-based service Dodgeball.",
+    "link": "https://en.wikipedia.org/wiki/Google_Latitude",
+    "name": "Google Latitude"
   }
 ]
