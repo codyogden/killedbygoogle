@@ -390,5 +390,12 @@
     "description": "Bump! is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information, photos and files between devices.",
     "link": "https://en.wikipedia.org/wiki/Bump_(application)",
     "name": "Bump!"
+  },
+  {
+    "dateClose": "2016-10-04",
+    "dateOpen": "2010-01-05",
+    "description": "Google Nexus was Google's line of flagship Android devices, superceded by Google Pixel.",
+    "link": "https://en.wikipedia.org/wiki/Google_Nexus",
+    "name": "Google Nexus"
   }
 ]
