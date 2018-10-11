@@ -369,5 +369,12 @@
     "description": "Google Latitude was a location-aware feature of Google Maps, a successor to an earlier SMS-based service Dodgeball.",
     "link": "https://en.wikipedia.org/wiki/Google_Latitude",
     "name": "Google Latitude"
+  },
+  {
+    "dateClose": "2016-11-01",
+    "dateOpen": "2005-09-23",
+    "description": "Google Showtimes was a standalone movie search result page.",
+    "link": "https://techcrunch.com/2016/11/07/google-quietly-shutters-standalone-google-showtimes-movie-site/",
+    "name": "Google Showtimes"
   }
 ]
