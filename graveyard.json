@@ -355,5 +355,12 @@
     "description": "Google+ was an Internet-based social network.",
     "link": "https://en.wikipedia.org/wiki/Google%2B",
     "name": "Google+"
+  },
+  {
+    "dateClose": "2014-02-07",
+    "dateOpen": "2011-07-01",
+    "description": "Google Schemer was a Google service for sharing and discovering things to do.",
+    "link": "https://en.wikipedia.org/wiki/Google_Schemer",
+    "name": "Google Schemer"
   }
 ]
