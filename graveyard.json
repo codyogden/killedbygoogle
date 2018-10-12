@@ -399,6 +399,13 @@
     "name": "Google Nexus"
   },
   {
+    "dateClose": "2012-01-15",
+    "dateOpen": "2006-02-01",
+    "description": "Jaiku was a social networking, micro-blogging and lifestreaming service comparable to Twitter.",
+    "link": "https://en.wikipedia.org/wiki/Jaiku",
+    "name": "Jaiku"
+  },
+  {
     "dateClose": "2012-05-01",
     "dateOpen": "2008-07-23",
     "description": "Knol was a Google project that aimed to include user-written articles on a range of topics.",
