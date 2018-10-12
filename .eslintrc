@@ -3,5 +3,8 @@
     "env": {
       "browser": true,
       "node": true
-    }
+    },
+    "plugins": [
+      "json"
+    ]
 }
