@@ -453,5 +453,12 @@
     "description": "Google Page Creator was a website creation and hosting service by Google. It was a tool for basic website design, requiring no HTML knowledge.",
     "link": "https://en.wikipedia.org/wiki/Google_Page_Creator",
     "name": "Google Page Creator"
+  },
+  {
+    "dateClose": "2014-12-01",
+    "dateOpen": "2017-12-15",
+    "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
+    "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
+    "name": "Project Tango"
   }
 ]
