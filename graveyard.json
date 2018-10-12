@@ -439,5 +439,12 @@
     "description": "Google Code Search was a free beta product from Google which debuted in Google Labs on October 5, 2006, allowing web users to search for open-source code on the Internet.",
     "link": "https://en.wikipedia.org/wiki/Google_Code_Search",
     "name": "Google Code Search"
+  },
+  {
+    "dateClose": "2014-02-17",
+    "dateOpen": "2013-07-13",
+    "description": "SlickLogin was an Israeli start-up company which developed sound-based password alternatives, was acquired by Google and hasn't released anything since.",
+    "link": "https://en.wikipedia.org/wiki/SlickLogin"
+    "name": "SlickLogin"
   }
 ]
