@@ -5,6 +5,10 @@
 
 A tribute and log of beloved products and services killed by Google.
 
+---
+
+[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle)
+
 ## Contribute
 
 To add a product, add it to `graveyard.json` file. You'll need the following information:
