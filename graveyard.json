@@ -446,5 +446,12 @@
     "description": "SlickLogin was an Israeli start-up company which developed sound-based password alternatives, was acquired by Google and hasn't released anything since.",
     "link": "https://en.wikipedia.org/wiki/SlickLogin",
     "name": "SlickLogin"
+  },
+  {
+    "dateClose": "2008-08-31",
+    "dateOpen": "2006-07-13",
+    "description": "Google Page Creator was a website creation and hosting service by Google. It was a tool for basic website design, requiring no HTML knowledge.",
+    "link": "https://en.wikipedia.org/wiki/Google_Page_Creator",
+    "name": "Google Page Creator"
   }
 ]
