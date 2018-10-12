@@ -425,5 +425,12 @@
     "description": "Google Compare allowed consumers to compare several offers ranging from insurance, mortgage, and credit cards.",
     "link": "https://www.gadgetsnow.com/year-in-review-2016/Google-Compare/yearendershow2016/55617272.cms",
     "name": "Google Compare"
+  },
+  {
+	"dateClose": "2011-04-03",
+	"dateOpen": "2009-11-12",
+	"description": "Gizmo5 was a VOIP communications network and a proprietary freeware soft phone for that network.",
+	"link": "https://en.wikipedia.org/wiki/Gizmo5",
+	"name": "Gizmo5"
   }
 ]
