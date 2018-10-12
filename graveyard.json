@@ -404,5 +404,12 @@
     "description": "Knol was a Google project that aimed to include user-written articles on a range of topics.",
     "link": "https://en.wikipedia.org/wiki/Knol",
     "name": "Knol"
+  },
+  {
+    "dateClose": "2014-05-01",
+    "dateOpen": "2015-01-01",
+    "description": "Google Play was an edition of an Android phone that Google sold",
+    "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
+    "name": "Google Play"
   }
 ]
