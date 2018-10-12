@@ -457,8 +457,8 @@
   {
     "dateClose": "2014-12-01",
     "dateOpen": "2017-12-15",
-    "description": "API for AR apps, dead and replaced by ARCore",
+    "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
     "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
     "name": "Project Tango"
-  },
+  }
 ]
