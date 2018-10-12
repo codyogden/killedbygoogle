@@ -397,5 +397,12 @@
     "description": "Google Nexus was Google's line of flagship Android devices, superceded by Google Pixel.",
     "link": "https://en.wikipedia.org/wiki/Google_Nexus",
     "name": "Google Nexus"
+  },
+  {
+    "dateClose": "2012-05-01",
+    "dateOpen": "2008-07-23",
+    "description": "Knol was a Google project that aimed to include user-written articles on a range of topics.",
+    "link": "https://en.wikipedia.org/wiki/Knol",
+    "name": "Knol"
   }
 ]
