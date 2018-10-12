@@ -460,5 +460,12 @@
     "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
     "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
     "name": "Project Tango"
+  },
+  {
+    "dateClose": "2019-06-01",
+    "dateOpen": "2014-10-01",
+    "description": "Fabric is a platform that helps your mobile team build better apps, understand your users, and grow your business.",
+    "link": "https://get.fabric.io/roadmap",
+    "name": "Fabric Tango"
   }
 ]
