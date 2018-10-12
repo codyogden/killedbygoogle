@@ -24,11 +24,11 @@ The object should be appended to `graveyard.json` in the following format (note 
 
 ```
   {
-    "dateClosed": "YYYY-MM-DD",
-    "dateOpened": "YYYY-MM-DD",
-    "description": "Product Name was a Harry Potter search engine."
-    "link": "https://wikipedia.org",
-    "name": "Product Name"
+    "dateClose": "YYYY-MM-DD",
+    "dateOpen": "YYYY-MM-DD",
+    "description": "[Product Name] was a single sentence overview of the product or service.",
+    "link": "https://any.link-to-a.source/will/work-and-wikipedia-is-cool",
+    "name": "[Product Name]"
   }
 ```
 
