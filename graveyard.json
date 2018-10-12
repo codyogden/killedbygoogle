@@ -432,5 +432,12 @@
 	"description": "Gizmo5 was a VOIP communications network and a proprietary freeware soft phone for that network.",
 	"link": "https://en.wikipedia.org/wiki/Gizmo5",
 	"name": "Gizmo5"
+  },
+  {
+    "dateClose": "2012-01-15",
+    "dateOpen": "2006-10-05",
+    "description": "Google Code Search was a free beta product from Google which debuted in Google Labs on October 5, 2006, allowing web users to search for open-source code on the Internet.",
+    "link": "https://en.wikipedia.org/wiki/Google_Code_Search",
+    "name": "Google Code Search"
   }
 ]
