@@ -467,5 +467,12 @@
     "description": "Fabric was a platform that helped mobile teams build better apps, understand their users, and grow their business.",
     "link": "https://get.fabric.io/roadmap",
     "name": "Fabric"
+  },
+  {
+    "dateClose": "2013-07-01",
+    "dateOpen": "2012-06-27",
+    "description": "Nexus Q is a discontinued digital media player developed by Google.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_Q",
+    "name": "Nexus Q"
   }
 ]
