@@ -474,5 +474,12 @@
     "description": "Nexus Q is a discontinued digital media player developed by Google.",
     "link": "https://en.wikipedia.org/wiki/Nexus_Q",
     "name": "Nexus Q"
+  },
+  {
+    "dateClose": "2015-08-04",
+    "dateOpen": "2011-08-16",
+    "description": "Google Catalogs was a shopping application that delivered the virual catalogs of large retailers to users.",
+    "link": "https://en.wikipedia.org/wiki/Google_Catalogs",
+    "name": "Google Catalogs"
   }
 ]
