@@ -413,8 +413,8 @@
     "name": "Knol"
   },
   {
-    "dateClose": "2014-05-01",
-    "dateOpen": "2015-01-01",
+    "dateClose": "2015-01-01",
+    "dateOpen": "2014-05-01",
     "description": "Google Play was an edition of an Android phone that Google sold",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
     "name": "Google Play"
@@ -427,11 +427,11 @@
     "name": "Google Compare"
   },
   {
-	"dateClose": "2011-04-03",
-	"dateOpen": "2009-11-12",
-	"description": "Gizmo5 was a VOIP communications network and a proprietary freeware soft phone for that network.",
-	"link": "https://en.wikipedia.org/wiki/Gizmo5",
-	"name": "Gizmo5"
+    "dateClose": "2011-04-03",
+    "dateOpen": "2009-11-12",
+    "description": "Gizmo5 was a VOIP communications network and a proprietary freeware soft phone for that network.",
+    "link": "https://en.wikipedia.org/wiki/Gizmo5",
+    "name": "Gizmo5"
   },
   {
     "dateClose": "2012-01-15",
@@ -455,8 +455,8 @@
     "name": "Google Page Creator"
   },
   {
-    "dateClose": "2014-12-01",
-    "dateOpen": "2017-12-15",
+    "dateClose": "2017-12-15",
+    "dateOpen": "2014-12-01",
     "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
     "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
     "name": "Project Tango"
