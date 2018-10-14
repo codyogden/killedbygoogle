@@ -490,6 +490,13 @@
     "name": "Google Hotpot"
   },
   {
+    "dateClose": "2011-09-02",
+    "dateOpen": "2009-09-23",
+    "description": "A browser sidebar tool that allowed users to contribute information to any web page.",
+    "link": "https://en.wikipedia.org/wiki/Google_Sidewiki",
+    "name": "Google Sidewiki"
+  },
+  {
     "dateClose": "2012-07-26",
     "dateOpen": "2008-12-22",
     "description": "AdSense for Feeds was an RSS- based extension of the AdSense system that allowed to advertise on RSS Feeds. It was a spin-off of the half dormant half dead Feedburner",
