@@ -502,5 +502,12 @@
     "description": "AdSense for Feeds was an RSS- based extension of the AdSense system that allowed to advertise on RSS Feeds. It was a spin-off of the half dormant half dead Feedburner",
     "link": "http://adsenseforfeeds.blogspot.com/",
     "name": "AdSense for Feeds"
+  },
+  {
+    "dateClose": "2011-09-02",
+    "dateOpen": "2009-03-14",
+    "description": "Aardvark was a social search service that connected users live with friends or friends-of-friends who were able to answer their questions.",
+    "link": "https://en.wikipedia.org/wiki/Aardvark_(search_engine)",
+    "name": "Aardvark"
   }
 ]
