@@ -15,8 +15,8 @@
 To add a product, add it to `graveyard.json` file. You'll need the following information:
 
 - Name of Product (`name`)
-- Launch Date (`dateOpened`)
-- Discontinued Date (`dateClosed`)
+- Launch Date (`dateOpen`)
+- Discontinued Date (`dateClose`)
 - Description (`description`)
 - Link (`link`)
 

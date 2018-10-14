@@ -413,8 +413,8 @@
     "name": "Knol"
   },
   {
-    "dateClose": "2014-05-01",
-    "dateOpen": "2015-01-01",
+    "dateClose": "2015-01-01",
+    "dateOpen": "2014-05-01",
     "description": "Google Play was an edition of an Android phone that Google sold",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
     "name": "Google Play"
@@ -427,11 +427,11 @@
     "name": "Google Compare"
   },
   {
-	"dateClose": "2011-04-03",
-	"dateOpen": "2009-11-12",
-	"description": "Gizmo5 was a VOIP communications network and a proprietary freeware soft phone for that network.",
-	"link": "https://en.wikipedia.org/wiki/Gizmo5",
-	"name": "Gizmo5"
+    "dateClose": "2011-04-03",
+    "dateOpen": "2009-11-12",
+    "description": "Gizmo5 was a VOIP communications network and a proprietary freeware soft phone for that network.",
+    "link": "https://en.wikipedia.org/wiki/Gizmo5",
+    "name": "Gizmo5"
   },
   {
     "dateClose": "2012-01-15",
@@ -439,5 +439,54 @@
     "description": "Google Code Search was a free beta product from Google which debuted in Google Labs on October 5, 2006, allowing web users to search for open-source code on the Internet.",
     "link": "https://en.wikipedia.org/wiki/Google_Code_Search",
     "name": "Google Code Search"
+  },
+  {
+    "dateClose": "2014-02-17",
+    "dateOpen": "2013-07-13",
+    "description": "SlickLogin was an Israeli start-up company which developed sound-based password alternatives, was acquired by Google and hasn't released anything since.",
+    "link": "https://en.wikipedia.org/wiki/SlickLogin",
+    "name": "SlickLogin"
+  },
+  {
+    "dateClose": "2008-08-31",
+    "dateOpen": "2006-07-13",
+    "description": "Google Page Creator was a website creation and hosting service by Google. It was a tool for basic website design, requiring no HTML knowledge.",
+    "link": "https://en.wikipedia.org/wiki/Google_Page_Creator",
+    "name": "Google Page Creator"
+  },
+  {
+    "dateClose": "2017-12-15",
+    "dateOpen": "2014-12-01",
+    "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
+    "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
+    "name": "Project Tango"
+  },
+  {
+    "dateClose": "2019-06-01",
+    "dateOpen": "2014-10-01",
+    "description": "Fabric was a platform that helped mobile teams build better apps, understand their users, and grow their business.",
+    "link": "https://get.fabric.io/roadmap",
+    "name": "Fabric"
+  },
+  {
+    "dateClose": "2013-07-01",
+    "dateOpen": "2012-06-27",
+    "description": "Nexus Q is a discontinued digital media player developed by Google.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_Q",
+    "name": "Nexus Q"
+  },
+  {
+    "dateClose": "2015-08-04",
+    "dateOpen": "2011-08-16",
+    "description": "Google Catalogs was a shopping application that delivered the virual catalogs of large retailers to users.",
+    "link": "https://en.wikipedia.org/wiki/Google_Catalogs",
+    "name": "Google Catalogs"
+  },
+  {
+    "dateClose": "2011-04-08",
+    "dateOpen": "2010-11-15",
+    "description": "Google Hotpot was a local recommendation engine that allowed people to rate restaurants, hotels, etc. and share them with friends.",
+    "link": "https://mashable.com/2011/04/08/google-hotpot-goes-cold/",
+    "name": "Google Hotpot"
   }
 ]
