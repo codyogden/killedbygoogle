@@ -509,5 +509,12 @@
     "description": "Aardvark was a social search service that connected users live with friends or friends-of-friends who were able to answer their questions.",
     "link": "https://en.wikipedia.org/wiki/Aardvark_(search_engine)",
     "name": "Aardvark"
-  }
+  },
+  {
+    "dateClose":"2009-03-30",
+    "dateOpen":"2007-09",
+    "description":"Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
+    "link": "https://www.google.com/s2/sharing/stuff",
+    "name":"Google Shared Stuff"
+  },
 ]
