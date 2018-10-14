@@ -511,10 +511,17 @@
     "name": "Aardvark"
   },
   {
-    "dateClose":"2009-03-30",
-    "dateOpen":"2007-09",
-    "description":"Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
+    "dateClose": "2009-03-30",
+    "dateOpen": "2007-09",
+    "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
     "link": "https://www.google.com/s2/sharing/stuff",
-    "name":"Google Shared Stuff"
+    "name": "Google Shared Stuff"
+  },
+  {
+    "dateClose": "2007",
+    "dateOpen": "2001",
+    "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
+    "link": "https://www.lifewire.com/google-zeitgeist-3481903",
+    "name": "Zeitgeist"
   }
 ]
