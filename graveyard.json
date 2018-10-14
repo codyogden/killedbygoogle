@@ -481,5 +481,12 @@
     "description": "Google Catalogs was a shopping application that delivered the virual catalogs of large retailers to users.",
     "link": "https://en.wikipedia.org/wiki/Google_Catalogs",
     "name": "Google Catalogs"
+  },
+  {
+    "dateClose": "2011-04-08",
+    "dateOpen": "2010-11-15",
+    "description": "Google Hotpot was a local recommendation engine that allowed people to rate restaurants, hotels, etc. and share them with friends.",
+    "link": "https://mashable.com/2011/04/08/google-hotpot-goes-cold/",
+    "name": "Google Hotpot"
   }
 ]
