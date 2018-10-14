@@ -488,5 +488,12 @@
     "description": "Google Hotpot was a local recommendation engine that allowed people to rate restaurants, hotels, etc. and share them with friends.",
     "link": "https://mashable.com/2011/04/08/google-hotpot-goes-cold/",
     "name": "Google Hotpot"
+  },
+  {
+    "dateClose": "2011-09-02",
+    "dateOpen": "2009-09-23",
+    "description": "A browser sidebar tool that allowed users to contribute information to any web page.",
+    "link": "https://en.wikipedia.org/wiki/Google_Sidewiki",
+    "name": "Google Sidewiki"
   }
 ]
