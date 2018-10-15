@@ -530,5 +530,12 @@
     "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
     "link": "https://en.wikipedia.org/wiki/X_(company)",
     "name": "Google X"
+  },
+  {
+    "dateClose": "2010-01-05",
+    "dateOpen": "2010-05",
+    "description": "The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_One",
+    "name": "Google Nexus One"
   }
 ]
