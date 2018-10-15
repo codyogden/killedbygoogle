@@ -509,5 +509,26 @@
     "description": "Aardvark was a social search service that connected users live with friends or friends-of-friends who were able to answer their questions.",
     "link": "https://en.wikipedia.org/wiki/Aardvark_(search_engine)",
     "name": "Aardvark"
+  },
+  {
+    "dateClose": "2009-03-30",
+    "dateOpen": "2007-09",
+    "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
+    "link": "https://www.google.com/s2/sharing/stuff",
+    "name": "Google Shared Stuff"
+  },
+  {
+    "dateClose": "2007",
+    "dateOpen": "2001",
+    "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
+    "link": "https://www.lifewire.com/google-zeitgeist-3481903",
+    "name": "Zeitgeist"
+  },
+  {
+    "dateClose": "2015-10-02",
+    "dateOpen": "2010-01",
+    "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
+    "link": "https://en.wikipedia.org/wiki/X_(company)",
+    "name": "Google X"
   }
 ]
