@@ -537,5 +537,12 @@
     "description": "The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone.",
     "link": "https://en.wikipedia.org/wiki/Nexus_One",
     "name": "Google Nexus One"
+  },
+  {
+    "dateClose": "2016-09-2",
+    "dateOpen": "2013-10-29",
+    "description": "Project Ara was a modular smartphone project under development by Google.",
+    "link": "https://en.wikipedia.org/wiki/Project_Ara",
+    "name": "Project Ara"
   }
 ]
