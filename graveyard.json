@@ -551,5 +551,12 @@
     "description": "Often remembered as 'Gchat', Google Talk was a messaging service for both text and voice using XMPP. Google later replaced Google Talk with Hangouts.",
     "link": "https://en.wikipedia.org/wiki/Google_Talk",
     "name": "Google Talk"
+  },
+  {
+    "dateClose": "2015-03-15",
+    "dateOpen": "2013-04-30",
+    "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya.",
+    "link": "https://en.wikipedia.org/wiki/BebaPay",
+    "name": "BebaPay"
   }
 ]
