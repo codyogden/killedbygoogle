@@ -588,6 +588,13 @@
     "name": "Google Squared"
   },
   {
+    "dateClose": "2014-02-21",
+    "dateOpen": "2012-11-30",
+    "description": "BufferBox Inc. was a Canadian startup, acquired by Google, that provided consumers the convenience of picking up their online purchases 24/7.",
+    "link": "https://en.wikipedia.org/wiki/BufferBox",
+    "name": "BufferBox"
+  },
+  {
     "dateClose": "2009-03-11",
     "dateOpen": "2005-01-01",
     "description": "Grand Central was a Voice over IP service that was acquired by Google, and turned into Google Voice.",
