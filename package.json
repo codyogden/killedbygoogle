@@ -39,7 +39,7 @@
   "scripts": {
     "build": "yarn lint && yarn webpack --mode=production",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
-    "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json",
+    "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json && node graveyard.test.js",
     "test": "yarn run build"
   }
 }
