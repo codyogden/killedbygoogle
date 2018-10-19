@@ -7,10 +7,12 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@types/prop-types": "^15.5.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.0",
     "css-loader": "^1.0.0",
     "eslint": "^5.4.0",
@@ -19,8 +21,10 @@
     "eslint-plugin-json": "^1.2.1",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
     "node-sass": "^4.9.3",
     "react-hot-loader": "^4.3.3",
+    "regenerator-runtime": "^0.12.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.17.1",
@@ -40,6 +44,6 @@
     "build": "yarn lint && yarn webpack --mode=production",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
     "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json && node graveyard.test.js",
-    "test": "yarn run build"
+    "test": "jest"
   }
 }
