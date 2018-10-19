@@ -566,7 +566,7 @@
     "link": "https://en.wikipedia.org/wiki/Google_Fast_Flip",
     "name": "Google Fast Flip"
   },
-   {
+  {
     "dateClose": "2008-01-20",
     "dateOpen": "2005-05-04",
     "description": "Google Web Accelerator was a web accelerator produced by Google that increased load speed of web pages.",
@@ -588,6 +588,13 @@
     "name": "Google Squared"
   },
   {
+    "dateClose": "2015-01-15",
+    "dateOpen": "2013-04-15",
+    "description": "Google Glass was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands.",
+    "link": "https://en.wikipedia.org/wiki/Google_Glass",
+    "name": "Google Glass"
+  },
+  {
     "dateClose": "2014-02-21",
     "dateOpen": "2012-11-30",
     "description": "BufferBox Inc. was a Canadian startup, acquired by Google, that provided consumers the convenience of picking up their online purchases 24/7.",
@@ -601,5 +608,4 @@
     "link": "https://en.wikipedia.org/wiki/Google_Voice",
     "name": "Grand Central"
   }
-  
 ]
