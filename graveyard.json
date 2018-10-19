@@ -614,5 +614,12 @@
     "description": "The Nexus Player is a digital media player similar to Apple TV and Roku. It was co-developed by Google, Intel and Asus.",
     "link": "https://en.wikipedia.org/wiki/Nexus_Player",
     "name": "Nexus Player"
+  },
+  {
+    "dateClose": "2013-07-08",
+    "dateOpen": "1995-12-15",
+    "description": "AltaVista was a web search engine established in 1995.",
+    "link": "https://en.wikipedia.org/wiki/AltaVista",
+    "name": "AltaVista"
   }
 ]
