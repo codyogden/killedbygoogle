@@ -1,5 +1,12 @@
 [
   {
+    "dateClose": "2015-12-21",
+    "dateOpen": "2005-09-14",
+    "description": "Google Blog Search API was a way to search blogs utilizing Google.",
+    "link": "https://en.wikipedia.org/wiki/Google_Blog_Search",
+    "name": "Google Blog Search API"
+  },
+  {
     "dateClose": "2019-03-31",
     "dateOpen": "2015-05-28",
     "description": "Inbox by Gmail aimed to improve email through several key features.",
@@ -628,19 +635,5 @@
     "description": "The Google Directory was a web directory hosted by Google. It was discontinued on July 20, 2011. However, the google business places and recommended businesses is now commonly referred to as the google directory",
     "link": "https://en.wikipedia.org/wiki/Google_Directory",
     "name": "Google Directory"
-  },
-  {
-    "dateClose": "2011-11-22",
-    "dateOpen": "2007-05-31",
-    "description": "Gears, formerly Google Gears,is discontinued utility software offered by Google that aimed to facilitate creating more powerful web apps by adding offline storage and other additional features to web browsers.",
-    "link": "https://en.wikipedia.org/wiki/Gears_(software)",
-    "name": "Gears"
-  },
-  {
-    "dateClose": "2012-03-01",
-    "dateOpen": "2008-05-28",
-    "description": "Google Friend Connect was a decentralised social networking platform that allowed users to share content via third-party sites.",
-    "link": "https://en.wikipedia.org/wiki/Google_Friend_Connect",
-    "name": "Google Friend Connect"
   }
 ]
