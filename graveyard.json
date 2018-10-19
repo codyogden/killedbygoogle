@@ -588,11 +588,11 @@
     "name": "Google Squared"
   },
   {
-    "dateClose": "2013-04-15",
-    "dateOpen": "2015-01-15",
-    "description": "Wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands.",
+    "dateClose": "2015-01-15",
+    "dateOpen": "2013-04-15",
+    "description": "Google Glass was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands.",
     "link": "https://en.wikipedia.org/wiki/Google_Glass",
-    "name": "Google Glass - not to be confused with Google Glass Enterprise Edition (EE) & Google Googgles"
+    "name": "Google Glass"
   },
   {
     "dateClose": "2014-02-21",
