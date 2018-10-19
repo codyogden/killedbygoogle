@@ -565,5 +565,12 @@
     "description": "Google Fast Flip was an online news aggregator, something of a high tech microfiche.",
     "link": "https://en.wikipedia.org/wiki/Google_Fast_Flip",
     "name": "Google Fast Flip"
+  },
+   {
+    "dateClose": "2008-01-20",
+    "dateOpen": "2005-05-04",
+    "description": "Google Web Accelerator was a web accelerator produced by Google that increased load speed of web pages.",
+    "link": "https://en.wikipedia.org/wiki/Google_Web_Accelerator",
+    "name": "Google Web Accelerator"
   }
 ]
