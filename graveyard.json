@@ -532,8 +532,8 @@
     "name": "Google X"
   },
   {
-    "dateClose": "2010-01-05",
-    "dateOpen": "2010-05",
+    "dateClose": "2010-07-18",
+    "dateOpen": "2010-01-05",
     "description": "The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone.",
     "link": "https://en.wikipedia.org/wiki/Nexus_One",
     "name": "Google Nexus One"
@@ -546,8 +546,8 @@
     "name": "Project Ara"
   },
   {
-    "dateClose": "2005-08-22",
-    "dateOpen": "2013-05-15",
+    "dateClose": "2013-05-15",
+    "dateOpen": "2005-08-22",
     "description": "Often remembered as 'Gchat', Google Talk was a messaging service for both text and voice using XMPP. Google later replaced Google Talk with Hangouts.",
     "link": "https://en.wikipedia.org/wiki/Google_Talk",
     "name": "Google Talk"
