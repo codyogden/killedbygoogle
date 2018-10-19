@@ -621,5 +621,12 @@
     "description": "Google Listen was an Android application that let you search, subscribe, download, and stream podcasts and web audio.",
     "link": "https://googleblog.blogspot.com/2012/08/giving-you-better-google.html",
     "name": "Google Listen"
+  },
+  {
+    "dateClose": "2011-07-20",
+    "dateOpen": "2000-04-07",
+    "description": "The Google Directory was a web directory hosted by Google. It was discontinued on July 20, 2011. However, the google business places and recommended businesses is now commonly referred to as the google directory",
+    "link": "https://en.wikipedia.org/wiki/Google_Directory",
+    "name": "Google Directory"
   }
 ]
