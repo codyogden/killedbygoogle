@@ -566,7 +566,7 @@
     "link": "https://en.wikipedia.org/wiki/Google_Fast_Flip",
     "name": "Google Fast Flip"
   },
-   {
+  {
     "dateClose": "2008-01-20",
     "dateOpen": "2005-05-04",
     "description": "Google Web Accelerator was a web accelerator produced by Google that increased load speed of web pages.",
@@ -586,6 +586,13 @@
     "description": "Google Squared was an information extraction and relationship extraction product from Google.",
     "link": "https://en.wikipedia.org/wiki/Google_Squared",
     "name": "Google Squared"
+  },
+  {
+    "dateClose": "2015-01-15",
+    "dateOpen": "2013-04-15",
+    "description": "Google Glass was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands.",
+    "link": "https://en.wikipedia.org/wiki/Google_Glass",
+    "name": "Google Glass"
   },
   {
     "dateClose": "2014-02-21",
@@ -608,5 +615,4 @@
     "link": "https://en.wikipedia.org/wiki/Nexus_Player",
     "name": "Nexus Player"
   }
-  
 ]
