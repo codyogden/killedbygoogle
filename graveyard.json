@@ -558,5 +558,12 @@
     "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya.",
     "link": "https://en.wikipedia.org/wiki/BebaPay",
     "name": "BebaPay"
+  },
+  {
+    "dateClose": "2011-09-01",
+    "dateOpen": "2009-09-14",
+    "description": "Google Fast Flip was an online news aggregator, something of a high tech microfiche.",
+    "link": "https://en.wikipedia.org/wiki/Google_Fast_Flip",
+    "name": "Google Fast Flip"
   }
 ]
