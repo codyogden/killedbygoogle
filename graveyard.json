@@ -579,5 +579,12 @@
     "description": "Reply was an app which lets users to insert Smart Replies (pre-defined replies) into conversations on messaging apps on their phone such as Facebook Messenger, Slack and Hangouts",
     "link": "https://en.wikipedia.org/wiki/Reply_(Google)",
     "name": "Reply app"
+  },
+  {
+    "dateClose": "2011-09-05",
+    "dateOpen": "2009-06-03",
+    "description": "Google Squared was an information extraction and relationship extraction product from Google.",
+    "link": "https://en.wikipedia.org/wiki/Google_Squared",
+    "name": "Google Squared"
   }
 ]
