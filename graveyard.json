@@ -572,5 +572,12 @@
     "description": "Google Web Accelerator was a web accelerator produced by Google that increased load speed of web pages.",
     "link": "https://en.wikipedia.org/wiki/Google_Web_Accelerator",
     "name": "Google Web Accelerator"
+  },
+  {
+    "dateClose": "2018-10-11",
+    "dateOpen": "2018-02-01",
+    "description": "Reply was an app which lets users to insert Smart Replies (pre-defined replies) into conversations on messaging apps on their phone such as Facebook Messenger, Slack and Hangouts",
+    "link": "https://en.wikipedia.org/wiki/Reply_(Google)",
+    "name": "Reply app"
   }
 ]
