@@ -586,5 +586,12 @@
     "description": "Google Squared was an information extraction and relationship extraction product from Google.",
     "link": "https://en.wikipedia.org/wiki/Google_Squared",
     "name": "Google Squared"
+  },
+  {
+    "dateClose": "2014-02-21",
+    "dateOpen": "2012-11-30",
+    "description": "BufferBox Inc. was a Canadian startup, acquired by Google, that provided consumers the convenience of picking up their online purchases 24/7.",
+    "link": "https://en.wikipedia.org/wiki/BufferBox",
+    "name": "BufferBox"
   }
 ]
