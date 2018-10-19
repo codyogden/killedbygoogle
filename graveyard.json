@@ -607,5 +607,12 @@
     "description": "Grand Central was a Voice over IP service that was acquired by Google, and turned into Google Voice.",
     "link": "https://en.wikipedia.org/wiki/Google_Voice",
     "name": "Grand Central"
+  },
+  {
+    "dateClose": "2016-05-24",
+    "dateOpen": "2014-11-03",
+    "description": "The Nexus Player is a digital media player similar to Apple TV and Roku. It was co-developed by Google, Intel and Asus.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_Player",
+    "name": "Nexus Player"
   }
 ]
