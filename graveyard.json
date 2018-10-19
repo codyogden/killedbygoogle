@@ -558,15 +558,5 @@
     "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya.",
     "link": "https://en.wikipedia.org/wiki/BebaPay",
     "name": "BebaPay"
-  },
-  {
-    "dataClose": "2012-08-21",
-    "dateOpen": "1999-01-01",
-    "description": "Postini was an eMail services, anti-spam, web security aquired and killed by Google.",
-    "link": "https://en.wikipedia.org/wiki/Postini",
-    "name": "Postini"
   }
-
-
-
 ]
