@@ -635,5 +635,12 @@
     "description": "The Google Directory was a web directory hosted by Google. It was discontinued on July 20, 2011. However, the google business places and recommended businesses is now commonly referred to as the google directory",
     "link": "https://en.wikipedia.org/wiki/Google_Directory",
     "name": "Google Directory"
+  },
+  {
+    "dateClose": "2013-06-04",
+    "dateOpen": "2009-10-13",
+    "description": "Building Maker enabled users to create 3D models of buildings for Google Earth on the browser.",
+    "link": "https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html",
+    "name": "Building Maker"
   }
 ]
