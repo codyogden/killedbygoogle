@@ -43,10 +43,10 @@
     "styled-components": "^3.4.6"
   },
   "scripts": {
-    "build": "yarn lint && yarn webpack --mode=production",
+    "build": "yarn webpack --mode=production",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
-    "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json && node graveyard.test.js",
-    "test": "jest",
+    "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json",
+    "test": "yarn lint && jest && yarn build",
     "jest": "jest"
   },
   "jest": {
