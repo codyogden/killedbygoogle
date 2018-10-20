@@ -576,7 +576,7 @@
   {
     "dateClose": "2008-01-20",
     "dateOpen": "2005-05-04",
-    "description": "Google Web Accelerator was a web accelerator produced by Google that increased load speed of web pages.",
+    "description": "Google Web Accelerator was a client-side software that increased the load speed of web pages.",
     "link": "https://en.wikipedia.org/wiki/Google_Web_Accelerator",
     "name": "Google Web Accelerator"
   },
