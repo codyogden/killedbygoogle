@@ -1,5 +1,12 @@
 [
   {
+    "dateClose": "2015-12-21",
+    "dateOpen": "2005-09-14",
+    "description": "Google Blog Search API was a way to search blogs utilizing Google.",
+    "link": "https://en.wikipedia.org/wiki/Google_Blog_Search",
+    "name": "Google Blog Search API"
+  },
+  {
     "dateClose": "2019-03-31",
     "dateOpen": "2015-05-28",
     "description": "Inbox by Gmail aimed to improve email through several key features.",
@@ -566,7 +573,7 @@
     "link": "https://en.wikipedia.org/wiki/Google_Fast_Flip",
     "name": "Google Fast Flip"
   },
-   {
+  {
     "dateClose": "2008-01-20",
     "dateOpen": "2005-05-04",
     "description": "Google Web Accelerator was a web accelerator produced by Google that increased load speed of web pages.",
@@ -588,6 +595,13 @@
     "name": "Google Squared"
   },
   {
+    "dateClose": "2015-01-15",
+    "dateOpen": "2013-04-15",
+    "description": "Google Glass was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands.",
+    "link": "https://en.wikipedia.org/wiki/Google_Glass",
+    "name": "Google Glass"
+  },
+  {
     "dateClose": "2014-02-21",
     "dateOpen": "2012-11-30",
     "description": "BufferBox Inc. was a Canadian startup, acquired by Google, that provided consumers the convenience of picking up their online purchases 24/7.",
@@ -600,6 +614,33 @@
     "description": "Grand Central was a Voice over IP service that was acquired by Google, and turned into Google Voice.",
     "link": "https://en.wikipedia.org/wiki/Google_Voice",
     "name": "Grand Central"
+  },
+  {
+    "dateClose": "2016-05-24",
+    "dateOpen": "2014-11-03",
+    "description": "The Nexus Player is a digital media player similar to Apple TV and Roku. It was co-developed by Google, Intel and Asus.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_Player",
+    "name": "Nexus Player"
+  },
+  {
+    "dateClose": "2012-11-01",
+    "dateOpen": "2009-08-20",
+    "description": "Google Listen was an Android application that let you search, subscribe, download, and stream podcasts and web audio.",
+    "link": "https://googleblog.blogspot.com/2012/08/giving-you-better-google.html",
+    "name": "Google Listen"
+  },
+  {
+    "dateClose": "2011-07-20",
+    "dateOpen": "2000-04-07",
+    "description": "The Google Directory was a web directory hosted by Google. It was discontinued on July 20, 2011. However, the google business places and recommended businesses is now commonly referred to as the google directory",
+    "link": "https://en.wikipedia.org/wiki/Google_Directory",
+    "name": "Google Directory"
+  },
+  {
+    "dateClose": "2013-06-04",
+    "dateOpen": "2009-10-13",
+    "description": "Building Maker enabled users to create 3D models of buildings for Google Earth on the browser.",
+    "link": "https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html",
+    "name": "Building Maker"
   }
-  
 ]
