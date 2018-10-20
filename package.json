@@ -11,14 +11,18 @@
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@types/prop-types": "^15.5.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.0",
     "css-loader": "^1.0.0",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^5.4.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-json": "^1.2.1",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
     "node-sass": "^4.9.3",
     "react-hot-loader": "^4.3.3",
     "sass-loader": "^7.1.0",
@@ -28,6 +32,8 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
     "date-fns": "^2.0.0-alpha.16",
     "preact": "^8.3.1",
     "preact-compat": "^3.18.3",
@@ -40,6 +46,15 @@
     "build": "yarn lint && yarn webpack --mode=production",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
     "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json && node graveyard.test.js",
-    "test": "yarn run build"
+    "test": "jest",
+    "jest": "jest"
+  },
+  "jest": {
+    "setupFiles": [
+      "./__test__/jestSetup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }
