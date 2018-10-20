@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Search Component Matches snapshot 1`] = `
+exports[`Search Component matches snapshot 1`] = `
 <styled.div>
   <styled.input
     onChange={[Function]}
