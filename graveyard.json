@@ -649,5 +649,19 @@
     "description": "Building Maker enabled users to create 3D models of buildings for Google Earth on the browser.",
     "link": "https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html",
     "name": "Building Maker"
+  },
+  {
+    "dateClose": "2011-08-05",
+    "dateOpen": "2009-12-01",
+    "description": "Google Dictionary was a standalone online dictionary service.",
+    "link": "https://en.wikipedia.org/wiki/Google_Dictionary",
+    "name": "Google Dictionary"
+  },
+  {
+    "dateClose": "2012-03-01",
+    "dateOpen": "2008-05-28",
+    "description": "Google Friend Connect was a free social networking site from 2008 to 2012.",
+    "link": "https://en.wikipedia.org/wiki/Google_Friend_Connect",
+    "name": "Google Friend Connect"
   }
 ]
