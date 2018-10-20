@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component matches snapshot 1`] = `
+<styled.div>
+  <styled.input
+    onChange={[Function]}
+    placeholder="Search"
+    type="text"
+    value=""
+  />
+</styled.div>
+`;
