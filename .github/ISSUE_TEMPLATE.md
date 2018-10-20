@@ -1,12 +1,11 @@
 **Date Closed/Discontinued**
-<!-- YYYY-MM-DD -->
+<!-- 2013-06-04 -->
 
 **Date Opened/Launched**
-<!-- YYYY-MM-DD -->
+<!-- 2009-10-13 -->
 
 **Description**
-<!-- A single, descriptive sentence that starts with the name of the product. -->
-<!-- An example: Inbox by Gmail aimed to improve email through several key features. -->
+<!--Building Maker enabled users to create 3D models of buildings for Google Earth on the browser. -->
 
 **Link**
-<!-- Link to a Wikipedia article, or other resource that discusses the product's discontinuation. -->
+<!--https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html -->
