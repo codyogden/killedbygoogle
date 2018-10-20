@@ -637,6 +637,13 @@
     "name": "Google Directory"
   },
   {
+    "dateClose": "2011-11-22",
+    "dateOpen": "2007-05-31",
+    "description": "Gears (aka Google Gears) was utility software that aimed to create more powerful web apps by adding offline storage and other additional features to web browsers.",
+    "link": "https://en.wikipedia.org/wiki/Gears_(software)",
+    "name": "Gears"
+  },
+  {
     "dateClose": "2013-06-04",
     "dateOpen": "2009-10-13",
     "description": "Building Maker enabled users to create 3D models of buildings for Google Earth on the browser.",
