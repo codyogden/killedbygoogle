@@ -1,11 +1,12 @@
 **Date Closed/Discontinued**
-<!-- 2013-06-04 -->
+<!-- YYYY-MM-DD -->
 
 **Date Opened/Launched**
-<!-- 2009-10-13 -->
+<!-- YYYY-MM-DD -->
 
 **Description**
-<!--Building Maker enabled users to create 3D models of buildings for Google Earth on the browser. -->
+<!-- A single, descriptive sentence that starts with the name of the product. -->
+<!-- An example: Inbox by Gmail aimed to improve email through several key features. -->
 
 **Link**
-<!--https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html -->
+<!-- Link to a Wikipedia article, or other resource that discusses the product's discontinuation. -->
