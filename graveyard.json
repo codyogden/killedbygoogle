@@ -399,6 +399,13 @@
     "name": "Bump!"
   },
   {
+    "dateClose": "2015-03-15",
+    "dateOpen": "2013-04-13",
+    "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya that was developed by Google in partnership with Equity Bank.",
+    "link": "https://en.wikipedia.org/wiki/BebaPay",
+    "name": "BebaPay"
+  },
+  {
     "dateClose": "2016-10-04",
     "dateOpen": "2010-01-05",
     "description": "Google Nexus was Google's line of flagship Android devices, superceded by Google Pixel.",
@@ -562,7 +569,7 @@
   {
     "dateClose": "2015-03-15",
     "dateOpen": "2013-04-30",
-    "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya.",
+    "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya. that was developed by Google in partnership with Equity Bank.",
     "link": "https://en.wikipedia.org/wiki/BebaPay",
     "name": "BebaPay"
   },
