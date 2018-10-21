@@ -108,7 +108,7 @@ export default class Item extends Component {
           <Description>
             {this.timePhrase()}
             {grave.description}
-            {` It was ${this.getYears()} years old.`}
+            {` It was ${this.formatDistance(getYears())} old.`}
           </Description>
         </ContentContainer>
       </ListItem>
