@@ -153,6 +153,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Moderator",
     "name": "Google Moderator"
   },
+   {
+    "dateClose": "2016-10-04",
+    "dateOpen": "2015-09-29",
+    "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_5X",
+    "name": "Google Nexus 5X"
+  },
   {
     "dateClose": "2014-06-23",
     "dateOpen": "2007-06-28",
@@ -562,7 +569,7 @@
   {
     "dateClose": "2015-03-15",
     "dateOpen": "2013-04-30",
-    "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya.",
+    "description": "BebaPay was a form of electronic ticketing platform in Nairobi, Kenya that was developed by Google in partnership with Equity Bank.",
     "link": "https://en.wikipedia.org/wiki/BebaPay",
     "name": "BebaPay"
   },
@@ -663,5 +670,33 @@
     "description": "Google Friend Connect was a free social networking site from 2008 to 2012.",
     "link": "https://en.wikipedia.org/wiki/Google_Friend_Connect",
     "name": "Google Friend Connect"
+  },
+  {
+    "dateClose": "2017-06-20",
+    "dateOpen": "2013-04-11",
+    "description": "Glass OS (Google XE) was a version of Google's Android operating system designed for Google Glass.",
+    "link": "https://en.wikipedia.org/wiki/Glass_OS",
+    "name": "Glass OS"
+  },
+  {
+      "dateClose": "2018-08-28",
+      "dateOpen": "2017-09-19",
+      "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
+      "link": "https://en.wikipedia.org/wiki/Tez_(software)",
+      "name": "Tez"
+  },
+  {
+      "dateClose": "2014-01-01",
+      "dateOpen": "2011-05-26",
+      "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
+      "link": "https://en.wikipedia.org/wiki/Google_Offers",
+      "name": "Google Offers"
+  },
+  {
+    "dateClose": "2016-04-30",
+    "dateOpen": "2009-02-12",
+    "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance and elevation.",
+    "link": "https://en.wikipedia.org/wiki/MyTracks",
+    "name": "MyTracks"
   }
 ]
