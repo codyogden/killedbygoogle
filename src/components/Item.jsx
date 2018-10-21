@@ -34,9 +34,9 @@ export default class Item extends Component {
 
   getYears() {
     const { dateClose, dateOpen } = this.props;
-    const duration = formatDistance(dateClose, dateOpen)
+    const duration = formatDistance(dateClose, dateOpen);
 
-    return (` It was ${duration} old.`)
+    return (` It was ${duration} old.`);
   }
 
   isPast() {
