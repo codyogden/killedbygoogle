@@ -677,5 +677,12 @@
     "description": "Glass OS (Google XE) was a version of Google's Android operating system designed for Google Glass.",
     "link": "https://en.wikipedia.org/wiki/Glass_OS",
     "name": "Glass OS"
-  }
+  },
+  {
+      "dateClose": "2018-08-28",
+      "dateOpen": "2017-09-19",
+      "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
+      "link": "https://en.wikipedia.org/wiki/Tez_(software)",
+      "name": "Tez"
+    }
 ]
