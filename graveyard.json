@@ -460,5 +460,12 @@
     "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
     "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
     "name": "Project Tango"
+  },
+  {
+    "dateClose": "2016-04-30",
+    "dateOpen": "2009-02-12",
+    "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance and elevation.",
+    "link": "https://en.wikipedia.org/wiki/MyTracks",
+    "name": "MyTracks"
   }
 ]
