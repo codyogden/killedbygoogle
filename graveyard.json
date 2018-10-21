@@ -712,5 +712,12 @@
     "description": "Pie was a work-centric groupchat website and app comparable to Slack.",
     "link": "https://www.pie.co",
     "name": "Pie"
+  },
+  {
+    "dateClose": "2017-11-15",
+    "dateOpen": "2006-03-21",
+    "description": "Portfolios was a feature available in Google Finance to track personal financial securities.",
+    "link": "https://en.wikipedia.org/wiki/Google_Finance",
+    "name": "Google Portfolios"
   }
 ]
