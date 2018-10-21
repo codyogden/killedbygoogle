@@ -70,6 +70,13 @@
     "name": "Google Notebook"
   },
   {
+    "dateClose": "2016-08-31",
+    "dateOpen": "2012-11-28",
+    "description": "Web hosting in Google Drive was a method of uploading HTML, CSS and other files in order to publish live web sites.",
+    "link": "https://gsuite-developers.googleblog.com/2015/08/deprecating-web-hosting-support-in.html",
+    "name": "Web Hosting in Google Drive"
+  },
+  {
     "dateClose": "2018-04-30",
     "dateOpen": "2010-05-31",
     "description": "Encryped Search provided users with anonymous internet searching.",
@@ -684,12 +691,5 @@
       "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
       "link": "https://en.wikipedia.org/wiki/Tez_(software)",
       "name": "Tez"
-  },
-  {
-      "dateClose": "2014-01-01",
-      "dateOpen": "2011-05-26",
-      "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
-      "link": "https://en.wikipedia.org/wiki/Google_Offers",
-      "name": "Google Offers"
-  }
+    }
 ]
