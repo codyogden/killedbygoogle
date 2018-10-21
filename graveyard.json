@@ -51,7 +51,7 @@
   {
     "dateClose": "2013-07-01",
     "dateOpen": "2005-10-07",
-    "description": "Google Reader was an RSS/Atom feed aggregator.",
+    "description": "Google Reader was a RSS/Atom feed aggregator.",
     "link": "https://en.wikipedia.org/wiki/Google_Reader",
     "name": "Google Reader"
   },
@@ -70,9 +70,16 @@
     "name": "Google Notebook"
   },
   {
+    "dateClose": "2016-08-31",
+    "dateOpen": "2012-11-28",
+    "description": "Web hosting in Google Drive was a method of uploading HTML, CSS and other files in order to publish live web sites.",
+    "link": "https://gsuite-developers.googleblog.com/2015/08/deprecating-web-hosting-support-in.html",
+    "name": "Web Hosting in Google Drive"
+  },
+  {
     "dateClose": "2018-04-30",
     "dateOpen": "2010-05-31",
-    "description": "Encryped Search provided users with anonymous internet searching.",
+    "description": "Encrypted Search provided users with anonymous internet searching.",
     "link": "https://en.wikipedia.org/wiki/Google_Search#Dedicated_encrypted_search_page",
     "name": "Encrypted Search"
   },
@@ -153,7 +160,7 @@
     "link": "https://en.wikipedia.org/wiki/Google_Moderator",
     "name": "Google Moderator"
   },
-   {
+  {
     "dateClose": "2016-10-04",
     "dateOpen": "2015-09-29",
     "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
@@ -492,7 +499,7 @@
   {
     "dateClose": "2015-08-04",
     "dateOpen": "2011-08-16",
-    "description": "Google Catalogs was a shopping application that delivered the virual catalogs of large retailers to users.",
+    "description": "Google Catalogs was a shopping application that delivered the virtual catalogs of large retailers to users.",
     "link": "https://en.wikipedia.org/wiki/Google_Catalogs",
     "name": "Google Catalogs"
   },
@@ -513,7 +520,7 @@
   {
     "dateClose": "2012-12-03",
     "dateOpen": "2008-08-05",
-    "description": "AdSense for Feeds was an RSS-based service for AdSense that allowed publisers to advertise on their RSS Feeds.",
+    "description": "AdSense for Feeds was a RSS-based service for AdSense that allowed publishers to advertise on their RSS Feeds.",
     "link": "https://adsenseforfeeds.blogspot.com/",
     "name": "AdSense for Feeds"
   },
@@ -553,7 +560,7 @@
     "name": "Google Nexus One"
   },
   {
-    "dateClose": "2016-09-2",
+    "dateClose": "2016-09-02",
     "dateOpen": "2013-10-29",
     "description": "Project Ara was a modular smartphone project under development by Google.",
     "link": "https://en.wikipedia.org/wiki/Project_Ara",
@@ -590,7 +597,7 @@
   {
     "dateClose": "2018-10-11",
     "dateOpen": "2018-02-01",
-    "description": "Reply was an mobile app that let users insert Smart Replies (pre-defined replies) into conversations on messaging apps.",
+    "description": "Reply was a mobile app that let users insert Smart Replies (pre-defined replies) into conversations on messaging apps.",
     "link": "https://en.wikipedia.org/wiki/Reply_(Google)",
     "name": "Reply"
   },
@@ -639,7 +646,7 @@
   {
     "dateClose": "2011-07-20",
     "dateOpen": "2000-04-07",
-    "description": "Google Directory was a Internet website directory organized into 14 main categories that allowed users to explore the web.",
+    "description": "Google Directory was an Internet website directory organized into 14 main categories that allowed users to explore the web.",
     "link": "https://en.wikipedia.org/wiki/Google_Directory",
     "name": "Google Directory"
   },
@@ -670,5 +677,40 @@
     "description": "Google Friend Connect was a free social networking site from 2008 to 2012.",
     "link": "https://en.wikipedia.org/wiki/Google_Friend_Connect",
     "name": "Google Friend Connect"
+  },
+  {
+    "dateClose": "2017-06-20",
+    "dateOpen": "2013-04-11",
+    "description": "Glass OS (Google XE) was a version of Google's Android operating system designed for Google Glass.",
+    "link": "https://en.wikipedia.org/wiki/Glass_OS",
+    "name": "Glass OS"
+  },
+  {
+    "dateClose": "2018-08-28",
+    "dateOpen": "2017-09-19",
+    "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
+    "link": "https://en.wikipedia.org/wiki/Tez_(software)",
+    "name": "Tez"
+  },
+  {
+    "dateClose": "2014-01-01",
+    "dateOpen": "2011-05-26",
+    "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
+    "link": "https://en.wikipedia.org/wiki/Google_Offers",
+    "name": "Google Offers"
+  },
+  {
+    "dateClose": "2016-04-30",
+    "dateOpen": "2009-02-12",
+    "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance and elevation.",
+    "link": "https://en.wikipedia.org/wiki/MyTracks",
+    "name": "MyTracks"
+  },
+  {
+    "dateClose": "2016-02-18",
+    "dateOpen": "2013-06-01",
+    "description": "Pie was a work-centric groupchat website and app comparable to Slack.",
+    "link": "https://www.pie.co",
+    "name": "Pie"
   }
 ]
