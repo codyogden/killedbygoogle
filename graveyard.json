@@ -684,5 +684,12 @@
       "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
       "link": "https://en.wikipedia.org/wiki/Tez_(software)",
       "name": "Tez"
-    }
+  },
+  {
+      "dateClose": "2014-01-01",
+      "dateOpen": "2011-05-26",
+      "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
+      "link": "https://en.wikipedia.org/wiki/Google_Offers",
+      "name": "Google Offers"
+  }
 ]
