@@ -51,7 +51,7 @@
   {
     "dateClose": "2013-07-01",
     "dateOpen": "2005-10-07",
-    "description": "Google Reader was an RSS/Atom feed aggregator.",
+    "description": "Google Reader was a RSS/Atom feed aggregator.",
     "link": "https://en.wikipedia.org/wiki/Google_Reader",
     "name": "Google Reader"
   },
@@ -160,7 +160,7 @@
     "link": "https://en.wikipedia.org/wiki/Google_Moderator",
     "name": "Google Moderator"
   },
-   {
+  {
     "dateClose": "2016-10-04",
     "dateOpen": "2015-09-29",
     "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
@@ -520,7 +520,7 @@
   {
     "dateClose": "2012-12-03",
     "dateOpen": "2008-08-05",
-    "description": "AdSense for Feeds was an RSS-based service for AdSense that allowed publishers to advertise on their RSS Feeds.",
+    "description": "AdSense for Feeds was a RSS-based service for AdSense that allowed publishers to advertise on their RSS Feeds.",
     "link": "https://adsenseforfeeds.blogspot.com/",
     "name": "AdSense for Feeds"
   },
@@ -646,7 +646,7 @@
   {
     "dateClose": "2011-07-20",
     "dateOpen": "2000-04-07",
-    "description": "Google Directory was a Internet website directory organized into 14 main categories that allowed users to explore the web.",
+    "description": "Google Directory was an Internet website directory organized into 14 main categories that allowed users to explore the web.",
     "link": "https://en.wikipedia.org/wiki/Google_Directory",
     "name": "Google Directory"
   },
@@ -686,18 +686,18 @@
     "name": "Glass OS"
   },
   {
-      "dateClose": "2018-08-28",
-      "dateOpen": "2017-09-19",
-      "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
-      "link": "https://en.wikipedia.org/wiki/Tez_(software)",
-      "name": "Tez"
+    "dateClose": "2018-08-28",
+    "dateOpen": "2017-09-19",
+    "description": "Tez was a mobile payments service by Google, targeted at users in India. It was rebranded to Google Pay.",
+    "link": "https://en.wikipedia.org/wiki/Tez_(software)",
+    "name": "Tez"
   },
   {
-      "dateClose": "2014-01-01",
-      "dateOpen": "2011-05-26",
-      "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
-      "link": "https://en.wikipedia.org/wiki/Google_Offers",
-      "name": "Google Offers"
+    "dateClose": "2014-01-01",
+    "dateOpen": "2011-05-26",
+    "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
+    "link": "https://en.wikipedia.org/wiki/Google_Offers",
+    "name": "Google Offers"
   },
   {
     "dateClose": "2016-04-30",
