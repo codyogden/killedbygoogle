@@ -705,5 +705,12 @@
     "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance and elevation.",
     "link": "https://en.wikipedia.org/wiki/MyTracks",
     "name": "MyTracks"
+  },
+  {
+    "dateClose": "2016-02-18",
+    "dateOpen": "2013-06-01",
+    "description": "Pie was a work-centric groupchat website and app comparable to Slack.",
+    "link": "https://www.pie.co",
+    "name": "Pie"
   }
 ]
