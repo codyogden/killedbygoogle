@@ -670,5 +670,12 @@
     "description": "Google Friend Connect was a free social networking site from 2008 to 2012.",
     "link": "https://en.wikipedia.org/wiki/Google_Friend_Connect",
     "name": "Google Friend Connect"
+  },
+  {
+    "dateClose": "2013-06-04",
+    "dateOpen": "2009-10-13",
+    "description": "Google Building Maker was a web application that allowed users to build three-dimensional buildings for inclusion in Google Earth.",
+    "link": "https://en.wikipedia.org/wiki/Google_Building_Maker",
+    "name": "Google Building Maker"
   }
 ]
