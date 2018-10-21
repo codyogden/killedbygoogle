@@ -691,5 +691,12 @@
       "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
       "link": "https://en.wikipedia.org/wiki/Google_Offers",
       "name": "Google Offers"
+  },
+  {
+    "dateClose": "2016-04-30",
+    "dateOpen": "2009-02-12",
+    "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance and elevation.",
+    "link": "https://en.wikipedia.org/wiki/MyTracks",
+    "name": "MyTracks"
   }
 ]
