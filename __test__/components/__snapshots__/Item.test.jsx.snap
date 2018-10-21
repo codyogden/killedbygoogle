@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Items with death dates (dateClose) in the past should render correctly 1`] = `
+<ListItem>
+  <IconContainer>
+    <Icon
+      alt="Tombstone"
+      src="assets/tombstone.svg"
+    />
+    <AgeRange>
+      2014
+       - 
+      2017
+    </AgeRange>
+  </IconContainer>
+  <ContentContainer>
+    <h2>
+      <a
+        href="https://en.wikipedia.org/wiki/Nexus_One"
+      >
+        Google Nexus One
+      </a>
+    </h2>
+    <Description>
+      <span>
+        Killed about 1 year ago, 
+      </span>
+      The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone.
+       It was 3 years old.
+    </Description>
+  </ContentContainer>
+</ListItem>
+`;

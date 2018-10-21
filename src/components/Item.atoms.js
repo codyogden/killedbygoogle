@@ -6,17 +6,20 @@ export const Description = styled.p`
   line-height: 1.5;
   margin: 8px 0 0 0;
 `;
+Description.displayName = 'Description';
 
 export const Icon = styled.img`
   height: 50px;
   width: 50px;
 `;
+Icon.displayName = 'Icon';
 
 export const IconContainer = styled.div`
   flex-basis: 100px;
   flex-shrink: 0;
   text-align: center;
 `;
+IconContainer.displayName = 'IconContainer';
 
 export const ListItem = styled.li`
   width: 500px;
@@ -35,11 +38,14 @@ export const ListItem = styled.li`
     font-weight: 300;
   }
 `;
+ListItem.displayName = 'ListItem';
 
 export const AgeRange = styled.div`
   font-size: 0.75em;
 `;
+AgeRange.displayName = 'AgeRange';
 
 export const ContentContainer = styled.div`
   padding-bottom: 1.25em;
 `;
+ContentContainer.displayName = 'ContentContainer';

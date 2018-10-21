@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render List with elements having dateClose in past 1`] = `
+<styled.ul>
+  <Item
+    dateClose="2017-07-26"
+    dateOpen="2014-07-24"
+    description="The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone."
+    key="Google Nexus One"
+    link="https://en.wikipedia.org/wiki/Nexus_One"
+    name="Google Nexus One"
+  />
+  <Item
+    dateClose="2012-07-22"
+    dateOpen="2008-07-19"
+    description="Orkut was a social network designed to help users meet new and old friends and maintain existing relationships."
+    key="Orkut"
+    link="https://en.wikipedia.org/wiki/Orkut"
+    name="Orkut"
+  />
+  <Item
+    dateClose="2005-07-17"
+    dateOpen="1999-07-13"
+    description="Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop."
+    key="Google Deskbar"
+    link="https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software"
+    name="Google Deskbar"
+  />
+</styled.ul>
+`;
