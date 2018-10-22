@@ -7,6 +7,13 @@
     "name": "Google Blog Search API"
   },
   {
+    "dateClose": "2011-7-2",
+    "dateOpen": "2009-12-7",
+    "description": "Google Real-Time Search provided live search results from Twitter, Facebook, and news websites",
+    "link": "https://en.wikipedia.org/wiki/Google_Real-Time_Search",
+    "name": "Google Real-Time Search"
+  },
+  {
     "dateClose": "2019-03-31",
     "dateOpen": "2015-05-28",
     "description": "Inbox by Gmail aimed to improve email through several key features.",
