@@ -747,5 +747,12 @@
   "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
   "link": "https://enterprise.google.com/search/products/gss.html",
   "name": "Google Site Search"
+  },
+  {
+    "dateClose": "2013-11-01",
+    "dateOpen": "2012-11-13",
+    "description": "The Google Nexus 4 was an Android smartphone developed by Google and LG Electronics.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_4",
+    "name": "Google Nexus 4"
   }
 ]
