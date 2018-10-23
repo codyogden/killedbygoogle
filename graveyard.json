@@ -720,4 +720,11 @@
     "link": "https://en.wikipedia.org/wiki/Google_Finance",
     "name": "Google Portfolios"
   }
+  {
+    "dateClose": "2015-12-11",
+    "dateOpen": "2012",
+    "description": "Timeful was an iOS todo list and calendar application acquired by Google. It was created to reinvent the way that people manage their most precious resource: time",
+    "link": "https://www.crunchbase.com/organization/timeful#section-overview",
+    "name": "Timeful"
+  }
 ]
