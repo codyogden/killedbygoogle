@@ -735,10 +735,17 @@
     "name": "Google Portfolios"
   },
   {
-  "dateClose": "2018-04-01",
-  "dateOpen": "2008-11-13",
-  "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
-  "link": "https://enterprise.google.com/search/products/gss.html",
-  "name": "Google Site Search"
+    "dateClose": "2018-04-01",
+    "dateOpen": "2008-11-13",
+    "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
+    "link": "https://enterprise.google.com/search/products/gss.html",
+    "name": "Google Site Search"
+  },
+  {
+    "dateClose": "2013-11-20",
+    "dateOpen": "2011-12-08",
+    "description": "Google Currents was a social magazine app by google, which was replaced by Google Play Newsstand.",
+    "link": "https://en.wikipedia.org/wiki/Google_Currents",
+    "name": "Google Currents"
   }
 ]
