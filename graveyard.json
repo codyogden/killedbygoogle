@@ -726,5 +726,12 @@
     "description": "Portfolios was a feature available in Google Finance to track personal financial securities.",
     "link": "https://en.wikipedia.org/wiki/Google_Finance",
     "name": "Google Portfolios"
+  },
+  {
+  "dateClose": "2018-04-01",
+  "dateOpen": "2008-11-13",
+  "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
+  "link": "https://enterprise.google.com/search/products/gss.html",
+  "name": "Google Site Search"
   }
 ]
