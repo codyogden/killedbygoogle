@@ -7,6 +7,13 @@
     "name": "Google Blog Search API"
   },
   {
+    "dateClose": "2011-07-02",
+    "dateOpen": "2009-12-07",
+    "description": "Google Real-Time Search provided live search results from Twitter, Facebook, and news websites.",
+    "link": "https://en.wikipedia.org/wiki/Google_Real-Time_Search",
+    "name": "Google Real-Time Search"
+  },
+  {
     "dateClose": "2019-03-31",
     "dateOpen": "2015-05-28",
     "description": "Inbox by Gmail aimed to improve email through several key features.",
@@ -33,6 +40,13 @@
     "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop.",
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
     "name": "Google Deskbar"
+  },
+  {
+    "dateClose": "2017-12-28",
+    "dateOpen": "2015-09-29",
+    "description": "Pixel C was a 10.2-inch (260 mm) Android tablet with magentic keyboard accessory.",
+    "link": "https://en.wikipedia.org/wiki/Pixel_C",
+    "name": "Google Pixel C"
   },
   {
     "dateClose": "2006-10-10",
@@ -595,6 +609,13 @@
     "name": "Google Web Accelerator"
   },
   {
+    "dateClose": "2016-10-04",
+    "dateOpen": "2015-09-29",
+    "description": "Nexus 6P is an Android smartphone developed and marketed by Google and manufactured by Huawei.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_6P",
+    "name": "Google Nexus 6P"
+  },
+  {
     "dateClose": "2018-10-11",
     "dateOpen": "2018-02-01",
     "description": "Reply was a mobile app that let users insert Smart Replies (pre-defined replies) into conversations on messaging apps.",
@@ -719,6 +740,34 @@
     "description": "Portfolios was a feature available in Google Finance to track personal financial securities.",
     "link": "https://en.wikipedia.org/wiki/Google_Finance",
     "name": "Google Portfolios"
+  },
+  {
+    "dateClose": "2018-04-01",
+    "dateOpen": "2008-11-13",
+    "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
+    "link": "https://enterprise.google.com/search/products/gss.html",
+    "name": "Google Site Search"
+  },
+  {
+    "dateClose": "2013-11-20",
+    "dateOpen": "2011-12-08",
+    "description": "Google Currents was a social magazine app by google, which was replaced by Google Play Newsstand.",
+    "link": "https://en.wikipedia.org/wiki/Google_Currents",
+    "name": "Google Currents"
+  },
+  {
+    "dateClose": "2013-11-01",
+    "dateOpen": "2012-11-13",
+    "description": "The Google Nexus 4 was an Android smartphone developed by Google and LG Electronics.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_4",
+    "name": "Google Nexus 4"
+  },
+  {
+    "dateClose": "2010-04-30",
+    "dateOpen": "2008-04-13",
+    "description": "BumpTop was a skeuomorphic desktop environment app that simulates the normal behavior and physical properties of a real-world desk and enhances it with automatic tools to organize its contents.",
+    "link": "https://github.com/BumpTop/BumpTop",
+    "name": "Bump Top"
   }
   {
     "dateClose": "2015-12-11",
