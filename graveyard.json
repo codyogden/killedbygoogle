@@ -7,6 +7,13 @@
     "name": "Google Blog Search API"
   },
   {
+    "dateClose": "2011-07-02",
+    "dateOpen": "2009-12-07",
+    "description": "Google Real-Time Search provided live search results from Twitter, Facebook, and news websites.",
+    "link": "https://en.wikipedia.org/wiki/Google_Real-Time_Search",
+    "name": "Google Real-Time Search"
+  },
+  {
     "dateClose": "2019-03-31",
     "dateOpen": "2015-05-28",
     "description": "Inbox by Gmail aimed to improve email through several key features.",
@@ -33,6 +40,13 @@
     "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop.",
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
     "name": "Google Deskbar"
+  },
+  {
+    "dateClose": "2017-12-28",
+    "dateOpen": "2015-09-29",
+    "description": "Pixel C was a 10.2-inch (260 mm) Android tablet with magentic keyboard accessory.",
+    "link": "https://en.wikipedia.org/wiki/Pixel_C",
+    "name": "Google Pixel C"
   },
   {
     "dateClose": "2006-10-10",
@@ -719,5 +733,12 @@
     "description": "Portfolios was a feature available in Google Finance to track personal financial securities.",
     "link": "https://en.wikipedia.org/wiki/Google_Finance",
     "name": "Google Portfolios"
+  },
+  {
+  "dateClose": "2018-04-01",
+  "dateOpen": "2008-11-13",
+  "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
+  "link": "https://enterprise.google.com/search/products/gss.html",
+  "name": "Google Site Search"
   }
 ]
