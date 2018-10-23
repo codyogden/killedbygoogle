@@ -609,6 +609,13 @@
     "name": "Google Web Accelerator"
   },
   {
+    "dateClose": "2016-10-04",
+    "dateOpen": "2015-09-29",
+    "description": "Nexus 6P is an Android smartphone developed and marketed by Google and manufactured by Huawei.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_6P",
+    "name": "Google Nexus 6P"
+  },
+  {
     "dateClose": "2018-10-11",
     "dateOpen": "2018-02-01",
     "description": "Reply was a mobile app that let users insert Smart Replies (pre-defined replies) into conversations on messaging apps.",
@@ -747,5 +754,12 @@
     "description": "Google Currents was a social magazine app by google, which was replaced by Google Play Newsstand.",
     "link": "https://en.wikipedia.org/wiki/Google_Currents",
     "name": "Google Currents"
+  },
+  {
+    "dateClose": "2013-11-01",
+    "dateOpen": "2012-11-13",
+    "description": "The Google Nexus 4 was an Android smartphone developed by Google and LG Electronics.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_4",
+    "name": "Google Nexus 4"
   }
 ]
