@@ -6,7 +6,8 @@
 
 <div align="center">
 
-[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
+[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Website killedbygoogle.com](https://img.shields.io/website-up-down-green-red/http/killedbygoogle.com.svg)](http://killedbygoogle.com)
+
 
 
 </div>
