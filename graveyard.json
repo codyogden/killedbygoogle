@@ -35,6 +35,13 @@
     "name": "Google Deskbar"
   },
   {
+    "dateClose": "2019-12-28",
+    "dateOpen": "2015-09-29",
+    "description": "Pixel C is a 10.2-inch (260 mm) Android tablet developed and marketed by Google.",
+    "link": "https://en.wikipedia.org/wiki/Pixel_C",
+    "name": "Google Pixel C"
+  },
+  {
     "dateClose": "2006-10-10",
     "dateOpen": "2005-08-01",
     "description": "Writely was a Web-based word processor.",
