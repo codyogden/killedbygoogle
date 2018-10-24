@@ -789,5 +789,12 @@
     "description": "Timeful was an iOS to do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
     "link": "https://www.crunchbase.com/organization/timeful#section-overview",
     "name": "Timeful"
+  },
+  {
+    "dateClose": "2017-10-04",
+    "dateOpen": "2016-10-04",
+    "description": "Pixel and Pixel XL are Android smartphones designed, developed and marketed by Google.",
+    "link": "https://en.wikipedia.org/wiki/Pixel_(smartphone)",
+    "name": "Google Pixel XL"
   }
 ]
