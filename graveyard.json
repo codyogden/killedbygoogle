@@ -761,5 +761,33 @@
     "description": "The Google Nexus 4 was an Android smartphone developed by Google and LG Electronics.",
     "link": "https://en.wikipedia.org/wiki/Nexus_4",
     "name": "Google Nexus 4"
+  },
+  {
+    "dateClose": "2010-04-30",
+    "dateOpen": "2008-04-13",
+    "description": "BumpTop was a skeuomorphic desktop environment app that simulates the normal behavior and physical properties of a real-world desk and enhances it with automatic tools to organize its contents.",
+    "link": "https://github.com/BumpTop/BumpTop",
+    "name": "Bump Top"
+  },
+  {
+    "dateClose": "2013-11-20",
+    "dateOpen": "2006-06-28",
+    "description": "Google Checkout was an online payment processing service provided by Google aimed at simplifying the process of paying for online purchases. It was discontinued on November 20, 2013 and the service moved to Google Wallet",
+    "link": "https://en.wikipedia.org/wiki/Google_Checkout",
+    "name": "Google Checkout"
+  },
+  {
+    "dateClose": "2011-09-31",
+    "dateOpen": "2006-01-06",
+    "description": "Google Pack was a collection of software tools offered by Google to download in a single archive. It was announced at the 2006 Consumer Electronics Show, on January 6. Google Pack was only available for Windows XP, Windows Vista, and Windows 7.",
+    "link": "https://en.wikipedia.org/wiki/Google_Pack",
+    "name": "Google Pack"
+  },
+  {
+    "dateClose": "2015-12-11",
+    "dateOpen": "2012",
+    "description": "Timeful was an iOS to do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
+    "link": "https://www.crunchbase.com/organization/timeful#section-overview",
+    "name": "Timeful"
   }
 ]
