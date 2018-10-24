@@ -803,5 +803,12 @@
     "description": "Rebang was a Zeitgeist like service centered on providing service to a chinese audiance. It was incorperated into google labs as of late 2010, and later discontinued along with its parent project.",
     "link": "https://www.zdnet.com/article/google-rebang-now-live/",
     "name": "Google Rebang"
+  },
+  {
+    "dateClose": "2012-03-06",
+    "dateOpen": "2005-05-01",
+    "description": "Slide was a photo sharing software for social networking services such as MySpace and Facebook. Later Slide began to make applications and became the largest developer of third-party applications for Facebook.",
+    "link": "https://en.wikipedia.org/wiki/Slide.com",
+    "name": "Slide"
   }
 ]
