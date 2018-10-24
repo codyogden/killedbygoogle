@@ -796,5 +796,12 @@
     "description": "Pixel and Pixel XL are Android smartphones designed, developed and marketed by Google.",
     "link": "https://en.wikipedia.org/wiki/Pixel_(smartphone)",
     "name": "Google Pixel XL"
+  },
+  {
+    "dateClose": "2011-07-31",
+    "dateOpen": "2007-02-28",
+    "description": "Rebang was a Zeitgeist like service centered on providing service to a chinese audiance. It was incorperated into google labs as of late 2010, and later discontinued along with its parent project.",
+    "link": "https://www.zdnet.com/article/google-rebang-now-live/",
+    "name": "Google Rebang"
   }
 ]
