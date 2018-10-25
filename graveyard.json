@@ -824,5 +824,12 @@
     "description": "Needlebase was a point-and-click tool for extracting, sorting and visualizing data from across pages around the web",
     "link": "https://techcrunch.com/2012/01/20/google-trims-the-fat/",
     "name": "Needlebase"
+  },
+  {
+    "dateClose": "2012-10-29",
+    "dateOpen": "2011-10-19",
+    "description": "The Galaxy nexus was a smartphone collaboration between samsung and google, it was the third smartphone of the Nexus series.",
+    "link": "https://en.wikipedia.org/wiki/Galaxy_Nexus",
+    "name": "Galaxy Nexus"
   }
 ]
