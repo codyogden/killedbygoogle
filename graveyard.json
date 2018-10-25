@@ -810,5 +810,19 @@
     "description": "Slide was a photo sharing software for social networking services such as MySpace and Facebook. Later Slide began to make applications and became the largest developer of third-party applications for Facebook.",
     "link": "https://en.wikipedia.org/wiki/Slide.com",
     "name": "Slide"
+  },
+  {
+    "dateClose": "2011-02-10",
+    "dateOpen": "2009-07-01",
+    "description": "Real Estate on Google Maps enabled users to find places for sale or rent in an area they were interested in.",
+    "link": "https://maps.googleblog.com/2011/01/retiring-real-estate-on-google-maps.html",
+    "name": "Real Estate On Google Maps"
+  },
+  {
+    "dateClose": "2012-06-01",
+    "dateOpen": "2011-04-01",
+    "description": "Needlebase was a point-and-click tool for extracting, sorting and visualizing data from across pages around the web",
+    "link": "https://techcrunch.com/2012/01/20/google-trims-the-fat/",
+    "name": "Needlebase"
   }
 ]
