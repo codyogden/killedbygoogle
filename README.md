@@ -6,7 +6,9 @@
 
 <div align="center">
 
-[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle)
+[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Website killedbygoogle.com](https://img.shields.io/website-up-down-green-red/http/killedbygoogle.com.svg)](http://killedbygoogle.com)
+
+
 
 </div>
 
@@ -31,6 +33,8 @@ The object should be appended to `graveyard.json` in the following format (note 
     "name": "[Product Name]"
   }
 ```
+
+For code contributions outside of `graveyard.json`, check out the [Contributing Guide](.github/CONTRIBUTING.md).
 
 ### Description
 The description should be a single sentence describing the product. It should begin with the products name. For example, "Google Reader was an RSS/Atom feed aggregator." It will be attached to a generated sentence like "Killed about 5 years ago, Google Reader was an RSS/Atom feed aggregator."

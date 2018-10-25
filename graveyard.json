@@ -7,6 +7,13 @@
     "name": "Google Blog Search API"
   },
   {
+    "dateClose": "2011-07-02",
+    "dateOpen": "2009-12-07",
+    "description": "Google Real-Time Search provided live search results from Twitter, Facebook, and news websites.",
+    "link": "https://en.wikipedia.org/wiki/Google_Real-Time_Search",
+    "name": "Google Real-Time Search"
+  },
+  {
     "dateClose": "2019-03-31",
     "dateOpen": "2015-05-28",
     "description": "Inbox by Gmail aimed to improve email through several key features.",
@@ -33,6 +40,13 @@
     "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop.",
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
     "name": "Google Deskbar"
+  },
+  {
+    "dateClose": "2017-12-28",
+    "dateOpen": "2015-09-29",
+    "description": "Pixel C was a 10.2-inch (260 mm) Android tablet with magentic keyboard accessory.",
+    "link": "https://en.wikipedia.org/wiki/Pixel_C",
+    "name": "Google Pixel C"
   },
   {
     "dateClose": "2006-10-10",
@@ -595,6 +609,13 @@
     "name": "Google Web Accelerator"
   },
   {
+    "dateClose": "2016-10-04",
+    "dateOpen": "2015-09-29",
+    "description": "Nexus 6P is an Android smartphone developed and marketed by Google and manufactured by Huawei.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_6P",
+    "name": "Google Nexus 6P"
+  },
+  {
     "dateClose": "2018-10-11",
     "dateOpen": "2018-02-01",
     "description": "Reply was a mobile app that let users insert Smart Replies (pre-defined replies) into conversations on messaging apps.",
@@ -712,5 +733,89 @@
     "description": "Pie was a work-centric groupchat website and app comparable to Slack.",
     "link": "https://www.pie.co",
     "name": "Pie"
+  },
+  {
+    "dateClose": "2017-11-15",
+    "dateOpen": "2006-03-21",
+    "description": "Portfolios was a feature available in Google Finance to track personal financial securities.",
+    "link": "https://en.wikipedia.org/wiki/Google_Finance",
+    "name": "Google Portfolios"
+  },
+  {
+    "dateClose": "2018-04-01",
+    "dateOpen": "2008-11-13",
+    "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
+    "link": "https://enterprise.google.com/search/products/gss.html",
+    "name": "Google Site Search"
+  },
+  {
+    "dateClose": "2013-11-20",
+    "dateOpen": "2011-12-08",
+    "description": "Google Currents was a social magazine app by google, which was replaced by Google Play Newsstand.",
+    "link": "https://en.wikipedia.org/wiki/Google_Currents",
+    "name": "Google Currents"
+  },
+  {
+    "dateClose": "2013-11-01",
+    "dateOpen": "2012-11-13",
+    "description": "The Google Nexus 4 was an Android smartphone developed by Google and LG Electronics.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_4",
+    "name": "Google Nexus 4"
+  },
+  {
+    "dateClose": "2010-04-30",
+    "dateOpen": "2008-04-13",
+    "description": "BumpTop was a skeuomorphic desktop environment app that simulates the normal behavior and physical properties of a real-world desk and enhances it with automatic tools to organize its contents.",
+    "link": "https://github.com/BumpTop/BumpTop",
+    "name": "Bump Top"
+  },
+  {
+    "dateClose": "2013-11-20",
+    "dateOpen": "2006-06-28",
+    "description": "Google Checkout was an online payment processing service provided by Google aimed at simplifying the process of paying for online purchases. It was discontinued on November 20, 2013 and the service moved to Google Wallet",
+    "link": "https://en.wikipedia.org/wiki/Google_Checkout",
+    "name": "Google Checkout"
+  },
+  {
+    "dateClose": "2011-09-31",
+    "dateOpen": "2006-01-06",
+    "description": "Google Pack was a collection of software tools offered by Google to download in a single archive. It was announced at the 2006 Consumer Electronics Show, on January 6. Google Pack was only available for Windows XP, Windows Vista, and Windows 7.",
+    "link": "https://en.wikipedia.org/wiki/Google_Pack",
+    "name": "Google Pack"
+  },
+  {
+    "dateClose": "2015-12-11",
+    "dateOpen": "2012",
+    "description": "Timeful was an iOS to do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
+    "link": "https://www.crunchbase.com/organization/timeful#section-overview",
+    "name": "Timeful"
+  },
+  {
+    "dateClose": "2017-10-04",
+    "dateOpen": "2016-10-04",
+    "description": "Pixel and Pixel XL are Android smartphones designed, developed and marketed by Google.",
+    "link": "https://en.wikipedia.org/wiki/Pixel_(smartphone)",
+    "name": "Google Pixel XL"
+  },
+  {
+    "dateClose": "2011-07-31",
+    "dateOpen": "2007-02-28",
+    "description": "Rebang was a Zeitgeist like service centered on providing service to a chinese audiance. It was incorperated into google labs as of late 2010, and later discontinued along with its parent project.",
+    "link": "https://www.zdnet.com/article/google-rebang-now-live/",
+    "name": "Google Rebang"
+  },
+  {
+    "dateClose": "2012-03-06",
+    "dateOpen": "2005-05-01",
+    "description": "Slide was a photo sharing software for social networking services such as MySpace and Facebook. Later Slide began to make applications and became the largest developer of third-party applications for Facebook.",
+    "link": "https://en.wikipedia.org/wiki/Slide.com",
+    "name": "Slide"
+  },
+  {
+    "dateClose": "2011-02-10",
+    "dateOpen": "2009-07-01",
+    "description": "Real Estate on Google Maps enabled users to find places for sale or rent in an area they were interested in.",
+    "link": "https://maps.googleblog.com/2011/01/retiring-real-estate-on-google-maps.html",
+    "name": "Real Estate On Google Maps"
   }
 ]
