@@ -810,5 +810,12 @@
     "description": "Slide was a photo sharing software for social networking services such as MySpace and Facebook. Later Slide began to make applications and became the largest developer of third-party applications for Facebook.",
     "link": "https://en.wikipedia.org/wiki/Slide.com",
     "name": "Slide"
+  },
+  {
+    "dateClose": "2011-02-10",
+    "dateOpen": "2009-07",
+    "description": "It enabled users to find places for sale or rent in an area they were interested in.",
+    "link": "https://maps.googleblog.com/2011/01/retiring-real-estate-on-google-maps.html",
+    "name": "Real Estate On Google Maps"
   }
 ]
