@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Items with death dates (dateClose) in the past should render correctly 1`] = `
+exports[`Using Current Theme Halloween Items with death date in past should render correctly 1`] = `
 <ListItem>
   <IconContainer>
     <Icon
-      alt="Tombstone"
-      src="assets/tombstone.svg"
+      alt="Ghost"
+      src="assets/halloween/ghost.svg"
     />
     <AgeRange>
-      2014
+      2015
        - 
       2017
     </AgeRange>
@@ -23,10 +23,10 @@ exports[`Items with death dates (dateClose) in the past should render correctly 
     </h2>
     <Description>
       <span>
-        Killed about 1 year ago, 
+        Killed 10 months ago, 
       </span>
       The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone.
-       It was 3 years old.
+       It was about 2 years old.
     </Description>
   </ContentContainer>
 </ListItem>
