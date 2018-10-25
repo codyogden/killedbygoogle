@@ -810,5 +810,12 @@
     "description": "Slide was a photo sharing software for social networking services such as MySpace and Facebook. Later Slide began to make applications and became the largest developer of third-party applications for Facebook.",
     "link": "https://en.wikipedia.org/wiki/Slide.com",
     "name": "Slide"
+  },
+  {
+    "dateClose": "2016-06-01",
+    "dateOpen": "2008-02-28",
+    "description": "Google Sites is a structured wiki- and Web page-creation tool offered by Google. The goal of Google Sites is for anyone to be able to create simple web sites that support collaboration between different editors.",
+    "link": "https://en.wikipedia.org/wiki/Google_Sites",
+    "name": "Sites"
   }
 ]
