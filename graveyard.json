@@ -831,12 +831,12 @@
     "description": "The Galaxy nexus was a smartphone collaboration between samsung and google, it was the third smartphone of the Nexus series.",
     "link": "https://en.wikipedia.org/wiki/Galaxy_Nexus",
     "name": "Galaxy Nexus"
-  }
+  },
   {
     "dateClose": "2013-04-30",
     "dateOpen": "2008-04-07",
     "description": "Google Cloud Connect was a free cloud computing plug-in for Windows Microsoft Office 2003, 2007 and 2010 that can automatically store and synchronize any Microsoft Word document, PowerPoint presentation, or Excel spreadsheet to Google Docs in Google Docs or Microsoft Office formats.",
     "link": "https://en.wikipedia.org/wiki/Google_Cloud_Connect",
     "name": "Google Cloud Connect"
-  },
+  }
 ]
