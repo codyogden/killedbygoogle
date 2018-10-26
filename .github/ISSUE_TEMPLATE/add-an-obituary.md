@@ -1,13 +1,9 @@
 ---
-name: Add an Obituary
-about: Describe this issue template's purpose here.
+name: "Add an Obituary \U0001F480"
+about: Report a dead or dying product to Killed by Google.
 
 ---
 
-P
-**Description**
-<!-- A single, descriptive sentence that starts with the name of the product. -->
-<!-- An example: Inbox by Gmail aimed to improve email through several key features. -->
+**What's the Product's Name?**
 
-**Link**
-<!-- Link to a Wikipedia article, or other resource that discusses the product's discontinuation. -->
+**Any idea when it was killed by Google?**
