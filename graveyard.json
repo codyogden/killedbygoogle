@@ -852,5 +852,19 @@
     "description": "Google Hangouts On Air — Google's live-streaming service — has moved to YouTube Live in September 2016. The service was originally created in 2012 when live-streaming was catching on and was once used by President Obama and Pope Francis.",
     "link": "https://www.engadget.com/2012/05/08/google-lets-you-broadcast-your-hangouts/",
     "name": "Google Hangouts On Air"
+  },
+  {
+    "dateClose": "2018-10-16",
+    "dateOpen": "2016-09-12",
+    "description": "Google News & Weather is a news aggregator application developed by Google. On May 8, 2018, Google announced that it was merging Google Play Newsstand and Google News & Weather into a single service, called Google News. It was available on the Android and iOS operating systems.",
+    "link": "https://en.wikipedia.org/wiki/Google_News_%26_Weather",
+    "name": "Google News & Weather"
+  },
+  {
+    "dateClose": "2011-07",
+    "dateOpen": "2009-11",
+    "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
+    "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
+    "name": "Google Script Converter"
   }
 ]
