@@ -866,5 +866,12 @@
     "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
     "name": "Google Script Converter"
+  },
+  {
+    "dateClose": "2012-08",
+    "dateOpen": "2005-01",
+    "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded on to other websites. This allowed websites to host lots of video remotely without running into bandwidth or storage-capacity issues.",
+    "link": "https://en.wikipedia.org/wiki/Google_Video",
+    "name": "Google Video"
   }
 ]
