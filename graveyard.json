@@ -873,5 +873,12 @@
     "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded on to other websites. This allowed websites to host lots of video remotely without running into bandwidth or storage-capacity issues.",
     "link": "https://en.wikipedia.org/wiki/Google_Video",
     "name": "Google Video"
+  },
+  {
+    "dateClose": "2009-08-05",
+    "dateOpen": "2008-11",
+    "description": "Flix Cloud was a high-capacity online video encoding service using Amazon Elastic Compute Cloud (EC2). On 19 February 2010, Google acquired On2 Technologies for $124.6 million in Google stock. After this purchase, the following message was posted on the on2.com website: \"The On2 products Flix Pro, Flix Standard, Flix Exporter, Flix PowerPlayers, Flix Live, Flix DirectShow SDK, Flix Publisher and Flix Engine are no longer for sale.\"",
+    "link": "https://en.wikipedia.org/wiki/On2_Technologies#Acquisition_by_Google",
+    "name": "On2 Flix Cloud"
   }
 ]
