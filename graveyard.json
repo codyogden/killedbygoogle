@@ -901,5 +901,26 @@
     "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data",
     "link": "https://mangomap.com/blog/the-end-of-google-maps-engine-causes-mass-confusion/",
     "name": "Google Maps Engine"
+  },
+  {
+    "dateClose": "2018-08-15",
+    "dateOpen": "2016-04-14",
+    "description": "Save to Google Chrome Extension enabled you to quick save a page link with image and tags to your a Pocket-like app.",
+    "link": "https://9to5google.com/2018/07/22/google-kills-save-to-google-chrome-material-theme/",
+    "name": "Save to Google Chrome Extension"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2009-11-10",
+    "description": "Google Flu Vaccine Finder was a maps mash-up that showed nearby vaccination places across the United States.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Flu Vaccine Finder"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-03-16",
+    "description": "Google One Pass was an online store developed by Google for media publishers looking to sell subscriptions to their content.",
+    "link": "https://en.wikipedia.org/wiki/Google_One_Pass",
+    "name": "Google One Pass"
   }
 ]
