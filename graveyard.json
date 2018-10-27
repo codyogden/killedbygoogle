@@ -894,5 +894,12 @@
     "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language. Noop attempted to blend the best features of 'old' and 'new' languages, while syntactically encouraging well accepted programming best-practices. Noop was initially targeted to run on the Java Virtual Machine.",
     "link": "https://en.wikipedia.org/wiki/Noop",
     "name": "Noop Programming Language"
+  },
+  {
+    "dateClose": "2016-02-01",
+    "dateOpen": "2013-07-01",
+    "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data",
+    "link": "https://mangomap.com/blog/the-end-of-google-maps-engine-causes-mass-confusion/",
+    "name": "Google Maps Engine"
   }
 ]
