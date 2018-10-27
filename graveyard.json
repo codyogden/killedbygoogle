@@ -868,6 +868,13 @@
     "name": "Google Script Converter"
   },
   {
+    "dateClose": "2010-02-22",
+    "dateOpen": "2007-05-31",
+    "description": "Google Gears, is discontinued utility software offered by Google that aimed to facilitate creating more powerful web apps by adding offline storage and other additional features to web browsers.",
+    "link": "https://en.wikipedia.org/wiki/Gears_(software)",
+    "name": "Google Gears"
+  },
+  {
     "dateClose": "2011",
     "dateOpen": "2009",
     "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language. Noop attempted to blend the best features of 'old' and 'new' languages, while syntactically encouraging well accepted programming best-practices. Noop was initially targeted to run on the Java Virtual Machine.",
