@@ -866,5 +866,12 @@
     "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
     "name": "Google Script Converter"
+  },
+  {
+    "dateClose": "2011",
+    "dateOpen": "2009",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language. Noop attempted to blend the best features of "old" and "new" languages, while syntactically encouraging well accepted programming best-practices. Noop was initially targeted to run on the Java Virtual Machine.",
+    "link": "https://en.wikipedia.org/wiki/Noop",
+    "name": "Noop Programming Language"
   }
 ]
