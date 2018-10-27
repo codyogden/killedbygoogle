@@ -848,7 +848,7 @@
   },
   {
     "dateClose": "2016-09-12",
-    "dateOpen": "2012",
+    "dateOpen": "2012-01-01",
     "description": "Google Hangouts On Air — Google's live-streaming service — has moved to YouTube Live in September 2016. The service was originally created in 2012 when live-streaming was catching on and was once used by President Obama and Pope Francis.",
     "link": "https://www.engadget.com/2012/05/08/google-lets-you-broadcast-your-hangouts/",
     "name": "Google Hangouts On Air"
@@ -868,10 +868,24 @@
     "name": "Google Script Converter"
   },
   {
-    "dateClose": "2012-08",
-    "dateOpen": "2005-01",
+    "dateClose": "2012-08-01",
+    "dateOpen": "2005-01-01",
     "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded on to other websites. This allowed websites to host lots of video remotely without running into bandwidth or storage-capacity issues.",
     "link": "https://en.wikipedia.org/wiki/Google_Video",
     "name": "Google Video"
+  },
+  {
+    "dateClose": "2009-08-05",
+    "dateOpen": "2008-11-01",
+    "description": "Flix Cloud was a high-capacity online video encoding service using Amazon Elastic Compute Cloud (EC2). On 19 February 2010, Google acquired On2 Technologies for $124.6 million in Google stock. After this purchase, the following message was posted on the on2.com website: \"The On2 products Flix Pro, Flix Standard, Flix Exporter, Flix PowerPlayers, Flix Live, Flix DirectShow SDK, Flix Publisher and Flix Engine are no longer for sale.\"",
+    "link": "https://en.wikipedia.org/wiki/On2_Technologies#Acquisition_by_Google",
+    "name": "On2 Flix Cloud"
+  },
+  {
+    "dateClose": "2011-12-31",
+    "dateOpen": "2009-01-01",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language. Noop attempted to blend the best features of 'old' and 'new' languages, while syntactically encouraging well accepted programming best-practices. Noop was initially targeted to run on the Java Virtual Machine.",
+    "link": "https://en.wikipedia.org/wiki/Noop",
+    "name": "Noop Programming Language"
   }
 ]
