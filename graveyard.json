@@ -861,8 +861,8 @@
     "name": "Google News & Weather"
   },
   {
-    "dateClose": "2011-07",
-    "dateOpen": "2009-11",
+    "dateClose": "2011-07-01",
+    "dateOpen": "2009-11-01",
     "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
     "name": "Google Script Converter"
