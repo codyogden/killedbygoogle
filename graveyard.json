@@ -57,7 +57,7 @@
   },
   {
     "dateClose": "2007-12-01",
-    "dateOpen": "2004",
+    "dateOpen": "2004-01-01",
     "description": "Google Click-to-Call allowed a user to speak directly over the phone to businesses found in search results.",
     "link": "https://en.wikipedia.org/wiki/AdWords#Google_Click-to-Call",
     "name": "Google Click-to-Call"
@@ -547,21 +547,21 @@
   },
   {
     "dateClose": "2009-03-30",
-    "dateOpen": "2007-09",
+    "dateOpen": "2007-09-30",
     "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
     "link": "https://www.google.com/s2/sharing/stuff",
     "name": "Google Shared Stuff"
   },
   {
-    "dateClose": "2007",
-    "dateOpen": "2001",
+    "dateClose": "2007-12-31",
+    "dateOpen": "2001-01-01",
     "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
     "link": "https://www.lifewire.com/google-zeitgeist-3481903",
     "name": "Zeitgeist"
   },
   {
     "dateClose": "2015-10-02",
-    "dateOpen": "2010-01",
+    "dateOpen": "2010-01-01",
     "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
     "link": "https://en.wikipedia.org/wiki/X_(company)",
     "name": "Google X"
@@ -785,7 +785,7 @@
   },
   {
     "dateClose": "2015-12-11",
-    "dateOpen": "2012",
+    "dateOpen": "2012-01-01",
     "description": "Timeful was an iOS to do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
     "link": "https://www.crunchbase.com/organization/timeful#section-overview",
     "name": "Timeful"
@@ -848,7 +848,7 @@
   },
   {
     "dateClose": "2016-09-12",
-    "dateOpen": "2012",
+    "dateOpen": "2012-01-01",
     "description": "Google Hangouts On Air — Google's live-streaming service — has moved to YouTube Live in September 2016. The service was originally created in 2012 when live-streaming was catching on and was once used by President Obama and Pope Francis.",
     "link": "https://www.engadget.com/2012/05/08/google-lets-you-broadcast-your-hangouts/",
     "name": "Google Hangouts On Air"
@@ -861,18 +861,11 @@
     "name": "Google News & Weather"
   },
   {
-    "dateClose": "2011-07",
-    "dateOpen": "2009-11",
+    "dateClose": "2011-07-01",
+    "dateOpen": "2009-11-01",
     "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
     "name": "Google Script Converter"
-  },
-  {
-    "dateClose": "2014-03-5",
-    "dateOpen": "2011-05-26",
-    "description": "Google Offers was a service offering discounts and coupons.",
-    "link": "https://en.wikipedia.org/wiki/Google_Offers",
-    "name": "Google Offers"
   },
   {
     "dateClose": "2012-08-20",
@@ -889,10 +882,17 @@
     "name": "ZygoteBody"
   },
   {
-    "dateClose": "2013-06-04",
-    "dateOpen": "2009-10-13",
-    "description": "Google Building Maker was a web application that allowed users to build three-dimensional buildings for inclusion in Google Earth.",
-    "link": "https://en.wikipedia.org/wiki/Google_Building_Maker",
-    "name": "Google Building Maker"
+    "dateClose": "2009-08-05",
+    "dateOpen": "2008-11-01",
+    "description": "Flix Cloud was a high-capacity online video encoding service using Amazon Elastic Compute Cloud (EC2). On 19 February 2010, Google acquired On2 Technologies for $124.6 million in Google stock. After this purchase, the following message was posted on the on2.com website: \"The On2 products Flix Pro, Flix Standard, Flix Exporter, Flix PowerPlayers, Flix Live, Flix DirectShow SDK, Flix Publisher and Flix Engine are no longer for sale.\"",
+    "link": "https://en.wikipedia.org/wiki/On2_Technologies#Acquisition_by_Google",
+    "name": "On2 Flix Cloud"
+  },
+  {
+    "dateClose": "2011-12-31",
+    "dateOpen": "2009-01-01",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language. Noop attempted to blend the best features of 'old' and 'new' languages, while syntactically encouraging well accepted programming best-practices. Noop was initially targeted to run on the Java Virtual Machine.",
+    "link": "https://en.wikipedia.org/wiki/Noop",
+    "name": "Noop Programming Language"
   }
 ]
