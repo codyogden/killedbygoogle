@@ -901,5 +901,12 @@
     "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data",
     "link": "https://mangomap.com/blog/the-end-of-google-maps-engine-causes-mass-confusion/",
     "name": "Google Maps Engine"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2009-11-10",
+    "description": "Google Flu Vaccine Finder was a maps mash-up that showed nearby vaccination places across the United States.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Flu Vaccine Finder"
   }
 ]
