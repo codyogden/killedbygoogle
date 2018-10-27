@@ -175,6 +175,13 @@
     "name": "Google Moderator"
   },
   {
+    "dateClose": "2014-10-15",
+    "dateOpen": "2015-12-09",
+    "description": "The Nexus 6 is a phablet co-developed by Google and Motorola Mobility that runs the Android operating system.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_6",
+    "name": "Google Nexus 6"
+  },
+  {
     "dateClose": "2016-10-04",
     "dateOpen": "2015-09-29",
     "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
