@@ -866,5 +866,33 @@
     "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
     "name": "Google Script Converter"
+  },
+  {
+    "dateClose": "2014-03-5",
+    "dateOpen": "2011-05-26",
+    "description": "Google Offers was a service offering discounts and coupons.",
+    "link": "https://en.wikipedia.org/wiki/Google_Offers",
+    "name": "Google Offers"
+  },
+  {
+    "dateClose": "2012-08-20",
+    "dateOpen": "2005-01-25",
+    "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded on to other websites.",
+    "link": "https://en.wikipedia.org/wiki/Google_Video",
+    "name": "Google Video"
+  },
+  {
+    "dateClose": "2011-10-13",
+    "dateOpen": "2010-12-15",
+    "description": "ZygoteBody, formerly Google Body, is a web application by Zygote Media Group that renders manipulable 3D anatomical models of the human body.",
+    "link": "https://en.wikipedia.org/wiki/ZygoteBody",
+    "name": "ZygoteBody"
+  },
+  {
+    "dateClose": "2013-06-04",
+    "dateOpen": "2009-10-13",
+    "description": "Google Building Maker was a web application that allowed users to build three-dimensional buildings for inclusion in Google Earth.",
+    "link": "https://en.wikipedia.org/wiki/Google_Building_Maker",
+    "name": "Google Building Maker"
   }
 ]
