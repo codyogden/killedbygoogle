@@ -915,5 +915,12 @@
     "description": "Google Flu Vaccine Finder was a maps mash-up that showed nearby vaccination places across the United States.",
     "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
     "name": "Google Flu Vaccine Finder"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-03-16",
+    "description": "Google One Pass was an online store developed by Google for media publishers looking to sell subscriptions to their content.",
+    "link": "https://en.wikipedia.org/wiki/Google_One_Pass",
+    "name": "Google One Pass"
   }
 ]
