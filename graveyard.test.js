@@ -1,8 +1,9 @@
 const data = require('./graveyard.json');
+const moment = require('moment');
 
 
 describe('graveyard', () => {
-  it('graveyard', () => {
+  it('objects should be valid', () => {
     data.forEach((product) => {
       // All data is present for each product
       expect(product.dateClose).not.toBeNull();
@@ -32,9 +33,11 @@ describe('graveyard', () => {
       expect(product.dateOpen.split('-')[2]).toHaveLength(2);
 
       // Dates are Chronologically Correct
-      const dateClose = new Date(product.dateClose).getTime();
-      const dateOpen = new Date(product.dateOpen).getTime();
-      expect(dateOpen).toBeLessThanOrEqual(dateClose);
+      const dateClose = moment(product.dateClose);
+      const dateOpen = moment(product.dateOpen);
+      expect(dateClose.isValid()).toBe(true);
+      expect(dateOpen.isValid()).toBe(true);
+      expect(dateClose.isAfter(dateOpen)).toBe(true);
     });
   });
 });
