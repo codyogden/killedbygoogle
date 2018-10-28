@@ -936,5 +936,12 @@
     "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It built on top of image search by grouping images with similar visual and semantic qualities.",
     "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
     "name": "Google Image Swirl"
+  },
+  {
+    "dateClose": "2017-02-08",
+    "dateOpen": "2016-03-02",
+    "description": "Google Hands Free was a mobile payment system that allowed users to pay their bill by simply saying 'I'll pay with Google.' It used Bluetooth to wirelessly connect to payment terminals, and that longer range meant that you could keep your phone in your pocket.",
+    "link": "https://www.slashgear.com/google-shutting-down-hands-free-next-week-02473609/",
+    "name": "Google Hands Free"
   }
 ]
