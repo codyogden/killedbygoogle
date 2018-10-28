@@ -922,5 +922,12 @@
     "description": "Google One Pass was an online store developed by Google for media publishers looking to sell subscriptions to their content.",
     "link": "https://en.wikipedia.org/wiki/Google_One_Pass",
     "name": "Google One Pass"
+  },
+  {
+    "dateClose": "2011-07-20",
+    "dateOpen": "2009-11-17",
+    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It built on top of image search by grouping images with similar visual and semantic qualities.",
+    "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
+    "name": "Google Image Swirl"
   }
 ]
