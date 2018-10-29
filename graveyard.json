@@ -957,5 +957,12 @@
     "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
     "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
     "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2012-09-27",
+    "dateOpen": "2008-08-06",
+    "description": "Google Insights for Search was a service used to provide data about terms people searched in Google and was merged into Google Trends. ",
+    "link": "https://en.wikipedia.org/wiki/Google_Insights_for_Search",
+    "name": "Google Insights for Search"
   }
 ]
