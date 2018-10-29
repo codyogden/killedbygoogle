@@ -957,5 +957,12 @@
     "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
     "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
     "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2012-03-28",
+    "dateOpen": "2005-04-31",
+    "description": "Urchin was a web statistics analysis program developed by Urchin Software Corporation. It analyzed web server log file content and displayed the traffic information on that website based upon the log data.",
+    "link": "https://en.wikipedia.org/wiki/Urchin_(software)",
+    "name": "Urchin"
   }
 ]
