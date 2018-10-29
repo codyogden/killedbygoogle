@@ -957,5 +957,12 @@
     "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
     "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
     "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2008-08-28",
+    "dateOpen": "2006-10-24",
+    "description": "Google Send to Phone was an add-on to send links and other information from Firefox to their phone by text message.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products",
+    "name": "Send to Phone"
   }
 ]
