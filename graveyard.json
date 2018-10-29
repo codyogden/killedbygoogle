@@ -957,5 +957,12 @@
     "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
     "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
     "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2015-08-20",
+    "dateOpen": "2008-11-01",
+    "description": "Google Flu Trends was a service attempting to make accurate predictions about flu activity. ",
+    "link": "https://en.wikipedia.org/wiki/Google_Flu_Trends",
+    "name": "Google Flu Trends"
   }
 ]
