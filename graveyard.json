@@ -1,5 +1,26 @@
 [
   {
+    "dateClose": "2015-04-25",
+    "dateOpen": "2013-07-26",
+    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus",
+    "link": "https://en.wikipedia.org/wiki/Nexus_7_(2013)",
+    "name": "Nexus 7 (2013)"
+  },
+  {
+    "dateClose": "2013-07-24",
+    "dateOpen": "2012-07-13",
+    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus",
+    "link": "https://en.wikipedia.org/wiki/Nexus_7_(2012)",
+    "name": "Nexus 7 (2012)"
+  },
+  {
+    "dateClose": "2013-11-14",
+    "dateOpen": "2012-10-29",
+    "description": "Nexus 4 Wireless Charger was one of the first wireless chargers to use the Qi technology",
+    "link": "https://www.androidcentral.com/nexus-4-wireless-charger",
+    "name": "Nexus 4 Wireless Charger"
+  },
+  {
     "dateClose": "2015-12-21",
     "dateOpen": "2005-09-14",
     "description": "Google Blog Search API was a way to search blogs utilizing Google.",
@@ -175,11 +196,25 @@
     "name": "Google Moderator"
   },
   {
+    "dateClose": "2015-12-09",
+    "dateOpen": "2014-10-15",
+    "description": "The Nexus 6 is a phablet co-developed by Google and Motorola Mobility that runs the Android operating system.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_6",
+    "name": "Google Nexus 6"
+  },
+  {
     "dateClose": "2016-10-04",
     "dateOpen": "2015-09-29",
     "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
     "link": "https://en.wikipedia.org/wiki/Nexus_5X",
     "name": "Google Nexus 5X"
+  },
+  {
+    "dateClose": "2015-03-11",
+    "dateOpen": "2013-10-31",
+    "description": "The Nexus 5 was an Android smartphone Google developed together with LG Electronics as the fifth phone in Google's Nexus product line.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_5",
+    "name": "Google Nexus 5"
   },
   {
     "dateClose": "2014-06-23",
@@ -767,7 +802,7 @@
     "dateOpen": "2008-04-13",
     "description": "BumpTop was a skeuomorphic desktop environment app that simulates the normal behavior and physical properties of a real-world desk and enhances it with automatic tools to organize its contents.",
     "link": "https://github.com/BumpTop/BumpTop",
-    "name": "Bump Top"
+    "name": "BumpTop"
   },
   {
     "dateClose": "2013-11-20",
@@ -777,7 +812,7 @@
     "name": "Google Checkout"
   },
   {
-    "dateClose": "2011-09-31",
+    "dateClose": "2011-09-02",
     "dateOpen": "2006-01-06",
     "description": "Google Pack was a collection of software tools offered by Google to download in a single archive. It was announced at the 2006 Consumer Electronics Show, on January 6. Google Pack was only available for Windows XP, Windows Vista, and Windows 7.",
     "link": "https://en.wikipedia.org/wiki/Google_Pack",
@@ -922,5 +957,68 @@
     "description": "Google One Pass was an online store developed by Google for media publishers looking to sell subscriptions to their content.",
     "link": "https://en.wikipedia.org/wiki/Google_One_Pass",
     "name": "Google One Pass"
+  },
+  {
+    "dateClose": "2011-07-20",
+    "dateOpen": "2009-11-17",
+    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It built on top of image search by grouping images with similar visual and semantic qualities.",
+    "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
+    "name": "Google Image Swirl"
+  },
+  {
+    "dateClose": "2017-02-08",
+    "dateOpen": "2016-03-02",
+    "description": "Google Hands Free was a mobile payment system that allowed users to pay their bill by simply saying 'I'll pay with Google.' It used Bluetooth to wirelessly connect to payment terminals, and that longer range meant that you could keep your phone in your pocket.",
+    "link": "https://www.slashgear.com/google-shutting-down-hands-free-next-week-02473609/",
+    "name": "Google Hands Free"
+  },
+  {
+    "dateClose": "2016-05-02",
+    "dateOpen": "2007-03-03",
+    "description": "Freebase was a large collaborative knowledge base consisting of structured data composed mainly by its community members, developed by Metaweb(acquired by Google).",
+    "link": "https://en.wikipedia.org/wiki/Freebase",
+    "name": "Freebase"
+  },
+  {
+    "dateClose": "2014-03-14",
+    "dateOpen": "2012-07-31",
+    "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
+    "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
+    "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2016-05-02",
+    "dateOpen": "2012-07-09",
+    "description": "Google Now was a feature of Google Search that offered predictive cards with information and daily updates in the Google app for Android and iOS.",
+    "link": "https://en.wikipedia.org/wiki/Google_Now",
+    "name": "Google Now"
+  },
+  {
+    "dateClose": "2015-08-20",
+    "dateOpen": "2008-11-01",
+    "description": "Google Flu Trends was a service attempting to make accurate predictions about flu activity. ",
+    "link": "https://en.wikipedia.org/wiki/Google_Flu_Trends",
+    "name": "Google Flu Trends"
+  },
+  {
+    "dateClose": "2012-09-27",
+    "dateOpen": "2008-08-06",
+    "description": "Google Insights for Search was a service used to provide data about terms people searched in Google and was merged into Google Trends. ",
+    "link": "https://en.wikipedia.org/wiki/Google_Insights_for_Search",
+    "name": "Google Insights for Search"
+  },
+  {
+    "dateClose": "2008-08-28",
+    "dateOpen": "2006-10-24",
+    "description": "Google Send to Phone was an add-on to send links and other information from Firefox to their phone by text message.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products",
+    "name": "Send to Phone"
+  },
+  {
+    "dateClose": "2012-03-28",
+    "dateOpen": "2005-04-30",
+    "description": "Urchin was a web statistics analysis program developed by Urchin Software Corporation. It analyzed web server log file content and displayed the traffic information on that website based upon the log data.",
+    "link": "https://en.wikipedia.org/wiki/Urchin_(software)",
+    "name": "Urchin"
   }
 ]
