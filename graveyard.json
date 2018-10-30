@@ -966,6 +966,13 @@
     "name": "Wildfire Interactive"
   },
   {
+    "dateClose": "2008-08-28",
+    "dateOpen": "2006-10-24",
+    "description": "Google Send to Phone was an add-on to send links and other information from Firefox to their phone by text message.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products",
+    "name": "Send to Phone"
+  },
+  {
     "dateClose": "2012-03-28",
     "dateOpen": "2005-04-30",
     "description": "Urchin was a web statistics analysis program developed by Urchin Software Corporation. It analyzed web server log file content and displayed the traffic information on that website based upon the log data.",
