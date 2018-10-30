@@ -966,6 +966,13 @@
     "name": "Wildfire Interactive"
   },
   {
+    "dateClose": "2016-05-02",
+    "dateOpen": "2012-07-09",
+    "description": "Google Now was a feature of Google Search that offered predictive cards with information and daily updates in the Google app for Android and iOS.",
+    "link": "https://en.wikipedia.org/wiki/Google_Now",
+    "name": "Google Now"
+  },
+  {
     "dateClose": "2015-08-20",
     "dateOpen": "2008-11-01",
     "description": "Google Flu Trends was a service attempting to make accurate predictions about flu activity. ",
