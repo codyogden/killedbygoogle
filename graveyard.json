@@ -964,5 +964,12 @@
     "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
     "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
     "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2016-05-02",
+    "dateOpen": "2012-07-09",
+    "description": "Google Now was a feature of Google Search that offered predictive cards with information and daily updates in the Google app for Android and iOS.",
+    "link": "https://en.wikipedia.org/wiki/Google_Now",
+    "name": "Google Now"
   }
 ]
