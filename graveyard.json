@@ -1048,5 +1048,12 @@
     "description": "The Google Video Player plays back files in Google's own Google Video File (.gvi) media format and supported playlists in 'Google Video Pointer' (.gvp) format.",
     "link": "https://en.wikipedia.org/wiki/Google_Video#Google_Video_Player",
     "name": "Google Video Player"
+  },
+    {
+    "dateClose": "2011-12-15",
+    "dateOpen": "2010-02-09",
+    "description": "Google Buzz was a social networking, microblogging and messaging tool that was developed by Google and integrated into their web-based email program, Gmail.",
+    "link": "https://en.wikipedia.org/wiki/Google_Buzz",
+    "name": "Google Buzz"
   }
 ]
