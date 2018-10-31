@@ -100,7 +100,7 @@ export default class Item extends Component {
           {this.ageRange(grave)}
         </IconContainer>
         <ContentContainer>
-          <h2><a href={grave.link}>{grave.name}</a></h2>
+          <h2><a href={grave.link} target="_blank">{grave.name}</a></h2>
           <Description>
             {this.timePhrase()}
             {grave.description}
