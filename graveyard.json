@@ -1048,5 +1048,12 @@
     "description": "The Google Video Player plays back files in Google's own Google Video File (.gvi) media format and supported playlists in 'Google Video Pointer' (.gvp) format.",
     "link": "https://en.wikipedia.org/wiki/Google_Video#Google_Video_Player",
     "name": "Google Video Player"
+  },
+  {
+    "dateClose": "2011-09-02",
+    "dateOpen": "2008-01-01",
+    "description": "Aardvark was a search engine that Google acquired in 2010. It was an experiment in a new kind of social search.",
+    "link": "https://en.wikipedia.org/wiki/Google_Video#Google_Video_Player",
+    "name": "Aardvark"
   }
 ]
