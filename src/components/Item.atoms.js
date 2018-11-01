@@ -33,16 +33,13 @@ export const ListItem = styled.li`
   h2 {
     margin: 0;
     font-weight: 300;
-    color: #eb7800;
   }
 `;
 
 export const AgeRange = styled.div`
   font-size: 0.75em;
-  color: #FFF;
 `;
 
 export const ContentContainer = styled.div`
   padding-bottom: 1.25em;
-  color: #FFF;
 `;
