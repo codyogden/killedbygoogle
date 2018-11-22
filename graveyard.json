@@ -1062,5 +1062,12 @@
     "description": "A service that Google developed for long-tail travel clients. ITA Software will create a new, easier way for users to find better flight information online, which should encourage more users to make their flight purchases online.",
     "link": "https://developers.google.com/qpx-express/",
     "name": "qpx-express-API"
+  },
+  {
+    "dateClose": "2016-01-31",
+    "dateOpen": "2007-11-08",
+    "description": "Songza was a free music streaming service that would recommend its users various playlists based on time of day and mood or activity.",
+    "link": "https://en.wikipedia.org/wiki/Songza",
+    "name": "Songza"
   }
 ]
