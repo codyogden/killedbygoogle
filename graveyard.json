@@ -1069,5 +1069,12 @@
     "description": "Songza was a free music streaming service that would recommend its users various playlists based on time of day and mood or activity.",
     "link": "https://en.wikipedia.org/wiki/Songza",
     "name": "Songza"
+  },
+  {
+    "dateClose": "2014-02-01",
+    "dateOpen": "2010-09-22",
+    "description": "Google Chrome Frame was a plugin for Internet Explorer that allowed web pages to be displayed using WebKit and the V8 JavaScript engine.",
+    "link": "https://en.wikipedia.org/wiki/Google_Chrome_Frame",
+    "name": "Google Chrome Frame"
   }
 ]
