@@ -35,7 +35,7 @@ export const FooterContainer = styled.footer`
 
 export const CreatorTag = styled.div`
   font-size: 0.8em;
-  margin-top: 1em;
+  margin-top: 1.5em;
   text-align: center;
 `;
 
