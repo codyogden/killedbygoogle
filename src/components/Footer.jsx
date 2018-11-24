@@ -13,8 +13,9 @@ export default () => (
         </span>
       </p>
       <p>
-        {'If you found this list helpful, please consider supporting the '}
+        {'If you found this list helpful, please consider supporting the wonderful '}
         <span>
+          {' resources at the '}
           <a href="https://wikimediafoundation.org/">Wikimedia Foundation</a>
           {' and the '}
           <a href="https://archive.org/">Internet Archive</a>
