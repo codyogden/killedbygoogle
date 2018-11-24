@@ -1,4 +1,32 @@
-[
+﻿[
+  {
+    "dateClose": "2018-04-19",
+    "dateOpen": "2016-09-21",
+    "description": "Google Allo is an instant messaging mobile app by Google. It will be rebranded as Google Chat.",
+    "link": "https://en.wikipedia.org/wiki/Google_Allo",
+    "name": "Google Allo"
+  },
+  {
+    "dateClose": "2015-04-25",
+    "dateOpen": "2013-07-26",
+    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus",
+    "link": "https://en.wikipedia.org/wiki/Nexus_7_(2013)",
+    "name": "Nexus 7 (2013)"
+  },
+  {
+    "dateClose": "2013-07-24",
+    "dateOpen": "2012-07-13",
+    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus",
+    "link": "https://en.wikipedia.org/wiki/Nexus_7_(2012)",
+    "name": "Nexus 7 (2012)"
+  },
+  {
+    "dateClose": "2013-11-14",
+    "dateOpen": "2012-10-29",
+    "description": "Nexus 4 Wireless Charger was one of the first wireless chargers to use the Qi technology",
+    "link": "https://www.androidcentral.com/nexus-4-wireless-charger",
+    "name": "Nexus 4 Wireless Charger"
+  },
   {
     "dateClose": "2015-12-21",
     "dateOpen": "2005-09-14",
@@ -57,7 +85,7 @@
   },
   {
     "dateClose": "2007-12-01",
-    "dateOpen": "2004",
+    "dateOpen": "2004-01-01",
     "description": "Google Click-to-Call allowed a user to speak directly over the phone to businesses found in search results.",
     "link": "https://en.wikipedia.org/wiki/AdWords#Google_Click-to-Call",
     "name": "Google Click-to-Call"
@@ -175,11 +203,25 @@
     "name": "Google Moderator"
   },
   {
+    "dateClose": "2015-12-09",
+    "dateOpen": "2014-10-15",
+    "description": "The Nexus 6 is a phablet co-developed by Google and Motorola Mobility that runs the Android operating system.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_6",
+    "name": "Google Nexus 6"
+  },
+  {
     "dateClose": "2016-10-04",
     "dateOpen": "2015-09-29",
     "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
     "link": "https://en.wikipedia.org/wiki/Nexus_5X",
     "name": "Google Nexus 5X"
+  },
+  {
+    "dateClose": "2015-03-11",
+    "dateOpen": "2013-10-31",
+    "description": "The Nexus 5 was an Android smartphone Google developed together with LG Electronics as the fifth phone in Google's Nexus product line.",
+    "link": "https://en.wikipedia.org/wiki/Nexus_5",
+    "name": "Google Nexus 5"
   },
   {
     "dateClose": "2014-06-23",
@@ -385,7 +427,7 @@
     "name": "Google PowerMeter"
   },
   {
-    "dateClose": "2018-10-08",
+    "dateClose": "2019-08-31",
     "dateOpen": "2011-06-28",
     "description": "Google+ was an Internet-based social network.",
     "link": "https://en.wikipedia.org/wiki/Google%2B",
@@ -547,21 +589,21 @@
   },
   {
     "dateClose": "2009-03-30",
-    "dateOpen": "2007-09",
+    "dateOpen": "2007-09-30",
     "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
     "link": "https://www.google.com/s2/sharing/stuff",
     "name": "Google Shared Stuff"
   },
   {
-    "dateClose": "2007",
-    "dateOpen": "2001",
+    "dateClose": "2007-12-31",
+    "dateOpen": "2001-01-01",
     "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
     "link": "https://www.lifewire.com/google-zeitgeist-3481903",
     "name": "Zeitgeist"
   },
   {
     "dateClose": "2015-10-02",
-    "dateOpen": "2010-01",
+    "dateOpen": "2010-01-01",
     "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
     "link": "https://en.wikipedia.org/wiki/X_(company)",
     "name": "Google X"
@@ -767,7 +809,7 @@
     "dateOpen": "2008-04-13",
     "description": "BumpTop was a skeuomorphic desktop environment app that simulates the normal behavior and physical properties of a real-world desk and enhances it with automatic tools to organize its contents.",
     "link": "https://github.com/BumpTop/BumpTop",
-    "name": "Bump Top"
+    "name": "BumpTop"
   },
   {
     "dateClose": "2013-11-20",
@@ -777,7 +819,7 @@
     "name": "Google Checkout"
   },
   {
-    "dateClose": "2011-09-31",
+    "dateClose": "2011-09-02",
     "dateOpen": "2006-01-06",
     "description": "Google Pack was a collection of software tools offered by Google to download in a single archive. It was announced at the 2006 Consumer Electronics Show, on January 6. Google Pack was only available for Windows XP, Windows Vista, and Windows 7.",
     "link": "https://en.wikipedia.org/wiki/Google_Pack",
@@ -785,7 +827,7 @@
   },
   {
     "dateClose": "2015-12-11",
-    "dateOpen": "2012",
+    "dateOpen": "2012-01-01",
     "description": "Timeful was an iOS to do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
     "link": "https://www.crunchbase.com/organization/timeful#section-overview",
     "name": "Timeful"
@@ -824,5 +866,215 @@
     "description": "Needlebase was a point-and-click tool for extracting, sorting and visualizing data from across pages around the web",
     "link": "https://techcrunch.com/2012/01/20/google-trims-the-fat/",
     "name": "Needlebase"
+  },
+  {
+    "dateClose": "2012-10-29",
+    "dateOpen": "2011-10-19",
+    "description": "The Galaxy nexus was a smartphone collaboration between samsung and google, it was the third smartphone of the Nexus series.",
+    "link": "https://en.wikipedia.org/wiki/Galaxy_Nexus",
+    "name": "Galaxy Nexus"
+  },
+  {
+    "dateClose": "2013-04-30",
+    "dateOpen": "2008-04-07",
+    "description": "Google Cloud Connect was a free cloud computing plug-in for Windows Microsoft Office 2003, 2007 and 2010 that can automatically store and synchronize any Microsoft Word document, PowerPoint presentation, or Excel spreadsheet to Google Docs in Google Docs or Microsoft Office formats.",
+    "link": "https://en.wikipedia.org/wiki/Google_Cloud_Connect",
+    "name": "Google Cloud Connect"
+  },
+  {
+    "dateClose": "2013-05-10",
+    "dateOpen": "2004-10-01",
+    "description": "Google SMS let you text questions- including weather, sports scores, word definitions, and more- to 466453 and get an answer back.",
+    "link": "https://techcrunch.com/2013/05/12/google-kills-sms-search/",
+    "name": "Google SMS"
+  },
+  {
+    "dateClose": "2016-09-12",
+    "dateOpen": "2012-01-01",
+    "description": "Google Hangouts On Air — Google's live-streaming service — has moved to YouTube Live in September 2016. The service was originally created in 2012 when live-streaming was catching on and was once used by President Obama and Pope Francis.",
+    "link": "https://www.engadget.com/2012/05/08/google-lets-you-broadcast-your-hangouts/",
+    "name": "Google Hangouts On Air"
+  },
+  {
+    "dateClose": "2018-10-16",
+    "dateOpen": "2016-09-12",
+    "description": "Google News & Weather is a news aggregator application developed by Google. On May 8, 2018, Google announced that it was merging Google Play Newsstand and Google News & Weather into a single service, called Google News. It was available on the Android and iOS operating systems.",
+    "link": "https://en.wikipedia.org/wiki/Google_News_%26_Weather",
+    "name": "Google News & Weather"
+  },
+  {
+    "dateClose": "2011-07-01",
+    "dateOpen": "2009-11-01",
+    "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
+    "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
+    "name": "Google Script Converter"
+  },
+  {
+    "dateClose": "2012-08-20",
+    "dateOpen": "2005-01-25",
+    "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded on to other websites.",
+    "link": "https://en.wikipedia.org/wiki/Google_Video",
+    "name": "Google Video"
+  },
+  {
+    "dateClose": "2011-10-13",
+    "dateOpen": "2010-12-15",
+    "description": "ZygoteBody, formerly Google Body, is a web application by Zygote Media Group that renders manipulable 3D anatomical models of the human body.",
+    "link": "https://en.wikipedia.org/wiki/ZygoteBody",
+    "name": "ZygoteBody"
+  },
+  {
+    "dateClose": "2009-08-05",
+    "dateOpen": "2008-11-01",
+    "description": "Flix Cloud was a high-capacity online video encoding service using Amazon Elastic Compute Cloud (EC2). On 19 February 2010, Google acquired On2 Technologies for $124.6 million in Google stock. After this purchase, the following message was posted on the on2.com website: \"The On2 products Flix Pro, Flix Standard, Flix Exporter, Flix PowerPlayers, Flix Live, Flix DirectShow SDK, Flix Publisher and Flix Engine are no longer for sale.\"",
+    "link": "https://en.wikipedia.org/wiki/On2_Technologies#Acquisition_by_Google",
+    "name": "On2 Flix Cloud"
+  },
+  {
+    "dateClose": "2011-12-31",
+    "dateOpen": "2009-01-01",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language. Noop attempted to blend the best features of 'old' and 'new' languages, while syntactically encouraging well accepted programming best-practices. Noop was initially targeted to run on the Java Virtual Machine.",
+    "link": "https://en.wikipedia.org/wiki/Noop",
+    "name": "Noop Programming Language"
+  },
+  {
+    "dateClose": "2016-02-01",
+    "dateOpen": "2013-07-01",
+    "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data",
+    "link": "https://mangomap.com/blog/the-end-of-google-maps-engine-causes-mass-confusion/",
+    "name": "Google Maps Engine"
+  },
+  {
+    "dateClose": "2018-08-15",
+    "dateOpen": "2016-04-14",
+    "description": "Save to Google Chrome Extension enabled you to quick save a page link with image and tags to your a Pocket-like app.",
+    "link": "https://9to5google.com/2018/07/22/google-kills-save-to-google-chrome-material-theme/",
+    "name": "Save to Google Chrome Extension"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2009-11-10",
+    "description": "Google Flu Vaccine Finder was a maps mash-up that showed nearby vaccination places across the United States.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Flu Vaccine Finder"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-03-16",
+    "description": "Google One Pass was an online store developed by Google for media publishers looking to sell subscriptions to their content.",
+    "link": "https://en.wikipedia.org/wiki/Google_One_Pass",
+    "name": "Google One Pass"
+  },
+  {
+    "dateClose": "2011-07-20",
+    "dateOpen": "2009-11-17",
+    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It built on top of image search by grouping images with similar visual and semantic qualities.",
+    "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
+    "name": "Google Image Swirl"
+  },
+  {
+    "dateClose": "2017-02-08",
+    "dateOpen": "2016-03-02",
+    "description": "Google Hands Free was a mobile payment system that allowed users to pay their bill by simply saying 'I'll pay with Google.' It used Bluetooth to wirelessly connect to payment terminals, and that longer range meant that you could keep your phone in your pocket.",
+    "link": "https://www.slashgear.com/google-shutting-down-hands-free-next-week-02473609/",
+    "name": "Google Hands Free"
+  },
+  {
+    "dateClose": "2016-05-02",
+    "dateOpen": "2007-03-03",
+    "description": "Freebase was a large collaborative knowledge base consisting of structured data composed mainly by its community members, developed by Metaweb(acquired by Google).",
+    "link": "https://en.wikipedia.org/wiki/Freebase",
+    "name": "Freebase"
+  },
+  {
+    "dateClose": "2014-03-14",
+    "dateOpen": "2012-07-31",
+    "description": "Wildfire by Google was a social marketing application that enabled businesses to create, optimize and measure their presence on social networks.",
+    "link": "https://en.wikipedia.org/wiki/Wildfire_Interactive",
+    "name": "Wildfire Interactive"
+  },
+  {
+    "dateClose": "2016-05-02",
+    "dateOpen": "2012-07-09",
+    "description": "Google Now was a feature of Google Search that offered predictive cards with information and daily updates in the Google app for Android and iOS.",
+    "link": "https://en.wikipedia.org/wiki/Google_Now",
+    "name": "Google Now"
+  },
+  {
+    "dateClose": "2015-08-20",
+    "dateOpen": "2008-11-01",
+    "description": "Google Flu Trends was a service attempting to make accurate predictions about flu activity. ",
+    "link": "https://en.wikipedia.org/wiki/Google_Flu_Trends",
+    "name": "Google Flu Trends"
+  },
+  {
+    "dateClose": "2012-09-27",
+    "dateOpen": "2008-08-06",
+    "description": "Google Insights for Search was a service used to provide data about terms people searched in Google and was merged into Google Trends. ",
+    "link": "https://en.wikipedia.org/wiki/Google_Insights_for_Search",
+    "name": "Google Insights for Search"
+  },
+  {
+    "dateClose": "2008-08-28",
+    "dateOpen": "2006-10-24",
+    "description": "Google Send to Phone was an add-on to send links and other information from Firefox to their phone by text message.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products",
+    "name": "Send to Phone"
+  },
+  {
+    "dateClose": "2012-03-28",
+    "dateOpen": "2005-04-30",
+    "description": "Urchin was a web statistics analysis program developed by Urchin Software Corporation. It analyzed web server log file content and displayed the traffic information on that website based upon the log data.",
+    "link": "https://en.wikipedia.org/wiki/Urchin_(software)",
+    "name": "Urchin"
+  },
+  {
+    "dateClose": "2016-08-29",
+    "dateOpen": "2013-02-21",
+    "description": "Chromebook Pixel was a high-end Chromebook laptop mixing Chrome OS with an Intel i5, 4GB DDR3 RAM, a 32GB SSD, and a 2,560x1,700 12.85in screen.",
+    "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
+    "name": "Chromebook Pixel"
+  },
+  {
+    "dateClose": "2016-08-29",
+    "dateOpen": "2015-03-11",
+    "description": "Chromebook Pixel 2 was a high-end Chromebook laptop mixing Chrome OS with an Intel i5, 8GB DDR3 RAM, a 32GB SSD, and a 2,560x1,700 12.85in screen.",
+    "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
+    "name": "Chromebook Pixel 2"
+  },
+  {
+    "dateClose": "2016-08-29",
+    "dateOpen": "2015-03-11",
+    "description": "Chromebook Pixel LS was a high-end Chromebook laptop mixing Chrome OS with an Intel i7, 16GB DDR3 RAM, a 64GB SSD, and a 2,560x1,700 12.85in screen.",
+    "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
+    "name": "Chromebook Pixel LS"
+  },
+  {
+    "dateClose": "2007-08-17",
+    "dateOpen": "2006-08-22",
+    "description": "The Google Video Player plays back files in Google's own Google Video File (.gvi) media format and supported playlists in 'Google Video Pointer' (.gvp) format.",
+    "link": "https://en.wikipedia.org/wiki/Google_Video#Google_Video_Player",
+    "name": "Google Video Player"
+  },
+  {
+    "dateClose": "2018-04-10",
+    "dateOpen": "2010-07-01",
+    "description": "A service that Google developed for long-tail travel clients. ITA Software will create a new, easier way for users to find better flight information online, which should encourage more users to make their flight purchases online.",
+    "link": "https://developers.google.com/qpx-express/",
+    "name": "qpx-express-API"
+  },
+  {
+    "dateClose": "2016-01-31",
+    "dateOpen": "2007-11-08",
+    "description": "Songza was a free music streaming service that would recommend its users various playlists based on time of day and mood or activity.",
+    "link": "https://en.wikipedia.org/wiki/Songza",
+    "name": "Songza"
+  },
+  {
+    "dateClose": "2014-02-01",
+    "dateOpen": "2010-09-22",
+    "description": "Google Chrome Frame was a plugin for Internet Explorer that allowed web pages to be displayed using WebKit and the V8 JavaScript engine.",
+    "link": "https://en.wikipedia.org/wiki/Google_Chrome_Frame",
+    "name": "Google Chrome Frame"
   }
 ]

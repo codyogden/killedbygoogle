@@ -1,6 +1,6 @@
 {
   "name": "killedbygoogle",
-  "version": "0.3.6",
+  "version": "0.4.0",
   "description": "killedbygoogle.com",
   "main": "src/index.js",
   "repository": "git@github.com:codyogden/makesomecoffee.git",
@@ -23,6 +23,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0",
+    "moment": "^2.22.2",
     "node-sass": "^4.9.3",
     "react-hot-loader": "^4.3.3",
     "sass-loader": "^7.1.0",
@@ -32,9 +33,9 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "date-fns": "^2.0.0-alpha.16",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
-    "date-fns": "^2.0.0-alpha.16",
     "preact": "^8.3.1",
     "preact-compat": "^3.18.3",
     "prop-types": "^15.6.2",

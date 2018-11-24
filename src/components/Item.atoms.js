@@ -36,19 +36,16 @@ export const ListItem = styled.li`
   h2 {
     margin: 0;
     font-weight: 300;
-    color: #eb7800;
   }
 `;
 ListItem.displayName = 'ListItem';
 
 export const AgeRange = styled.div`
   font-size: 0.75em;
-  color: #FFF;
 `;
 AgeRange.displayName = 'AgeRange';
 
 export const ContentContainer = styled.div`
   padding-bottom: 1.25em;
-  color: #FFF;
 `;
 ContentContainer.displayName = 'ContentContainer';

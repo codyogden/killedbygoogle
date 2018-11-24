@@ -29,7 +29,7 @@ const eolIdiom = () => {
 
 export default class Item extends Component {
   getIcon() {
-    return (this.isPast()) ? <Icon src="assets/halloween/ghost.svg" alt="Ghost" /> : <Icon src="assets/halloween/zombie-hand.svg" alt="Zombie Hand" />;
+    return (this.isPast()) ? <Icon src="assets/tombstone.svg" alt="Tombstone" /> : <Icon src="assets/guillotine.svg" alt="Guillotine" />;
   }
 
   getYears() {
@@ -100,7 +100,7 @@ export default class Item extends Component {
           {this.ageRange(grave)}
         </IconContainer>
         <ContentContainer>
-          <h2><a href={grave.link}>{grave.name}</a></h2>
+          <h2><a href={grave.link} target="_blank" rel="noopener noreferrer">{grave.name}</a></h2>
           <Description>
             {this.timePhrase()}
             {grave.description}
