@@ -49,7 +49,11 @@ export default class App extends Component {
     const { listOfItems } = this.state;
     return (
       <div>
-        <BannerMessage><a href="https://github.com/codyogden/killedbygoogle/issues">Missing an Obituary? Let us know.</a></BannerMessage>
+        <BannerMessage>
+          <a href="https://github.com/codyogden/killedbygoogle/issues">
+            {'Missing an Obituary? We\'re Open Source.'}
+          </a>
+        </BannerMessage>
         <Header />
         <Search search={this.searchFilter} />
         <List items={listOfItems} />
