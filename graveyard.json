@@ -9,21 +9,21 @@
   {
     "dateClose": "2015-04-25",
     "dateOpen": "2013-07-26",
-    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus",
+    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus.",
     "link": "https://en.wikipedia.org/wiki/Nexus_7_(2013)",
     "name": "Nexus 7 (2013)"
   },
   {
     "dateClose": "2013-07-24",
     "dateOpen": "2012-07-13",
-    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus",
+    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus.",
     "link": "https://en.wikipedia.org/wiki/Nexus_7_(2012)",
     "name": "Nexus 7 (2012)"
   },
   {
     "dateClose": "2013-11-14",
     "dateOpen": "2012-10-29",
-    "description": "Nexus 4 Wireless Charger was one of the first wireless chargers to use the Qi technology",
+    "description": "Nexus 4 Wireless Charger was one of the first wireless chargers to use the Qi technology.",
     "link": "https://www.androidcentral.com/nexus-4-wireless-charger",
     "name": "Nexus 4 Wireless Charger"
   },
@@ -338,7 +338,7 @@
   {
     "dateClose": "2008-05-15",
     "dateOpen": "2002-08-01",
-    "description": "Hello was a service by Picasa that let users share pictures \"like you're sitting side-by-side.\"",
+    "description": "Hello was a service by Picasa that let users share pictures \"like you're sitting side-by-side\."",
     "link": "https://en.wikipedia.org/wiki/Picasa#Hello",
     "name": "Hello"
   },
@@ -492,7 +492,7 @@
   {
     "dateClose": "2015-01-01",
     "dateOpen": "2014-05-01",
-    "description": "Google Play was an edition of an Android phone that Google sold",
+    "description": "Google Play was an edition of an Android phone that Google sold.",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
     "name": "Google Play"
   },
@@ -534,7 +534,7 @@
   {
     "dateClose": "2017-12-15",
     "dateOpen": "2014-12-01",
-    "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore",
+    "description": "Project Tango was an API for augmented reality apps that was killed and replaced by ARCore.",
     "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
     "name": "Project Tango"
   },
@@ -758,7 +758,7 @@
   {
     "dateClose": "2014-01-01",
     "dateOpen": "2011-05-26",
-    "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon",
+    "description": "Google Offers was a service offering discounts and coupons. Initially, it was a deal of the day website similar to Groupon.",
     "link": "https://en.wikipedia.org/wiki/Google_Offers",
     "name": "Google Offers"
   },
@@ -814,7 +814,7 @@
   {
     "dateClose": "2013-11-20",
     "dateOpen": "2006-06-28",
-    "description": "Google Checkout was an online payment processing service provided by Google aimed at simplifying the process of paying for online purchases. It was discontinued on November 20, 2013 and the service moved to Google Wallet",
+    "description": "Google Checkout was an online payment processing service provided by Google aimed at simplifying the process of paying for online purchases. It was discontinued on November 20, 2013 and the service moved to Google Wallet.",
     "link": "https://en.wikipedia.org/wiki/Google_Checkout",
     "name": "Google Checkout"
   },
@@ -863,7 +863,7 @@
   {
     "dateClose": "2012-06-01",
     "dateOpen": "2011-04-01",
-    "description": "Needlebase was a point-and-click tool for extracting, sorting and visualizing data from across pages around the web",
+    "description": "Needlebase was a point-and-click tool for extracting, sorting and visualizing data from across pages around the web.",
     "link": "https://techcrunch.com/2012/01/20/google-trims-the-fat/",
     "name": "Needlebase"
   },
@@ -940,7 +940,7 @@
   {
     "dateClose": "2016-02-01",
     "dateOpen": "2013-07-01",
-    "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data",
+    "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data.",
     "link": "https://mangomap.com/blog/the-end-of-google-maps-engine-causes-mass-confusion/",
     "name": "Google Maps Engine"
   },
@@ -1010,7 +1010,7 @@
   {
     "dateClose": "2012-09-27",
     "dateOpen": "2008-08-06",
-    "description": "Google Insights for Search was a service used to provide data about terms people searched in Google and was merged into Google Trends. ",
+    "description": "Google Insights for Search was a service used to provide data about terms people searched in Google and was merged into Google Trends.",
     "link": "https://en.wikipedia.org/wiki/Google_Insights_for_Search",
     "name": "Google Insights for Search"
   },
