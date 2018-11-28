@@ -1076,5 +1076,12 @@
     "description": "Google Chrome Frame was a plugin for Internet Explorer that allowed web pages to be displayed using WebKit and the V8 JavaScript engine.",
     "link": "https://en.wikipedia.org/wiki/Google_Chrome_Frame",
     "name": "Google Chrome Frame"
+  },
+  {
+    "dateClose": "2012-01-20",
+    "dateOpen": "2009-05-12",
+    "description": "Google Sky Map was an augmented reality star mapping application for Android devices.",
+    "link": "https://en.wikipedia.org/wiki/Sky_Map",
+    "name": "Google Sky Map"
   }
 ]
