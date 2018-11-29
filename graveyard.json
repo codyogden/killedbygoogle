@@ -1090,5 +1090,12 @@
     "description": "Apture was a service that allowed publishers and bloggers to link and incorporate multimedia into a dynamic layer above their pages.",
     "link": "https://www.huffingtonpost.com/rory-oconnor/apture-web-30-is-now_b_161608.html",
     "name": "Apture"
+  },
+  {
+    "dateClose": "2011-01-31",
+    "dateOpen": "2010-08-01",
+    "description": "fflick was a review, information, and news website that used information from aggregated Tweets to rate movies as positive or negative.",
+    "link": "https://en.wikipedia.org/wiki/Fflick",
+    "name": "fflick"
   }
 ]
