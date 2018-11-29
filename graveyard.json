@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "dateClose": "2018-04-19",
     "dateOpen": "2016-09-21",
@@ -1083,5 +1083,12 @@
     "description": "Google Sky Map was an augmented reality star mapping application for Android devices.",
     "link": "https://en.wikipedia.org/wiki/Sky_Map",
     "name": "Google Sky Map"
+  },
+  {
+    "dateClose": "2011-12-20",
+    "dateOpen": "2007-07-01",
+    "description": "Apture was a service that allowed publishers and bloggers to link and incorporate multimedia into a dynamic layer above their pages.",
+    "link": "https://www.huffingtonpost.com/rory-oconnor/apture-web-30-is-now_b_161608.html",
+    "name": "Apture"
   }
 ]
