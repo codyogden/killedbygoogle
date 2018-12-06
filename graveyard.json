@@ -1097,5 +1097,12 @@
     "description": "fflick was a review, information, and news website that used information from aggregated Tweets to rate movies as positive or negative.",
     "link": "https://en.wikipedia.org/wiki/Fflick",
     "name": "fflick"
+  },
+  {
+    "dateClose": "2014-06-30",
+    "dateOpen": "2010-10-06",
+    "description": "Google TV was a smart TV platform that integrated Android and Chrome to create an interactive television overlay.",
+    "link": "https://en.wikipedia.org/wiki/Google_TV",
+    "name": "Google TV"
   }
 ]
