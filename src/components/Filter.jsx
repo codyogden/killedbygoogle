@@ -12,7 +12,7 @@ const Item = (props) => {
 
 Item.propTypes = {
   item: PropTypes.arrayOf(PropTypes.any).isRequired,
-  clickHandler: PropTypes.func.isRequired
+  clickHandler: PropTypes.func.isRequired,
 };
 
 export default class Filter extends Component {
@@ -33,7 +33,14 @@ export default class Filter extends Component {
           ['service', 'service'],
           ['hardware', 'hardware'],
         ]
-          .map((type, index) => <Item clickHandler={filterHandler} item={type} key={type[1]} {...index} />)}
+          .map((type, index) => (
+            <Item
+              clickHandler={filterHandler}
+              item={type}
+              key={type[1]}
+              {...index}
+            />
+          ))}
       </ul>
     );
   }
