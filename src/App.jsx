@@ -10,6 +10,7 @@ import BannerMessage from './components/BannerMessage';
 import Header from './components/Header';
 import List from './components/List';
 import Search from './components/Search';
+import Filter from './components/Filter';
 import Footer from './components/Footer';
 
 export default class App extends Component {
@@ -19,25 +20,42 @@ export default class App extends Component {
     this.state = {
       listOfItems: data,
       fullList: data,
+      activeFilter: false,
+      term: '',
     };
 
     // Bindings
     this.searchFilter = this.searchFilter.bind(this);
+    this.setFilter = this.setFilter.bind(this);
+  }
+
+  setFilter(val) {
+    this.setState({
+      activeFilter: val,
+    }, this.search);
   }
 
   searchFilter(term) {
-    const { fullList } = this.state;
+    this.setState({
+      term,
+    }, this.search);
+  }
+
+  search() {
+    const { fullList, activeFilter, term } = this.state;
     const regexp = new RegExp(term.toLowerCase(), 'i');
+    // If a filter is active, only search through those results
+    const list = (activeFilter) ? fullList.filter(el => el.type === activeFilter) : fullList;
     // If search goes empty
     if (term === '') {
       // Reset the list.
       this.setState({
-        listOfItems: fullList,
+        listOfItems: list,
       });
     } else {
       // Otherwise filter the list by name and description
       this.setState({
-        listOfItems: fullList.filter(el => (
+        listOfItems: list.filter(el => (
           regexp.test(el.name.toLowerCase())
           || regexp.test(el.description.toLowerCase())
         )),
@@ -45,8 +63,9 @@ export default class App extends Component {
     }
   }
 
+
   render() {
-    const { listOfItems } = this.state;
+    const { listOfItems, activeFilter, term } = this.state;
     return (
       <div>
         <BannerMessage>
@@ -55,7 +74,8 @@ export default class App extends Component {
           </a>
         </BannerMessage>
         <Header />
-        <Search search={this.searchFilter} />
+        <Search search={this.searchFilter} term={term} />
+        <Filter current={activeFilter} filterHandler={this.setFilter} />
         <List items={listOfItems} />
         <Footer />
       </div>

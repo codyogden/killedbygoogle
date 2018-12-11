@@ -5,10 +5,11 @@ import PropTypes from 'prop-types';
 import { SearchContainer, SearchBox } from './Search.atoms';
 
 export default class Search extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    const { term } = props;
     this.state = {
-      inputValue: '',
+      inputValue: term,
     };
   }
 
@@ -34,4 +35,5 @@ export default class Search extends Component {
 
 Search.propTypes = {
   search: PropTypes.func.isRequired,
+  term: PropTypes.string.isRequired,
 };
