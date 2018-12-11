@@ -1104,5 +1104,12 @@
     "description": "Google TV was a smart TV platform that integrated Android and Chrome to create an interactive television overlay.",
     "link": "https://en.wikipedia.org/wiki/Google_TV",
     "name": "Google TV"
+  },
+  {
+    "dateClose": "2012-10-31",
+    "dateOpen": "2010-11-10",
+    "description": "Google Refine was a standalone desktop application for data cleanup and transformation to other formats.",
+    "link": "https://en.wikipedia.org/wiki/Google_Refine",
+    "name": "Google Refine"
   }
 ]
