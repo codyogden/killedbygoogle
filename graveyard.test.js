@@ -1,5 +1,5 @@
-const data = require('./graveyard.json');
 const moment = require('moment');
+const data = require('./graveyard.json');
 
 
 describe('graveyard', () => {
@@ -11,6 +11,7 @@ describe('graveyard', () => {
       expect(product.description).not.toBeNull();
       expect(product.link).not.toBeNull();
       expect(product.name).not.toBeNull();
+      expect(product.type).not.toBeNull();
 
       // Check `dateClose` format
       // Format: YYYY-MM-DD

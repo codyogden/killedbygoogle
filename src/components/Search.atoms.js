@@ -4,7 +4,7 @@ export const SearchContainer = styled.div`
   width: 500px;
   max-width: 95%;
   box-sizing: border-box;
-  margin: 20px auto 20px auto;
+  margin: 20px auto 10px auto;
 `;
 
 export const SearchBox = styled.input`

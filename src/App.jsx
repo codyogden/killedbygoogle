@@ -65,7 +65,12 @@ export default class App extends Component {
 
 
   render() {
-    const { listOfItems, activeFilter, term } = this.state;
+    const {
+      listOfItems,
+      activeFilter,
+      term,
+      fullList,
+    } = this.state;
     return (
       <div>
         <BannerMessage>
@@ -75,7 +80,7 @@ export default class App extends Component {
         </BannerMessage>
         <Header />
         <Search search={this.searchFilter} term={term} />
-        <Filter current={activeFilter} filterHandler={this.setFilter} />
+        <Filter current={activeFilter} filterHandler={this.setFilter} items={fullList} />
         <List items={listOfItems} />
         <Footer />
       </div>
