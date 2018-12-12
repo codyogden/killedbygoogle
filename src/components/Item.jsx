@@ -118,4 +118,5 @@ Item.propTypes = {
   dateClose: PropTypes.string.isRequired,
   dateOpen: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
 };

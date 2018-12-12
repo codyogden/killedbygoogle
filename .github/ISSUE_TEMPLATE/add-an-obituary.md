@@ -6,4 +6,11 @@ about: Report a dead or dying product to Killed by Google.
 
 **What's the Product's Name?**
 
-**Any idea when it was killed by Google?**
+**Describe the product in a single sentence.**
+
+**When was the product launched? Provide a specific date, if possible.**
+
+**When was the product discontinued? Provide a specific date, if possible.**
+
+**What type of product was it? App, Service, or Hardware?**
+

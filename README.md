@@ -21,6 +21,7 @@ To add a product, add it to `graveyard.json` file. You'll need the following inf
 - Discontinued Date (`dateClose`)
 - Description (`description`)
 - Link (`link`)
+- Type (`type`)
 
 The object should be appended to `graveyard.json` in the following format (note the alphabetical order of keys):
 
@@ -30,7 +31,8 @@ The object should be appended to `graveyard.json` in the following format (note 
     "dateOpen": "YYYY-MM-DD",
     "description": "[Product Name] was a single sentence overview of the product or service.",
     "link": "https://any.link-to-a.source/will/work-and-wikipedia-is-cool",
-    "name": "[Product Name]"
+    "name": "[Product Name]",
+    "type": "app|service|hardware"
   }
 ```
 
@@ -43,6 +45,9 @@ Please be respectful, only use past tense.
 
 ### Link
 Link should be a resource that mentions the discontinuation date and talks about the product. Wikipedia is perfect.
+
+### Type
+The type should be either `app`, `service`, or `hardware` as a string.
 
 ## Thanks Where Thanks is Due
 I'd like to thank the [Wikimedia Foundation](https://wikimediafoundation.org) and [Internet Archive](https://archive.org/) for their wonderful resources, including the ability to track down broken links, home page graphics, and screenshots of services from the past. They have been invaluable tools in gathering information and content for Killed by Google. If you are able, I encourage you to make a donation to these organizations for the wonderful work they do in sharing knowledge and preserving history.
