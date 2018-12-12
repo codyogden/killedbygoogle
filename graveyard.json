@@ -165,7 +165,7 @@
     "description": "Google Spaces was an app for group discussions and messaging.",
     "link": "https://en.wikipedia.org/wiki/Google_Spaces_(service)",
     "name": "Google Spaces",
-    "type": ""
+    "type": "service"
   },
   {
     "dateClose": "2017-03-31",
@@ -733,7 +733,7 @@
     "description": "Google Fast Flip was an online news aggregator, something of a high tech microfiche.",
     "link": "https://en.wikipedia.org/wiki/Google_Fast_Flip",
     "name": "Google Fast Flip",
-    "type": ""
+    "type": "service"
   },
   {
     "dateClose": "2008-01-20",
