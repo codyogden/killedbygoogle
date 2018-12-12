@@ -1,101 +1,41 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 
+import { FilterList } from './Filter.atoms';
+import FilterItem from './FilterItem';
 import Item from './Item';
-
-const FilterList = styled.ul`
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 0 15px 0;
-  font-size: 0.8em;
-  @media screen and ( min-width: 700px ) {
-    li:not(:first-of-type):before {
-      display: inline-block;
-      content: ' - ';
-      margin: 0 2px;
-      padding: 0 5px;
-    }
-  }
-`;
-
-const ListItem = styled.li`
-  button {
-    background-color: transparent;
-    border: none;
-    display: inline-block;
-    padding: 10px 10px;
-    margin: 0;
-    text-align: center;
-    font-size: 1em;
-    min-width: 40px;
-  }
-  &.active {
-    button {
-      font-weight: bold;
-    }
-  }
-`;
-
-const FilterItem = (props) => {
-  const {
-    active,
-    clickHandler,
-    item,
-    index,
-    counts,
-  } = props;
-  return (
-    <ListItem className={(active) ? 'active' : 'inactive'}>
-      <button onClick={() => { clickHandler(item[1], index); }} type="button">
-        {item[0]}
-        {' '}
-        (
-        {counts[index]}
-        )
-      </button>
-    </ListItem>
-  );
-};
-
-FilterItem.propTypes = {
-  active: PropTypes.bool.isRequired,
-  item: PropTypes.arrayOf(PropTypes.any).isRequired,
-  clickHandler: PropTypes.func.isRequired,
-  index: PropTypes.number.isRequired,
-  counts: PropTypes.arrayOf(PropTypes.number).isRequired,
-};
 
 export default class Filter extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: 0,
-      counts: [],
+      active: 0, // Make All the default active
+      counts: [], // no counts yet
     };
     this.clickHandler = this.clickHandler.bind(this);
   }
 
   componentWillMount() {
     const { items } = this.props;
+    // Get the counts for each time
     const counts = [
       'app',
       'service',
       'hardware',
     ].map(type => items.filter(item => item.type === type).length);
+    // Unshift the total count for the `all` option
     counts.unshift(items.length);
+    // Add the counts to the for consumption
     this.setState({ counts });
   }
 
   clickHandler(filter, index) {
     const { filterHandler } = this.props;
+    // Set the active button
     this.setState({
       active: index,
     });
+    // Apply the filter
     filterHandler(filter);
   }
 
@@ -112,12 +52,12 @@ export default class Filter extends Component {
         ]
           .map((type, index) => (
             <FilterItem
-              clickHandler={this.clickHandler}
-              item={type}
-              key={type[1]}
               active={(active === index)}
-              index={index}
+              clickHandler={this.clickHandler}
               counts={counts}
+              key={type[1]}
+              index={index}
+              item={type}
             />
           ))}
       </FilterList>
