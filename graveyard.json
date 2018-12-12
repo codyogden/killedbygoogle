@@ -1262,5 +1262,21 @@
     "link": "https://en.wikipedia.org/wiki/Google_TV",
     "name": "Google TV",
     "type": "hardware"
+  },
+  {
+    "dateClose": "2012-10-31",
+    "dateOpen": "2010-11-10",
+    "description": "Google Refine was a standalone desktop application for data cleanup and transformation to other formats.",
+    "link": "https://en.wikipedia.org/wiki/Google_Refine",
+    "name": "Google Refine",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-12-03",
+    "dateOpen": "2009-06-09",
+    "description": "Google Fusion Tables was a web service for data management that provided a means for visualizing data in different charts, maps, and graphs.",
+    "link": "https://en.wikipedia.org/wiki/Google_Fusion_Tables",
+    "name": "Google Fusion Tables",
+    "type": "service"
   }
 ]
