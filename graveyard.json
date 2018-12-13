@@ -8,30 +8,6 @@
     "type": "app"
   },
   {
-    "dateClose": "2015-04-25",
-    "dateOpen": "2013-07-26",
-    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_7_(2013)",
-    "name": "Nexus 7 (2013)",
-    "type": "hardware"
-  },
-  {
-    "dateClose": "2013-07-24",
-    "dateOpen": "2012-07-13",
-    "description": "Nexus 7 is a mini tablet computer co-developed by Google and Asus.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_7_(2012)",
-    "name": "Nexus 7 (2012)",
-    "type": "hardware"
-  },
-  {
-    "dateClose": "2013-11-14",
-    "dateOpen": "2012-10-29",
-    "description": "Nexus 4 Wireless Charger was one of the first wireless chargers to use the Qi technology.",
-    "link": "https://www.androidcentral.com/nexus-4-wireless-charger",
-    "name": "Nexus 4 Wireless Charger",
-    "type": "hardware"
-  },
-  {
     "dateClose": "2015-12-21",
     "dateOpen": "2005-09-14",
     "description": "Google Blog Search API was a way to search blogs utilizing Google.",
@@ -78,14 +54,6 @@
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
     "name": "Google Deskbar",
     "type": "service"
-  },
-  {
-    "dateClose": "2017-12-28",
-    "dateOpen": "2015-09-29",
-    "description": "Pixel C was a 10.2-inch (260 mm) Android tablet with magentic keyboard accessory.",
-    "link": "https://en.wikipedia.org/wiki/Pixel_C",
-    "name": "Google Pixel C",
-    "type": "hardware"
   },
   {
     "dateClose": "2006-10-10",
@@ -230,30 +198,6 @@
     "link": "https://en.wikipedia.org/wiki/Google_Moderator",
     "name": "Google Moderator",
     "type": "service"
-  },
-  {
-    "dateClose": "2015-12-09",
-    "dateOpen": "2014-10-15",
-    "description": "The Nexus 6 is a phablet co-developed by Google and Motorola Mobility that runs the Android operating system.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_6",
-    "name": "Google Nexus 6",
-    "type": "hardware"
-  },
-  {
-    "dateClose": "2016-10-04",
-    "dateOpen": "2015-09-29",
-    "description": "Nexus 5X is an Android smartphone manufactured by LG Electronics, co-developed with and marketed by Google Inc. as a part of its Nexus line of flagship devices.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_5X",
-    "name": "Google Nexus 5X",
-    "type": "hardware"
-  },
-  {
-    "dateClose": "2015-03-11",
-    "dateOpen": "2013-10-31",
-    "description": "The Nexus 5 was an Android smartphone Google developed together with LG Electronics as the fifth phone in Google's Nexus product line.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_5",
-    "name": "Google Nexus 5",
-    "type": "hardware"
   },
   {
     "dateClose": "2014-06-23",
@@ -538,7 +482,7 @@
   {
     "dateClose": "2016-10-04",
     "dateOpen": "2010-01-05",
-    "description": "Google Nexus was Google's line of flagship Android devices, superceded by Google Pixel.",
+    "description": "Google Nexus was Google's line of flagship Android phones, tablets, and accessories eventually.",
     "link": "https://en.wikipedia.org/wiki/Google_Nexus",
     "name": "Google Nexus",
     "type": "hardware"
@@ -696,14 +640,6 @@
     "type": "service"
   },
   {
-    "dateClose": "2010-07-18",
-    "dateOpen": "2010-01-05",
-    "description": "The Nexus One (codenamed HTC Passion) is an Android smartphone designed and manufactured by HTC as Google's first Nexus smartphone.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_One",
-    "name": "Google Nexus One",
-    "type": "hardware"
-  },
-  {
     "dateClose": "2016-09-02",
     "dateOpen": "2013-10-29",
     "description": "Project Ara was a modular smartphone project under development by Google.",
@@ -742,14 +678,6 @@
     "link": "https://en.wikipedia.org/wiki/Google_Web_Accelerator",
     "name": "Google Web Accelerator",
     "type": "service"
-  },
-  {
-    "dateClose": "2016-10-04",
-    "dateOpen": "2015-09-29",
-    "description": "Nexus 6P is an Android smartphone developed and marketed by Google and manufactured by Huawei.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_6P",
-    "name": "Google Nexus 6P",
-    "type": "hardware"
   },
   {
     "dateClose": "2018-10-11",
@@ -912,14 +840,6 @@
     "type": "app"
   },
   {
-    "dateClose": "2013-11-01",
-    "dateOpen": "2012-11-13",
-    "description": "The Google Nexus 4 was an Android smartphone developed by Google and LG Electronics.",
-    "link": "https://en.wikipedia.org/wiki/Nexus_4",
-    "name": "Google Nexus 4",
-    "type": "hardware"
-  },
-  {
     "dateClose": "2010-04-30",
     "dateOpen": "2008-04-13",
     "description": "BumpTop was a skeuomorphic desktop environment app that simulates the normal behavior and physical properties of a real-world desk and enhances it with automatic tools to organize its contents.",
@@ -952,14 +872,6 @@
     "type": "app"
   },
   {
-    "dateClose": "2017-10-04",
-    "dateOpen": "2016-10-04",
-    "description": "Pixel and Pixel XL are Android smartphones designed, developed and marketed by Google.",
-    "link": "https://en.wikipedia.org/wiki/Pixel_(smartphone)",
-    "name": "Google Pixel XL",
-    "type": "hardware"
-  },
-  {
     "dateClose": "2011-07-31",
     "dateOpen": "2007-02-28",
     "description": "Rebang was a Zeitgeist like service centered on providing service to a chinese audiance. It was incorperated into google labs as of late 2010, and later discontinued along with its parent project.",
@@ -990,14 +902,6 @@
     "link": "https://techcrunch.com/2012/01/20/google-trims-the-fat/",
     "name": "Needlebase",
     "type": "service"
-  },
-  {
-    "dateClose": "2012-10-29",
-    "dateOpen": "2011-10-19",
-    "description": "The Galaxy nexus was a smartphone collaboration between samsung and google, it was the third smartphone of the Nexus series.",
-    "link": "https://en.wikipedia.org/wiki/Galaxy_Nexus",
-    "name": "Galaxy Nexus",
-    "type": "hardware"
   },
   {
     "dateClose": "2013-04-30",
@@ -1177,26 +1081,10 @@
   },
   {
     "dateClose": "2016-08-29",
-    "dateOpen": "2013-02-21",
+    "dateOpen": "2017-03-01",
     "description": "Chromebook Pixel was a high-end Chromebook laptop mixing Chrome OS with an Intel i5, 4GB DDR3 RAM, a 32GB SSD, and a 2,560x1,700 12.85in screen.",
     "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
     "name": "Chromebook Pixel",
-    "type": "hardware"
-  },
-  {
-    "dateClose": "2016-08-29",
-    "dateOpen": "2015-03-11",
-    "description": "Chromebook Pixel 2 was a high-end Chromebook laptop mixing Chrome OS with an Intel i5, 8GB DDR3 RAM, a 32GB SSD, and a 2,560x1,700 12.85in screen.",
-    "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
-    "name": "Chromebook Pixel 2",
-    "type": "hardware"
-  },
-  {
-    "dateClose": "2016-08-29",
-    "dateOpen": "2015-03-11",
-    "description": "Chromebook Pixel LS was a high-end Chromebook laptop mixing Chrome OS with an Intel i7, 16GB DDR3 RAM, a 64GB SSD, and a 2,560x1,700 12.85in screen.",
-    "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
-    "name": "Chromebook Pixel LS",
     "type": "hardware"
   },
   {
