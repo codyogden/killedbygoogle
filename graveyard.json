@@ -2,7 +2,7 @@
   {
     "dateClose": "2019-01-11",
     "dateOpen": "2015-09-29",
-    "description": "A simple device that allows you to stream audio to your speakers.",
+    "description": "Chromecast Audio was a device that allowed users to stream audio from any device to any speaker with an audio input.",
     "link": "https://en.wikipedia.org/wiki/Chromecast#Chromecast_Audio",
     "name": "Chromecast Audio",
     "type": "hardware"
