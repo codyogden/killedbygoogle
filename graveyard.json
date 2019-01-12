@@ -1166,5 +1166,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Fusion_Tables",
     "name": "Google Fusion Tables",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-01-11",
+    "dateOpen": "2013-01-24",
+    "description": "Chromecast Audio plugged into your speakers so you can stream music from your device over Wi-Fi",
+    "link": "https://techcrunch.com/2019/01/11/google-cans-the-chromecast-audio/",
+    "name": "Chromecast Audio",
+    "type": "hardware"
   }
 ]
