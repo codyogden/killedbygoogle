@@ -258,7 +258,7 @@
   {
     "dateClose": "2012-12-31",
     "dateOpen": "2007-12-06",
-    "description": "Google Mini smaller version of the Google Search Appliance.",
+    "description": "Google Mini was a smaller version of the Google Search Appliance.",
     "link": "https://en.wikipedia.org/wiki/Google_Search_Appliance#Google_Mini",
     "name": "Google Mini",
     "type": "hardware"
@@ -314,7 +314,7 @@
   {
     "dateClose": "2007-08-11",
     "dateOpen": "2006-01-07",
-    "description": "Google Video Marketplace was service that included a store where videos could be bought and rented.",
+    "description": "Google Video Marketplace was a service that included a store where videos could be bought and rented.",
     "link": "https://www.hexus.net/tech/news/software/4324-google-video-marketplace/",
     "name": "Google Video Marketplace",
     "type": "service"
