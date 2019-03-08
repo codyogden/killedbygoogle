@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "killedbygoogle.com",
   "main": "src/index.js",
-  "repository": "git@github.com:codyogden/makesomecoffee.git",
+  "repository": "git@github.com:codyogden/killedbygoogle.git",
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
