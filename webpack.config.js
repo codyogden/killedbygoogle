@@ -1,10 +1,12 @@
 const webpack = require('webpack');
+const CopyPlugin = require('copy-webpack-plugin');
+const path = require('path');
 
 module.exports = (env, argv) => {
   const config = {
     entry: './src/App.jsx',
     output: {
-      path: __dirname,
+      path: path.resolve(__dirname, 'public'),
       publicPath: '/',
       filename: '[name].js',
     },
@@ -28,6 +30,15 @@ module.exports = (env, argv) => {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: 'assets/[name].[ext]',
+          },
+        },
+      },
       ],
     },
     resolve: {
@@ -36,9 +47,15 @@ module.exports = (env, argv) => {
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
+      new CopyPlugin([
+        { from: './graveyard.json', to: './' },
+        { from: './src/assets/social', to: './assets/social' },
+        { from: './src/assets/favicon.png', to: './assets' },
+        { from: './src/index.html', to: './' },
+      ]),
     ],
     devServer: {
-      contentBase: './',
+      contentBase: './public',
       hot: true,
     },
   };

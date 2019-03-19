@@ -8,13 +8,7 @@
 
 ### Pull Request
 
-If you are altering anything other than `graveyard.json`, you should ensure that your Pull Request will pass continuous integration. Run `yarn test` which will perform these three actions:
-
-1. ESLint
-2. Jest
-3. Build
-
-There is currently no continuous delivery running on this project, so **commit the production build** that results from any changes you make to the codebase.
+If you are altering anything other than `graveyard.json`, you should ensure that your Pull Request will pass continuous integration. Run `yarn test`.
 
 ### Continuous Integration
-Every PR must pass CI checks before it can be updated or merged into production.
+Every PR must pass CI checks before it can be updated or merged into `master`.

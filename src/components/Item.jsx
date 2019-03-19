@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { format, formatDistance } from 'date-fns';
+import { format, formatDistance, parseISO } from 'date-fns';
+
+import Tombstone from '../assets/tombstone.svg';
+import Guillotine from '../assets/guillotine.svg';
 
 // Import Styled Components
 import {
@@ -29,12 +32,12 @@ const eolIdiom = () => {
 
 export default class Item extends Component {
   getIcon() {
-    return (this.isPast()) ? <Icon src="assets/tombstone.svg" alt="Tombstone" /> : <Icon src="assets/guillotine.svg" alt="Guillotine" />;
+    return (this.isPast()) ? <Icon src={Tombstone} alt="Tombstone" /> : <Icon src={Guillotine} alt="Guillotine" />;
   }
 
   getYears() {
     const { dateClose, dateOpen } = this.props;
-    const duration = formatDistance(dateClose, dateOpen);
+    const duration = formatDistance(parseISO(dateClose), parseISO(dateOpen));
 
     return (` It was ${duration} old.`);
   }
@@ -46,8 +49,8 @@ export default class Item extends Component {
 
   timePhrase() {
     const { dateClose } = this.props;
-    const relativeDate = formatDistance(new Date(dateClose), new Date());
-    const exactDate = format(new Date(dateClose), 'MMMM yyyy');
+    const relativeDate = formatDistance(parseISO(dateClose), new Date());
+    const exactDate = format(parseISO(dateClose), 'MMMM yyyy');
     const yearFromNow = new Date().setFullYear(new Date().getFullYear() + 1);
 
     if (!this.isPast()) {
