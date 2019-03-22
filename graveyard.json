@@ -1174,5 +1174,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Fusion_Tables",
     "name": "Google Fusion Tables",
     "type": "service"
+  },
+  {
+    "dateClose": "2018-03-01",
+    "dateOpen": "2014-08-01",
+    "description": "Tango was an augmented reality computing platform that uses computer vision to enable mobile devices, such as smartphones and tablets, to detect their position relative to the world around them without using GPS or other external signals.",
+    "link": "https://en.wikipedia.org/wiki/Tango_(platform)",
+    "name": "Project Tango",
+    "type": "hardware"
   }
 ]
