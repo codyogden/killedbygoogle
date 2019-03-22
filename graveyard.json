@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2016-05-15",
+    "dateOpen": "2012-05-02",
+    "description": "Revolv was a monitoring and control system that allowed users to control their connected devices from a single hub.",
+    "link": "https://en.wikipedia.org/wiki/Chromecast#Chromecast_Audio",
+    "name": "Revolv",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2019-01-11",
     "dateOpen": "2015-09-29",
     "description": "Chromecast Audio was a device that allowed users to stream audio from any device to any speaker with an audio input.",
@@ -19,8 +27,8 @@
     "dateClose": "2015-12-21",
     "dateOpen": "2005-09-14",
     "description": "Google Blog Search API was a way to search blogs utilizing Google.",
-    "link": "https://en.wikipedia.org/wiki/Google_Blog_Search",
-    "name": "Google Blog Search API",
+    "link": "https://revolv.com/",
+    "name": "Revolv",
     "type": "service"
   },
   {
