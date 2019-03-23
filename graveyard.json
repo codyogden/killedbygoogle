@@ -1182,5 +1182,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Fusion_Tables",
     "name": "Google Fusion Tables",
     "type": "service"
+  },
+  {
+    "dateClose": "2009-12-05",
+    "dateOpen": "2002-04-11",
+    "description": "The Google Web APIs were a free SOAP service for doing Google searches so that developers could use the results in almost any way they wanted.",
+    "link": "https://web.archive.org/web/20021105033319/http://www.google.com/apis/",
+    "name": "Google Web APIs",
+    "type": "service"
   }
 ]
