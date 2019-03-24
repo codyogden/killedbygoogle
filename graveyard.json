@@ -1192,11 +1192,11 @@
     "type": "service"
   },
   {
-    "dateClose": "2012",
-    "dateOpen": "2017",
+    "dateClose": "2017",
+    "dateOpen": "2012",
     "description": "Was a global program that was aimed at active tertiary students from all academic backgrounds. It was an opportunity for students to act as liaisons between Google and their universities and also an opportunity for Google to contribute to the education of future leaders.",
     "link": "http://www.google.com/edu/programs/student-ambassador-program/",
-    "name": "Google Student Ambassador",
+    "name": "Google Student Ambassador GSA",
     "type": "program"
   }
 ]
