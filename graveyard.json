@@ -1190,5 +1190,13 @@
     "link": "https://web.archive.org/web/20021105033319/http://www.google.com/apis/",
     "name": "Google Web APIs",
     "type": "service"
+  },
+  {
+    "dateClose": "2017-03-31",
+    "dateOpen": "2008-06-23",
+    "description": "Google Map Maker was a crowd-source map editing service to allow users to update Google Maps.  Users could contribute information in three categories: linear features, polygons, and POIs.",
+    "link": "https://en.wikipedia.org/wiki/Google_Map_Maker",
+    "name": "Google Map Maker",
+    "type": "service"
   }
 ]
