@@ -103,3 +103,11 @@ fetch('graveyard.json')
       render(<App data={graveyard} />, document.querySelector('#killedbygoogle'));
     });
   });
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js', { scope: './' })
+      .then(registration => console.info('Service worker registered successfully: ', registration))
+      .catch(error => console.error('Service worker registration failed: ', error));
+  });
+}
