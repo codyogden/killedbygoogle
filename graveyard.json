@@ -522,9 +522,9 @@
   {
     "dateClose": "2015-01-01",
     "dateOpen": "2014-05-01",
-    "description": "Google Play Edition was a type of an Android smartphones that Google sold.",
+    "description": "Google Play was an edition of an Android phone that Google sold.",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
-    "name": "Google Play Edition",
+    "name": "Google Play",
     "type": "hardware"
   },
   {
@@ -1189,14 +1189,6 @@
     "description": "The Google Web APIs were a free SOAP service for doing Google searches so that developers could use the results in almost any way they wanted.",
     "link": "https://web.archive.org/web/20021105033319/http://www.google.com/apis/",
     "name": "Google Web APIs",
-    "type": "service"
-  },
-  {
-    "dateClose": "2015-05-22",
-    "dateOpen": "2011-05-10",
-    "description": "Android @ Home allowed a user’s device to discover, connect, and communicate with devices and appliances in the home.",
-    "link": "https://bgr.com/2011/05/10/google-announces-android-home/",
-    "name": "Android @ Home",
     "type": "service"
   }
 ]
