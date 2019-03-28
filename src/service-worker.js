@@ -34,6 +34,12 @@ function fromCache(request) {
       .then(result => result || Promise.reject(new Error('no-match'))));
 }
 
+function updateCache(request) {
+  return caches.open(CACHE)
+    .then(cache => fetch(request)
+      .then(response => cache.put(request, response)));
+}
+
 self.addEventListener('install', (event) => {
   console.info('The service worker is being installed.');
 
@@ -41,8 +47,11 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  console.log('The service worker is serving the asset.');
+  console.info('The service worker is serving the asset.');
 
   event.respondWith(fromNetwork(event.request, 1000)
-    .catch(() => fromCache(event.request)));
+    .then((response) => {
+      event.waitUntil(updateCache(event.request));
+      return response;
+    }).catch(() => fromCache(event.request)));
 });
