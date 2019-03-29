@@ -1190,5 +1190,13 @@
     "link": "https://bgr.com/2011/05/10/google-announces-android-home/",
     "name": "Android @ Home",
     "type": "service"
+  },
+  {
+    "dateClose": "2015-12-12",
+    "dateOpen": "2008-05-28",
+    "description": "Google Earth Browser Plug-in allowed developers to embed Google Earth into web pages and included a JavaScript API for custom 3D drawing and interaction.",
+    "link": "https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Plug-in",
+    "name": "Google Earth Browser Plug-in",
+    "type": "service"
   }
 ]
