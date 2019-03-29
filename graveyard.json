@@ -648,14 +648,6 @@
     "type": "service"
   },
   {
-    "dateClose": "2015-10-02",
-    "dateOpen": "2010-01-01",
-    "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
-    "link": "https://en.wikipedia.org/wiki/X_(company)",
-    "name": "Google X",
-    "type": "service"
-  },
-  {
     "dateClose": "2016-09-02",
     "dateOpen": "2013-10-29",
     "description": "Project Ara was a modular smartphone project under development by Google.",
