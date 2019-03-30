@@ -1192,6 +1192,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2016-10-31",
+    "dateOpen": "2012-05-01",
+    "description": "Pixate is a platform for creating sophisticated animations and interactions, and refine your designs through 100% native prototypes for iOS and Android. ",
+    "link": "https://techcrunch.com/2015/07/21/google-acquires-mobile-app-prototyping-tool-pixate/",
+    "name": "Pixate",
+    "type": "app"
+  },
+  {
     "dateClose": "2015-12-12",
     "dateOpen": "2008-05-28",
     "description": "Google Earth Browser Plug-in allowed developers to embed Google Earth into web pages and included a JavaScript API for custom 3D drawing and interaction.",
