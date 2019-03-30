@@ -18,7 +18,7 @@
   {
     "dateClose": "2019-03-13",
     "dateOpen": "2016-09-21",
-    "description": "Google Allo is an instant messaging mobile app by Google. It will be rebranded as Google Chat.",
+    "description": "Google Allo was an instant messaging mobile app for Android, iOS, and Web with special features like a virtual assistant and encrypted mode. It was rebranded as Google Chat.",
     "link": "https://en.wikipedia.org/wiki/Google_Allo",
     "name": "Google Allo",
     "type": "app"
@@ -522,9 +522,9 @@
   {
     "dateClose": "2015-01-01",
     "dateOpen": "2014-05-01",
-    "description": "Google Play was an edition of an Android phone that Google sold.",
+    "description": "Google Play Edition was a type of an Android smartphones that Google sold.",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
-    "name": "Google Play",
+    "name": "Google Play Edition",
     "type": "hardware"
   },
   {
@@ -586,7 +586,7 @@
   {
     "dateClose": "2013-07-01",
     "dateOpen": "2012-06-27",
-    "description": "Nexus Q was a digital media player that allowed users to stream content from supported services to a connected television.",
+    "description": "Nexus Q was a digital media player that allowed users with Android devices to stream content from supported services to a connected television or speakers via an integrated amplifier.",
     "link": "https://en.wikipedia.org/wiki/Nexus_Q",
     "name": "Nexus Q",
     "type": "hardware"
@@ -645,14 +645,6 @@
     "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
     "link": "https://www.lifewire.com/google-zeitgeist-3481903",
     "name": "Zeitgeist",
-    "type": "service"
-  },
-  {
-    "dateClose": "2015-10-02",
-    "dateOpen": "2010-01-01",
-    "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
-    "link": "https://en.wikipedia.org/wiki/X_(company)",
-    "name": "Google X",
     "type": "service"
   },
   {
@@ -1197,6 +1189,30 @@
     "description": "Google Sets generates a list of items when users enter a few examples. For example, entering \"Green, Purple, Red\" emits the list \"Green, Purple, Red, Blue, Black, White, Yellow, Orange, Brown\".",
     "link": "https://web.archive.org/web/20021105033319/http://www.google.com/apis/",
     "name": "Google Sets",
+    "type": "service"
+  },
+  {
+    "dateClose": "2015-05-22",
+    "dateOpen": "2011-05-10",
+    "description": "Android @ Home allowed a user’s device to discover, connect, and communicate with devices and appliances in the home.",
+    "link": "https://bgr.com/2011/05/10/google-announces-android-home/",
+    "name": "Android @ Home",
+    "type": "service"
+  },
+  {
+    "dateClose": "2016-10-31",
+    "dateOpen": "2012-05-01",
+    "description": "Pixate is a platform for creating sophisticated animations and interactions, and refine your designs through 100% native prototypes for iOS and Android. ",
+    "link": "https://techcrunch.com/2015/07/21/google-acquires-mobile-app-prototyping-tool-pixate/",
+    "name": "Pixate",
+    "type": "app"
+  },
+  {
+    "dateClose": "2015-12-12",
+    "dateOpen": "2008-05-28",
+    "description": "Google Earth Browser Plug-in allowed developers to embed Google Earth into web pages and included a JavaScript API for custom 3D drawing and interaction.",
+    "link": "https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Plug-in",
+    "name": "Google Earth Browser Plug-in",
     "type": "service"
   }
 ]
