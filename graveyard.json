@@ -1222,5 +1222,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Toolbar",
     "name": "Google Toolbar for Firefox",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-03-07",
+    "dateOpen": "2015-06-01",
+    "description": "Mr. Jingles (aka Google Notification Widget) displayed alerts and notifications from across multiple Google services.",
+    "link": "https://www.engadget.com/2019/02/06/google-is-killing-its-notifications-widget/",
+    "name": "Google Notification Widget (Mr. Jingles)",
+    "type": "service"
   }
 ]
