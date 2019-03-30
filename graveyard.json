@@ -1214,5 +1214,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Plug-in",
     "name": "Google Earth Browser Plug-in",
     "type": "service"
+  },
+  {
+    "dateClose": "2009-09-01",
+    "dateOpen": "2005-07-19",
+    "description": "Google Toolbar for Firefox",
+    "link": "https://en.wikipedia.org/wiki/Google_Toolbar",
+    "name": "Google Toolbar for Firefox",
+    "type": "service"
   }
 ]
