@@ -648,14 +648,6 @@
     "type": "service"
   },
   {
-    "dateClose": "2015-10-02",
-    "dateOpen": "2010-01-01",
-    "description": "Google X was an American semi-secret research & development organization which now operates as a subsidiary of Alphabet Inc.",
-    "link": "https://en.wikipedia.org/wiki/X_(company)",
-    "name": "Google X",
-    "type": "service"
-  },
-  {
     "dateClose": "2016-09-02",
     "dateOpen": "2013-10-29",
     "description": "Project Ara was a modular smartphone project under development by Google.",
@@ -1197,6 +1189,14 @@
     "description": "Android @ Home allowed a user’s device to discover, connect, and communicate with devices and appliances in the home.",
     "link": "https://bgr.com/2011/05/10/google-announces-android-home/",
     "name": "Android @ Home",
+    "type": "service"
+  },
+  {
+    "dateClose": "2015-12-12",
+    "dateOpen": "2008-05-28",
+    "description": "Google Earth Browser Plug-in allowed developers to embed Google Earth into web pages and included a JavaScript API for custom 3D drawing and interaction.",
+    "link": "https://en.wikipedia.org/wiki/Google_Earth#Google_Earth_Plug-in",
+    "name": "Google Earth Browser Plug-in",
     "type": "service"
   }
 ]
