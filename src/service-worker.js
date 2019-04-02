@@ -41,13 +41,13 @@ function updateCache(request) {
 }
 
 self.addEventListener('install', (event) => {
-  console.info('The service worker is being installed.');
+  // The service worker is being installed.
 
   event.waitUntil(precache());
 });
 
 self.addEventListener('fetch', (event) => {
-  console.info('The service worker is serving the asset.');
+  // The service worker is serving the asset.
 
   event.respondWith(fromNetwork(event.request, 1000)
     .then((response) => {

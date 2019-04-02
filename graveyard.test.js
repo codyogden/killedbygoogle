@@ -1,6 +1,12 @@
 const moment = require('moment');
+const slugify = require('slugify');
+
 const data = require('./graveyard.json');
 
+slugify.extend({
+  '+': 'plus',
+  '@': 'at',
+});
 
 describe('graveyard', () => {
   it('objects should be valid', () => {
@@ -40,5 +46,20 @@ describe('graveyard', () => {
       expect(dateOpen.isValid()).toBe(true);
       expect(dateClose.isAfter(dateOpen)).toBe(true);
     });
+  });
+  it('names are unique', () => {
+    // Add a slug to each item
+    data.map((item) => {
+      const newItem = item;
+      newItem.slug = slugify(item.name, {
+        lower: true,
+      });
+      return newItem;
+    });
+    // Create a set (removes any duplicate slugs)
+    const items = [...new Set(data.map(item => item.slug))];
+
+    // Both the data and items arr should have the same length
+    expect(items.length).toBe(data.length);
   });
 });
