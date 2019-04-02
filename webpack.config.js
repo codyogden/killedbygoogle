@@ -48,7 +48,6 @@ module.exports = (env, argv) => {
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
       new CopyPlugin([
-        { from: './graveyard.json', to: './' },
         { from: './src/assets/social', to: './assets/social' },
         { from: './src/assets/favicon.png', to: './assets' },
         { from: './src/service-worker.js', to: './' },
