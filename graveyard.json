@@ -1230,5 +1230,13 @@
     "link": "https://www.engadget.com/2019/02/06/google-is-killing-its-notifications-widget/",
     "name": "Google Notification Widget (Mr. Jingles)",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-01-15",
+    "dateOpen": "2008-06-04",
+    "description": "YouTube Video Annotations allowed video creators to add interactive commentary to their videos containing background information, branching (\"choose your own adventure\" style) stories, or links to any YouTube video, channel, or search results page.",
+    "link": "https://www.theverge.com/2018/11/27/18114581/youtube-annotations-discontinued-january-2019",
+    "name": "YouTube Video Annotations",
+    "type": "service"
   }
 ]
