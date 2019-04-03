@@ -6,6 +6,10 @@ import FASTCO from '../assets/features/fast-company-logo.png';
 import TNW from '../assets/features/the-next-web-logo.png';
 import LIFEHACKER from '../assets/features/lifehacker-logo.png';
 import BUSINESSINSIDER from '../assets/features/business-insider-logo.png';
+import FORTUNE from '../assets/features/fortune-logo.png';
+import GIZMODO from '../assets/features/gizmodo-logo.png';
+import ARSTECHNICA from '../assets/features/ars-technica-logo.png';
+import BGR from '../assets/features/bgr-logo.png';
 
 const links = [
   {
@@ -28,6 +32,26 @@ const links = [
     altText: 'Lifehacker',
     imgSrc: LIFEHACKER,
   },
+  {
+    url: 'http://fortune.com/2019/04/03/data-sheet-healthcare-transformation-tech-brainstorm/',
+    altText: 'Fortune',
+    imgSrc: FORTUNE,
+  },
+  {
+    url: 'https://www.gizmodo.jp/2019/04/killed-by-google.html',
+    altText: 'Gizmodo Japan',
+    imgSrc: GIZMODO,
+  },
+  {
+    url: 'https://arstechnica.com/gadgets/2019/04/googles-constant-product-shutdowns-are-damaging-its-brand/',
+    altText: 'Ars Technica',
+    imgSrc: ARSTECHNICA,
+  },
+  {
+    url: 'https://bgr.com/2019/03/26/killed-by-google-products-list/',
+    altText: 'BGR: Boy Genius Report',
+    imgSrc: BGR,
+  },
 ];
 
 const Container = styled.ul`
@@ -46,6 +70,9 @@ const Child = styled.li`
   @media screen and ( max-width: 700px ) {
     flex: 0 0 50%;
     padding: 30px 0;
+  }
+  &:nth-child(n+5) {
+    margin-top: 25px;
   }
   img {
     max-width: 100%;
