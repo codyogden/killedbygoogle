@@ -1238,5 +1238,13 @@
     "link": "https://www.theverge.com/2018/11/27/18114581/youtube-annotations-discontinued-january-2019",
     "name": "YouTube Video Annotations",
     "type": "service"
+  },
+  {
+    "dateClose": "2009-02-12",
+    "dateOpen": "2008-07-08",
+    "description": "Google Audio Ads service allowed advertisers to run campaigns on AM/FM radio stations in US using the AdWords interface.",
+    "link": "http://google-tvads.blogspot.com/2009/02/google-exits-radio-but-will-explore.html",
+    "name": "Google Audio Ads",
+    "type": "service"
   }
 ]
