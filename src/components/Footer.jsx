@@ -1,55 +1,12 @@
 import React from 'react';
-import styled from 'styled-components';
-
-import FASTCO from '../assets/features/fast-company-logo.png';
-import TNW from '../assets/features/the-next-web-logo.png';
-import LIFEHACKER from '../assets/features/lifehacker-logo.png';
-import BUSINESSINSIDER from '../assets/features/business-insider-logo.png';
 
 // Import Styled Components
 import { CreatorTag, FooterContainer } from './Footer.atoms';
-
-const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 1000px;
-  max-width: 80%;
-  margin: 30px auto;
-
-`;
-
-const Child = styled.div`
-  flex: 0 0 25%;
-  @media screen and ( max-width: 700px ) {
-    flex: 0 0 50%;
-    padding: 20px 0;
-  }
-  img {
-    max-width: 100%;
-  }
-  a {
-    border: none;
-  }
-`;
+import PressCoverage from './PressCoverage';
 
 export default () => (
   <>
-    <Container>
-      <Child>
-        <a href="https://www.businessinsider.com/coder-created-obituary-website-for-googles-defunct-products-2019-3" rel="noreferrer noopener" target="_blank"><img src={BUSINESSINSIDER} alt="Business Insider" /></a>
-      </Child>
-      <Child>
-        <a href="https://thenextweb.com/google/2019/03/26/killed-by-google-digital-obituary/" rel="noreferrer noopener" target="_blank"><img src={TNW} alt="The Next Web" /></a>
-      </Child>
-      <Child>
-        <a href="https://www.fastcompany.com/90322103/a-eulogy-for-every-product-google-has-ruthlessly-killed-145-and-counting" rel="noreferrer noopener" target="_blank"><img src={FASTCO} alt="Fast Company" /></a>
-      </Child>
-      <Child>
-        <a href="https://lifehacker.com/how-to-track-every-google-service-and-app-thats-shut-do-1833553690" rel="noreferrer noopener" target="_blank"><img src={LIFEHACKER} alt="Lifehacker" /></a>
-      </Child>
-    </Container>
+    <PressCoverage />
     <FooterContainer>
       <div>
         <p>
