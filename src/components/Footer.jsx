@@ -18,7 +18,7 @@ const SocialLink = ({ url, imgSrc, altText }) => {
   };
 
   return (
-    <a style={style} href={url}>
+    <a style={style} href={url} target="_blank" rel="noopener noreferrer">
       <img src={imgSrc} alt={altText} />
     </a>
   );
