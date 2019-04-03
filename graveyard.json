@@ -5,7 +5,7 @@
     "description": "The YouTube Video Editor was a web-based tool for creating and editing video. It allowed users to splice together their own clips and others uploaded to YouTube with a Creative Commons sharing license; add transitions, titles, and other video effects; overlay music from a library of licensed songs; and more.",
     "link": "https://mashable.com/2017/07/23/youtube-kills-video-editor-tool/",
     "name": "YouTube Video Editor",
-    "type": "service",
+    "type": "service"
   },
   {
     "dateClose": "2016-05-15",
