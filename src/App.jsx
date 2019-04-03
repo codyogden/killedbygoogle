@@ -77,6 +77,10 @@ export default class App extends Component {
           <a href="https://github.com/codyogden/killedbygoogle/issues">
             {'Missing an Obituary? We\'re Open Source.'}
           </a>
+          &nbsp;-&nbsp;
+          <a href="https://twitter.com/killedbygoogle">
+            Follow us on Twitter.
+          </a>
         </BannerMessage>
         <Header />
         <Search search={this.searchFilter} term={term} />
