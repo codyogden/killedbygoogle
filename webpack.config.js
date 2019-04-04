@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
+const ImageminWebpWebpackPlugin = require('imagemin-webp-webpack-plugin');
 
 module.exports = (env, argv) => {
   const config = {
@@ -32,12 +33,17 @@ module.exports = (env, argv) => {
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: 'assets/[name].[ext]',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'assets/[name].[ext]',
+            },
           },
-        },
+          {
+            loader: 'webp-loader',
+          },
+        ],
       },
       ],
     },
@@ -47,6 +53,17 @@ module.exports = (env, argv) => {
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin(),
+      new ImageminWebpWebpackPlugin({
+        config: [{
+          test: /\.(jpe?g|png)/,
+          options: {
+            quality: 75,
+          },
+        }],
+        overrideExtension: true,
+        detailedLogs: false,
+        strict: true,
+      }),
       new CopyPlugin([
         { from: './src/assets/social', to: './assets/social' },
         { from: './src/assets/favicon.png', to: './assets' },

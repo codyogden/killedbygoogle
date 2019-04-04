@@ -105,7 +105,11 @@ export default () => (
       {links.map(link => (
         <Child key={link.altText}>
           <a href={link.url} title={link.altText} target="_blank" rel="noopener noreferrer">
-            <img src={link.imgSrc} alt={link.altText} />
+            <picture>
+              <source type="image/webp" srcSet={`${link.imgSrc.split('.')[0]}.webp`} />
+              <source type="image/png" srcSet={link.imgSrc} />
+              <img src={link.imgSrc}  alt={link.altText} />
+            </picture>
           </a>
         </Child>
       ))}
