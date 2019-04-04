@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2017-09-20",
+    "dateOpen": "2010-06-15",
+    "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
+    "link": "https://mashable.com/2017/07/23/youtube-kills-video-editor-tool/",
+    "name": "YouTube Video Editor",
+    "type": "service"
+  },
+  {
     "dateClose": "2016-05-15",
     "dateOpen": "2012-05-02",
     "description": "Revolv was a monitoring and control system that allowed users to control their connected devices from a single hub.",
