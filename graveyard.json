@@ -1238,5 +1238,13 @@
     "link": "https://www.theverge.com/2018/11/27/18114581/youtube-annotations-discontinued-january-2019",
     "name": "YouTube Video Annotations",
     "type": "service"
+  },
+  {
+    "dateClose": "2018-12-06",
+    "dateOpen": "2015-04-01",
+    "description": "Google Nearby Notifications were a proximity marketing tool using Bluetooth beacons and location-based data to serve content relevant to an Android user's real-world location.",
+    "link": "https://android-developers.googleblog.com/2018/10/discontinuing-support-for-android.html",
+    "name": "Google Nearby Notifications",
+    "type": "service"
   }
 ]
