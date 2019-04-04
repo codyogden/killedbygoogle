@@ -2,11 +2,26 @@
 
 exports[`Search Component matches snapshot 1`] = `
 <styled.div>
-  <styled.input
-    onChange={[Function]}
-    placeholder="Search"
-    type="text"
-    value=""
-  />
+  <label
+    aria-label="Search"
+    htmlFor="searchBox"
+  >
+    <span
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Search
+    </span>
+    <styled.input
+      id="searchBox"
+      onChange={[Function]}
+      placeholder="Search"
+      type="text"
+      value=""
+    />
+  </label>
 </styled.div>
 `;
