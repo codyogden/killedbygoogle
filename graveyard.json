@@ -282,7 +282,7 @@
   {
     "dateClose": "2019-03-30",
     "dateOpen": "2009-12-01",
-    "description": "Google URL Shortener, also known as goo.gl, is a URL shortening service.",
+    "description": "Google URL Shortener, also known as goo.gl, was a URL shortening service.",
     "link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
     "name": "Google URL Shortener",
     "type": "service"
@@ -1237,6 +1237,14 @@
     "description": "YouTube Video Annotations allowed video creators to add interactive commentary to their videos containing background information, branching (\"choose your own adventure\" style) stories, or links to any YouTube video, channel, or search results page.",
     "link": "https://www.theverge.com/2018/11/27/18114581/youtube-annotations-discontinued-january-2019",
     "name": "YouTube Video Annotations",
+    "type": "service"
+  },
+  {
+    "dateClose": "2018-12-06",
+    "dateOpen": "2015-04-01",
+    "description": "Google Nearby Notifications were a proximity marketing tool using Bluetooth beacons and location-based data to serve content relevant to an Android user's real-world location.",
+    "link": "https://android-developers.googleblog.com/2018/10/discontinuing-support-for-android.html",
+    "name": "Google Nearby Notifications",
     "type": "service"
   },
   {
