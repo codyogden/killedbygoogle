@@ -108,7 +108,7 @@ export default () => (
             <picture>
               <source type="image/webp" srcSet={`${link.imgSrc.split('.')[0]}.webp`} />
               <source type="image/png" srcSet={link.imgSrc} />
-              <img src={link.imgSrc}  alt={link.altText} />
+              <img src={link.imgSrc} alt={link.altText} />
             </picture>
           </a>
         </Child>
