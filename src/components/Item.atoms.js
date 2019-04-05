@@ -34,6 +34,11 @@ export const ListItem = styled.li`
     margin: 0;
     font-weight: 300;
   }
+  @media screen and ( max-width: 700px ) {
+    &#mobile-hide {
+      display: none;
+    }
+  }
 `;
 
 export const AgeRange = styled.div`
