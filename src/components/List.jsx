@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { format, formatDistance, parseISO } from 'date-fns';
 
 import Knife from '../assets/knife.svg';
 
@@ -23,9 +24,9 @@ const List = ({ items }) => (
       <IconContainer>
         <Icon src={Knife} alt="Knife" />
         <AgeRange>
-          Right
+          {format(new Date(), 'MMMM')}
           <br />
-          Now!
+          {format(new Date(), 'Y')}
         </AgeRange>
       </IconContainer>
       <ContentContainer>
