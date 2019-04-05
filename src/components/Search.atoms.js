@@ -9,6 +9,9 @@ export const SearchContainer = styled.div`
 
 export const SearchBox = styled.input`
   font-size: 2em;
+  @media screen and ( max-width: 700px ) {
+    font-size: 1em;
+  }
   border: none;
   height: 100%;
   display: block;

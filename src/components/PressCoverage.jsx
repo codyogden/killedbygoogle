@@ -63,16 +63,15 @@ const Container = styled.ul`
   max-width: 80%;
   margin: 0 auto;
   list-style-type: none;
+  padding: 0;
 `;
 
 const Child = styled.li`
   flex: 0 0 25%;
+  margin-top: 50px;
   @media screen and ( max-width: 700px ) {
     flex: 0 0 50%;
-    padding: 30px 0;
-  }
-  &:nth-child(n+5) {
-    margin-top: 25px;
+    margin-top: 50px;
   }
   img {
     max-width: 100%;
@@ -89,7 +88,7 @@ const Press = styled.div`
 
 const Title = styled.h4`
   font-size: 1.25em;
-  margin: 0 0 20px 0;
+  margin: 0;
   text-align: center;
   font-weight: normal;
   text-transform: uppercase;
