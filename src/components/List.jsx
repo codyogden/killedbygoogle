@@ -34,7 +34,7 @@ const List = ({ items }) => (
         <Description>
           We rely on contributors to proofread,
           check accuracy, and keep this list up to date. The Google Graveyard
-          is ad free and open source. Feel free to get involved on&nbsp;
+          is ad-free and open source. Feel free to get involved on&nbsp;
           <a href="https://github.com/codyogden/killedbygoogle" target="_blank" rel="noopener noreferrer">GitHub</a>
           . Follow us on&nbsp;
           <a href="https://twitter.com/killedbygoogle">Twitter</a>
