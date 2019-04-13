@@ -1254,5 +1254,13 @@
     "link": "http://google-tvads.blogspot.com/2009/02/google-exits-radio-but-will-explore.html",
     "name": "Google Audio Ads",
     "type": "service"
+  },
+  {
+    "dateClose": "2015-01-14",
+    "dateOpen": "2010-12-06",
+    "description": "Word Lens translated text in real time on images by using the viewfinder of a device's camera without the need of an internet connection; The technology was rolled into Google Translate.",
+    "link": "https://en.wikipedia.org/wiki/Word_Lens",
+    "name": "Word Lens",
+    "type": "app"
   }
 ]
