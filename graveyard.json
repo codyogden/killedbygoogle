@@ -1270,7 +1270,7 @@
     "link": "https://en.wikipedia.org/wiki/Google_Cloud_Messaging",
     "name": "Google Cloud Messaging (GCM)",
     "type": "service"
-  }
+  },
   {
     "dateClose": "2019-10-31",
     "dateOpen": "2013-03-15",
@@ -1278,7 +1278,7 @@
     "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
     "name": "Google Hangouts",
     "type": "service"
-  }
+  },
   {
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
