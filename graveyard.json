@@ -1279,4 +1279,12 @@
     "name": "Google Hangouts",
     "type": "service"
   }
+  {
+    "dateClose": "2019-01-15",
+    "dateOpen": "2013-03-19",
+    "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
+    "link":"",
+    "name": "Google Realtime API",
+    "type": "service"
+  }
 ]
