@@ -1262,5 +1262,13 @@
     "link": "https://en.wikipedia.org/wiki/Word_Lens",
     "name": "Word Lens",
     "type": "app"
+  },
+  {
+    "dateClose": "2019-05-29",
+    "dateOpen": "2012-06-27",
+    "description": "Google Cloud Messaging (GCM) was a notification service that enabled developers to send messages between servers and client apps running on Android or Chrome.",
+    "link": "https://en.wikipedia.org/wiki/Google_Cloud_Messaging",
+    "name": "Google Cloud Messaging (GCM)",
+    "type": "service"
   }
 ]
