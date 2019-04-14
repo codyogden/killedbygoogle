@@ -530,7 +530,7 @@
   {
     "dateClose": "2015-01-01",
     "dateOpen": "2014-05-01",
-    "description": "Google Play Edition was a type of an Android smartphones that Google sold.",
+    "description": "Google Play Edition devices were a series of Android smartphones and tablets sold by Google.",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
     "name": "Google Play Edition",
     "type": "hardware"
@@ -716,7 +716,7 @@
     "dateOpen": "2013-04-15",
     "description": "Google Glass was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands. Glass now only lives on as Enterprise Product.",
     "link": "https://en.wikipedia.org/wiki/Google_Glass",
-    "name": "Google Glass",
+    "name": "Google Glass Explorer Edition",
     "type": "hardware"
   },
   {
@@ -1269,6 +1269,22 @@
     "description": "Google Cloud Messaging (GCM) was a notification service that enabled developers to send messages between servers and client apps running on Android or Chrome.",
     "link": "https://en.wikipedia.org/wiki/Google_Cloud_Messaging",
     "name": "Google Cloud Messaging (GCM)",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-10-31",
+    "dateOpen": "2013-03-15",
+    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution date is tentative.",
+    "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
+    "name": "Google Hangouts",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-01-15",
+    "dateOpen": "2013-03-19",
+    "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
+    "link":"https://developers.google.com/realtime/overview",
+    "name": "Google Realtime API",
     "type": "service"
   }
 ]
