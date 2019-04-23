@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2017-09-20",
+    "dateOpen": "2010-06-15",
+    "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
+    "link": "https://mashable.com/2017/07/23/youtube-kills-video-editor-tool/",
+    "name": "YouTube Video Editor",
+    "type": "service"
+  },
+  {
     "dateClose": "2016-05-15",
     "dateOpen": "2012-05-02",
     "description": "Revolv was a monitoring and control system that allowed users to control their connected devices from a single hub.",
@@ -282,7 +290,7 @@
   {
     "dateClose": "2019-03-30",
     "dateOpen": "2009-12-01",
-    "description": "Google URL Shortener, also known as goo.gl, is a URL shortening service.",
+    "description": "Google URL Shortener, also known as goo.gl, was a URL shortening service.",
     "link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
     "name": "Google URL Shortener",
     "type": "service"
@@ -522,7 +530,7 @@
   {
     "dateClose": "2015-01-01",
     "dateOpen": "2014-05-01",
-    "description": "Google Play Edition was a type of an Android smartphones that Google sold.",
+    "description": "Google Play Edition devices were a series of Android smartphones and tablets sold by Google.",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
     "name": "Google Play Edition",
     "type": "hardware"
@@ -708,7 +716,7 @@
     "dateOpen": "2013-04-15",
     "description": "Google Glass was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands. Glass now only lives on as Enterprise Product.",
     "link": "https://en.wikipedia.org/wiki/Google_Glass",
-    "name": "Google Glass",
+    "name": "Google Glass Explorer Edition",
     "type": "hardware"
   },
   {
@@ -1050,7 +1058,7 @@
   {
     "dateClose": "2016-05-02",
     "dateOpen": "2012-07-09",
-    "description": "Google Now was a feature of Google Search that offered predictive cards with information and daily updates in the Google app for Android and iOS.",
+    "description": "Google Now was a feature of Google Search that offered predictive cards with information and daily updates in Chrome and the Google app for Android and iOS.",
     "link": "https://en.wikipedia.org/wiki/Google_Now",
     "name": "Google Now",
     "type": "service"
@@ -1126,14 +1134,6 @@
     "link": "https://en.wikipedia.org/wiki/Google_Chrome_Frame",
     "name": "Google Chrome Frame",
     "type": "service"
-  },
-  {
-    "dateClose": "2012-01-20",
-    "dateOpen": "2009-05-12",
-    "description": "Google Sky Map was an augmented reality star mapping application for Android devices.",
-    "link": "https://en.wikipedia.org/wiki/Sky_Map",
-    "name": "Google Sky Map",
-    "type": "app"
   },
   {
     "dateClose": "2011-12-20",
@@ -1240,6 +1240,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2018-12-06",
+    "dateOpen": "2015-04-01",
+    "description": "Google Nearby Notifications were a proximity marketing tool using Bluetooth beacons and location-based data to serve content relevant to an Android user's real-world location.",
+    "link": "https://android-developers.googleblog.com/2018/10/discontinuing-support-for-android.html",
+    "name": "Google Nearby Notifications",
+    "type": "service"
+  },
+  {
     "dateClose": "2009-02-12",
     "dateOpen": "2008-07-08",
     "description": "Google Audio Ads service allowed advertisers to run campaigns on AM/FM radio stations in US using the AdWords interface.",
@@ -1277,14 +1285,6 @@
     "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
     "link":"https://developers.google.com/realtime/overview",
     "name": "Google Realtime API",
-    "type": "service"
-  },
-  {
-    "dateClose": "2019-04-23",
-    "dateOpen": "2015-03-23",
-    "description": "Data Saver extension for Chrome browser allowed it to send webpages through Google servers which compressed them saving bandwidth charges.",
-    "link": "https://blog.chromium.org/2019/04/data-saver-is-now-lite-mode.html",
-    "name": "Data Saver Extension for Chrome",
     "type": "service"
   }
 ]

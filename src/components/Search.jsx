@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
@@ -24,9 +25,15 @@ export default class Search extends Component {
 
   render() {
     const { inputValue } = this.state;
+    const labelTextStyle = {
+      display: 'none',
+    };
     return (
       <SearchContainer>
-        <SearchBox placeholder="Search" type="text" value={inputValue} onChange={event => this.updateSearch(event)} />
+        <label htmlFor="searchBox" aria-label="Search">
+          <span style={labelTextStyle}>Search</span>
+          <SearchBox id="searchBox" placeholder="Search" type="text" value={inputValue} onChange={event => this.updateSearch(event)} />
+        </label>
       </SearchContainer>
     );
   }
