@@ -1,6 +1,6 @@
 {
   "name": "killedbygoogle",
-  "version": "0.4.0",
+  "version": "0.8.1",
   "description": "killedbygoogle.com",
   "main": "src/index.js",
   "repository": "git@github.com:codyogden/killedbygoogle.git",
@@ -20,7 +20,7 @@
     "eslint": "^5.4.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^3.0.1",

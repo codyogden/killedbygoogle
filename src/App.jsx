@@ -75,7 +75,11 @@ export default class App extends Component {
       <div>
         <BannerMessage>
           <a href="https://github.com/codyogden/killedbygoogle/issues">
-            {'Missing an Obituary? We\'re Open Source.'}
+            {'Open Source.'}
+          </a>
+          &nbsp;-&nbsp;
+          <a href="https://twitter.com/killedbygoogle">
+            {'Find us on Twitter.'}
           </a>
         </BannerMessage>
         <Header />
