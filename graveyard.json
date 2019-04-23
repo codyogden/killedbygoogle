@@ -1246,5 +1246,13 @@
     "link": "http://google-tvads.blogspot.com/2009/02/google-exits-radio-but-will-explore.html",
     "name": "Google Audio Ads",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-04-23",
+    "dateOpen": "2015-03-23",
+    "description": "Data Saver extension for Chrome browser allowed it to send webpages through Google servers which compressed them saving bandwidth charges.",
+    "link": "https://blog.chromium.org/2019/04/data-saver-is-now-lite-mode.html",
+    "name": "Data Saver Extension for Chrome",
+    "type": "service"
   }
 ]
