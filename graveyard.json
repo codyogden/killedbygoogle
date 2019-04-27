@@ -1286,5 +1286,13 @@
     "link":"https://developers.google.com/realtime/overview",
     "name": "Google Realtime API",
     "type": "service"
+  },
+  {
+    "dateClose": "2013-11-11",
+    "dateOpen": "2010-12-09",
+    "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya and Nigeria to help customers trade goods and services online.",
+    "link":"https://www.google.com.gh/local/trader/",
+    "name": "Google Trader",
+    "type": "service"
   }
 ]
