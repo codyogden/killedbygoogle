@@ -1283,7 +1283,7 @@
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
     "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
-    "link":"https://developers.google.com/realtime/overview",
+    "link": "https://developers.google.com/realtime/overview",
     "name": "Google Realtime API",
     "type": "service"
   },
@@ -1291,8 +1291,16 @@
     "dateClose": "2013-11-11",
     "dateOpen": "2010-12-09",
     "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya and Nigeria to help customers trade goods and services online.",
-    "link":"https://www.google.com.gh/local/trader/",
+    "link": "https://www.google.com.gh/local/trader/",
     "name": "Google Trader",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-08-31",
+    "dateOpen": "2014-06-23",
+    "description": "Works with Nest was an API that allowed external services to access and control Nest devices. This enabled the devices to be used with third-party home automation platforms and devices.",
+    "link": "https://nest.com/works-with-nest/",
+    "name": "Works with Nest API",
     "type": "service"
   }
 ]
