@@ -1302,5 +1302,13 @@
     "link": "https://nest.com/works-with-nest/",
     "name": "Works with Nest API",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-06-30",
+    "dateOpen": "2015-05-28",
+    "description": "Google Jump was a cloud-based VR media solution that enabled 3D-360 media production by integrating customized capture solutions with best-in-class automated stitching.",
+    "link": "https://en.wikipedia.org/wiki/Google_Jump",
+    "name": "Google Jump",
+    "type": "service"
   }
 ]
