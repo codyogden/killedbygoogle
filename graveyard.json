@@ -1314,9 +1314,9 @@
   {
     "dateClose": "2018-03-31",
     "dateOpen": "2010-04-01",
-    "description": "reCaptcha Mailhide allowed users to mask their email address behind a captcha to prevent robots from scraping the email and sending spam.",
+    "description": "reCAPTCHA Mailhide allowed users to mask their email address behind a captcha to prevent robots from scraping the email and sending spam.",
     "link": "https://github.com/google/recaptcha/issues/221#issuecomment-409586455",
-    "name": "reCaptcha Mailhide",
+    "name": "reCAPTCHA Mailhide",
     "type": "service"
   }
 ]
