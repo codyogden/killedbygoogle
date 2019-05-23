@@ -1288,6 +1288,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2019-04-23",
+    "dateOpen": "2015-03-23",
+    "description": "Data Saver was an extension for Chrome that routed webpages through Google servers to compress and reduce the user's bandwidth.",
+    "link": "https://blog.chromium.org/2019/04/data-saver-is-now-lite-mode.html",
+    "name": "Data Saver Extension for Chrome",
+    "type": "service"
+  },
+  {
     "dateClose": "2013-11-11",
     "dateOpen": "2010-12-09",
     "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya and Nigeria to help customers trade goods and services online.",
