@@ -58,7 +58,7 @@
   {
     "dateClose": "2012-10-05",
     "dateOpen": "2011-02-09",
-    "description": "Sparrow was an email client for OS X and iOS. They acquired and then killed it.",
+    "description": "Sparrow was an email client for OS X and iOS. Google acquired and then killed it.",
     "link": "https://en.wikipedia.org/wiki/Sparrow_(email_client)",
     "name": "Sparrow",
     "type": "app"
@@ -74,7 +74,7 @@
   {
     "dateClose": "2006-05-08",
     "dateOpen": "2003-11-10",
-    "description": "Google Deskbar was a small inset window on the Windows toolbar and lets users perform searches without leaving desktop.",
+    "description": "Google Deskbar was a small inset window on the Windows toolbar and allowed users to perform searches without leaving the desktop.",
     "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
     "name": "Google Deskbar",
     "type": "service"
@@ -202,7 +202,7 @@
   {
     "dateClose": "2016-11-04",
     "dateOpen": "2005-10-23",
-    "description": "Panoramio was geo-located tagging, photo sharing mashup product.",
+    "description": "Panoramio was a geo-location tagging and photo sharing product.",
     "link": "https://en.wikipedia.org/wiki/Panoramio",
     "name": "Panoramio",
     "type": "service"
@@ -210,7 +210,7 @@
   {
     "dateClose": "2015-04-20",
     "dateOpen": "2013-11-15",
-    "description": "Google Helpouts was an online collaboration service where users to share their expertise through live video.",
+    "description": "Google Helpouts was an online collaboration service where users could share their expertise through live video.",
     "link": "https://en.wikipedia.org/wiki/Google_Helpouts",
     "name": "Google Helpouts",
     "type": "service"
@@ -226,7 +226,7 @@
   {
     "dateClose": "2014-06-23",
     "dateOpen": "2007-06-28",
-    "description": "Google Questions and Answers was a free knowledge market that allowed users to collaboratively find good answers to their questions.",
+    "description": "Google Questions and Answers was a free knowledge market that allowed users to collaboratively find answers to their questions.",
     "link": "https://en.wikipedia.org/wiki/Google_Questions_and_Answers",
     "name": "Google Questions and Answers",
     "type": "service"
@@ -242,7 +242,7 @@
   {
     "dateClose": "2014-01-06",
     "dateOpen": "2013-09-19",
-    "description": "Quickoffice was a productivity suite for mobile devices which allowed viewing, creating and editing documents, presentations and spreadsheets.",
+    "description": "Quickoffice was a productivity suite for mobile devices which allowed the viewing, creating and editing of documents, presentations and spreadsheets.",
     "link": "https://en.wikipedia.org/wiki/Quickoffice",
     "name": "Quickoffice",
     "type": "app"
@@ -250,7 +250,7 @@
   {
     "dateClose": "2014-01-31",
     "dateOpen": "2005-01-01",
-    "description": "Google Notifier alerted users to new messages in their Gmail account.",
+    "description": "Google Notifier alerted users to new emails on their Gmail account.",
     "link": "https://www.theverge.com/2014/1/16/5316748/google-quietly-kills-off-its-notifier-service-for-mail-and-calendar",
     "name": "Google Notifier",
     "type": "service"
@@ -266,7 +266,7 @@
   {
     "dateClose": "2012-12-31",
     "dateOpen": "2007-12-06",
-    "description": "Google Chart API was an interactive Web service that creates graphical charts from user-supplied data.",
+    "description": "Google Chart API was an interactive Web service that created graphical charts from user-supplied data.",
     "link": "https://en.wikipedia.org/wiki/Google_Chart_API",
     "name": "Google Chart API",
     "type": "service"
@@ -306,7 +306,7 @@
   {
     "dateClose": "2011-09-01",
     "dateOpen": "2008-01-01",
-    "description": "Google Desktop allowed local searches of user's email messages, computer files, music, photos, chats, Web pages viewed.",
+    "description": "Google Desktop allowed local searches of a user's emails, computer files, music, photos, chats and Web pages viewed.",
     "link": "https://en.wikipedia.org/wiki/Google_Desktop",
     "name": "Google Desktop",
     "type": "service"
@@ -314,7 +314,7 @@
   {
     "dateClose": "2017-12-06",
     "dateOpen": "2010-12-06",
-    "description": "Google Chrome Apps were a hosted or packaged web application that ran on the Google Chrome browser.",
+    "description": "Google Chrome Apps were hosted or packaged web applications that ran on the Google Chrome browser.",
     "link": "https://en.wikipedia.org/wiki/Google_Chrome_App",
     "name": "Google Chrome Apps",
     "type": "service"
@@ -322,7 +322,7 @@
   {
     "dateClose": "2006-09-15",
     "dateOpen": "2002-01-01",
-    "description": "Google Public Service search provided government, non-profits, and academic organizations search results without ads.",
+    "description": "Google Public Service Search provided governmental, non-profit and academic organizational search results without ads.",
     "link": "https://webmasters.googleblog.com/2006/09/for-those-wondering-about-public.html",
     "name": "Google Public Service Search",
     "type": "service"
@@ -584,7 +584,7 @@
     "type": "service"
   },
   {
-    "dateClose": "2019-06-01",
+    "dateClose": "2020-03-31",
     "dateOpen": "2014-10-01",
     "description": "Fabric was a platform that helped mobile teams build better apps, understand their users, and grow their business.",
     "link": "https://get.fabric.io/roadmap",
@@ -1283,16 +1283,48 @@
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
     "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
-    "link":"https://developers.google.com/realtime/overview",
+    "link": "https://developers.google.com/realtime/overview",
     "name": "Google Realtime API",
     "type": "service"
   },
   {
     "dateClose": "2019-04-23",
     "dateOpen": "2015-03-23",
-    "description": "Data Saver extension for Chrome browser allowed it to send webpages through Google servers which compressed them saving bandwidth charges.",
+    "description": "Data Saver was an extension for Chrome that routed webpages through Google servers to compress and reduce the user's bandwidth.",
     "link": "https://blog.chromium.org/2019/04/data-saver-is-now-lite-mode.html",
     "name": "Data Saver Extension for Chrome",
+    "type": "service"
+  },
+  {
+    "dateClose": "2013-11-11",
+    "dateOpen": "2010-12-09",
+    "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya and Nigeria to help customers trade goods and services online.",
+    "link": "https://www.google.com.gh/local/trader/",
+    "name": "Google Trader",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-08-31",
+    "dateOpen": "2014-06-23",
+    "description": "Works with Nest was an API that allowed external services to access and control Nest devices. This enabled the devices to be used with third-party home automation platforms and devices.",
+    "link": "https://nest.com/works-with-nest/",
+    "name": "Works with Nest API",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-06-28",
+    "dateOpen": "2015-05-28",
+    "description": "Google Jump was a cloud-based VR media solution that enabled 3D-360 media production by integrating customized capture solutions with best-in-class automated stitching.",
+    "link": "https://en.wikipedia.org/wiki/Google_Jump",
+    "name": "Google Jump",
+    "type": "service"
+  },
+  {
+    "dateClose": "2018-03-31",
+    "dateOpen": "2010-04-01",
+    "description": "reCAPTCHA Mailhide allowed users to mask their email address behind a captcha to prevent robots from scraping the email and sending spam.",
+    "link": "https://github.com/google/recaptcha/issues/221#issuecomment-409586455",
+    "name": "reCAPTCHA Mailhide",
     "type": "service"
   }
 ]
