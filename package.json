@@ -25,7 +25,7 @@
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^3.0.1",
     "jest": "^24.5.0",
-    "jest-resolve": "^24.5.0",
+    "jest-resolve": "^24.8.0",
     "json-loader": "^0.5.7",
     "moment": "^2.22.2",
     "node-sass": "^4.12.0",
