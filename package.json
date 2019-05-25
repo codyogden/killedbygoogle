@@ -10,7 +10,7 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
-    "@types/prop-types": "^15.5.5",
+    "@types/prop-types": "^15.7.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.0",
