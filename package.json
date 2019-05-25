@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "browserlist": "^1.0.1",
-    "caniuse-lite": "^1.0.30000950",
+    "caniuse-lite": "^1.0.30000971",
     "date-fns": "^2.0.0-alpha.16",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.13.1",
