@@ -35,7 +35,7 @@
     "style-loader": "^0.23.0",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
     "browserlist": "^1.0.1",
