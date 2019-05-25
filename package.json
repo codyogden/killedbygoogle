@@ -45,7 +45,7 @@
     "enzyme-adapter-react-16": "^1.13.1",
     "jest-haste-map": "^24.5.0",
     "preact": "^8.3.1",
-    "preact-compat": "^3.18.3",
+    "preact-compat": "^3.18.5",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.4.1",
