@@ -14,7 +14,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.0",
-    "copy-webpack-plugin": "^5.0.1",
+    "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^1.0.0",
     "enzyme-to-json": "^3.3.4",
     "eslint": "^5.4.0",
