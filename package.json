@@ -43,7 +43,7 @@
     "date-fns": "^2.0.0-alpha.16",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
-    "jest-haste-map": "^24.5.0",
+    "jest-haste-map": "^24.8.0",
     "preact": "^8.3.1",
     "preact-compat": "^3.18.3",
     "prop-types": "^15.6.2",
