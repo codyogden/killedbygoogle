@@ -1326,5 +1326,13 @@
     "link": "https://github.com/google/recaptcha/issues/221#issuecomment-409586455",
     "name": "reCAPTCHA Mailhide",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-05-30",
+    "dateOpen": "2015-08-26",
+    "description": "YouTube Gaming was a video gaming-oriented service and app for videos and live streaming.",
+    "link": "https://www.androidpolice.com/2018/09/18/youtube-gaming-standalone-app-shut-march-2019-features-migrate-main-app/",
+    "name": "YouTube Gaming",
+    "type": "service"
   }
 ]
