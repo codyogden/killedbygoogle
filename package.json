@@ -42,7 +42,7 @@
     "caniuse-lite": "^1.0.30000971",
     "date-fns": "^2.0.0-alpha.16",
     "enzyme": "^3.7.0",
-    "enzyme-adapter-react-16": "^1.13.1",
+    "enzyme-adapter-react-16": "^1.13.2",
     "jest-haste-map": "^24.8.0",
     "preact": "^8.3.1",
     "preact-compat": "^3.18.3",
