@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2015-08-26",
+    "dateOpen": "2012-05-02",
+    "description": "YouTube Gaming keeps you connected to the games, players, and culture that matter to you. Featuring videos and live streams.",
+    "link": "https://www.theverge.com/2019/5/27/18641413/youtube-gaming-standalone-app-shutdown-may-30th",
+    "name": "YouTube Gaming App",
+    "type": "app"
+  },
+  {
     "dateClose": "2016-05-15",
     "dateOpen": "2012-05-02",
     "description": "Revolv was a monitoring and control system that allowed users to control their connected devices from a single hub.",
