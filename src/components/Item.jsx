@@ -26,6 +26,9 @@ const eolIdiom = () => {
     'Bites the big one',
     'Off to the glue factory',
     'Another one bites the dust',
+    'Gonna die',
+    'Joins Google+',
+    'Going to hevean',
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
