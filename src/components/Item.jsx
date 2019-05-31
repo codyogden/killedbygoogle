@@ -26,6 +26,12 @@ const eolIdiom = () => {
     'Bites the big one',
     'Off to the glue factory',
     'Another one bites the dust',
+    'His time is',
+    'Her time is',
+    'Dead',
+    'Slaughtered',
+    'Meats Mister Death',
+    'Meats Miss Death',
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
