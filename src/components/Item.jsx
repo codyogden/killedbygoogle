@@ -26,6 +26,19 @@ const eolIdiom = () => {
     'Bites the big one',
     'Off to the glue factory',
     'Another one bites the dust',
+    'E-Bussard food',
+    'Maggot food',
+    'Fly food',
+    'Joins iGoogle',
+    '404ed',
+    'Carelessly murdered',
+    'Worm food',
+    'Will be a pile of dust',
+    'Diched',
+    'Sunsetting',
+    'Will Blow up',
+    'Will be history',
+    'Will be dead meat',
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
