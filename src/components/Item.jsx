@@ -39,7 +39,7 @@ export default class Item extends Component {
     const { dateClose, dateOpen } = this.props;
     const duration = formatDistance(parseISO(dateClose), parseISO(dateOpen));
 
-    return (` It was ${duration} old.`);
+    return (` It lasted ${duration}.`);
   }
 
   isPast() {
