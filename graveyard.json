@@ -1334,5 +1334,13 @@
     "link": "https://www.androidpolice.com/2018/09/18/youtube-gaming-standalone-app-shut-march-2019-features-migrate-main-app/",
     "name": "YouTube Gaming",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-08-05",
+    "dateOpen": "2016-09-19",
+    "description": "Google Trips was a mobile app that allowed users to plan for upcoming travel by facilitating flight, hotel, car, and restaurant reservations from user's email alongside summarized info about the user's destination.",
+    "link": "https://en.wikipedia.org/wiki/Google_Trips",
+    "name": "Google Trips",
+    "type": "app"
   }
 ]
