@@ -1338,9 +1338,9 @@
   {
     "dateClose": "2019-08-05",
     "dateOpen": "2016-09-19",
-    "description": "Google Trips' mobile app was used to manage and plan upcoming trips using a dedicated app. After August 5, 2019, google.com/travel will be the main hub for managing trips",
-    "link": "https://www.xda-developers.com/google-trips-end-support-august-5th/",
-    "name": "Google Trips App",
+    "description": "Google Trips was a mobile app that allowed users to plan for upcoming travel by facilitating flight, hotel, car, and restaurant reservations from user's email alongside summarized info about the user's destination.",
+    "link": "https://en.wikipedia.org/wiki/Google_Trips",
+    "name": "Google Trips",
     "type": "app"
   }
 ]
