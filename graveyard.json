@@ -1342,5 +1342,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Trips",
     "name": "Google Trips",
     "type": "app"
+  },
+  {
+    "dateClose": "2019-06-14",
+    "dateOpen": "2017-04-12",
+    "description": "Areo was a mobile app that allowed users in Bangalore, Mumbai, Delhi, Gurgaon and Pune to order meals from nearby restaurants or schedule appointments with local service professionals, including electricians, painters, cleaners, plumbers, and more.",
+    "link": "https://support.google.com/websearch/answer/9363048",
+    "name": "Areo",
+    "type": "app"
   }
 ]
