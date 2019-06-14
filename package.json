@@ -40,7 +40,7 @@
   "dependencies": {
     "browserlist": "^1.0.1",
     "caniuse-lite": "^1.0.30000974",
-    "date-fns": "^2.0.0-alpha.32",
+    "date-fns": "^2.0.0-alpha.33",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "jest-haste-map": "^24.8.0",
