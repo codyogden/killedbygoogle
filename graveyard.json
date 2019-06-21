@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-06-20",
+    "dateOpen": "2018-10-09",
+    "description": "Pixel Slate was a tablet running Chrome OS.",
+    "link": "https://9to5google.com/2019/06/20/google-tablet-abandoned-development/",
+    "name": "Pixel Slate",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2017-09-20",
     "dateOpen": "2010-06-15",
     "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
