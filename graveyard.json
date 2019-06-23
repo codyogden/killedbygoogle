@@ -1350,5 +1350,13 @@
     "link": "https://techcrunch.com/2017/04/13/google-areo-is-a-new-app-for-ordering-food-or-home-services-in-india/",
     "name": "Areo",
     "type": "app"
+  },
+  {
+    "dateClose": "2019-12-31",
+    "dateOpen": "2011-09-20",
+    "description": "Hangouts on Air allowed users to host a multi-user video call while recording and streaming the call on YouTube.",
+    "link": "https://arstechnica.com/gadgets/2019/06/google-is-killing-youtubes-hangouts-on-air-this-year/",
+    "name": "Hangouts on Air",
+    "type": "service"
   }
 ]
