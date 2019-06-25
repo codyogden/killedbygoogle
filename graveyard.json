@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2009-08-05",
+    "dateOpen": "2007-01-01",
+    "description": "Google Radio Automation was a hardware and software service used by radio operators to automate song playing among other radio station functions.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products#2018",
+    "name": "Google Radio Automation",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2017-09-20",
     "dateOpen": "2010-06-15",
     "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
