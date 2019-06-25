@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2018-XX-XX",
+    "dateOpen": "2007-XX-XX",
+    "description": "[Google Radio Appliance] was a radio automation tool used by radio operators to automate song playing.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products#2018",
+    "name": "[Google Radio Appliance]",
+    "type": "hardware"
+  }
+  {
     "dateClose": "2017-09-20",
     "dateOpen": "2010-06-15",
     "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
