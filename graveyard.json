@@ -1,4 +1,12 @@
 [
+	{
+		"dateClose": "2019-06-20",
+		"dateOpen": "2018-10-09",
+		"description": "Pixel Slate was a line of tablets that ran on the Chrome OS operating system.",
+		"link": "https://en.wikipedia.org/wiki/Pixel_Slate",
+		"name": "Pixel Slate",
+		"type": "hardware"
+	},
   {
     "dateClose": "2009-08-05",
     "dateOpen": "2007-01-01",
