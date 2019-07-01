@@ -22,7 +22,7 @@
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "7.14.0",
+    "eslint-plugin-react": "7.14.2",
     "file-loader": "^4.0.0",
     "jest": "^24.8.0",
     "jest-resolve": "^24.8.0",
