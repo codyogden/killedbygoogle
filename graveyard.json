@@ -1366,5 +1366,13 @@
     "link": "https://arstechnica.com/gadgets/2019/06/google-is-killing-youtubes-hangouts-on-air-this-year/",
     "name": "Hangouts on Air",
     "type": "service"
-  }
+  },
+  {
+    "dateClose": "2019-08-01",
+    "dateOpen": "2018-01-24",
+    "description": "Chronicle was graduated from X, the moonshot factory to be the cybersecurity arm of Alphabet.",
+    "link": "https://www.cyberscoop.com/chronicle-cybersecurity-alphabet-google-x/",
+    "name": "Chronicle",
+    "type": "Software"
+  },
 ]
