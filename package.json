@@ -23,7 +23,7 @@
     "eslint-plugin-json": "^1.4.0",
     "eslint-plugin-jsx-a11y": "6.2.3",
     "eslint-plugin-react": "7.14.2",
-    "file-loader": "^4.0.0",
+    "file-loader": "^4.1.0",
     "jest": "^24.8.0",
     "jest-resolve": "^24.8.0",
     "json-loader": "^0.5.7",
