@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-06-15",
+    "dateOpen": "2018-09-07",
+    "description": "Blog Compass was a blog management tool that integrated with WordPress and Blogger available only in India.",
+    "link": "https://9to5google.com/2019/07/15/google-kills-blog-compass/",
+    "name": "Blog Compass",
+    "type": "app"
+  },
+  {
     "dateClose": "2019-06-20",
     "dateOpen": "2018-10-09",
     "description": "Pixel Slate was a line of tablet devices that ran on the Chrome OS operating system.",
