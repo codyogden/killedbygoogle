@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-09-30",
+    "dateOpen": "2011-01-27",
+    "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery is updated.",
+    "link": "https://maps.googleblog.com/2011/01/sign-up-for-imagery-update-alert.html",
+    "name": "Follow Your World",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-06-15",
     "dateOpen": "2018-09-07",
     "description": "Blog Compass was a blog management tool that integrated with WordPress and Blogger available only in India.",
