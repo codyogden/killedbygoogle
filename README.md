@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/320a7a15-ce8b-4dba-befa-4c7922d5db9c/deploy-status)](https://app.netlify.com/sites/trusting-saha-87fc1e/deploys)
+[![GitHub Actions](https://img.shields.io/endpoint.svg?url=https://actions-badge.atrox.dev/codyogden/killedbygoogle/badge&label=build&logo=none)](https://actions-badge.atrox.dev/codyogden/killedbygoogle/goto) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/320a7a15-ce8b-4dba-befa-4c7922d5db9c/deploy-status)](https://app.netlify.com/sites/trusting-saha-87fc1e/deploys)
 
 
 
