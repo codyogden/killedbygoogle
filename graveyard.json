@@ -16,14 +16,6 @@
     "type": "app"
   },
   {
-    "dateClose": "2019-06-20",
-    "dateOpen": "2018-10-09",
-    "description": "Pixel Slate was a line of tablet devices that ran on the Chrome OS operating system.",
-    "link": "https://en.wikipedia.org/wiki/Pixel_Slate",
-    "name": "Pixel Slate",
-    "type": "hardware"
-  },
-  {
     "dateClose": "2009-08-05",
     "dateOpen": "2007-01-01",
     "description": "Google Radio Automation was a hardware and software service used by radio operators to automate song playing among other radio station functions.",
