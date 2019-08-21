@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-09-18",
+    "dateOpen": "2017-08-07",
+    "description": "YouTube Messages was a direct messaging feature that allowed users to share and discuss videos one-on-one and in groups on YouTube.",
+    "link": "https://9to5google.com/2019/08/20/youtube-killing-messages",
+    "name": "YouTube Messages",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-09-30",
     "dateOpen": "2011-01-27",
     "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery is updated.",
