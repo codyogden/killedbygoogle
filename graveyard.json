@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-12-15",
+    "dateOpen": "2011-05-25",
+    "description": "Google Correlate was a service that provided users information about how strongly the frequency of multiple search terms correlates with each other over a specified time interval.",
+    "link": "https://de.wikipedia.org/wiki/Google_Correlate",
+    "name": "Google Correlate",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-09-18",
     "dateOpen": "2017-08-07",
     "description": "YouTube Messages was a direct messaging feature that allowed users to share and discuss videos one-on-one and in groups on YouTube.",
