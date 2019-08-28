@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { format, formatDistance, parseISO } from 'date-fns';
+import {
+  format,
+  formatDistance,
+  parseISO,
+  formatDistanceToNow,
+} from 'date-fns';
 
 import Tombstone from '../assets/tombstone.svg';
 import Guillotine from '../assets/guillotine.svg';
@@ -49,21 +54,11 @@ export default class Item extends Component {
 
   timePhrase() {
     const { dateClose } = this.props;
-    const relativeDate = formatDistance(parseISO(dateClose), new Date());
-    const exactDate = format(parseISO(dateClose), 'MMMM yyyy');
-    const yearFromNow = new Date().setFullYear(new Date().getFullYear() + 1);
-
+    const relativeDate = formatDistanceToNow(parseISO(dateClose), new Date());
     if (!this.isPast()) {
-      if (new Date(dateClose) < yearFromNow) {
-        return (
-          <span>
-            {`${eolIdiom()} in ${relativeDate}, `}
-          </span>
-        );
-      }
       return (
         <span>
-          {`${eolIdiom()} in ${exactDate}, `}
+          {`${eolIdiom()} in ${relativeDate}, `}
         </span>
       );
     }
@@ -75,21 +70,30 @@ export default class Item extends Component {
   }
 
   ageRange(grave) {
+    const monthOpen = format(parseISO(grave.dateClose), 'LLLL');
+    const yearOpen = format(parseISO(grave.dateOpen), 'uuuu');
+    const yearClose = format(parseISO(grave.dateClose), 'uuuu');
     if (!this.isPast()) {
-      const date = new Date(grave.dateClose);
+      const date = parseISO(grave.dateClose);
       return (
         <AgeRange>
-          {date.toLocaleDateString('en-US', { month: 'long' })}
-          <br />
-          {date.toLocaleDateString('en-US', { year: 'numeric' })}
+          <time dateTime={format(parseISO(grave.dateOpen), 'uuuu-LL-dd')}>
+            {monthOpen}
+            <br />
+            {format(date, 'uuuu')}
+          </time>
         </AgeRange>
       );
     }
     return (
       <AgeRange>
-        {new Date(grave.dateOpen).getFullYear()}
+        <time dateTime={format(parseISO(grave.dateOpen), 'uuuu-LL-dd')}>
+          {yearOpen}
+        </time>
         {' - '}
-        {new Date(grave.dateClose).getFullYear()}
+        <time dateTime={format(parseISO(grave.dateClose), 'uuuu-LL-dd')}>
+          {yearClose}
+        </time>
       </AgeRange>
     );
   }
