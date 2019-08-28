@@ -77,7 +77,7 @@ export default class Item extends Component {
       const date = parseISO(grave.dateClose);
       return (
         <AgeRange>
-          <time dateTime={format(parseISO(grave.dateOpen), 'uuuu-LL-dd')}>
+          <time dateTime={format(date, 'uuuu-LL-dd')}>
             {monthOpen}
             <br />
             {format(date, 'uuuu')}
