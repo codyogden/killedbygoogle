@@ -1,22 +1,32 @@
 {
-    "extends": ["airbnb"],
-    "env": {
-      "browser": true,
-      "node": true,
-      "jest": true
-    },
-    "plugins": [
-      "json"
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["json", "react-hooks", "react"],
+  "rules": {
+    "jsx-a11y/label-has-for": [
+      2,
+      {
+        "required": {
+          "some": ["nesting", "id"]
+        }
+      }
     ],
-    "rules": {
-      "jsx-a11y/label-has-for":
-        [
-          2,
-          {
-            "required": {
-              "some": ["nesting", "id"]
-            }
-          }
-        ]
+    "react/display-name": 0,
+    "react/jsx-props-no-spreading": 0
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
     }
+  }
 }
