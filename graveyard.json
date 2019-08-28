@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-09-01",
+    "dateOpen": "2017-07-18",
+    "description": "Google Hire (aka Hire by Google) was an applicant tracking system to help small to medium businesses distribute jobs, identify and attract candidates, build strong relationships with candidates, and efficiently manage the interview process.",
+    "link": "https://en.wikipedia.org/wiki/Google_Hire",
+    "name": "Hire by Google",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-12-15",
     "dateOpen": "2011-05-25",
     "description": "Google Correlate was a service that provided users information about how strongly the frequency of multiple search terms correlates with each other over a specified time interval.",
