@@ -12,7 +12,15 @@ import PressCoverage from './PressCoverage';
 import TWITTER from '../assets/twitter.svg';
 import GITHUB from '../assets/github.svg';
 
-const SocialLink = ({ url, imgSrc, altText }) => {
+const SocialLink = ({
+  url,
+  imgSrc,
+  altText,
+}: {
+  url: string;
+  imgSrc: string;
+  altText: string;
+}) => {
   const style = {
     border: 'none',
   };
