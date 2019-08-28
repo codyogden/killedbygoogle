@@ -1,4 +1,11 @@
-[
+[  {
+    "dateClose": "2020-09-01",
+    "dateOpen": "2017-07-18",
+    "description": "Google Hire was an applicant tracking system to identify, build, and build strong relationships with candidates, and efficiently manage the interview process.",
+    "link": "https://hire.google.com",
+    "name": "Google Hire",
+    "type": "service"
+  },
   {
     "dateClose": "2020-09-01",
     "dateOpen": "2017-07-18",
