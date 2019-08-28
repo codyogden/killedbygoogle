@@ -30,19 +30,35 @@ const List = ({ items }) => (
         </AgeRange>
       </IconContainer>
       <ContentContainer>
-        <h2><a href="https://github.com/codyogden/killedbygoogle" rel="noopener noreferrer" target="_blank">Missing something?</a></h2>
+        <h2>
+          <a
+            href="https://github.com/codyogden/killedbygoogle"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Missing something?
+          </a>
+        </h2>
         <Description>
-          We rely on contributors to proofread,
-          check accuracy, and keep this list up to date. The Google Graveyard
-          is ad-free and open source. Feel free to get involved on&nbsp;
-          <a href="https://github.com/codyogden/killedbygoogle" target="_blank" rel="noopener noreferrer">GitHub</a>
+          We rely on contributors to proofread, check accuracy, and keep this
+          list up to date. The Google Graveyard is ad-free and open source. Feel
+          free to get involved on&nbsp;
+          <a
+            href="https://github.com/codyogden/killedbygoogle"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
           . Follow us on&nbsp;
           <a href="https://twitter.com/killedbygoogle">Twitter</a>
           &nbsp; to get instant updates.
         </Description>
       </ContentContainer>
     </ListItem>
-    {items.map(item => <Item key={item.name} {...item} />)}
+    {items.map(item => (
+      <Item key={item.name} {...item} />
+    ))}
   </ListContainer>
 );
 

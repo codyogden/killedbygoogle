@@ -3,22 +3,17 @@ import PropTypes from 'prop-types';
 
 import { ListItem } from './Filter.atoms';
 
-const FilterItem = (props) => {
-  const {
-    active,
-    clickHandler,
-    counts,
-    index,
-    item,
-  } = props;
+const FilterItem = props => {
+  const { active, clickHandler, counts, index, item } = props;
   return (
-    <ListItem className={(active) ? 'active' : 'inactive'}>
-      <button onClick={() => { clickHandler(item[1], index); }} type="button">
-        {item[0]}
-        {' '}
-        (
-        {counts[index]}
-        )
+    <ListItem className={active ? 'active' : 'inactive'}>
+      <button
+        onClick={() => {
+          clickHandler(item[1], index);
+        }}
+        type="button"
+      >
+        {item[0]} ({counts[index]})
       </button>
     </ListItem>
   );

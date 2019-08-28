@@ -9,7 +9,7 @@ export const SearchContainer = styled.div`
 
 export const SearchBox = styled.input`
   font-size: 2em;
-  @media screen and ( max-width: 700px ) {
+  @media screen and (max-width: 700px) {
     font-size: 1em;
   }
   border: none;
@@ -24,19 +24,23 @@ export const SearchBox = styled.input`
   transition: all 100ms linear;
   font-weight: lighter;
 
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
     color: #cfcfcf;
     transition: all 100ms linear;
   }
-  ::-moz-placeholder { /* Firefox 19+ */
+  ::-moz-placeholder {
+    /* Firefox 19+ */
     color: #cfcfcf;
     transition: all 100ms linear;
   }
-  :-ms-input-placeholder { /* IE 10+ */
+  :-ms-input-placeholder {
+    /* IE 10+ */
     color: #cfcfcf;
     transition: all 100ms linear;
   }
-  :-moz-placeholder { /* Firefox 18- */
+  :-moz-placeholder {
+    /* Firefox 18- */
     color: #cfcfcf;
     transition: all 100ms linear;
   }
@@ -44,18 +48,21 @@ export const SearchBox = styled.input`
   &:hover,
   &:focus {
     border-bottom: 1px solid #cfcfcf;
-    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
       color: #cfcfcf;
     }
-    ::-moz-placeholder { /* Firefox 19+ */
+    ::-moz-placeholder {
+      /* Firefox 19+ */
       color: #cfcfcf;
     }
-    :-ms-input-placeholder { /* IE 10+ */
+    :-ms-input-placeholder {
+      /* IE 10+ */
       color: #cfcfcf;
     }
-    :-moz-placeholder { /* Firefox 18- */
+    :-moz-placeholder {
+      /* Firefox 18- */
       color: #cfcfcf;
     }
   }
-
 `;

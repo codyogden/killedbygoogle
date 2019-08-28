@@ -6,9 +6,9 @@ export const Logo = styled.img`
   width: ${LogoSize}px;
   height: ${LogoSize}px;
   margin: 0 15px 0 0;
-  @media screen and ( max-width: 600px ) {
-    width: ${LogoSize - (LogoSize * 0.125)}px;
-    height: ${LogoSize - (LogoSize * 0.125)}px;
+  @media screen and (max-width: 600px) {
+    width: ${LogoSize - LogoSize * 0.125}px;
+    height: ${LogoSize - LogoSize * 0.125}px;
   }
 `;
 
