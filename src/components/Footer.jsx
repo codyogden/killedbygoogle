@@ -91,6 +91,15 @@ export default () => (
             <a href="https://codyogden.com" target="_blank" rel="noopener noreferrer">Cody Ogden</a>
             .
           </p>
+          <p>
+            Press inquiries and other assorted death threats?
+            <br />
+            Throw a&nbsp;
+            <a href="mailto:knife@killedbygoogle.com">
+              knife@killedbygoogle.com
+            </a>
+            .
+          </p>
         </div>
         <CopyNotice>
           <a href="https://github.com/codyogden/killedbygoogle/blob/master/LICENSE">&copy; 2019 Cody Ogden.</a>
