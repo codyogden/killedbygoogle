@@ -92,9 +92,9 @@ export default () => (
             .
           </p>
           <p>
-            Press inquiries and other assorted death threats,
+            Press inquiries and other assorted death threats?
             <br />
-            throw a&nbsp;
+            Throw a&nbsp;
             <a href="mailto:knife@killedbygoogle.com">
               knife@killedbygoogle.com
             </a>
