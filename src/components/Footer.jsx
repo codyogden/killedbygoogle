@@ -64,7 +64,7 @@ const SocialWrapper = styled.div`
   }
 `;
 
-export default () => (
+const Footer = () => (
   <>
     <PressCoverage />
     <FooterContainer>
@@ -135,3 +135,5 @@ export default () => (
     </FooterContainer>
   </>
 );
+
+export default Footer;

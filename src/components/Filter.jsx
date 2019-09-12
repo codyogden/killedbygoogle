@@ -15,7 +15,7 @@ export default class Filter extends Component {
     this.clickHandler = this.clickHandler.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const { items } = this.props;
     // Get the counts for each time
     const counts = ['app', 'service', 'hardware'].map(
@@ -63,5 +63,5 @@ export default class Filter extends Component {
 
 Filter.propTypes = {
   filterHandler: PropTypes.func.isRequired,
-  items: PropTypes.arrayOf(PropTypes.shape(Item.propTypes)).isRequired,
+  items: PropTypes.arrayOf(PropTypes.shape(Item.propTypes.grave)).isRequired,
 };

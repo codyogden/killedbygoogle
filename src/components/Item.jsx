@@ -45,20 +45,26 @@ export default class Item extends Component {
   }
 
   getYears() {
-    const { dateClose, dateOpen } = this.props;
-    const duration = formatDistance(parseISO(dateClose), parseISO(dateOpen));
+    const { grave } = this.props;
+    const duration = formatDistance(
+      parseISO(grave.dateClose),
+      parseISO(grave.dateOpen)
+    );
 
     return ` It was ${duration} old.`;
   }
 
   isPast() {
-    const { dateClose } = this.props;
-    return new Date() > new Date(dateClose);
+    const { grave } = this.props;
+    return new Date() > new Date(grave.dateClose);
   }
 
   timePhrase() {
-    const { dateClose } = this.props;
-    const relativeDate = formatDistanceToNow(parseISO(dateClose), new Date());
+    const { grave } = this.props;
+    const relativeDate = formatDistanceToNow(
+      parseISO(grave.dateClose),
+      new Date()
+    );
     if (!this.isPast()) {
       return <span>{`${eolIdiom()} in ${relativeDate}, `}</span>;
     }
@@ -95,7 +101,7 @@ export default class Item extends Component {
   }
 
   render() {
-    const { ...grave } = this.props;
+    const { grave } = this.props;
     return (
       <ListItem>
         <IconContainer>
@@ -120,10 +126,12 @@ export default class Item extends Component {
 }
 
 Item.propTypes = {
-  name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  dateClose: PropTypes.string.isRequired,
-  dateOpen: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
+  grave: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    dateClose: PropTypes.string.isRequired,
+    dateOpen: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired,
+    type: PropTypes.string.isRequired,
+  }).isRequired,
 };

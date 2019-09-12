@@ -57,13 +57,13 @@ const List = ({ items }) => (
       </ContentContainer>
     </ListItem>
     {items.map(item => (
-      <Item key={item.name} {...item} />
+      <Item key={item.name} grave={item} />
     ))}
   </ListContainer>
 );
 
 List.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.shape(Item.propTypes)).isRequired,
+  items: PropTypes.arrayOf(PropTypes.shape(Item.propTypes.grave)).isRequired,
 };
 
 export default List;

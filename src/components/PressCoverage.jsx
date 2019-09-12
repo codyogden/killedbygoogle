@@ -103,7 +103,7 @@ const Title = styled.h4`
   }
 `;
 
-export default () => (
+const PressCoverage = () => (
   <Press>
     <Title>As seen on</Title>
     <Container>
@@ -122,3 +122,5 @@ export default () => (
     </Container>
   </Press>
 );
+
+export default PressCoverage;
