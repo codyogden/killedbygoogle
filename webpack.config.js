@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const webpack = require('webpack');
 const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
@@ -39,7 +40,7 @@ module.exports = (env, argv) => {
       ],
     },
     resolve: {
-      extensions: ['*', '.js', '.jsx'],
+      extensions: ['*', '.js', '.jsx', '.ts', '.tsx'],
       alias: {},
     },
     plugins: [

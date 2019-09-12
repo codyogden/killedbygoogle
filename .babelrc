@@ -1,21 +1,21 @@
 {
-  "presets":
+  "presets": [
     [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "browsers": "last 2 versions"
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "last 2 versions"
         },
         "loose": true,
         "modules": false
       }
     ],
-    "@babel/react"
-    ],
-    "env": {
-      "test": {
-        "presets": [["@babel/env"], "@babel/react"]
-      }
+    "@babel/react",
+    "@babel/preset-typescript"
+  ],
+  "env": {
+    "test": {
+      "presets": [["@babel/env"], "@babel/react"]
     }
+  }
 }
