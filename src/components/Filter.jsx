@@ -18,11 +18,9 @@ export default class Filter extends Component {
   componentWillMount() {
     const { items } = this.props;
     // Get the counts for each time
-    const counts = [
-      'app',
-      'service',
-      'hardware',
-    ].map(type => items.filter(item => item.type === type).length);
+    const counts = ['app', 'service', 'hardware'].map(
+      type => items.filter(item => item.type === type).length
+    );
     // Unshift the total count for the `all` option
     counts.unshift(items.length);
     // Add the counts to the for consumption
@@ -43,23 +41,21 @@ export default class Filter extends Component {
     const { active, counts } = this.state;
     return (
       <FilterList>
-        {
-        [
+        {[
           ['all', false],
           ['apps', 'app'],
           ['services', 'service'],
           ['hardware', 'hardware'],
-        ]
-          .map((type, index) => (
-            <FilterItem
-              active={(active === index)}
-              clickHandler={this.clickHandler}
-              counts={counts}
-              key={type[1]}
-              index={index}
-              item={type}
-            />
-          ))}
+        ].map((type, index) => (
+          <FilterItem
+            active={active === index}
+            clickHandler={this.clickHandler}
+            counts={counts}
+            key={type[1]}
+            index={index}
+            item={type}
+          />
+        ))}
       </FilterList>
     );
   }

@@ -32,7 +32,13 @@ export default class Search extends Component {
       <SearchContainer>
         <label htmlFor="searchBox" aria-label="Search">
           <span style={labelTextStyle}>Search</span>
-          <SearchBox id="searchBox" placeholder="Search" type="text" value={inputValue} onChange={event => this.updateSearch(event)} />
+          <SearchBox
+            id="searchBox"
+            placeholder="Search"
+            type="text"
+            value={inputValue}
+            onChange={event => this.updateSearch(event)}
+          />
         </label>
       </SearchContainer>
     );

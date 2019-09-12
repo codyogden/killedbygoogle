@@ -13,27 +13,32 @@ import BGR from '../assets/features/bgr-logo.png';
 
 const links = [
   {
-    url: 'https://www.businessinsider.com/coder-created-obituary-website-for-googles-defunct-products-2019-3',
+    url:
+      'https://www.businessinsider.com/coder-created-obituary-website-for-googles-defunct-products-2019-3',
     altText: 'Business Insider',
     imgSrc: BUSINESSINSIDER,
   },
   {
-    url: 'https://thenextweb.com/google/2019/03/26/killed-by-google-digital-obituary/',
+    url:
+      'https://thenextweb.com/google/2019/03/26/killed-by-google-digital-obituary/',
     altText: 'The Next Web',
     imgSrc: TNW,
   },
   {
-    url: 'https://www.fastcompany.com/90322103/a-eulogy-for-every-product-google-has-ruthlessly-killed-145-and-counting',
+    url:
+      'https://www.fastcompany.com/90322103/a-eulogy-for-every-product-google-has-ruthlessly-killed-145-and-counting',
     altText: 'Fast Company',
     imgSrc: FASTCO,
   },
   {
-    url: 'https://lifehacker.com/how-to-track-every-google-service-and-app-thats-shut-do-1833553690',
+    url:
+      'https://lifehacker.com/how-to-track-every-google-service-and-app-thats-shut-do-1833553690',
     altText: 'Lifehacker',
     imgSrc: LIFEHACKER,
   },
   {
-    url: 'http://fortune.com/2019/04/03/data-sheet-healthcare-transformation-tech-brainstorm/',
+    url:
+      'http://fortune.com/2019/04/03/data-sheet-healthcare-transformation-tech-brainstorm/',
     altText: 'Fortune',
     imgSrc: FORTUNE,
   },
@@ -43,7 +48,8 @@ const links = [
     imgSrc: GIZMODO,
   },
   {
-    url: 'https://arstechnica.com/gadgets/2019/04/googles-constant-product-shutdowns-are-damaging-its-brand/',
+    url:
+      'https://arstechnica.com/gadgets/2019/04/googles-constant-product-shutdowns-are-damaging-its-brand/',
     altText: 'Ars Technica',
     imgSrc: ARSTECHNICA,
   },
@@ -69,7 +75,7 @@ const Container = styled.ul`
 const Child = styled.li`
   flex: 0 0 25%;
   margin-top: 50px;
-  @media screen and ( max-width: 700px ) {
+  @media screen and (max-width: 700px) {
     flex: 0 0 50%;
     margin-top: 50px;
   }
@@ -92,7 +98,7 @@ const Title = styled.h4`
   text-align: center;
   font-weight: normal;
   text-transform: uppercase;
-  @media screen and ( max-width: 700px ) {
+  @media screen and (max-width: 700px) {
     margin-bottom: 0;
   }
 `;
@@ -103,7 +109,12 @@ export default () => (
     <Container>
       {links.map(link => (
         <Child key={link.altText}>
-          <a href={link.url} title={link.altText} target="_blank" rel="noopener noreferrer">
+          <a
+            href={link.url}
+            title={link.altText}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={link.imgSrc} alt={link.altText} />
           </a>
         </Child>
