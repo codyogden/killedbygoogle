@@ -1406,5 +1406,13 @@
     "link": "https://arstechnica.com/gadgets/2019/06/google-is-killing-youtubes-hangouts-on-air-this-year/",
     "name": "Hangouts on Air",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-12-04",
+    "dateOpen": "2009-06-08",
+    "description": "Google Translator Toolkit is a web application designed to allow translators to edit the translations that Google Translate automatically generates.",
+    "link": "https://support.google.com/translatortoolkit/answer/9462068",
+    "name": "Google Translator Toolkit",
+    "type": "service"
   }
 ]
