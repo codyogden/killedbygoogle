@@ -44,7 +44,7 @@
   "dependencies": {
     "browserlist": "^1.0.1",
     "caniuse-lite": "1.0.30000989",
-    "date-fns": "2.0.1",
+    "date-fns": "2.2.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
     "eslint-utils": "1.4.2",
