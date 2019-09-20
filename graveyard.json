@@ -1414,5 +1414,13 @@
     "link": "https://support.google.com/translatortoolkit/answer/9462068",
     "name": "Google Translator Toolkit",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-09-30",
+    "dateOpen": "2013-04-18",
+    "description": "G Suite Training/Synergyse provided interactive and video-based training for 20 Google G Suite products in 9 languages. It was acquired by Google on May 1, 2016.",
+    "link": "https://support.google.com/a/answer/7039472",
+    "name": "G Suite Training/Synergyse",
+    "type": "service"
   }
 ]
