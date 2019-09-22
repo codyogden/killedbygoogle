@@ -1422,5 +1422,13 @@
     "link": "https://support.google.com/translatortoolkit/answer/9462068",
     "name": "Google Translator Toolkit",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-09-30",
+    "dateOpen": "2013-04-18",
+    "description": "G Suite Training (previously known as Synergyse) provided interactive and video-based training for 20 Google G Suite products in nine languages through a website and a Chrome extension.",
+    "link": "https://support.google.com/a/answer/7039472",
+    "name": "G Suite Training",
+    "type": "service"
   }
 ]
