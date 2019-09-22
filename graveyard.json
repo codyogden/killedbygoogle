@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-10-02",
+    "dateOpen": "2010-07-07",
+    "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
+    "link": "https://9to5google.com/2019/09/16/youtube-leanback-tv-interface-disabled-soon/",
+    "name": "YouTube Leanback",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-09-03",
     "dateOpen": "2013-11-29",
     "description": "YouTube app for Nintendo 3DS, 2DS, and New 3DS allowed users to stream YouTube videos on the portable gaming console.",
