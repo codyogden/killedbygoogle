@@ -1434,9 +1434,9 @@
   {
     "dateClose": "2019-09-18",
     "dateOpen": "2017-08-07",
-    "description": "Youtube Mesagging was and in-app feature that would allow YouTube users to private-send their friends videos and chat within a dedicated tab in the YouTube mobile app",
+    "description": "Youtube Messages was and in-app feature that would allow YouTube users to private-send their friends videos and chat within a dedicated tab in the YouTube mobile app",
     "link": "https://support.google.com/youtube/answer/6401227",
-    "name": "Youtube Mesagging",
+    "name": "Youtube Messages",
     "type": "service"
   }
 ]
