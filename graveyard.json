@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-11-22",
+    "dateOpen": "2018-01-26",
+    "description": "Google Bulletin was a hyperlocal news service where users could post news from their neighborhood and allow others in the same areas to hear those stories.",
+    "link": "https://www.androidpolice.com/2019/09/26/googles-hyperlocal-news-app-bulletin-is-shutting-down/",
+    "name": "Google Bulletin",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-10-02",
     "dateOpen": "2010-07-07",
     "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
