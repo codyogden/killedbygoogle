@@ -1438,5 +1438,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2016-09-02",
+    "dateOpen": "2013-10-29",
+    "description": "Project Ara was a concept of modular smartphone where you could, theoretically, have a choice on every piece of hardware that goes into your phone and you had the ability to replace anything instantly.",
+    "link": "https://en.wikipedia.org/wiki/Project_Ara",
+    "name": "Project Ara",
+    "type": "hardware"
   }
 ]
