@@ -13,6 +13,8 @@
 </div>
 
 ## Contribute
+Create branch with your product killedbygoogle exe: `name-product-killed` . 
+Never use the master branch to create PR. read this link: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github 
 
 To add a product, add it to `graveyard.json` file. You'll need the following information:
 
