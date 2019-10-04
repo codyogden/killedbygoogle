@@ -19,6 +19,7 @@ export const Masthead = styled.header`
   padding-top: 30px;
   padding-bottom: 20px;
   box-sizing: border-box;
+  color: #FFF;
 `;
 
 export const Title = styled.h1`

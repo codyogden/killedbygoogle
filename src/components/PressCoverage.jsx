@@ -98,6 +98,7 @@ const Title = styled.h4`
   text-align: center;
   font-weight: normal;
   text-transform: uppercase;
+  color: #000;
   @media screen and (max-width: 700px) {
     margin-bottom: 0;
   }

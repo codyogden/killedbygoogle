@@ -33,6 +33,7 @@ export const ListItem = styled.li`
   h2 {
     margin: 0;
     font-weight: 300;
+    color: #eb7800;
   }
   @media screen and (max-width: 700px) {
     &#mobile-hide {
@@ -43,8 +44,10 @@ export const ListItem = styled.li`
 
 export const AgeRange = styled.div`
   font-size: 0.75em;
+  color: #FFF;
 `;
 
 export const ContentContainer = styled.div`
   padding-bottom: 1.25em;
+  color: #FFF;
 `;
