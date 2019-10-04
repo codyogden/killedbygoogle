@@ -20,7 +20,7 @@ import {
   ListItem,
 } from './Item.atoms';
 
-const eolIdiom = () => {
+const soonToDieIdiom = () => {
   const items = [
     'Sentenced to death',
     '"Off with their heads!"',
@@ -31,17 +31,29 @@ const eolIdiom = () => {
     'Bites the big one',
     'Off to the glue factory',
     'Another one bites the dust',
+    'Will be turned off',
+    'Like a fork stuck in the outlet',
+  ];
+  return items[Math.floor(Math.random() * items.length)];
+};
+
+const hasDiedIdiom = () => {
+  const items = [
+    'Killed'
     'Exterminated',
     'Flushed',
     'Turned off',
+    'Unplugged',
+    'Vanished',
+    'Poofed',
     'Turned to ashes',
-    'Stuck a fork in the outlet',
     'KO\'d',
     'Ran out of juice',
     'Faded into darkness',
     'Ate $#!t',
     'Floated belly up',
   ];
+
   return items[Math.floor(Math.random() * items.length)];
 };
 
@@ -70,9 +82,9 @@ export default class Item extends Component {
     const { dateClose } = this.props;
     const relativeDate = formatDistanceToNow(parseISO(dateClose), new Date());
     if (!this.isPast()) {
-      return <span>{`${eolIdiom()} in ${relativeDate}, `}</span>;
+      return <span>{`${soonToDieIdiom()} in ${relativeDate}, `}</span>;
     }
-    return <span>{`Killed ${relativeDate} ago, `}</span>;
+    return <span>{`${hasDiedIdiom()} ${relativeDate} ago, `}</span>;
   }
 
   ageRange(grave) {
