@@ -31,6 +31,16 @@ const eolIdiom = () => {
     'Bites the big one',
     'Off to the glue factory',
     'Another one bites the dust',
+    'Exterminated',
+    'Flushed',
+    'Turned off',
+    'Turned to ashes',
+    'Stuck a fork in the outlet',
+    'KO\'d',
+    'Ran out of juice',
+    'Faded into darkness',
+    'Ate $#!t',
+    'Floated belly up',
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
