@@ -39,7 +39,7 @@ const soonToDieIdiom = () => {
 
 const hasDiedIdiom = () => {
   const items = [
-    'Killed'
+    'Killed',
     'Exterminated',
     'Flushed',
     'Turned off',
@@ -53,7 +53,6 @@ const hasDiedIdiom = () => {
     'Ate $#!t',
     'Floated belly up',
   ];
-
   return items[Math.floor(Math.random() * items.length)];
 };
 
