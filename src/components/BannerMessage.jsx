@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  background-color: #7200a5;
+  background-color: #300d4a;
   color: #fafafa;
   padding: 8px 5px;
   @media screen and (max-width: 700px) {
