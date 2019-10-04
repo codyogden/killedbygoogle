@@ -14,6 +14,7 @@ export const FlexWrap = styled.div`
   width: 38em;
   margin: 0 auto;
   /* justify-content: space-between; */
+  background-color: #000;
   text-align: center;
   & > div {
     &:nth-child(1) {
