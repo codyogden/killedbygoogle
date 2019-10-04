@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Tombstone from '../assets/tombstone.svg';
+import Tombstone from '../assets/halloween/tombstone.svg';
 
 // Import Styled Components
 import { Logo, Masthead, Title } from './Header.atoms';
