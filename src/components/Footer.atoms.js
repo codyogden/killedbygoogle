@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   color: #fafafa;
-  background-color: #000;
+  background-color: #212121;
   padding: 50px 0;
   font-size: 1em;
 `;
@@ -14,7 +14,6 @@ export const FlexWrap = styled.div`
   width: 38em;
   margin: 0 auto;
   /* justify-content: space-between; */
-  background-color: #000;
   text-align: center;
   & > div {
     &:nth-child(1) {
