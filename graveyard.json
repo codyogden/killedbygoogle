@@ -16,8 +16,8 @@
     "type": "service"
   },
   {
-    "dateClose": "1998-10-02",
-    "dateOpen": "2010-07-07",
+    "dateClose": "2010-07-07",
+    "dateOpen": "1998-10-02",
     "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
     "link": "https://9to5google.com/2019/09/16/youtube-leanback-tv-interface-disabled-soon/",
     "name": "YouTube Leanback",
