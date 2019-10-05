@@ -13,7 +13,7 @@
 </div>
 
 ## Contribute
-
+Create branch with your product killedbygoogle exe: `name-product-killed` .
 To add a product, add it to `graveyard.json` file. You'll need the following information:
 
 - Name of Product (`name`)
