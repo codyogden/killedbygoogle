@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 // Images
 import FASTCO from '../assets/features/fast-company-logo.png';
-import ARSTECHNICA from '../assets/features/ars-technica-logo.png';
-import BGR from '../assets/features/bgr-logo.png';
+import TNW from '../assets/features/the-next-web-logo.png';
+import LIFEHACKER from '../assets/features/lifehacker-logo.png';
 import BUSINESSINSIDER from '../assets/features/business-insider-logo.png';
 import FORTUNE from '../assets/features/fortune-logo.png';
 import GIZMODO from '../assets/features/gizmodo-logo.png';
-import LIFEHACKER from '../assets/features/lifehacker-logo.png';
-import TNW from '../assets/features/the-next-web-logo.png';
+import ARSTECHNICA from '../assets/features/ars-technica-logo.png';
+import BGR from '../assets/features/bgr-logo.png';
 
 const links = [
   {
