@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2011-06-02",
+    "dateOpen": "1998-09-04",
+    "description": "Google Uncle Sam Search was a specialized search landing page for searching U.S. federal, state and location information at google.com/unclesam.",
+    "link": "https://www.netforlawyers.com/content/google-kills-uncle-sam-0024",
+    "name": "Google Uncle Sam Search",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-11-22",
     "dateOpen": "2018-01-26",
     "description": "Google Bulletin was a hyperlocal news service where users could post news from their neighborhood and allow others in the same areas to hear those stories.",
@@ -8,7 +16,7 @@
     "type": "service"
   },
   {
-    "dateClose": "2019-10-02",
+    "dateClose": "1998-10-02",
     "dateOpen": "2010-07-07",
     "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
     "link": "https://9to5google.com/2019/09/16/youtube-leanback-tv-interface-disabled-soon/",

@@ -44,10 +44,10 @@ export const ListItem = styled.li`
 
 export const AgeRange = styled.div`
   font-size: 0.75em;
-  color: #FFF;
+  color: #fff;
 `;
 
 export const ContentContainer = styled.div`
   padding-bottom: 1.25em;
-  color: #FFF;
+  color: #fff;
 `;

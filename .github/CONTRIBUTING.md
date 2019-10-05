@@ -18,3 +18,9 @@ Killed by Google uses [Netlify](https://netlify.com) for hosting and continuous 
 
 ### Dependency Upgrades
 Killed by Google is using [Dependabot](https://dependabot.com/) to keep dependencies updated. Generally, a maintainer will wrap any upgrades issued by Dependabot in the `upgrades` branch, merge, and automatically close any Dependabot PRs. Any dependency upgrades must pass CI and CD checks.
+
+### How To Start
+ Make sure you have the right Node version (>=v11.0.0)
+ Run `nvm use 12`
+ Run `Yarn`
+ Run yarn build

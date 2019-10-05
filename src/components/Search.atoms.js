@@ -23,7 +23,7 @@ export const SearchBox = styled.input`
   outline: none;
   transition: all 100ms linear;
   font-weight: lighter;
-  color: #FFF;
+  color: #fff;
 
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
