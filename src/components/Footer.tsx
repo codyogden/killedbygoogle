@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Tombstone from '../assets/tombstone-alt.svg';
@@ -12,7 +11,16 @@ import PressCoverage from './PressCoverage';
 import TWITTER from '../assets/twitter.svg';
 import GITHUB from '../assets/github.svg';
 
-const SocialLink = ({ url, imgSrc, altText }) => {
+type Props = {
+  url: string;
+  imgSrc: string;
+  altText: string;
+};
+const SocialLink: React.FunctionComponent<Props> = ({
+  url,
+  imgSrc,
+  altText,
+}: Props) => {
   const style = {
     border: 'none',
   };
@@ -22,12 +30,6 @@ const SocialLink = ({ url, imgSrc, altText }) => {
       <img src={imgSrc} alt={altText} />
     </a>
   );
-};
-
-SocialLink.propTypes = {
-  url: PropTypes.string.isRequired,
-  imgSrc: PropTypes.node.isRequired,
-  altText: PropTypes.string.isRequired,
 };
 
 const CopyNotice = styled.div`
