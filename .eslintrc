@@ -1,6 +1,8 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "airbnb",
+    "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "plugin:react/recommended",
     "prettier",
@@ -11,7 +13,7 @@
     "node": true,
     "jest": true
   },
-  "plugins": ["json", "react-hooks", "react"],
+  "plugins": ["@typescript-eslint", "json", "react-hooks", "react"],
   "rules": {
     "jsx-a11y/label-has-for": [
       2,
@@ -22,7 +24,11 @@
       }
     ],
     "react/display-name": 0,
-    "react/jsx-props-no-spreading": 0
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": 0,
+
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "import/no-unresolved": 0
   },
   "settings": {
     "react": {
