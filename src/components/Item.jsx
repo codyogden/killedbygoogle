@@ -33,28 +33,22 @@ const soonToDieIdiom = () => {
     'Another one bites the dust',
     'Will be turned off',
     'Like a fork stuck in the outlet',
+    'Schedulued to be killed',
+    'Will be exterminated',
+    'Will be flushed',
+    'Soon to be turned off',
+    'Gets unplugged',
+    'Vanishing',
+    'Goes poof',
+    'Turns to ashes',
+    'Gets KO\'d',
+    'Runs out of juice',
+    'Fades into darkness',
+    'Floats belly up'
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
 
-const hasDiedIdiom = () => {
-  const items = [
-    'Killed',
-    'Exterminated',
-    'Flushed',
-    'Turned off',
-    'Unplugged',
-    'Vanished',
-    'Poofed',
-    'Turned to ashes',
-    'KO\'d',
-    'Ran out of juice',
-    'Faded into darkness',
-    'Ate $#!t',
-    'Floated belly up',
-  ];
-  return items[Math.floor(Math.random() * items.length)];
-};
 
 export default class Item extends Component {
   getIcon() {
@@ -83,7 +77,7 @@ export default class Item extends Component {
     if (!this.isPast()) {
       return <span>{`${soonToDieIdiom()} in ${relativeDate}, `}</span>;
     }
-    return <span>{`${hasDiedIdiom()} ${relativeDate} ago, `}</span>;
+    return <span>{`Killed ${relativeDate} ago, `}</span>;
   }
 
   ageRange(grave) {
