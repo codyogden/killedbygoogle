@@ -1438,5 +1438,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-04-01",
+    "dateOpen": "2015-12-07",
+    "description": "uWeave (pronounced “micro weave”) is an implementation of the Weave protocol intended for use on microcontroller (MCU) based devices.",
+    "link": "https://weave.googlesource.com/weave/libweave/+log/master/third_party/libuweave",
+    "name": "uWeave",
+    "type": "app"
   }
 ]
