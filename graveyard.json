@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-10-15",
+    "dateOpen": "2016-11-10",
+    "description": "Google Daydream was a virtual reality platform and set of hardware devices that worked with certain Android phones.",
+    "link": "https://en.wikipedia.org/wiki/Google_Daydream",
+    "name": "Google Daydream",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2019-11-22",
     "dateOpen": "2018-01-26",
     "description": "Google Bulletin was a hyperlocal news service where users could post news from their neighborhood and allow others in the same areas to hear those stories.",
