@@ -1,6 +1,14 @@
 [
   {
     "dateClose": "2019-10-15",
+    "dateOpen": "2017-10-04",
+    "description": "Google Clips was a miniature clip-on camera that could automatically capture interesting or relevant video clips determined by machine learning algorithms.",
+    "link": "https://en.wikipedia.org/wiki/Google_Clips",
+    "name": "Google Clips",
+    "type": "hardware"
+  },
+  {
+    "dateClose": "2019-10-15",
     "dateOpen": "2016-11-10",
     "description": "Google Daydream was a virtual reality platform and set of hardware devices that worked with certain Android phones.",
     "link": "https://en.wikipedia.org/wiki/Google_Daydream",
