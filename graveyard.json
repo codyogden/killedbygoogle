@@ -1438,5 +1438,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2016-12-13",
+    "dateOpen": "2015-05-28",
+    "description": "Google Brillo it was an OS that Google had announced at Google I/O 2015, at its core, Brillo was Android, but it was very different from the standard Android development, Brillo used the coding language C++.",
+    "link": "https://www.engadget.com/2019/02/13/android-things-smart-speakers-displays",
+    "name": "Google Brillo",
+    "type": "hardware"
   }
 ]
