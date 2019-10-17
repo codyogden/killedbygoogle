@@ -1454,5 +1454,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-10-15",
+    "dateOpen": "2016-11-10",
+    "link": "https://variety.com/2019/digital/news/pixel-4-google-daydream-vr-1203371182/",
+    "type": "app",
+    "description": "Daydream was a virtual reality platform  that is built into the Android mobile operating system.",
+    "name": "Daydream"
   }
 ]
