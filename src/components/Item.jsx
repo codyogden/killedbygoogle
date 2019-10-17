@@ -33,7 +33,7 @@ const soonToDieIdiom = () => {
     'Another one bites the dust',
     'Will be turned off',
     'Like a fork stuck in the outlet',
-    'Schedulued to be killed',
+    'Scheduled to be killed',
     'Will be exterminated',
     'Will be flushed',
     'Soon to be turned off',

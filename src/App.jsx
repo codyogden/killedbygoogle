@@ -49,7 +49,7 @@ export default class App extends Component {
 
   search() {
     const { fullList, activeFilter, term } = this.state;
-    const regexp = new RegExp(term.toLowerCase(), 'i');
+    const regexp = new RegExp(term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
     // If a filter is active, only search through those results
     const list = activeFilter
       ? fullList.filter(el => el.type === activeFilter)
