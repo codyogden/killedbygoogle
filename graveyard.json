@@ -1,4 +1,12 @@
 [
+   {
+    "dateClose": "2019-10-17",
+    "dateOpen": "2017-06-01",
+    "description": "Datally (formerly Triangle) was a smart app by Google that helps you save, manage, and share your mobile data.",
+    "link": "https://support.google.com/datally/?hl=en-GB#topic=7568779",
+    "name": "datally",
+    "type": "app"
+  }
   {
     "dateClose": "2019-10-15",
     "dateOpen": "2017-10-04",
