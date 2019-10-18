@@ -23,7 +23,7 @@ To add a product, gather the following information:
 - Link (`link`) - Relevant link to the source
 - Type (`type`) - one of App, Service or Hardware
 
-If you are not familiar with or just don't want to use Git, submit a [new issue] requesting the change. If you are already familiar with Git, follow the steps below
+If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/codyogden/killedbygoogle/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
 
 1. If you haven't already, start by [forking](https://help.github.com/en/articles/fork-a-repo) this repository. 
 2. [Create a new branch](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work) in your fork. Name it using the product you want to add 
