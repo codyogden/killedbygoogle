@@ -2,6 +2,7 @@
   <img src="src/assets/tombstone.png" alt="tombstone" style="height: 80px; width: 80px; padding: 0 20px;">
   <h1>Killed by Microsoft</h1>
   <p>A tribute and log of beloved products and services killed by Microsoft.</p>
+  <p>Based on [Killed by Google](https://github.com/codyogden/killedbygoogle)</p>
 </div>
 
 <div align="center">
