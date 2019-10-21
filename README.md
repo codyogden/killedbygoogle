@@ -1,12 +1,12 @@
 <div align="center">
   <img src="src/assets/tombstone.png" alt="tombstone" style="height: 80px; width: 80px; padding: 0 20px;">
-  <h1>Killed by Google</h1>
-  <p>A tribute and log of beloved products and services killed by Google.</p>
+  <h1>Killed by Microsoft</h1>
+  <p>A tribute and log of beloved products and services killed by Microsoft.</p>
 </div>
 
 <div align="center">
 
-[![GitHub Actions](https://github.com/codyogden/killedbygoogle/workflows/build/badge.svg)](https://actions-badge.atrox.dev/codyogden/killedbygoogle/goto) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Netlify Status](https://img.shields.io/netlify/320a7a15-ce8b-4dba-befa-4c7922d5db9c)](https://app.netlify.com/sites/killedbygoogle/deploys) [![Twitter Follow](https://img.shields.io/twitter/follow/killedbygoogle?color=%231da1f2&label=%40killedbygoogle&style=flat-square)](https://twitter.com/killedbygoogle)
+[![GitHub Actions](https://github.com/djfoxer/killedbymicrosoft/workflows/build/badge.svg)](https://actions-badge.atrox.dev/codyogden/killedbygoogle/goto) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Netlify Status](https://img.shields.io/netlify/320a7a15-ce8b-4dba-befa-4c7922d5db9c)](https://app.netlify.com/sites/killedbygoogle/deploys) [![Twitter Follow](https://img.shields.io/twitter/follow/killedbygoogle?color=%231da1f2&label=%40killedbygoogle&style=flat-square)](https://twitter.com/killedbygoogle)
 
 
 
@@ -14,7 +14,7 @@
 
 ## Contribute
 
-Create branch with your product killedbygoogle exe: `name-product-killed` . 
+Create branch with your product killedbymicrosoft exe: `name-product-killed` . 
 Never use the `master` branch to create a pull request. If you need help, read [How to Create a Pull Request on GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
 To add a product, add it to `graveyard.json` file. You'll need the following information:
@@ -53,4 +53,4 @@ Link should be a resource that mentions the discontinuation date and talks about
 The type should be either `app`, `service`, or `hardware` as a string.
 
 ## Thanks Where Thanks is Due
-I'd like to thank the [Wikimedia Foundation](https://wikimediafoundation.org) and [Internet Archive](https://archive.org/) for their wonderful resources, including the ability to track down broken links, home page graphics, and screenshots of services from the past. They have been invaluable tools in gathering information and content for Killed by Google. If you are able, I encourage you to make a donation to these organizations for the wonderful work they do in sharing knowledge and preserving history.
+I'd like to thank the [Wikimedia Foundation](https://wikimediafoundation.org) and [Internet Archive](https://archive.org/) for their wonderful resources, including the ability to track down broken links, home page graphics, and screenshots of services from the past. They have been invaluable tools in gathering information and content for Killed by Microsoft. If you are able, I encourage you to make a donation to these organizations for the wonderful work they do in sharing knowledge and preserving history.
