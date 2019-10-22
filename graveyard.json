@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2018-01-12",
+    "dateOpen": "2016-06-30",
+    "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
+    "link": "https://github.com/googlearchive/soundstagevr",
+    "name": "SoundStage",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-10-15",
     "dateOpen": "2017-10-04",
     "description": "Google Clips was a miniature clip-on camera that could automatically capture interesting or relevant video clips determined by machine learning algorithms.",
