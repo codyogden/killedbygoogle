@@ -1462,5 +1462,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2015-05-13",
+    "dateOpen": "2012-09-27",
+    "description": "Field Trip was a mobile app that acted as a virtual tour guide by cross referencing multiple sources of information to provide users information about points of interest near them.",
+    "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
+    "name": "Field Trip",
+    "type": "app"
   }
 ]
