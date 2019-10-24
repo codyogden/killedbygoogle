@@ -1462,5 +1462,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2016-06-30",
+    "dateOpen": "2013-11-01",
+    "description": "Google Wallet Card was the physical card to support Google Pay.  A Mastercard back card that worked just as a normal Credit Card, except it was tied to your Google Pay account.",
+    "link": "https://www.androidauthority.com/google-wallet-cards-stop-working-june-30-683270/",
+    "name": "Google Wallet Card",
+    "type": "hardware"
   }
 ]
