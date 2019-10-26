@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-03-13",
+    "dateOpen": "2013-10-01",
+    "description": "Google Spotlight Stories was a app associated with a content studio with build award winning immersive storytelling experiences specifically for mobile VR headsets.",
+    "link": "https://variety.com/2019/digital/news/google-spotlight-stories-shutting-down-1203163117/",
+    "name": "Google Spotlight Stories",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-10-17",
     "dateOpen": "2017-06-01",
     "description": "Datally (formerly Triangle) was a smart app by Google that helped you save, manage, and share your mobile data.",
