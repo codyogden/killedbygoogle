@@ -32,6 +32,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2019-11-17",
+    "dateOpen": "2018-09-18",
+    "description": "Touring Bird was an Area 120 incubator project which helped users compare prices, book tours, tickets, and experiences, and learn about top destinations around the world.",
+    "link": "https://9to5google.com/2019/10/22/google-touring-bird/",
+    "name": "Touring Bird",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-10-02",
     "dateOpen": "2010-07-07",
     "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
@@ -1462,5 +1470,13 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2015-05-13",
+    "dateOpen": "2012-09-27",
+    "description": "Field Trip was a mobile app that acted as a virtual tour guide by cross referencing multiple sources of information to provide users information about points of interest near them.",
+    "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
+    "name": "Field Trip",
+    "type": "app"
   }
 ]
