@@ -1480,6 +1480,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2021-06-30",
+    "dateOpen": "2010-10-20",
+    "description": "AngularJS was a JavaScript open-source front-end web framework based on MVC pattern using a dependency injection technique.",
+    "link": "https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c",
+    "name": "AngularJS",
+    "type": "service"
+  },
+  {
     "dateClose": "2015-05-13",
     "dateOpen": "2012-09-27",
     "description": "Field Trip was a mobile app that acted as a virtual tour guide by cross referencing multiple sources of information to provide users information about points of interest near them.",
