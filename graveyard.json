@@ -1494,5 +1494,13 @@
     "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
     "name": "Field Trip",
     "type": "app"
+  },
+  {
+    "dateClose": "2016-09-30",
+    "dateOpen": "2013-10-31",
+    "description": "Project Ara was the codename for a Google initiative that aimed to develop an open platform with free hardware for creating highly modular smartphones.",
+    "link": "https://en.wikipedia.org/wiki/Project_Ara",
+    "name": "Project Ara",
+    "type": "hardware"
   }
 ]
