@@ -1480,6 +1480,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2016-06-30",
+    "dateOpen": "2013-11-01",
+    "description": "Google Wallet Card was a prepaid debit card that let users pay for things in person and online using their Wallet balance at any retailer that accepted MasterCard.",
+    "link": "https://www.androidauthority.com/google-wallet-cards-stop-working-june-30-683270/",
+    "name": "Google Wallet Card",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2021-06-30",
     "dateOpen": "2010-10-20",
     "description": "AngularJS was a JavaScript open-source front-end web framework based on MVC pattern using a dependency injection technique.",
