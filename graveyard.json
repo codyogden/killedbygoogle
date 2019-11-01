@@ -1502,5 +1502,13 @@
     "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
     "name": "Field Trip",
     "type": "app"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-08-17",
+    "description": "Google Related was introduced to be an experimental navigation assistant launched to help people find useful and interesting information while surfing the web.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Related",
+    "type": "service"
   }
 ]
