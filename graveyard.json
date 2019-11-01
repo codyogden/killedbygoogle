@@ -1499,9 +1499,9 @@
   {
     "dateClose": "2019-07-05",
     "dateOpen": "2018-08-01",
-    "description": "The Dragonfly search engine was reportedly designed to link users' phone numbers to their search queries and censor websites such as Wikipedia and those that publish information about freedom of speech,[10] human rights, democracy, religion, and other issues considered sensitive by the Chinese government.",
+    "description": "The Dragonfly Project was a search engine created by Google designed to be compatible with China's state censorship provisions.",
     "link": "https://en.wikipedia.org/wiki/Dragonfly_(search_engine)",
-    "name": "Dragonfly (Search Engine)",
+    "name": "Dragonfly",
     "type": "service"
   }
 ]
