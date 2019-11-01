@@ -28,7 +28,6 @@ export const ListItem = styled.li`
     min-width: 40px;
     padding: 10px 10px;
     text-align: center;
-    color: #fff;
   }
   &.active {
     button {
