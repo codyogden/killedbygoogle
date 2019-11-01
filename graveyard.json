@@ -1504,11 +1504,11 @@
     "type": "app"
   },
   {
-    "dateClose": "2016-09-30",
-    "dateOpen": "2013-10-31",
-    "description": "Project Ara was the codename for a Google initiative that aimed to develop an open platform with free hardware for creating highly modular smartphones.",
-    "link": "https://en.wikipedia.org/wiki/Project_Ara",
-    "name": "Project Ara",
-    "type": "hardware"
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-08-17",
+    "description": "Google Related was introduced to be an experimental navigation assistant launched to help people find useful and interesting information while surfing the web.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Related",
+    "type": "service"
   }
 ]
