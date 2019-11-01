@@ -1481,6 +1481,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2016-06-30",
+    "dateOpen": "2013-11-01",
+    "description": "Google Wallet Card was a prepaid debit card that let users pay for things in person and online using their Wallet balance at any retailer that accepted MasterCard.",
+    "link": "https://www.androidauthority.com/google-wallet-cards-stop-working-june-30-683270/",
+    "name": "Google Wallet Card",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2021-06-30",
     "dateOpen": "2010-10-20",
     "description": "AngularJS was a JavaScript open-source front-end web framework based on MVC pattern using a dependency injection technique.",
@@ -1499,9 +1507,17 @@
   {
     "dateClose": "2019-07-05",
     "dateOpen": "2018-08-01",
-    "description": "The Dragonfly Project was a search engine created by Google designed to be compatible with China's state censorship provisions.",
+    "description": "Dragonfly was a search engine designed to be compatible with China's state censorship provisions.",
     "link": "https://en.wikipedia.org/wiki/Dragonfly_(search_engine)",
     "name": "Dragonfly",
+    "type": "service"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-08-17",
+    "description": "Google Related was introduced to be an experimental navigation assistant launched to help people find useful and interesting information while surfing the web.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Related",
     "type": "service"
   }
 ]
