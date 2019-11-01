@@ -1,4 +1,5 @@
 [
+  
   {
     "dateClose": "2019-03-13",
     "dateOpen": "2013-10-01",
@@ -1502,5 +1503,21 @@
     "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
     "name": "Field Trip",
     "type": "app"
+  },
+  {
+    "dateClose": "2019-07-05",
+    "dateOpen": "2018-08-01",
+    "description": "Dragonfly was a search engine designed to be compatible with China's state censorship provisions.",
+    "link": "https://en.wikipedia.org/wiki/Dragonfly_(search_engine)",
+    "name": "Dragonfly",
+    "type": "service"
+  },
+  {
+    "dateClose": "2012-04-20",
+    "dateOpen": "2011-08-17",
+    "description": "Google Related was introduced to be an experimental navigation assistant launched to help people find useful and interesting information while surfing the web.",
+    "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
+    "name": "Google Related",
+    "type": "service"
   }
 ]
