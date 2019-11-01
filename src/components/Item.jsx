@@ -7,8 +7,8 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import Tombstone from '../assets/halloween/ghost.svg';
-import Guillotine from '../assets/halloween/zombie-hand.svg';
+import Tombstone from '../assets/tombstone.svg';
+import Guillotine from '../assets/guillotine.svg';
 
 // Import Styled Components
 import {
@@ -53,9 +53,9 @@ const soonToDieIdiom = () => {
 export default class Item extends Component {
   getIcon() {
     return this.isPast() ? (
-      <Icon src={Tombstone} alt="Ghost" />
+      <Icon src={Tombstone} alt="Tombstone" />
     ) : (
-      <Icon src={Guillotine} alt="Zombie Hand" />
+      <Icon src={Guillotine} alt="Guillotine" />
     );
   }
 
