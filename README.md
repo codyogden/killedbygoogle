@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Build Status](https://travis-ci.org/codyogden/killedbygoogle.svg?branch=master)](https://travis-ci.org/codyogden/killedbygoogle) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Netlify Status](https://api.netlify.com/api/v1/badges/320a7a15-ce8b-4dba-befa-4c7922d5db9c/deploy-status)](https://app.netlify.com/sites/trusting-saha-87fc1e/deploys)
+[![GitHub Actions](https://github.com/codyogden/killedbygoogle/workflows/build/badge.svg)](https://actions-badge.atrox.dev/codyogden/killedbygoogle/goto) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Netlify Status](https://img.shields.io/netlify/320a7a15-ce8b-4dba-befa-4c7922d5db9c)](https://app.netlify.com/sites/killedbygoogle/deploys) [![Twitter Follow](https://img.shields.io/twitter/follow/killedbygoogle?color=%231da1f2&label=%40killedbygoogle&style=flat-square)](https://twitter.com/killedbygoogle)
 
 
 
@@ -14,17 +14,21 @@
 
 ## Contribute
 
-To add a product, add it to `graveyard.json` file. You'll need the following information:
+To add a product, gather the following information:
 
 - Name of Product (`name`)
 - Launch Date (`dateOpen`)
 - Discontinued Date (`dateClose`)
 - Description (`description`)
-- Link (`link`)
-- Type (`type`)
+- Link (`link`) - Relevant link to the source
+- Type (`type`) - one of App, Service or Hardware
 
-The object should be appended to `graveyard.json` in the following format (note the alphabetical order of keys):
+If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/codyogden/killedbygoogle/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
 
+1. If you haven't already, start by [forking](https://help.github.com/en/articles/fork-a-repo) this repository. 
+2. [Create a new branch](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work) in your fork. Name it using the product you want to add 
+3. Switch to that branch (should happen automatically if you've just created it) and open the `graveyard.json` file
+4. Use the information gathered above to add a JSON entry in the following format (note the alphabetical order of keys):
 ```
   {
     "dateClose": "YYYY-MM-DD",
@@ -35,6 +39,7 @@ The object should be appended to `graveyard.json` in the following format (note 
     "type": "app|service|hardware"
   }
 ```
+5. Finally, [create a Pull Request (PR)](https://help.github.com/en/articles/creating-a-pull-request) using the newly created branch (Important: DON'T use the `master` branch for the PR). Submit it with the necessary explanations.  
 
 For code contributions outside of `graveyard.json`, check out the [Contributing Guide](.github/CONTRIBUTING.md).
 

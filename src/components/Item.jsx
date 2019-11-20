@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { format, formatDistance, parseISO } from 'date-fns';
+import {
+  format,
+  formatDistance,
+  parseISO,
+  formatDistanceToNow,
+} from 'date-fns';
 
 import Tombstone from '../assets/tombstone.svg';
 import Guillotine from '../assets/guillotine.svg';
@@ -15,7 +20,7 @@ import {
   ListItem,
 } from './Item.atoms';
 
-const eolIdiom = () => {
+const soonToDieIdiom = () => {
   const items = [
     'Sentenced to death',
     '"Off with their heads!"',
@@ -26,20 +31,39 @@ const eolIdiom = () => {
     'Bites the big one',
     'Off to the glue factory',
     'Another one bites the dust',
+    'Will be turned off',
+    'Like a fork stuck in the outlet',
+    'Scheduled to be killed',
+    'Will be exterminated',
+    'Will be flushed',
+    'Soon to be turned off',
+    'Gets unplugged',
+    'Vanishing',
+    'Goes poof',
+    'Turns to ashes',
+    'Gets KO\'d',
+    'Runs out of juice',
+    'Fades into darkness',
+    'Floats belly up'
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
 
+
 export default class Item extends Component {
   getIcon() {
-    return (this.isPast()) ? <Icon src={Tombstone} alt="Tombstone" /> : <Icon src={Guillotine} alt="Guillotine" />;
+    return this.isPast() ? (
+      <Icon src={Tombstone} alt="Tombstone" />
+    ) : (
+      <Icon src={Guillotine} alt="Guillotine" />
+    );
   }
 
   getYears() {
     const { dateClose, dateOpen } = this.props;
     const duration = formatDistance(parseISO(dateClose), parseISO(dateOpen));
 
-    return (` It was ${duration} old.`);
+    return ` It was ${duration} old.`;
   }
 
   isPast() {
@@ -49,47 +73,38 @@ export default class Item extends Component {
 
   timePhrase() {
     const { dateClose } = this.props;
-    const relativeDate = formatDistance(parseISO(dateClose), new Date());
-    const exactDate = format(parseISO(dateClose), 'MMMM yyyy');
-    const yearFromNow = new Date().setFullYear(new Date().getFullYear() + 1);
-
+    const relativeDate = formatDistanceToNow(parseISO(dateClose), new Date());
     if (!this.isPast()) {
-      if (new Date(dateClose) < yearFromNow) {
-        return (
-          <span>
-            {`${eolIdiom()} in ${relativeDate}, `}
-          </span>
-        );
-      }
-      return (
-        <span>
-          {`${eolIdiom()} in ${exactDate}, `}
-        </span>
-      );
+      return <span>{`${soonToDieIdiom()} in ${relativeDate}, `}</span>;
     }
-    return (
-      <span>
-        {`Killed ${relativeDate} ago, `}
-      </span>
-    );
+    return <span>{`Killed ${relativeDate} ago, `}</span>;
   }
 
   ageRange(grave) {
+    const monthOpen = format(parseISO(grave.dateClose), 'LLLL');
+    const yearOpen = format(parseISO(grave.dateOpen), 'uuuu');
+    const yearClose = format(parseISO(grave.dateClose), 'uuuu');
     if (!this.isPast()) {
-      const date = new Date(grave.dateClose);
+      const date = parseISO(grave.dateClose);
       return (
         <AgeRange>
-          {date.toLocaleDateString('en-US', { month: 'long' })}
-          <br />
-          {date.toLocaleDateString('en-US', { year: 'numeric' })}
+          <time dateTime={format(date, 'uuuu-LL-dd')}>
+            {monthOpen}
+            <br />
+            {format(date, 'uuuu')}
+          </time>
         </AgeRange>
       );
     }
     return (
       <AgeRange>
-        {new Date(grave.dateOpen).getFullYear()}
+        <time dateTime={format(parseISO(grave.dateOpen), 'uuuu-LL-dd')}>
+          {yearOpen}
+        </time>
         {' - '}
-        {new Date(grave.dateClose).getFullYear()}
+        <time dateTime={format(parseISO(grave.dateClose), 'uuuu-LL-dd')}>
+          {yearClose}
+        </time>
       </AgeRange>
     );
   }
@@ -103,7 +118,11 @@ export default class Item extends Component {
           {this.ageRange(grave)}
         </IconContainer>
         <ContentContainer>
-          <h2><a href={grave.link} target="_blank" rel="noopener noreferrer">{grave.name}</a></h2>
+          <h2>
+            <a href={grave.link} target="_blank" rel="noopener noreferrer">
+              {grave.name}
+            </a>
+          </h2>
           <Description>
             {this.timePhrase()}
             {grave.description}
