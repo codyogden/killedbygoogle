@@ -5,6 +5,54 @@
     "description": "Microsoft Reader was an app to read PDF, XPS and TIFF files by Microsoft. It was killed in favour of Edge's implementation of PDF reading ability.",
     "link": "https://www.windowslatest.com/2017/11/21/microsoft-to-discontinue-its-pdf-reader-app-in-february-2018/",
     "name": "Microsoft Reader",
+     "type": "app"
+  },
+  {
+    "dateClose": "2021-10-12",
+    "dateOpen": "2007-09-05",
+    "description": "Microsoft Silverlight was an application framework for writing and running rich Internet applications, similar to Adobe Flash.",
+    "link": "https://support.microsoft.com/en-us/help/4511036/silverlight-end-of-support",
+    "name": "Microsoft Silverlight",
+    "type": "app"
+  },
+  {
+    "dateClose": "2019-12-16",
+    "dateOpen": "2010-11-08",
+    "description": "Windows Phone was a family of mobile operating systems developed by Microsoft for smartphones.",
+    "link": "https://support.microsoft.com/en-us/help/4340298/support-options-for-nokia-lumia-and-feature-phone-devices",
+    "name": "Windows Phone",
+    "type": "service"
+  },
+  {
+    "dateClose": "2011-10-03",
+    "dateOpen": "2006-11-14",
+    "description": "Zune was a line of portable media players.",
+    "link": "https://en.wikipedia.org/wiki/Zune",
+    "name": "Zune Portable Media Player",
+    "type": "hardware"
+  },
+  {
+    "dateClose": "2015-11-15",
+    "dateOpen": "2006-11-14",
+    "description": "Zune Marketplace was an online store that offered music, podcasts, TV shows, movies, music videos, and mobile applications.",
+    "link": "https://en.wikipedia.org/wiki/Zune_software#Zune_Marketplace",
+    "name": "Zune Marketplace",
+    "type": "service"
+  },
+  {
+    "dateClose": "2012-10-16",
+    "dateOpen": "2006-11-14",
+    "description": "Zune Software was a media management software for Microsoft Windows, used to sync with all devices with Zune functionality.",
+    "link": "https://en.wikipedia.org/wiki/Zune_software",
+    "name": "Zune Software",
+    "type": "app"
+  },
+  {
+    "dateClose": "2013-01-31",
+    "dateOpen": "2005-03-24",
+    "description": "Microsoft XNA was a freeware set of tools with a managed runtime environment provided by Microsoft that facilitates video game development and management, based on the .NET Framework, with versions that run on Windows NT, Windows Phone and the Xbox 360.",
+    "link": "https://en.wikipedia.org/wiki/Microsoft_XNA",
+    "name": "Microsoft XNA",
     "type": "app"
   }
 ]

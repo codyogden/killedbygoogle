@@ -3,7 +3,7 @@
 
 'use strict';
 
-const CACHE = 'killed-by-google';
+const CACHE = 'killed-by-microsoft';
 
 function precache() {
   return caches
