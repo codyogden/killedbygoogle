@@ -32,7 +32,7 @@ const List = ({ items }) => (
       <ContentContainer>
         <h2>
           <a
-            href="https://github.com/codyogden/killedbygoogle"
+            href="https://github.com/djfoxer/killedbymicrosoft"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -41,17 +41,17 @@ const List = ({ items }) => (
         </h2>
         <Description>
           We rely on contributors to proofread, check accuracy, and keep this
-          list up to date. The Google Graveyard is ad-free and open source. Feel
+          list up to date. The Mirosoft Graveyard is ad-free and open source. Feel
           free to get involved on&nbsp;
           <a
-            href="https://github.com/codyogden/killedbygoogle"
+            href="https://github.com/djfoxer/killedbymicrosoft"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
           </a>
           . Follow us on&nbsp;
-          <a href="https://twitter.com/killedbygoogle">Twitter</a>
+          <a href="https://twitter.com/djfoxer">Twitter</a>
           &nbsp; to get instant updates.
         </Description>
       </ContentContainer>

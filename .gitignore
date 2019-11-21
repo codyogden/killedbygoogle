@@ -65,3 +65,7 @@ typings/
 
 # Build Files
 public/
+
+.vs
+
+package-lock.json

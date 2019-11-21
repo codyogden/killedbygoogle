@@ -77,11 +77,11 @@ export default class App extends Component {
     return (
       <div>
         <BannerMessage>
-          <a href="https://github.com/codyogden/killedbygoogle/issues">
+          <a href="https://github.com/djfoxer/killedbymicrosoft/issues">
             {'Open Source.'}
           </a>
           &nbsp;-&nbsp;
-          <a href="https://twitter.com/killedbygoogle">
+          <a href="https://twitter.com/djfoxer">
             {'Find us on Twitter.'}
           </a>
         </BannerMessage>
@@ -112,7 +112,7 @@ fetch('graveyard.json').then(response => {
       (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
     );
     // Render the app
-    render(<App data={graveyard} />, document.querySelector('#killedbygoogle'));
+    render(<App data={graveyard} />, document.querySelector('#killedbymicrosoft'));
   });
 });
 
