@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2018-02-16",
+    "dateOpen": "2011-12-07",
+    "description": "Microsoft Reader was an app to read PDF, XPS and TIFF files by Microsoft. It was killed in favour of Edge's implementation of PDF reading ability.",
+    "link": "https://www.windowslatest.com/2017/11/21/microsoft-to-discontinue-its-pdf-reader-app-in-february-2018/",
+    "name": "Microsoft Reader",
+     "type": "app"
+  },
+  {
     "dateClose": "2021-10-12",
     "dateOpen": "2007-09-05",
     "description": "Microsoft Silverlight was an application framework for writing and running rich Internet applications, similar to Adobe Flash.",
