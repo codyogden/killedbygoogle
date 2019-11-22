@@ -2,7 +2,7 @@
   {
     "dateClose": "2020-12-31",
     "dateOpen": "2010-04-16",
-    "description": "Google Cloud Print was a service that let users print from any Cloud Print-aware application (web, desktop, mobile) on any device cloud to any printer connected to the cloud.",
+    "description": "Google Cloud Print allowed users to 'print from anywhere;' to print from web, desktop, or mobile to any Google Cloud Print-connected printer.",
     "link": "https://9to5google.com/2019/11/21/google-cloud-print-dead-2020/",
     "name": "Google Cloud Print",
     "type": "service"
