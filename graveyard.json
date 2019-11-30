@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2018-01-12",
+    "dateOpen": "2016-06-30",
+    "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
+    "link": "https://github.com/googlearchive/soundstagevr",
+    "name": "SoundStage",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-12-31",
     "dateOpen": "2010-04-16",
     "description": "Google Cloud Print allowed users to 'print from anywhere;' to print from web, desktop, or mobile to any Google Cloud Print-connected printer.",
