@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
   color: #fafafa;
-  background-color: #212121;
+  background-color: #474747;
   padding: 50px 0;
   font-size: 1em;
 `;
