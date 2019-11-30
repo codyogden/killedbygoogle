@@ -24,6 +24,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2011-06-05",
+    "dateOpen": "1997-09-15",
+    "description": "Google Specialized Search allowed users to search across a limited index of the web for specialised topics like Linux, Microsoft, and 'Uncle Sam.'",
+    "link": "https://www.seroundtable.com/google-uncle-sam-13518.html",
+    "name": "Google Specialized Search",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-10-15",
     "dateOpen": "2017-10-04",
     "description": "Google Clips was a miniature clip-on camera that could automatically capture interesting or relevant video clips determined by machine learning algorithms.",
