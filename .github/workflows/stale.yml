@@ -11,5 +11,5 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'This issue is stale because it has been open 30 days with no activity.'
-        days-before-stale: 29
+        days-before-stale: 89
         days-before-close: 1
