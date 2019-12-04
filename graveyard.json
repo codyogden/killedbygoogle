@@ -1504,6 +1504,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2016-04-01",
+    "dateOpen": "2015-12-07",
+    "description": "uWeave (pronounced “micro weave”) was an implementation of the Weave protocol intended for use on microcontroller based devices.",
+    "link": "https://weave.googlesource.com/weave/libweave/+log/master/third_party/libuweave",
+    "name": "uWeave",
+    "type": "app"
+  },
+  {
     "dateClose": "2016-06-30",
     "dateOpen": "2013-11-01",
     "description": "Google Wallet Card was a prepaid debit card that let users pay for things in person and online using their Wallet balance at any retailer that accepted MasterCard.",
