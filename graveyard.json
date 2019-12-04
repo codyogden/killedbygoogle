@@ -113,6 +113,142 @@
     "type": "hardware"
   },
   {
+    "dateClose": "2018-01-12",
+    "dateOpen": "2016-06-30",
+    "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
+    "link": "https://github.com/googlearchive/soundstagevr",
+    "name": "SoundStage",
+    "type": "service"
+  },
+  {
+    "dateClose": "2020-12-31",
+    "dateOpen": "2010-04-16",
+    "description": "Google Cloud Print allowed users to 'print from anywhere;' to print from web, desktop, or mobile to any Google Cloud Print-connected printer.",
+    "link": "https://9to5google.com/2019/11/21/google-cloud-print-dead-2020/",
+    "name": "Google Cloud Print",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-03-13",
+    "dateOpen": "2013-10-01",
+    "description": "Google Spotlight Stories was a app associated with a content studio with build award winning immersive storytelling experiences specifically for mobile VR headsets.",
+    "link": "https://variety.com/2019/digital/news/google-spotlight-stories-shutting-down-1203163117/",
+    "name": "Google Spotlight Stories",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-10-17",
+    "dateOpen": "2017-06-01",
+    "description": "Datally (formerly Triangle) was a smart app by Google that helped you save, manage, and share your mobile data.",
+    "link": "https://thenextweb.com/google/2019/10/17/googles-datally-app-for-saving-on-mobile-data-is-dead/",
+    "name": "Datally",
+    "type": "app"
+  },
+  {
+    "dateClose": "2011-06-05",
+    "dateOpen": "1997-09-15",
+    "description": "Google Specialized Search allowed users to search across a limited index of the web for specialised topics like Linux, Microsoft, and 'Uncle Sam.'",
+    "link": "https://www.seroundtable.com/google-uncle-sam-13518.html",
+    "name": "Google Specialized Search",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-10-15",
+    "dateOpen": "2017-10-04",
+    "description": "Google Clips was a miniature clip-on camera that could automatically capture interesting or relevant video clips determined by machine learning algorithms.",
+    "link": "https://en.wikipedia.org/wiki/Google_Clips",
+    "name": "Google Clips",
+    "type": "hardware"
+  },
+  {
+    "dateClose": "2019-10-15",
+    "dateOpen": "2016-11-10",
+    "description": "Google Daydream was a virtual reality platform and set of hardware devices that worked with certain Android phones.",
+    "link": "https://en.wikipedia.org/wiki/Google_Daydream",
+    "name": "Google Daydream",
+    "type": "hardware"
+  },
+  {
+    "dateClose": "2019-11-22",
+    "dateOpen": "2018-01-26",
+    "description": "Google Bulletin was a hyperlocal news service where users could post news from their neighborhood and allow others in the same areas to hear those stories.",
+    "link": "https://www.androidpolice.com/2019/09/26/googles-hyperlocal-news-app-bulletin-is-shutting-down/",
+    "name": "Google Bulletin",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-11-17",
+    "dateOpen": "2018-09-18",
+    "description": "Touring Bird was an Area 120 incubator project which helped users compare prices, book tours, tickets, and experiences, and learn about top destinations around the world.",
+    "link": "https://9to5google.com/2019/10/22/google-touring-bird/",
+    "name": "Touring Bird",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-10-02",
+    "dateOpen": "2010-07-07",
+    "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
+    "link": "https://9to5google.com/2019/09/16/youtube-leanback-tv-interface-disabled-soon/",
+    "name": "YouTube Leanback",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-09-03",
+    "dateOpen": "2013-11-29",
+    "description": "YouTube app for Nintendo 3DS, 2DS, and New 3DS allowed users to stream YouTube videos on the portable gaming console.",
+    "link": "https://9to5google.com/2019/08/26/youtube-nintendo-3ds-app-shut-down/",
+    "name": "YouTube for Nintendo 3DS",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-09-01",
+    "dateOpen": "2017-07-18",
+    "description": "Google Hire was an applicant tracking system to help small to medium businesses distribute jobs, identify and attract candidates, build strong relationships with candidates, and efficiently manage the interview process.",
+    "link": "https://www.theverge.com/2019/8/28/20837004/google-hire-next-tool-shut-down-service-jobs-hiring-recruiting-inbox-allo",
+    "name": "Hire by Google",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-12-15",
+    "dateOpen": "2011-05-25",
+    "description": "Google Correlate was a service that provided users information about how strongly the frequency of multiple search terms correlates with each other over a specified time interval.",
+    "link": "https://de.wikipedia.org/wiki/Google_Correlate",
+    "name": "Google Correlate",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-09-18",
+    "dateOpen": "2017-08-07",
+    "description": "YouTube Messages was a direct messaging feature that allowed users to share and discuss videos one-on-one and in groups on YouTube.",
+    "link": "https://9to5google.com/2019/08/20/youtube-killing-messages",
+    "name": "YouTube Messages",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-09-30",
+    "dateOpen": "2011-01-27",
+    "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery is updated.",
+    "link": "https://maps.googleblog.com/2011/01/sign-up-for-imagery-update-alert.html",
+    "name": "Follow Your World",
+    "type": "service"
+  },
+  {
+    "dateClose": "2019-06-15",
+    "dateOpen": "2018-09-07",
+    "description": "Blog Compass was a blog management tool that integrated with WordPress and Blogger available only in India.",
+    "link": "https://9to5google.com/2019/07/15/google-kills-blog-compass/",
+    "name": "Blog Compass",
+    "type": "app"
+  },
+  {
+    "dateClose": "2009-08-05",
+    "dateOpen": "2007-01-01",
+    "description": "Google Radio Automation was a hardware and software service used by radio operators to automate song playing among other radio station functions.",
+    "link": "https://en.wikipedia.org/wiki/List_of_Google_products#2018",
+    "name": "Google Radio Automation",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2017-09-20",
     "dateOpen": "2010-06-15",
     "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
@@ -1091,7 +1227,7 @@
   {
     "dateClose": "2011-12-31",
     "dateOpen": "2009-01-01",
-    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming that attempted to blend the best features of 'old' and 'new' languages and best-practices.",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language that attempted to blend the best features of 'old' and 'new' languages and best-practices.",
     "link": "https://en.wikipedia.org/wiki/Noop",
     "name": "Noop Programming Language",
     "type": "service"
@@ -1479,6 +1615,14 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2016-04-01",
+    "dateOpen": "2015-12-07",
+    "description": "uWeave (pronounced “micro weave”) was an implementation of the Weave protocol intended for use on microcontroller based devices.",
+    "link": "https://weave.googlesource.com/weave/libweave/+log/master/third_party/libuweave",
+    "name": "uWeave",
+    "type": "app"
   },
   {
     "dateClose": "2016-06-30",
