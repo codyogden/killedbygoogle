@@ -1522,9 +1522,9 @@
   {
     "dateClose": "2021-06-30",
     "dateOpen": "2010-10-20",
-    "description": "AngularJS was a JavaScript open-source front-end web framework based on MVC pattern using a dependency injection technique.",
+    "description": "AngularJS is a JavaScript open-source front-end web framework based on MVC pattern using a dependency injection technique. Subsequent versions of Angular are still being supported",
     "link": "https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c",
-    "name": "AngularJS",
+    "name": "AngularJS v1",
     "type": "service"
   },
   {
