@@ -1550,5 +1550,13 @@
     "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
     "name": "Google Related",
     "type": "service"
-  }
+  },
+  {
+    "dateClose": "2020-01-31",
+    "dateOpen": "2012-03-01",
+    "description": "Bitium was a single sign-on and identity management service before it's merger into Google Cloud.",
+    "link": "https://en.wikipedia.org/wiki/Bitium",
+    "name": "Bitium",
+    "type": "service"
+  } 
 ]
