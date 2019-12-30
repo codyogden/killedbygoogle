@@ -1550,5 +1550,13 @@
     "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
     "name": "Google Related",
     "type": "service"
+  },
+  {
+    "dateClose": "2014-09-29",
+    "dateOpen": "2006-05-31",
+    "description": "Google AJAX Search APIs returned Web, News and Local search results in XML or JSON format, enabling developers to build web-scale or targeted Search into their websites or apps; though there were strict limitations and policies against changing the display order of the results, this data was significantly more flexible and customizable than the current Google Custom Search tools.)",
+    "link": "https://softwareengineering.stackexchange.com/questions/103123/what-ever-happened-to-the-google-ajax-search-api",
+    "name": "Google AJAX Search APIs",
+    "type": "service"
   }
 ]
