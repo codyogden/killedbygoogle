@@ -1,5 +1,21 @@
 [
   {
+    "dateClose": "2018-04-30",
+    "dateOpen": "2008-04-07",
+    "description": "The Prediction API was a feature of the Google Cloud Platform provides pattern-matching and machine learning capabilities for programmatic use by applications",
+    "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
+    "name": "Google Prediction API",
+    "type": "service"
+  },
+  {
+    "dateClose": "2018-01-12",
+    "dateOpen": "2016-06-30",
+    "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
+    "link": "https://github.com/googlearchive/soundstagevr",
+    "name": "SoundStage",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-12-31",
     "dateOpen": "2010-04-16",
     "description": "Google Cloud Print allowed users to 'print from anywhere;' to print from web, desktop, or mobile to any Google Cloud Print-connected printer.",
@@ -22,6 +38,14 @@
     "link": "https://thenextweb.com/google/2019/10/17/googles-datally-app-for-saving-on-mobile-data-is-dead/",
     "name": "Datally",
     "type": "app"
+  },
+  {
+    "dateClose": "2011-06-05",
+    "dateOpen": "1997-09-15",
+    "description": "Google Specialized Search allowed users to search across a limited index of the web for specialised topics like Linux, Microsoft, and 'Uncle Sam.'",
+    "link": "https://www.seroundtable.com/google-uncle-sam-13518.html",
+    "name": "Google Specialized Search",
+    "type": "service"
   },
   {
     "dateClose": "2019-10-15",
@@ -648,8 +672,8 @@
     "type": "service"
   },
   {
-    "dateClose": "2015-01-01",
-    "dateOpen": "2014-05-01",
+    "dateClose": "2015-01-18",
+    "dateOpen": "2013-05-15",
     "description": "Google Play Edition devices were a series of Android smartphones and tablets sold by Google.",
     "link": "https://arstechnica.com/gadgets/2015/01/dont-cry-for-the-google-play-edition-program-it-was-already-dead/",
     "name": "Google Play Edition",
@@ -1098,7 +1122,7 @@
   {
     "dateClose": "2011-12-31",
     "dateOpen": "2009-01-01",
-    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming that attempted to blend the best features of 'old' and 'new' languages and best-practices.",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language that attempted to blend the best features of 'old' and 'new' languages and best-practices.",
     "link": "https://en.wikipedia.org/wiki/Noop",
     "name": "Noop Programming Language",
     "type": "service"
@@ -1464,7 +1488,7 @@
     "type": "app"
   },
   {
-    "dateClose": "2019-12-31",
+    "dateClose": "2019-08-01",
     "dateOpen": "2011-09-20",
     "description": "Hangouts on Air allowed users to host a multi-user video call while recording and streaming the call on YouTube.",
     "link": "https://arstechnica.com/gadgets/2019/06/google-is-killing-youtubes-hangouts-on-air-this-year/",
@@ -1486,6 +1510,14 @@
     "link": "https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
+  },
+  {
+    "dateClose": "2016-04-01",
+    "dateOpen": "2015-12-07",
+    "description": "uWeave (pronounced “micro weave”) was an implementation of the Weave protocol intended for use on microcontroller based devices.",
+    "link": "https://weave.googlesource.com/weave/libweave/+log/master/third_party/libuweave",
+    "name": "uWeave",
+    "type": "app"
   },
   {
     "dateClose": "2016-06-30",
