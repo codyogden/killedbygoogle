@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2018-04-30",
+    "dateOpen": "2008-04-07",
+    "description": "The Prediction API was a feature of the Google Cloud Platform provides pattern-matching and machine learning capabilities for programmatic use by applications",
+    "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
+    "name": "Google Prediction API",
+    "type": "service"
+  },
+  {
     "dateClose": "2018-01-12",
     "dateOpen": "2016-06-30",
     "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
