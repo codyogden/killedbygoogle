@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-01-03",
+    "dateOpen": "2012-03-07",
+    "description": "Print-Replica magazines were PDF versions of printed magazine pages you could view on phones or via desktop.",
+    "link": "https://www.theverge.com/2020/1/3/21048297/google-news-print-replica-magazine-pdf-discontinued",
+    "name": "Print-Replica Magazines",
+    "type": "service"
+  },
+  {
     "dateClose": "2018-01-12",
     "dateOpen": "2016-06-30",
     "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
