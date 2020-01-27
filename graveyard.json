@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-01-19",
+    "dateOpen": "2016-11-30",
+    "description": "App Maker was a tool that allowed its users to build and deploy custom business apps easily and securely on the web without writing much code.",
+    "link": "https://en.wikipedia.org/wiki/Google_App_Maker",
+    "name": "App Maker",
+    "type": "service"
+  },
+  {
     "dateClose": "2018-01-12",
     "dateOpen": "2016-06-30",
     "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
