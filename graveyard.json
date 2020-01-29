@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-02-06",
+    "dateOpen": "2013-04-18",
+    "description": "One Today was an app that allowed users to donate $1 to different organizations and discover how their donation would be used.",
+    "link": "https://techcrunch.com/2013/04/18/googles-one-today-app-aims-to-make-charitable-donations-a-more-social-and-frequent-experience/",
+    "name": "One Today",
+    "type": "app"
+  },
+  {
     "dateClose": "2021-01-19",
     "dateOpen": "2016-11-30",
     "description": "App Maker was a tool that allowed its users to build and deploy custom business apps easily and securely on the web without writing much code.",
