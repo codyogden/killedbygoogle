@@ -1558,5 +1558,14 @@
     "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
     "name": "Google Related",
     "type": "service"
+  },
+  {
+    "dateClose": "2018-12-06",
+    "dateOpen": "2016-09-21",
+      "description": "Google Allo was an instant messaging mobile app by Google for the Android and iOS mobile operating systems, with a web client available on Google Chrome, Mozilla Firefox, and Opera.",
+    "link": "https://www.blog.google/products/messages/latest-messages-allo-duo-and-hangouts/",
+    "name": "Allo",
+    "type": "service"
   }
+
 ]
