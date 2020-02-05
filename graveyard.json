@@ -1566,5 +1566,13 @@
     "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
     "name": "Google Related",
     "type": "service"
+  },
+    {
+    "dateClose": "2020-02-04",
+    "dateOpen": "2012-12-12",
+    "description": "Google Fiber TV was an IPTV service that was bundled with Google Fiber.",
+    "link": "https://fiber.google.com/blog/2020/great-internet-great-tv/",
+    "name": "Google Fiber TV",
+    "type": "service"
   }
 ]
