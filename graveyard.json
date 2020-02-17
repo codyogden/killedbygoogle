@@ -1,4 +1,12 @@
 [
+   {
+    "dateClose": "2020-02-17",
+    "dateOpen": "2016-01-01",
+    "description": "Google Station was a Google service that allowed partners to roll out Wi-Fi hotspots in public places by providing software and advice on hardware to turn fiber connections into Wi-Fi.",
+    "link": "https://techcrunch.com/2020/02/17/google-ends-its-free-wi-fi-program-station/",
+    "name": "Google Station",
+    "type": "service"
+  },
   {
     "dateClose": "2020-02-06",
     "dateOpen": "2013-04-18",
