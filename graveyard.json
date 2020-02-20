@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-02-17",
+    "dateOpen": "2015-09-27",
+    "description": "Google Station is a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
+    "link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
+    "name": "Google Station",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-02-06",
     "dateOpen": "2013-04-18",
     "description": "One Today was an app that allowed users to donate $1 to different organizations and discover how their donation would be used.",
