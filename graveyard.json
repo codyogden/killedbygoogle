@@ -1,5 +1,29 @@
 [
   {
+    "dateClose": "2020-02-17",
+    "dateOpen": "2015-09-27",
+    "description": "Google Station is a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
+    "link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
+    "name": "Google Station",
+    "type": "service"
+  },
+  {
+    "dateClose": "2020-02-06",
+    "dateOpen": "2013-04-18",
+    "description": "One Today was an app that allowed users to donate $1 to different organizations and discover how their donation would be used.",
+    "link": "https://techcrunch.com/2013/04/18/googles-one-today-app-aims-to-make-charitable-donations-a-more-social-and-frequent-experience/",
+    "name": "One Today",
+    "type": "app"
+  },
+  {
+    "dateClose": "2021-01-19",
+    "dateOpen": "2016-11-30",
+    "description": "App Maker was a tool that allowed its users to build and deploy custom business apps easily and securely on the web without writing much code.",
+    "link": "https://en.wikipedia.org/wiki/Google_App_Maker",
+    "name": "App Maker",
+    "type": "service"
+  },
+  {
     "dateClose": "2018-01-12",
     "dateOpen": "2016-06-30",
     "description": "SoundStage was a virtual reality music sandbox built specifically for room-scale VR.",
@@ -1226,7 +1250,7 @@
   {
     "dateClose": "2017-03-01",
     "dateOpen": "2013-02-21",
-    "description": "Chromebook Pixel was a high-end Chromebook laptop mixing Chrome OS with an Intel i5, 4GB DDR3 RAM, a 32GB SSD, and a 2,560x1,700 12.85in screen.",
+    "description": "Chromebook Pixel was a first-of-its-kind laptop built by Google that ran Chrome OS, a Linux kernel-based operating system.",
     "link": "https://en.wikipedia.org/wiki/Chromebook_Pixel",
     "name": "Chromebook Pixel",
     "type": "hardware"
@@ -1499,7 +1523,7 @@
     "dateClose": "2019-09-30",
     "dateOpen": "2013-04-18",
     "description": "G Suite Training (previously known as Synergyse) provided interactive and video-based training for 20 Google G Suite products in nine languages through a website and a Chrome extension.",
-    "link": "https://support.google.com/a/answer/7039472",
+    "link": "https://web.archive.org/web/20190929005809/https://support.google.com/a/answer/7039472",
     "name": "G Suite Training",
     "type": "service"
   },
