@@ -118,7 +118,7 @@ export default () => (
         </div>
         <CopyNotice>
           <a href="https://github.com/codyogden/killedbygoogle/blob/master/LICENSE">
-            &copy; 2019 Cody Ogden.
+            &copy; 2020 Cody Ogden.
           </a>
         </CopyNotice>
         <SocialWrapper>
