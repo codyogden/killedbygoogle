@@ -77,12 +77,8 @@ export default class App extends Component {
     return (
       <div>
         <BannerMessage>
-          <a href="https://github.com/codyogden/killedbygoogle/issues">
-            {'Open Source.'}
-          </a>
-          &nbsp;-&nbsp;
-          <a href="https://twitter.com/killedbygoogle">
-            {'Find us on Twitter.'}
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/community/index.html">
+            {'Learn more about what you can do to stop the spread of COVID-19 in your community.'}
           </a>
         </BannerMessage>
         <Header />
