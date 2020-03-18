@@ -8,6 +8,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2020-03-16",
+    "dateOpen": "2014-12-10",
+    "description": "Location sharing was a feature of Google Hangouts that allowed users to select a map location interactively and share a graphical representation of it in the Hangouts chat.",
+    "link": "https://9to5google.com/2020/03/16/google-hangouts-location-sharing/",
+    "name": "Google Hangouts location-sharing feature",
+    "type": "app"
+  },
+  {
     "dateClose": "2020-02-17",
     "dateOpen": "2015-09-27",
     "description": "Google Station is a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
