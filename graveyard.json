@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-04-01",
+    "dateOpen": "2020-04-01",
+    "description": "Google's April Fool's jokes have been cancelled for 2020",
+    "link": "https://www.theverge.com/2020/3/27/21197260/google-cancels-april-fools-jokes-2020-coronavirus-covid19-pranks",
+    "name": "April Fools Jokes 2020",
+    "type": "service",
+  },
+  {
     "dateClose": "2020-03-19",
     "dateOpen": "2018-05-09",
     "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material based design system for your app.",
