@@ -1,4 +1,13 @@
 [
+ {
+    "dateClose": "2020-05-12",
+    "dateOpen": "2018-05-31",
+    "description": "Neighbourly is a location-based app that connects you to your community so you can get information you trust, share your own advice, and stay in-the-know together.",
+    "link": "https://support.google.com/neighbourly/answer/9756228?ref_topic=9757368#",
+    "name": "Neighbourly",
+    "type": "app"
+  },
+
   {
     "dateClose": "2020-03-19",
     "dateOpen": "2018-05-09",
