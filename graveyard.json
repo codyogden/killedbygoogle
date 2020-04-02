@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-05-12",
+    "dateOpen": "2018-05-31",
+    "description": " Neighbourly was a mobile app designed to help you learn about your neighborhood by asking other residents, and find out about local services and facilities in your area from people who live around you.",
+    "link": "https://thenextweb.com/google/2020/04/02/google-is-shutting-down-its-neighbourly-app/",
+    "name": "Neighbourly",
+    "type": "app"
+  },
+  {
     "dateClose": "2020-03-19",
     "dateOpen": "2018-05-09",
     "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material based design system for your app.",
