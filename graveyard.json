@@ -1544,6 +1544,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2017-08-21",
+    "dateOpen": "2013-10-31",
+    "description": "Blob emojis were the default emojis in Android from Android 4.4 to Android 8.0.",
+    "link": "https://en.wikipedia.org/wiki/Blob_emoji",
+    "name": "Android Blob Emojis",
+    "type": "service"
+  },
+  {
     "dateClose": "2016-04-01",
     "dateOpen": "2015-12-07",
     "description": "uWeave (pronounced “micro weave”) was an implementation of the Weave protocol intended for use on microcontroller based devices.",
