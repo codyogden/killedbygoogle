@@ -100,7 +100,7 @@ export default class Item extends Component {
         <time dateTime={format(parseISO(grave.dateOpen), 'uuuu-LL-dd')}>
           {yearOpen}
         </time>
-        {' - '}
+        -
         <time dateTime={format(parseISO(grave.dateClose), 'uuuu-LL-dd')}>
           {yearClose}
         </time>

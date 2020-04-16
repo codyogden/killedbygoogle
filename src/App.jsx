@@ -49,10 +49,13 @@ export default class App extends Component {
 
   search() {
     const { fullList, activeFilter, term } = this.state;
-    const regexp = new RegExp(term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+    const regexp = new RegExp(
+      term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
+      'i'
+    );
     // If a filter is active, only search through those results
     const list = activeFilter
-      ? fullList.filter(el => el.type === activeFilter)
+      ? fullList.filter((el) => el.type === activeFilter)
       : fullList;
     // If search goes empty
     if (term === '') {
@@ -64,7 +67,7 @@ export default class App extends Component {
       // Otherwise filter the list by name and description
       this.setState({
         listOfItems: list.filter(
-          el =>
+          (el) =>
             regexp.test(el.name.toLowerCase()) ||
             regexp.test(el.description.toLowerCase())
         ),
@@ -95,9 +98,9 @@ App.propTypes = {
 };
 
 // Retrieve static json
-fetch('graveyard.json').then(response => {
+fetch('graveyard.json').then((response) => {
   // Process it
-  response.json().then(data => {
+  response.json().then((data) => {
     // Sort by the dateClose (date discontinued)
     const graveyard = data.sort(
       (a, b) => new Date(b.dateClose) - new Date(a.dateClose)

@@ -19,7 +19,7 @@ describe('Search Component', () => {
     const event = { target: { value: 'hello' } };
 
     wrapper.find(SearchBox).simulate('change', event);
-    expect(wrapper.state().inputValue).toEqual('hello');
+    expect(wrapper.state('inputValue')).toEqual('hello');
     expect(searchSpy).toHaveBeenCalledWith('hello');
   });
 });

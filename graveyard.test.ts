@@ -1,7 +1,7 @@
-const moment = require('moment');
-const slugify = require('slugify');
+import moment from 'moment';
+import slugify from 'slugify';
 
-const data = require('./graveyard.json');
+import data from './graveyard.json';
 
 slugify.extend({
   '+': 'plus',
@@ -10,7 +10,7 @@ slugify.extend({
 
 describe('graveyard', () => {
   it('objects should be valid', () => {
-    data.forEach((product) => {
+    data.forEach(product => {
       // All data is present for each product
       expect(product.dateClose).not.toBeNull();
       expect(product.dateOpen).not.toBeNull();
@@ -49,15 +49,13 @@ describe('graveyard', () => {
   });
   it('names are unique', () => {
     // Add a slug to each item
-    data.map((item) => {
-      const newItem = item;
-      newItem.slug = slugify(item.name, {
+    const slugs = data.map(item =>
+      slugify(item.name, {
         lower: true,
-      });
-      return newItem;
-    });
+      })
+    );
     // Create a set (removes any duplicate slugs)
-    const items = [...new Set(data.map(item => item.slug))];
+    const items = [...new Set(slugs)];
 
     // Both the data and items arr should have the same length
     expect(items.length).toBe(data.length);
