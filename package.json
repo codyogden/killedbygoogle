@@ -66,11 +66,13 @@
     "styled-components": "^3.4.6"
   },
   "scripts": {
-    "build": "yarn webpack --mode=production && bin/graveyard",
+    "ci": "yarn typecheck; yarn build; yarn jest; yarn lint",
+    "build": "webpack --mode=production && bin/graveyard",
+    "typecheck": "tsc",
     "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
-    "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json",
+    "lint": "eslint \"src/**/*.{jsx,js,tsx,ts}\" && eslint graveyard.json",
     "test": "yarn lint && jest",
-    "fmt": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json}'",
+    "fmt": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,graphql,css,less,scss,md,yml,yaml}'",
     "jest": "jest"
   },
   "jest": {

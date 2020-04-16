@@ -7,6 +7,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "noUnusedLocals": false,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
     "noUnusedParameters": false,
     "noEmit": true,

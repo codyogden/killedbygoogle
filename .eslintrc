@@ -26,8 +26,13 @@
     "react/display-name": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-filename-extension": 0,
+    "react/jsx-curly-brace-presence": 1,
+
+    "import/no-extraneous-dependencies": 0,
 
     "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "import/extensions": 0,
     "import/no-unresolved": 0
   },
   "settings": {

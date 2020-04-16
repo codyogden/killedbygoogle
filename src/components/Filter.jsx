@@ -15,11 +15,12 @@ export default class Filter extends Component {
     this.clickHandler = this.clickHandler.bind(this);
   }
 
-  componentWillMount() {
+  // eslint-disable-next-line camelcase
+  UNSAFE_componentWillMount() {
     const { items } = this.props;
     // Get the counts for each time
     const counts = ['app', 'service', 'hardware'].map(
-      type => items.filter(item => item.type === type).length
+      (type) => items.filter((item) => item.type === type).length
     );
     // Unshift the total count for the `all` option
     counts.unshift(items.length);
