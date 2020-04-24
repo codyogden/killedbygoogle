@@ -1592,11 +1592,11 @@
     "type": "service"
   },
 
- {  "dateClose": "2020-02-06",
-    "dateOpen": "2011-02-08",
-    "description": "Androidify lets you create a custom Android avatar of yourself and others",
-    "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
-    "name": "Androidify",
+ {  "dateClose": "2018-05-08",
+    "dateOpen": "2013-11-20",
+    "description": "Google Play Newsstand is a discontinued news aggregator and digital newsstand service by Google.",
+    "link": "https://en.wikipedia.org/wiki/Google_Play_Newsstand",
+    "name": "Google Play Newsstand",
     "type": "app"
   }
 
