@@ -14,9 +14,7 @@ import Item from './Item';
 const List = ({ items }) => (
   <ListContainer>
     <ListItem>
-      <CarbonAds
-        carbonUrl='//cdn.carbonads.com/carbon.js?serve=CK7I653N&placement=killedbygooglecom'
-      />
+      <script src="//cdn.carbonads.com/carbon.js?serve=CK7I653N&amp;placement=killedbygooglecom" async="" id="_carbonads_js"></script>
     </ListItem>
     {items.map(item => (
       <Item key={item.name} {...item} />
