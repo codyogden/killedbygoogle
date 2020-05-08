@@ -29,7 +29,8 @@ a {
 
 #carbonads a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: none !important;
+  border: none !important;
 }
 
 #carbonads a:hover {
