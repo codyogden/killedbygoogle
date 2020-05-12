@@ -1,6 +1,14 @@
 [
   {
     "dateClose": "2020-05-12",
+    "dateOpen": "2019-06-10",
+    "description": "App used to find group activities with others who share your interests on Shoelace",
+    "link": "https://9to5google.com/2020/04/28/shoelace-area-120-shutdown/",
+    "name": "Shoelace",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-05-12",
     "dateOpen": "2018-05-31",
     "description": " Neighbourly was a mobile app designed to help you learn about your neighborhood by asking other residents, and find out about local services and facilities in your area from people who live around you.",
     "link": "https://thenextweb.com/google/2020/04/02/google-is-shutting-down-its-neighbourly-app/",
@@ -1599,5 +1607,4 @@
     "name": "Google Play Newsstand",
     "type": "app"
   }
-
 ]
