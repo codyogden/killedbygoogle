@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-12-31",
+    "dateOpen": "2011-11-16",
+    "description": "Google Play Music was a music and podcast streaming service, and online music locker.",
+    "link": "https://youtube.googleblog.com/2020/05/youtube-music-transfer-google-play-music-library.html",
+    "name": "Google Play Music",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-05-12",
     "dateOpen": "2019-06-10",
     "description": "App used to find group activities with others who share your interests on Shoelace",
