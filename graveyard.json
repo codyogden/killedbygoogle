@@ -1,5 +1,45 @@
 [
   {
+    "dateClose": "2020-12-31",
+    "dateOpen": "2011-11-16",
+    "description": "Google Play Music was a music and podcast streaming service, and online music locker.",
+    "link": "https://youtube.googleblog.com/2020/05/youtube-music-transfer-google-play-music-library.html",
+    "name": "Google Play Music",
+    "type": "service"
+  },
+  {
+    "dateClose": "2020-05-12",
+    "dateOpen": "2019-06-10",
+    "description": "App used to find group activities with others who share your interests on Shoelace",
+    "link": "https://9to5google.com/2020/04/28/shoelace-area-120-shutdown/",
+    "name": "Shoelace",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-05-12",
+    "dateOpen": "2018-05-31",
+    "description": " Neighbourly was a mobile app designed to help you learn about your neighborhood by asking other residents, and find out about local services and facilities in your area from people who live around you.",
+    "link": "https://thenextweb.com/google/2020/04/02/google-is-shutting-down-its-neighbourly-app/",
+    "name": "Neighbourly",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-03-19",
+    "dateOpen": "2018-05-09",
+    "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material based design system for your app.",
+    "link": "https://medium.com/google-design/whats-next-for-material-design-s-theming-tools-f65014ffcce7",
+    "name": "Material Theme Editor",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-02-17",
+    "dateOpen": "2015-09-27",
+    "description": "Google Station is a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
+    "link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
+    "name": "Google Station",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-02-06",
     "dateOpen": "2013-04-18",
     "description": "One Today was an app that allowed users to donate $1 to different organizations and discover how their donation would be used.",
@@ -736,7 +776,7 @@
     "type": "service"
   },
   {
-    "dateClose": "2020-03-31",
+    "dateClose": "2020-05-04",
     "dateOpen": "2014-10-01",
     "description": "Fabric was a platform that helped mobile teams build better apps, understand their users, and grow their business.",
     "link": "https://get.fabric.io/roadmap",
@@ -1566,5 +1606,13 @@
     "link": "https://googleblog.blogspot.com/2012/04/spring-cleaning-in-spring.html",
     "name": "Google Related",
     "type": "service"
+  },
+
+ {  "dateClose": "2020-02-06",
+    "dateOpen": "2011-02-08",
+    "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
+    "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
+    "name": "Androidify",
+    "type": "app"
   }
 ]
