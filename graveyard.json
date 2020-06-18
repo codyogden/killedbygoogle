@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-12-31",
+    "dateOpen": "2011-11-16",
+    "description": "Google Play Music was a music and podcast streaming service, and online music locker.",
+    "link": "https://youtube.googleblog.com/2020/05/youtube-music-transfer-google-play-music-library.html",
+    "name": "Google Play Music",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-05-12",
     "dateOpen": "2019-06-10",
     "description": "App used to find group activities with others who share your interests on Shoelace",
@@ -1599,12 +1607,19 @@
     "name": "Google Related",
     "type": "service"
   },
-
- {  "dateClose": "2018-05-08",
+  {
+    "dateClose": "2018-05-08",
     "dateOpen": "2013-11-20",
     "description": "Google Play Newsstand is a discontinued news aggregator and digital newsstand service by Google.",
     "link": "https://en.wikipedia.org/wiki/Google_Play_Newsstand",
     "name": "Google Play Newsstand",
+    "type": "app"
+  },
+  { "dateClose": "2020-02-06",
+    "dateOpen": "2011-02-08",
+    "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
+    "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
+    "name": "Androidify",
     "type": "app"
   }
 ]
