@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CarbonAds from 'react-carbon-ads';
 
 // Import Styled Components
 import { ListContainer } from './List.atoms';
