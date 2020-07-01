@@ -1600,6 +1600,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2020-07-31",
+    "dateOpen": "2019-01-24",
+    "description": "Focals are a pair of custom-built smart glasses with a transparent, holographic display that only the wearer can see. Focals let you see and respond to texts, get turn-by-turn directions, check the weather, request an Uber, talk to Amazon Alexa and more — seamlessly and immediately.",
+    "link": "https://blog.google/products/hardware/focus-helpful-devices-google-acquires-north",
+    "name": "Focals by North",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2019-07-05",
     "dateOpen": "2018-08-01",
     "description": "Dragonfly was a search engine designed to be compatible with China's state censorship provisions.",
