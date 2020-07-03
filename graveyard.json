@@ -1600,6 +1600,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2020-07-31",
+    "dateOpen": "2019-01-24",
+    "description": "Focals were a custom-built smart glasses product with a transparent, holographic display that allowed users to read and respond to text messages, navigate turn-by-turn directions, check the weather, and integrate with third-party services like Uber and Amazon Alexa.",
+    "link": "https://techcrunch.com/2020/06/30/google-acquires-smart-glasses-company-north-whose-focals-2-0-wont-ship/",
+    "name": "Focals by North",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2019-07-05",
     "dateOpen": "2018-08-01",
     "description": "Dragonfly was a search engine designed to be compatible with China's state censorship provisions.",
