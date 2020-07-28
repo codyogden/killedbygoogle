@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-05-13",
+    "dateOpen": "2008-08-19",
+    "description": "Enhanced 404 Pages was a JavaScript library that added suggested URLs and a search box to a website's 404 Not Found page.",
+    "link": "https://webmasters.googleblog.com/2008/08/make-your-404-pages-more-useful.html",
+    "name": "Enhanced 404 Pages",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-06-30",
     "dateOpen": "2020-02-01",
     "description": "Google Photos Print was a subscription service that automatically selected the best ten photos from the last thirty days which were mailed to user's homes.",
