@@ -3,7 +3,7 @@
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
-    "link": "https://chrome.google.com/webstore/detail/password-checkup-extensio/pncabnpcffmalkkjpajodfhijclecjno",
+    "link": "https://9to5google.com/2020/07/30/password-checkup-chrome-extension/",
     "name": "Password Checkup extension",
     "type": "app"
   },
