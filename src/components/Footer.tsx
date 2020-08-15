@@ -120,6 +120,10 @@ export default () => (
           <a href="https://github.com/codyogden/killedbygoogle/blob/master/LICENSE">
             &copy; 2020 Cody Ogden.
           </a>
+          &nbsp;-&nbsp;
+          <a href="https://netlify.com">
+            This site is powered by Netlify.
+          </a>
         </CopyNotice>
         <SocialWrapper>
           <SocialLink
