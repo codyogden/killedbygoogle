@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-12-32",
+    "dateOpen": "2017-01-01",
+    "description": "A Google cloud service which offered a registry for docker images to be deployed on Google Cloud computer resources.",
+    "link": "https://cloud.google.com/container-registry",
+    "name": "Google Cloud Container Registry",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
