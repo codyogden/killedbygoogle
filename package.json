@@ -38,7 +38,7 @@
     "jest-resolve": "24.9.0",
     "json-loader": "^0.5.7",
     "moment": "^2.22.2",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prettier": "^1.18.2",
     "react-hot-loader": "4.12.12",
     "sass-loader": "8.0.0",
