@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2019-04-2",
+    "dateOpen": "2011-06-18",
+    "description": "Google+ (pronounced and sometimes written as Google Plus; sometimes called G+) was a social network owned and operated by Google.",
+    "link": "https://en.wikipedia.org/wiki/Google%2B",
+    "name": "Google+",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
