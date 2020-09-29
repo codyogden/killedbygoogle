@@ -76,9 +76,6 @@ export default class App extends Component {
     const { listOfItems, activeFilter, term, fullList } = this.state;
     return (
       <div>
-        <BannerMessage>
-          <a href="https://newsletter.killedbygoogle.com/lets-do-it" target="_blank">Sign Up for Killed by Google's Newsletter.</a>
-        </BannerMessage>
         <Header />
         <Search search={this.searchFilter} term={term} />
         <Filter
