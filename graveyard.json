@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-03-31",
+    "dateOpen": "2011-10-01",
+    "description": "Fabric was a platform that helped mobile teams build better apps, understand their users, and grow their business.",
+    "link": "https://en.wikipedia.org/wiki/Crashlytics",
+    "name": "Fabric",
+    "type": "app"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
@@ -1632,7 +1640,8 @@
     "type": "service"
   },
 
- {  "dateClose": "2020-02-06",
+  {
+    "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
     "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
     "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
