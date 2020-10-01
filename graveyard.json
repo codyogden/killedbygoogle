@@ -2,7 +2,7 @@
   {
     "dateClose": "2020-12-31",
     "dateOpen": "2010-04-16",
-    "description": " Google service that lets users print from any Cloud Print-aware application (web, desktop, mobile) on any device in the network cloud to any printer with native support for connecting to cloud print services",
+    "description": "Google service that lets users print from any Cloud Print-aware application (web, desktop, mobile) on any device in the network cloud to any printer with native support for connecting to cloud print services.",
     "link": "https://en.wikipedia.org/wiki/Google_Cloud_Print",
     "name": "Google Cloud Print",
     "type": "Service"
