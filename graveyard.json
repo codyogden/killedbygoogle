@@ -1632,11 +1632,21 @@
     "type": "service"
   },
 
- {  "dateClose": "2020-02-06",
+  {  
+    "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
     "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
     "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
     "name": "Androidify",
+    "type": "app"
+  },
+
+  {
+    "dateClose": "2020-07-01",
+    "dateOpen": "2005-02-14",
+    "description": "The old Youtube comments section used to be below the Up Next section. This way, if somebody had to comment or read the comments on the video, they had to scroll all the way down to the end and then comment on it. This way, they first had access to the Up Next section.",
+    "link": "https://www.distractify.com/p/why-did-youtube-move-the-comments",
+    "name": "Scroll Down Youtube Comments",
     "type": "app"
   }
 ]
