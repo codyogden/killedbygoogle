@@ -1646,5 +1646,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Gesture_Search",
     "name": "Gesture Search",
     "type": "app"
+  },
+  {
+    "dateClose": "2012-10-29",
+    "dateOpen": "2012-06-27",
+    "description": "Google's Nexus Q, a streaming media player that was designed to connect all home devices, was unveiled with great fanfare at the company's 2012 developer conference.",
+    "link": "https://es.wikipedia.org/wiki/Nexus_Q",
+    "name": "Google's Nexus Q",
+    "type": "hardware"
   }
 ]
