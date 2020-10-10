@@ -1,4 +1,12 @@
 [
+    {
+    "dateClose": "2020-09-30",
+    "dateOpen": "2011-11-16",
+    "description": "Google Play Music Manager was the desktop Music Manager for Google Play Music, primarily used to bulk upload and manage your personal Google Play Music library",
+    "link": "https://9to5google.com/2020/09/30/google-play-music-manager-for-windows-is-now-shutting-down/",
+    "name": "Google Play Music Manager",
+    "type": "app"
+  },
   {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
