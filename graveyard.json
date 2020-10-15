@@ -874,7 +874,7 @@
   {
     "dateClose": "2013-05-15",
     "dateOpen": "2005-08-22",
-    "description": "Often remembered as 'Gchat', Google Talk was a messaging service for both text and voice using XMPP. Google later replaced Google Talk with Hangouts.",
+    "description": "Often remembered as 'Gchat', Google Talk was a messaging service for both text and voice using XMPP.",
     "link": "https://en.wikipedia.org/wiki/Google_Talk",
     "name": "Google Talk",
     "type": "service"
@@ -1472,9 +1472,9 @@
     "type": "service"
   },
   {
-    "dateClose": "2020-12-31",
+    "dateClose": "2021-06-30",
     "dateOpen": "2013-03-15",
-    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"late 2020\".",
+    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"first half 2021\".",
     "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
     "name": "Google Hangouts",
     "type": "service"
