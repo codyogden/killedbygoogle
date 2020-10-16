@@ -1631,12 +1631,20 @@
     "name": "Google Related",
     "type": "service"
   },
-
- {  "dateClose": "2020-02-06",
+ {
+    "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
     "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
     "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
     "name": "Androidify",
     "type": "app"
-  }
+  },
+  {
+     "dateClose": "2020-12-01",
+     "dateOpen": "2016-12-05",
+     "description": "Trusted Contacts was an app that allowed users to share their location and view the location of specific users.",
+     "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
+     "name": "Trusted Contacts",
+     "type": "app"
+   }
 ]
