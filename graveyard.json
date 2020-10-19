@@ -1631,7 +1631,7 @@
     "name": "Google Related",
     "type": "service"
   },
- {
+  {
     "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
     "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
@@ -1640,19 +1640,27 @@
     "type": "app"
   },
   {
-     "dateClose": "2020-12-01",
-     "dateOpen": "2016-12-05",
-     "description": "Trusted Contacts was an app that allowed users to share their location and view the location of specific users.",
-     "link": "https://arstechnica.com/gadgets/2020/10/google-shuts-down-trusted-contacts-its-emergency-location-sharing-app/",
-     "name": "Trusted Contacts",
-     "type": "app"
-   },
-   {
+    "dateClose": "2020-12-01",
+    "dateOpen": "2016-12-05",
+    "description": "Trusted Contacts was an app that allowed users to share their location and view the location of specific users.",
+    "link": "https://arstechnica.com/gadgets/2020/10/google-shuts-down-trusted-contacts-its-emergency-location-sharing-app/",
+    "name": "Trusted Contacts",
+    "type": "app"
+  },
+  {
     "dateClose": "2017-01-01",
     "dateOpen": "2010-03-03",
     "description": "Google Gesture Search allowed users to search contacts, applications, settings, music and bookmark on their Android device by drawing letters or numbers onto the screen.",
     "link": "https://en.wikipedia.org/wiki/Google_Gesture_Search",
     "name": "Gesture Search",
     "type": "app"
+  },
+  {
+    "dateClose": "2020-10-19",
+    "dateOpen": "2017-11-15",
+    "description": "Nest Guard was a security system with an alarm, keypad, and motion sensor with embedded microphone.",
+    "link": "https://www.androidpolice.com/2020/10/19/google-confirms-the-nest-secure-has-been-discontinued/",
+    "name": "Nest Guard",
+    "type": "hardware"
   }
 ]
