@@ -1658,9 +1658,9 @@
   {
     "dateClose": "2020-10-19",
     "dateOpen": "2017-11-15",
-    "description": "Nest Guard was a security system with an alarm, keypad, and motion sensor with embedded microphone.",
+    "description": "Nest Secure was a security system with an alarm, keypad, and motion sensor with embedded microphone.",
     "link": "https://www.androidpolice.com/2020/10/19/google-confirms-the-nest-secure-has-been-discontinued/",
-    "name": "Nest Guard",
+    "name": "Nest Secure",
     "type": "hardware"
   }
 ]
