@@ -1655,6 +1655,14 @@
     "name": "Gesture Search",
     "type": "app"
   },
+    {
+    "dateClose": "2017-09-02",
+    "dateOpen": "2019-11-19",
+    "description": "Project ARA was a modular phone.",
+    "link": "https://en.wikipedia.org/wiki/Project_Ara",
+    "name": "Project ARA",
+    "type": "hardware"
+  },
   {
     "dateClose": "2020-10-19",
     "dateOpen": "2017-11-15",
