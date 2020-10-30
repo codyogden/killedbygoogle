@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-09-28",
+    "dateOpen": "2015-11-19",
+    "description": "YouTube Community Captions was a toolset for content viewers to add their own captions onto videos to add their own subtitles in their own languages.",
+    "link": "https://support.google.com/youtube/thread/61967856?hl=en",
+    "name": "YouTube Community Captions",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
