@@ -25,6 +25,9 @@ a {
   max-width: 330px;
   background-color: hsl(0, 0%, 98%);
   box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, .1);
+  height: 125px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #carbonads a {
@@ -77,4 +80,10 @@ a {
   font-weight: 600;
   font-size: 9px;
   line-height: 1;
+}
+
+.ad-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

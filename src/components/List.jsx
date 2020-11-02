@@ -12,7 +12,7 @@ import Item from './Item';
 
 const List = ({ items }) => (
   <ListContainer>
-    <ListItem>
+    <ListItem className="ad-container">
       <script async type="text/javascript" src="https://cdn.carbonads.com/carbon.js?serve=CK7I653N&placement=killedbygooglecom" id="_carbonads_js">{}</script>
     </ListItem>
     {items.map(item => (
