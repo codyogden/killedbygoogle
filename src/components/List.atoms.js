@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const ListContainer = styled.ul`
   list-style-type: none;
   padding: 0;
-  min-height: 70vh;
   max-width: 1400px;
   margin: 0 auto;
   @media screen and (min-width: 800px) {
