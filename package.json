@@ -1,84 +1,15 @@
 {
   "name": "killedbygoogle",
-  "version": "0.8.1",
+  "version": "2.0.0",
   "description": "killedbygoogle.com",
   "main": "src/index.js",
   "repository": "git@github.com:codyogden/killedbygoogle.git",
   "author": "Cody Ogden",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/preset-env": "7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/preset-typescript": "^7.6.0",
-    "@types/enzyme": "^3.10.3",
-    "@types/jest": "^24.0.18",
-    "@types/prop-types": "^15.7.1",
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",
-    "@typescript-eslint/parser": "^2.0.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "24.9.0",
-    "babel-loader": "^8.0.6",
-    "copy-webpack-plugin": "5.0.4",
-    "css-loader": "3.2.0",
-    "enzyme-to-json": "3.4.0",
-    "eslint": "^6.2.2",
-    "eslint-config-airbnb": "18.0.1",
-    "eslint-config-prettier": "^6.1.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-jest": "^22.15.1",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.14.3",
-    "eslint-plugin-react-hooks": "^2.0.1",
-    "file-loader": "4.2.0",
-    "jest": "24.9.0",
-    "jest-resolve": "24.9.0",
-    "json-loader": "^0.5.7",
-    "moment": "^2.22.2",
-    "node-sass": "^4.13.1",
-    "prettier": "^1.18.2",
-    "react-hot-loader": "4.12.12",
-    "sass-loader": "8.0.0",
-    "slugify": "^1.3.4",
-    "style-loader": "1.0.0",
-    "typescript": "^3.5.3",
-    "webpack": "4.39.3",
-    "webpack-cli": "3.3.8",
-    "webpack-dev-server": "3.8.0"
-  },
-  "dependencies": {
-    "browserlist": "^1.0.1",
-    "caniuse-lite": "1.0.30000989",
-    "date-fns": "2.0.1",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "eslint-utils": "1.4.2",
-    "jest-haste-map": "24.9.0",
-    "mixin-deep": "^2.0.1",
-    "preact": "8.5.2",
-    "preact-compat": "3.19.0",
-    "prop-types": "^15.6.2",
-    "react": "16.9.0",
-    "react-dom": "16.9.0",
-    "styled-components": "^3.4.6"
-  },
+  "devDependencies": {},
+  "dependencies": {},
   "scripts": {
     "build": "yarn webpack --mode=production && bin/graveyard",
-    "dev": "webpack-dev-server --config ./webpack.config.js --mode=development",
-    "lint": "eslint \"src/**/*.{jsx,js}\" && eslint graveyard.json",
-    "test": "yarn lint && jest",
-    "fmt": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json}'",
-    "jest": "jest"
-  },
-  "jest": {
-    "setupFiles": [
-      "./__test__/jestSetup.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode=development"
   }
 }
