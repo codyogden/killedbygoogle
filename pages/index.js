@@ -6,16 +6,26 @@ import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
 
-async function getGraveyardData() {
-    const req = await fetch('https://killedbygoogle.com/graveyard.json');
-    const res = await req.json();
-    const data = await res.sort(
-        (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
-    );
-    return <App items={data} />;
-}
-
 export default class HomePage extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            items: []
+        };
+
+    }
+
+    async componentDidMount() {
+        const req = await fetch('/graveyard.json');
+        const res = await req.json();
+        const data = await res.sort(
+            (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
+        );
+        this.setState({
+            items: data
+        });
+    }
 
     analytics() {
         if (process.env.NODE_ENV === 'production' )
@@ -28,7 +38,6 @@ export default class HomePage extends Component {
     }
 
     render() {
-        const { data } = this.props;
         return (
             <>
                 <Head>
@@ -60,9 +69,13 @@ export default class HomePage extends Component {
                     <script id="mcjs" src="chimp.js"></script>
                     {this.analytics()}
                 </Head>
-                <Header />
-                {getGraveyardData()}
-                <Footer />
+                
+                {this.state.items.length ? <>
+                    <Header />
+                    <App items={this.state.items} />
+                    <Footer />
+                </>: 'loading' }
+                
                 {this.card()}
             </>
         );
