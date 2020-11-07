@@ -14,12 +14,13 @@ import Filter from './components/Filter';
 import Footer from './components/Footer';
 
 export default class App extends Component {
+
   constructor(props) {
     super(props);
-    const { data } = props;
+    const { items } = props;
     this.state = {
-      listOfItems: data,
-      fullList: data,
+      listOfItems: items,
+      fullList: items,
       activeFilter: false,
       term: '',
     };
@@ -27,6 +28,7 @@ export default class App extends Component {
     // Bindings
     this.searchFilter = this.searchFilter.bind(this);
     this.setFilter = this.setFilter.bind(this);
+    this.search = this.search.bind(this);
   }
 
   setFilter(val) {
@@ -37,7 +39,6 @@ export default class App extends Component {
       this.search
     );
   }
-
   searchFilter(term) {
     this.setState(
       {
@@ -46,7 +47,6 @@ export default class App extends Component {
       this.search
     );
   }
-
   search() {
     const { fullList, activeFilter, term } = this.state;
     const regexp = new RegExp(term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');

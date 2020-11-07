@@ -1,26 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Tombstone from '../assets/tombstone-alt.svg';
-
 // Import Styled Components
 import { FooterContainer, FlexWrap } from './Footer.atoms';
 import PressCoverage from './PressCoverage';
 
 // Images
-import TWITTER from '../assets/twitter.svg';
-import GITHUB from '../assets/github.svg';
 
-type Props = {
-  url: string;
-  imgSrc: string;
-  altText: string;
-};
-const SocialLink: React.FunctionComponent<Props> = ({
+const SocialLink = ({
   url,
   imgSrc,
   altText,
-}: Props) => {
+}) => {
   const style = {
     border: 'none',
   };
@@ -72,7 +63,7 @@ export default () => (
     <FooterContainer>
       <FlexWrap>
         <FooterTitle>
-          <img style={TombstoneStyle} src={Tombstone} alt="Tombstone" />
+          <img style={TombstoneStyle} src='tombstone-alt.svg' alt="Tombstone" />
           <Title>Killed by Google</Title>
         </FooterTitle>
         <div>
@@ -129,12 +120,12 @@ export default () => (
           <SocialLink
             url="https://github.com/codyogden/killedbygoogle"
             altText="GitHub"
-            imgSrc={GITHUB}
+            imgSrc='github.svg'
           />
           <SocialLink
             url="https://twitter.com/killedbygoogle"
             altText="Twitter"
-            imgSrc={TWITTER}
+            imgSrc='twitter.svg'
           />
         </SocialWrapper>
       </FlexWrap>
