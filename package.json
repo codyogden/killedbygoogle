@@ -6,10 +6,23 @@
   "repository": "git@github.com:codyogden/killedbygoogle.git",
   "author": "Cody Ogden",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {},
+  "devDependencies": {
+    "moment": "^2.29.1",
+    "slugify": "^1.4.6"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.11.1",
+    "date-fns": "^2.16.1",
+    "next": "^10.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-select": "^3.1.0",
+    "styled-components": "^5.2.1"
+  },
   "scripts": {
-    "build": "yarn webpack --mode=production && bin/graveyard",
-    "dev": "webpack-dev-server --config ./webpack.config.js --mode=development"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   }
 }
