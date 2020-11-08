@@ -124,6 +124,10 @@ export default () => (
           <a href="https://netlify.com">
             This site is powered by Netlify.
           </a>
+          &nbsp;-&nbsp;
+          <a href="https://analytics.kbg.rip">
+            Analytics
+          </a>
         </CopyNotice>
         <SocialWrapper>
           <SocialLink
