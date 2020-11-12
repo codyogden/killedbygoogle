@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-06-01",
+    "dateOpen": "2015-05-28",
+    "description": "Google Photos provided unlimited 'High Quality' (slightly compressed) cloud photo storage, allowing you to automatically back up and access your photos from anywhere. From June 1 2021, all newly uploaded photos will begin to use your Google Drive 15 GB free allowance. Existing images will not be affected.",
+    "link": "https://9to5google.com/2020/11/11/google-photos-unlimited-backup-ending/",
+    "name": "Google Photos unlimited storage",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
