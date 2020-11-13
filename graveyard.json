@@ -1662,5 +1662,13 @@
     "link": "https://www.androidpolice.com/2020/10/19/google-confirms-the-nest-secure-has-been-discontinued/",
     "name": "Nest Secure",
     "type": "hardware"
+  },
+  {
+    "dateClose": "2021-06-30",
+    "dateOpen": "2015-08*01",
+    "description": "Expeditions is a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
+    "link": "https://de.wikipedia.org/wiki/Google_Expeditions",
+    "name": "Expeditions",
+    "type": "app"
   }
 ]
