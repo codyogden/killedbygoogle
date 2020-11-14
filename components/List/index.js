@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Carbon from 'react-carbon';
+import Carbon from '../Carbon';
 
 
 // Import External Components
@@ -151,6 +151,7 @@ const showAd = () => {
         return (
             <>
                 <Carbon
+                    name="kbg-carbon"
                     placement="killedbygooglecom"
                     serve="CK7I653N"
                 />
