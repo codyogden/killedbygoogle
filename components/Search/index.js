@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import SRT from '../SRT';
 
 // Import Styled Components
 import { SearchContainer, SearchBox } from './Search.atoms';
@@ -25,13 +26,10 @@ export default class Search extends Component {
 
   render() {
     const { inputValue } = this.state;
-    const labelTextStyle = {
-      display: 'none',
-    };
     return (
       <SearchContainer>
         <label htmlFor="searchBox" aria-label="Search">
-          <span style={labelTextStyle}>Search</span>
+          <SRT>Search</SRT>
           <SearchBox
             id="searchBox"
             placeholder="Search"

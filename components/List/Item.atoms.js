@@ -19,16 +19,15 @@ export const IconContainer = styled.div`
 `;
 
 export const ListItem = styled.li`
-  width: 500px;
   max-width: 100%;
   display: block;
   margin: 1em auto;
   display: flex;
-  border-bottom: 1px solid #dedede;
   box-sizing: border-box;
   flex: 0 0 30%;
   @media screen and (max-width: 1100px) {
     flex: 0 0 50%;
+    margin: 0.5em auto;
   }
   h2 {
     margin: 0;
