@@ -156,7 +156,7 @@ const FallbackAd = <AdPlaceholder href="https://twitter.com/killedbygoogle" targ
 </AdPlaceholder>;
 
 const showAd = () => {
-    // if( process.env.NODE_ENV === 'production' )
+    if( process.env.NODE_ENV === 'production' )
         return (
             <>
                 <Carbon
@@ -167,6 +167,7 @@ const showAd = () => {
                 />
             </>
         );
+    return <FallbackAd />
 };
 
 const List = ({ items }) => (
