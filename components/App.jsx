@@ -100,7 +100,7 @@ export default class App extends Component {
 
         return (
             <>
-                {listOfItems.length ? <>
+                {fullList.length ? <>
                     <Controls>
                         <Search search={this.searchFilter} />
                         <Filter
