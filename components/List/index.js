@@ -151,7 +151,6 @@ const showAd = () => {
         return (
             <>
                 <Carbon
-                    name="kbg-carbon"
                     placement="killedbygooglecom"
                     serve="CK7I653N"
                 />
