@@ -156,14 +156,14 @@ const FallbackAd = <AdPlaceholder href="https://twitter.com/killedbygoogle" targ
 </AdPlaceholder>;
 
 const showAd = () => {
-    if( process.env.NODE_ENV === 'production' )
+    // if( process.env.NODE_ENV === 'production' )
         return (
             <>
                 <Carbon
                     name="kbg-carbon"
                     placement="killedbygooglecom"
                     serve="CK7I653N"
-                    fallback={<FallbackAd />}
+                    fallback={FallbackAd}
                 />
             </>
         );
