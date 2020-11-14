@@ -1678,5 +1678,13 @@
     "link": "https://sciencejournal.withgoogle.com",
     "name": "Science Journal",
     "type": "app"
+  },
+  {
+    "dateClose": "2021-06-30",
+    "dateOpen": "2018-05-09",
+    "description": "Tour Creator allowed users to build immersive, 360° guided tours that could be viewed with VR devices.",
+    "link": "https://www.theverge.com/2020/11/13/21564279/google-expeditions-vr-cardboard-tours-shutdown-arts-culture-app-migration",
+    "name": "Tour Creator",
+    "type": "app"
   }
 ]

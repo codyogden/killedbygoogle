@@ -1,21 +1,15 @@
 import styled from 'styled-components';
 
 export const SearchContainer = styled.div`
-  width: 500px;
-  max-width: 95%;
   box-sizing: border-box;
-  margin: 20px auto 10px auto;
 `;
 
 export const SearchBox = styled.input`
-  font-size: 2em;
-  @media screen and (max-width: 700px) {
-    font-size: 1em;
-  }
+  font-size: 1.25em;
   border: none;
   height: 100%;
   display: block;
-  width: 95%;
+  width: 100%;
   background-color: transparent;
   border-bottom: 1px solid #cfcfcf;
   box-sizing: border-box;
@@ -23,7 +17,9 @@ export const SearchBox = styled.input`
   outline: none;
   transition: all 100ms linear;
   font-weight: lighter;
-
+  @media screen and (max-width: 700px) {
+    font-size: 1em;
+  }
   ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
     color: #cfcfcf;
