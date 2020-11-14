@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Carbon from 'react-carbon';
 
 
 // Import External Components
@@ -145,9 +146,29 @@ class FollowerCount extends Component {
     }
 }
 
+const Placeholder = <>
+    <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
+        <div>
+            <div>
+                <img src="twitter-blue.svg" alt="Twitter" />
+            </div>
+            <div>Join<FollowerCount /> others and follow<br /> @killedbygoogle on Twitter.</div>
+        </div>
+    </AdPlaceholder>
+    </>;
+
 const showAd = () => {
     if( process.env.NODE_ENV === 'production' )
-        return (<div id="kbg-carbon"></div>);
+        return (
+            <>
+                <Carbon
+                    id="carbonads"
+                    placement="killedbygooglecom"
+                    serve="CK7I653N"
+                    fallback={<Placeholder/>}
+                />
+            </>
+        );
 };
 
 const List = ({ items }) => (
@@ -155,14 +176,7 @@ const List = ({ items }) => (
         <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
-            <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
-                <div>
-                    <div>
-                        <img src="twitter-blue.svg" alt="Twitter" />
-                    </div>
-                    <div>Join<FollowerCount /> others and follow<br/> @killedbygoogle on Twitter.</div>
-                </div>
-            </AdPlaceholder>
+
         </AdContainer>
         {items.map(item => (
             <Item key={item.name} {...item} />
