@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -97,7 +97,53 @@ const AdContainer = styled(ListItem)`
         font-size: 9px;
         line-height: 1;
     }
+    #carbonads + a {
+        display: none !important;
+    }
 `;
+
+const AdPlaceholder = styled.a`
+    background-color: hsl(0, 0%, 98%);
+    height: 125px;
+    width: 330px;
+    border-bottom: 0;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+    img {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 0.5rem;
+    }
+    & > div {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+`;
+
+class FollowerCount extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            count: 0,
+        };
+    }
+    async componentDidMount() {
+        const res = await fetch('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=killedbygoogle');
+        const data = await res.json();
+        this.setState({
+            count: data[0]['followers_count']
+        });
+    }
+    render() {
+        const { count } = this.state;
+        return(
+            <span> { (count) ? count.toLocaleString('en') : 'a bunch of' }</span>
+        );
+    }
+}
 
 const showAd = () => {
     if( process.env.NODE_ENV === 'production' )
@@ -109,6 +155,14 @@ const List = ({ items }) => (
         <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
+            <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
+                <div>
+                    <div>
+                        <img src="twitter-blue.svg" alt="Twitter" />
+                    </div>
+                    <div>Join<FollowerCount /> others and follow<br/> @killedbygoogle on Twitter.</div>
+                </div>
+            </AdPlaceholder>
         </AdContainer>
         {items.map(item => (
             <Item key={item.name} {...item} />

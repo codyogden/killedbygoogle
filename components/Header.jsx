@@ -31,7 +31,7 @@ const Header = () => (
         <a href="/" rel="noreferrer noopener">
             <BrandingContainer>
                     <Logo>
-                        <img src="tombstone.svg" alt="Tombstone" />
+                        <img width="60px" src="tombstone.svg" alt="Tombstone" />
                     </Logo>
                     <Title>Killed by Google</Title>
             </BrandingContainer>

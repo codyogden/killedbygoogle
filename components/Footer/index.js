@@ -112,8 +112,12 @@ const Footer = () => (
                         &copy; 2020 Cody Ogden.
           </a>
           &nbsp;-&nbsp;
-          <a href="https://netlify.com">
+          <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">
                         This site is powered by Netlify.
+          </a>
+          &nbsp;-&nbsp;
+          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
+                        Analytics
           </a>
                 </CopyNotice>
                 <SocialWrapper>

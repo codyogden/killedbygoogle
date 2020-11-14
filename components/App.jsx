@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import List from './List';
 import Filter from './Filter';
 import Search from './Search';
+import Loader from './Loader';
 
 const Controls = styled.div`
     display: grid;
@@ -28,10 +29,9 @@ export default class App extends Component {
 
     constructor(props) {
         super(props);
-        const { items } = props;
         this.state = {
-            listOfItems: items,
-            fullList: items,
+            listOfItems: [],
+            fullList: [],
             activeFilter: false,
             term: '',
         };
@@ -40,6 +40,18 @@ export default class App extends Component {
         this.searchFilter = this.searchFilter.bind(this);
         this.setFilter = this.setFilter.bind(this);
         this.search = this.search.bind(this);
+    }
+
+    async componentDidMount() {
+        const req = await fetch('/graveyard.json');
+        const res = await req.json();
+        const data = await res.sort(
+            (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
+        );
+        this.setState({
+            listOfItems: data,
+            fullList: data
+        });
     }
 
     setFilter(val) {
@@ -84,18 +96,21 @@ export default class App extends Component {
     }
     
     render() {
-        const { listOfItems, activeFilter, term, fullList } = this.state;
+        const { listOfItems, activeFilter, fullList } = this.state;
+
         return (
             <>
-                <Controls>
-                    <Search search={this.searchFilter} />
-                    <Filter
-                        current={activeFilter}
-                        filterHandler={this.setFilter}
-                        items={fullList}
-                    />
-                </Controls>
-                <List items={listOfItems} />
+                {listOfItems.length ? <>
+                    <Controls>
+                        <Search search={this.searchFilter} />
+                        <Filter
+                            current={activeFilter}
+                            filterHandler={this.setFilter}
+                            items={fullList}
+                        />
+                    </Controls>
+                    <List items={listOfItems} />
+                </> : <Loader />}
             </>
         );
     }
