@@ -147,7 +147,7 @@ class FollowerCount extends Component {
 
 const showAd = () => {
     if( process.env.NODE_ENV === 'production' )
-        return (<script async type="text/javascript" src="https://cdn.carbonads.com/carbon.js?serve=CK7I653N&placement=killedbygooglecom"></script>);
+        return (<div id="carbonads"></div>);
 };
 
 const List = ({ items }) => (
@@ -155,7 +155,7 @@ const List = ({ items }) => (
         <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
-            <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer" id="_carbonads_js">
+            <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
                 <div>
                     <div>
                         <img src="twitter-blue.svg" alt="Twitter" />
