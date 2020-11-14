@@ -146,6 +146,15 @@ class FollowerCount extends Component {
     }
 }
 
+const FallbackAd = <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
+    <div>
+        <div>
+            <img src="twitter-blue.svg" alt="Twitter" />
+        </div>
+        <div>Join<FollowerCount /> others and follow<br /> @killedbygoogle on Twitter.</div>
+    </div>
+</AdPlaceholder>;
+
 const showAd = () => {
     if( process.env.NODE_ENV === 'production' )
         return (
@@ -154,6 +163,7 @@ const showAd = () => {
                     name="kbg-carbon"
                     placement="killedbygooglecom"
                     serve="CK7I653N"
+                    fallback={<FallbackAd />}
                 />
             </>
         );
@@ -164,14 +174,7 @@ const List = ({ items }) => (
         <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
-            <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
-                <div>
-                    <div>
-                        <img src="twitter-blue.svg" alt="Twitter" />
-                    </div>
-                    <div>Join<FollowerCount /> others and follow<br /> @killedbygoogle on Twitter.</div>
-                </div>
-            </AdPlaceholder>
+
         </AdContainer>
         {items.map(item => (
             <Item key={item.name} {...item} />
