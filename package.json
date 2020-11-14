@@ -26,6 +26,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "preview": "yarn build && next export && npx http-server out/ -p 3000"
+    "preview": "yarn build && next export && npx http-server out/ -p 3000",
+    "test": "jest"
   }
 }
