@@ -50,7 +50,6 @@ export default class HomePage extends Component {
                     <meta name="google-site-verification" content="9y9dretKdifnWDdkbkT9Qm1PtWMIe3qz6R09Xkm8Cdc" />
                     <script id="mcjs" src="chimp.js"></script>
                     {this.analytics()}
-                    <script async type="text/javascript" src="https://cdn.carbonads.com/carbon.js?serve=CK7I653N&placement=killedbygooglecom&placement=kbg-carbon" id="_carbonads_js"></script>
                 </Head>
                 <Header />
                 <App />

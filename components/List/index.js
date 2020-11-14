@@ -147,7 +147,7 @@ class FollowerCount extends Component {
 
 const showAd = () => {
     if( process.env.NODE_ENV === 'production' )
-        return (<div id="carbonads"></div>);
+        return (<div id="kbg-carbon"></div>);
 };
 
 const List = ({ items }) => (
