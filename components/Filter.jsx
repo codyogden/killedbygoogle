@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
-import styled from 'styled-components';
 
-import { FilterList } from './Filter.atoms';
-import FilterItem from './FilterItem';
-import Item from '../List/Item';
-import SRT from '../SRT';
+import Item from './List/Item';
+import SRT from './SRT';
 
 export default class Filter extends Component {
   constructor(props) {
@@ -51,7 +48,7 @@ export default class Filter extends Component {
     return (
       <label>
         <SRT>Filter Graveyard List</SRT>
-        <Select defaultValue={options[0]} options={options} onChange={this.changeHandler} />
+        <Select defaultValue={options[0]} options={options} onChange={this.changeHandler} disabled={true} />
       </label>
     );
   }
