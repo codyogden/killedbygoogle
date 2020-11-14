@@ -162,7 +162,7 @@ const showAd = () => {
         return (
             <>
                 <Carbon
-                    id="carbonads"
+                    name="kbg-carbon"
                     placement="killedbygooglecom"
                     serve="CK7I653N"
                     fallback={<Placeholder/>}
