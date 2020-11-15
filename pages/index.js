@@ -11,7 +11,7 @@ export default class HomePage extends Component {
 
     analytics() {
         if (process.env.NODE_ENV === 'production' )
-            return (<script defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
+            return (<script dever="true" async="true" data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
     }
 
     card() {
