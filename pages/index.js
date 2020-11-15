@@ -10,8 +10,8 @@ import Loader from '../components/Loader';
 export default class HomePage extends Component {
 
     analytics() {
-        if (process.env.NODE_ENV === 'production' )
-            return (<script data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
+        if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined' )
+            return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
     }
 
     card() {
