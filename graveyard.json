@@ -1648,6 +1648,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2020-02-04",
+    "dateOpen": "2012-12-12",
+    "description": "Google Fiber TV was an IPTV service that was bundled with Google Fiber.",
+    "link": "https://www.theverge.com/2020/2/4/21123050/google-fiber-tv-package-removed-internet-service-high-speed",
+    "name": "Google Fiber TV",
+    "type": "service"
+  },
+  {
     "dateClose": "2019-10-01",
     "dateOpen": "2013-11-21",
     "description": "Message Center is a web console where Gmail users view and manage spam email messages.",
