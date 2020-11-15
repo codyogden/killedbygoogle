@@ -1,6 +1,22 @@
 [
   {
-    "dateClose": "2020-12-31",
+    "dateClose": "2020-08-31",
+    "dateOpen": "2019-02-05",
+    "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
+    "link": "https://9to5google.com/2020/07/30/password-checkup-chrome-extension/",
+    "name": "Password Checkup extension",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-06-30",
+    "dateOpen": "2020-02-01",
+    "description": "Google Photos Print was a subscription service that automatically selected the best ten photos from the last thirty days which were mailed to user's homes.",
+    "link": "https://www.forbes.com/sites/paulmonckton/2020/06/20/google-photos-featue-cancellation-auto-print-selection/#19631af66294",
+    "name": "Google Photos Print",
+    "type": "service"
+  },
+  {
+    "dateClose": "2020-10-22",
     "dateOpen": "2011-11-16",
     "description": "Google Play Music was a music and podcast streaming service, and online music locker.",
     "link": "https://youtube.googleblog.com/2020/05/youtube-music-transfer-google-play-music-library.html",
@@ -10,7 +26,7 @@
   {
     "dateClose": "2020-05-12",
     "dateOpen": "2019-06-10",
-    "description": "App used to find group activities with others who share your interests on Shoelace",
+    "description": "Shoelace was an app used to find group activities with others who share your interests.",
     "link": "https://9to5google.com/2020/04/28/shoelace-area-120-shutdown/",
     "name": "Shoelace",
     "type": "app"
@@ -504,7 +520,7 @@
     "type": "service"
   },
   {
-    "dateClose": "2020-03-01",
+    "dateClose": "2021-06-30",
     "dateOpen": "2010-12-06",
     "description": "Google Chrome Apps were hosted or packaged web applications that ran on the Google Chrome browser.",
     "link": "https://en.wikipedia.org/wiki/Google_Chrome_App",
@@ -858,7 +874,7 @@
   {
     "dateClose": "2013-05-15",
     "dateOpen": "2005-08-22",
-    "description": "Often remembered as 'Gchat', Google Talk was a messaging service for both text and voice using XMPP. Google later replaced Google Talk with Hangouts.",
+    "description": "Often remembered as 'Gchat', Google Talk was a messaging service for both text and voice using XMPP.",
     "link": "https://en.wikipedia.org/wiki/Google_Talk",
     "name": "Google Talk",
     "type": "service"
@@ -1043,7 +1059,7 @@
     "dateClose": "2013-11-20",
     "dateOpen": "2011-12-08",
     "description": "Google Currents was a social magazine app by google, which was replaced by Google Play Newsstand.",
-    "link": "https://en.wikipedia.org/wiki/Google_Currents",
+    "link": "https://en.wikipedia.org/wiki/Google_Currents_(2011-2013)",
     "name": "Google Currents",
     "type": "app"
   },
@@ -1339,7 +1355,7 @@
     "dateClose": "2014-06-30",
     "dateOpen": "2010-10-06",
     "description": "Google TV was a smart TV platform that integrated Android and Chrome to create an interactive television overlay.",
-    "link": "https://en.wikipedia.org/wiki/Google_TV",
+    "link": "https://en.wikipedia.org/wiki/Google_TV_(smart_TV_platform)",
     "name": "Google TV",
     "type": "hardware"
   },
@@ -1456,9 +1472,9 @@
     "type": "service"
   },
   {
-    "dateClose": "2020-12-31",
+    "dateClose": "2021-06-30",
     "dateOpen": "2013-03-15",
-    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"late 2020\".",
+    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"first half 2021\".",
     "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
     "name": "Google Hangouts",
     "type": "service"
@@ -1576,7 +1592,7 @@
     "type": "hardware"
   },
   {
-    "dateClose": "2021-06-30",
+    "dateClose": "2021-12-31",
     "dateOpen": "2010-10-20",
     "description": "AngularJS was a JavaScript open-source front-end web framework based on MVC pattern using a dependency injection technique.",
     "link": "https://blog.angular.io/stable-angularjs-and-long-term-support-7e077635ee9c",
@@ -1590,6 +1606,14 @@
     "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
     "name": "Field Trip",
     "type": "app"
+  },
+  {
+    "dateClose": "2020-07-31",
+    "dateOpen": "2019-01-24",
+    "description": "Focals were a custom-built smart glasses product with a transparent, holographic display that allowed users to read and respond to text messages, navigate turn-by-turn directions, check the weather, and integrate with third-party services like Uber and Amazon Alexa.",
+    "link": "https://techcrunch.com/2020/06/30/google-acquires-smart-glasses-company-north-whose-focals-2-0-wont-ship/",
+    "name": "Focals by North",
+    "type": "hardware"
   },
   {
     "dateClose": "2019-07-05",
@@ -1610,16 +1634,81 @@
   {
     "dateClose": "2018-05-08",
     "dateOpen": "2013-11-20",
-    "description": "Google Play Newsstand is a discontinued news aggregator and digital newsstand service by Google.",
+    "description": "Google Play Newsstand was a news aggregator and digital newsstand service.",
     "link": "https://en.wikipedia.org/wiki/Google_Play_Newsstand",
     "name": "Google Play Newsstand",
     "type": "app"
   },
-  { "dateClose": "2020-02-06",
+  {
+    "dateClose": "2016-09-30",
+    "dateOpen": "2015-08-20",
+    "description": "Together was a watch face for Android Wear that let two users link their watches together to share small visual messages.",
+    "link": "http://web.archive.org/web/20160417063132/https://www.android.com/wear/together/",
+    "name": "Together",
+    "type": "app"
+  },
+  {
+    "dateClose": "2013-06-07",
+    "dateOpen": "2011-07-11",
+    "description": "Punchd was a digital loyalty card app and service targeted towards small businesses that originated as a student project at Cal Poly in 2009 and was acquired by Google in 2011.",
+    "link": "http://getpunchd.com/",
+    "name": "Punchd",
+    "type": "service"
+  },
+  {
+    "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
     "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
     "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
     "name": "Androidify",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-12-01",
+    "dateOpen": "2016-12-05",
+    "description": "Trusted Contacts was an app that allowed users to share their location and view the location of specific users.",
+    "link": "https://arstechnica.com/gadgets/2020/10/google-shuts-down-trusted-contacts-its-emergency-location-sharing-app/",
+    "name": "Trusted Contacts",
+    "type": "app"
+  },
+  {
+    "dateClose": "2017-01-01",
+    "dateOpen": "2010-03-03",
+    "description": "Google Gesture Search allowed users to search contacts, applications, settings, music and bookmark on their Android device by drawing letters or numbers onto the screen.",
+    "link": "https://en.wikipedia.org/wiki/Google_Gesture_Search",
+    "name": "Gesture Search",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-10-19",
+    "dateOpen": "2017-11-15",
+    "description": "Nest Secure was a security system with an alarm, keypad, and motion sensor with embedded microphone.",
+    "link": "https://www.androidpolice.com/2020/10/19/google-confirms-the-nest-secure-has-been-discontinued/",
+    "name": "Nest Secure",
+    "type": "hardware"
+  },
+  {
+    "dateClose": "2021-06-30",
+    "dateOpen": "2015-08-01",
+    "description": "Expeditions is a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
+    "link": "https://de.wikipedia.org/wiki/Google_Expeditions",
+    "name": "Expeditions",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-12-11",
+    "dateOpen": "2016-05-23",
+    "description": "Science Journal was a mobile app that helped you run science experiments with your smartphone using the device's onboard sensors.",
+    "link": "https://sciencejournal.withgoogle.com",
+    "name": "Science Journal",
+    "type": "app"
+  },
+  {
+    "dateClose": "2021-06-30",
+    "dateOpen": "2018-05-09",
+    "description": "Tour Creator allowed users to build immersive, 360° guided tours that could be viewed with VR devices.",
+    "link": "https://www.theverge.com/2020/11/13/21564279/google-expeditions-vr-cardboard-tours-shutdown-arts-culture-app-migration",
+    "name": "Tour Creator",
     "type": "app"
   }
 ]
