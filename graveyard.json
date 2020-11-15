@@ -1640,6 +1640,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2013-06-07",
+    "dateOpen": "2011-07-11",
+    "description": "Punchd was a digital loyalty card app and service targeted towards small businesses that originated as a student project at Cal Poly in 2009 and was acquired by Google in 2011.",
+    "link": "http://getpunchd.com/",
+    "name": "Punchd",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
     "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
