@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2020-05-13",
+    "dateOpen": "2008-08-19",
+    "description": "Enhanced 404 Pages was a JavaScript library that added suggested URLs and a search box to a website's 404 Not Found page.",
+    "link": "https://webmasters.googleblog.com/2008/08/make-your-404-pages-more-useful.html",
+    "name": "Enhanced 404 Pages",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
