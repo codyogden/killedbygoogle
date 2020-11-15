@@ -47,7 +47,7 @@ The description should be a single sentence describing the product. It should be
 Please be respectful, only use past tense.
 
 ### Link
-Link should be a resource that mentions the discontinuation date and talks about the product. Wikipedia is perfect.
+The Link should be a resource that mentions the discontinuation date and talks about the product. Wikipedia is perfect.
 
 ### Type
 The type should be either `app`, `service`, or `hardware` as a string.
