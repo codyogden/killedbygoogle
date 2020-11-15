@@ -1674,7 +1674,7 @@
   {
     "dateClose": "2020-12-11",
     "dateOpen": "2016-05-23",
-    "description": "Science Journal was a mobile app that helped you run science experiments with your smartphone using the device's onboard sensors. It is no longer maintained by Google, however, Arduino maintains an open source fork of the original app.",
+    "description": "Science Journal was a mobile app that helped you run science experiments with your smartphone using the device's onboard sensors.",
     "link": "https://sciencejournal.withgoogle.com",
     "name": "Science Journal",
     "type": "app"
