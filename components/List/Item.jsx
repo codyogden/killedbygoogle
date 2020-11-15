@@ -7,9 +7,6 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import Tombstone from '../assets/tombstone.svg';
-import Guillotine from '../assets/guillotine.svg';
-
 // Import Styled Components
 import {
   AgeRange,
@@ -52,9 +49,9 @@ const soonToDieIdiom = () => {
 export default class Item extends Component {
   getIcon() {
     return this.isPast() ? (
-      <Icon src={Tombstone} alt="Tombstone" />
+      <Icon src='tombstone.svg' alt="Tombstone" />
     ) : (
-      <Icon src={Guillotine} alt="Guillotine" />
+      <Icon src='guillotine.svg' alt="Guillotine" />
     );
   }
 
