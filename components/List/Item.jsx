@@ -7,9 +7,6 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import Tombstone from '../assets/tombstone.svg';
-import Guillotine from '../assets/guillotine.svg';
-
 // Import Styled Components
 import {
   AgeRange,
@@ -27,24 +24,23 @@ const soonToDieIdiom = () => {
     'Kicking the bucket',
     'Dead as a doorknob',
     'Done for',
-    'Expires',
-    'Bites the big one',
+    'Expiring',
+    'Biting the big one',
     'Off to the glue factory',
     'Another one bites the dust',
-    'Will be turned off',
+    'To be turned off',
     'Like a fork stuck in the outlet',
     'Scheduled to be killed',
-    'Will be exterminated',
-    'Will be flushed',
-    'Soon to be turned off',
-    'Gets unplugged',
+    'To be exterminated',
+    'To be flushed',
+    'Getting unplugged',
     'Vanishing',
-    'Goes poof',
-    'Turns to ashes',
-    'Gets KO\'d',
-    'Runs out of juice',
-    'Fades into darkness',
-    'Floats belly up'
+    'Going poof',
+    'Turning to ashes',
+    'Getting KO\'d',
+    'Running out of juice',
+    'Fading into darkness',
+    'Floating belly up'
   ];
   return items[Math.floor(Math.random() * items.length)];
 };
@@ -53,9 +49,9 @@ const soonToDieIdiom = () => {
 export default class Item extends Component {
   getIcon() {
     return this.isPast() ? (
-      <Icon src={Tombstone} alt="Tombstone" />
+      <Icon src='tombstone.svg' alt="Tombstone" />
     ) : (
-      <Icon src={Guillotine} alt="Guillotine" />
+      <Icon src='guillotine.svg' alt="Guillotine" />
     );
   }
 
