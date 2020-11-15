@@ -1742,5 +1742,13 @@
     "link": "https://www.theverge.com/2020/11/13/21564279/google-expeditions-vr-cardboard-tours-shutdown-arts-culture-app-migration",
     "name": "Tour Creator",
     "type": "app"
+  },
+  {
+    "dateClose": "2010-11-01",
+    "dateOpen": "2020-06-11",
+    "description": "Google Code-in was a contest that introduced pre-university students to open source software development.",
+    "link": "https://codein.withgoogle.com/archive/",
+    "name": "Google Code-in",
+    "type": "service"
   }
 ]
