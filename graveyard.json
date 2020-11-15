@@ -1744,8 +1744,8 @@
     "type": "app"
   },
   {
-    "dateClose": "2010-11-01",
-    "dateOpen": "2020-06-11",
+    "dateClose": "2020-06-11",
+    "dateOpen": "2010-11-01",
     "description": "Google Code-in was a contest that introduced pre-university students to open source software development.",
     "link": "https://codein.withgoogle.com/archive/",
     "name": "Google Code-in",
