@@ -1648,6 +1648,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2019-10-01",
+    "dateOpen": "2013-11-21",
+    "description": "Message Center is a web console where Gmail users view and manage spam email messages.",
+    "link": "https://support.google.com/a/answer/9275489",
+    "name": "Message Center",
+    "type": "service"
+  },
+  {
     "dateClose": "2018-05-08",
     "dateOpen": "2013-11-20",
     "description": "Google Play Newsstand was a news aggregator and digital newsstand service.",
