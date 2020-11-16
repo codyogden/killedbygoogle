@@ -1742,5 +1742,13 @@
     "link": "https://www.theverge.com/2020/11/13/21564279/google-expeditions-vr-cardboard-tours-shutdown-arts-culture-app-migration",
     "name": "Tour Creator",
     "type": "app"
+  },
+  {
+    "dateClose": "2019-11-07",
+    "dateOpen": "2019-06-13",
+    "description": "Game Builder was a multiplayer 3D game environment for creating new games without coding experience.",
+    "link": "https://steamcommunity.com/games/929860/announcements/detail/1608276251516057010",
+    "name": "Game Builder",
+    "type": "app"
   }
 ]
