@@ -1750,5 +1750,13 @@
     "link": "https://steamcommunity.com/games/929860/announcements/detail/1608276251516057010",
     "name": "Game Builder",
     "type": "app"
+  },
+  {
+    "dateClose": "2021-6-30",
+    "dateOpen": "2017-11-01",
+    "description": "Poly was a distribution platform for creators to share 3D objects.",
+    "link": "https://support.google.com/poly/answer/10192635",
+    "name": "Poly",
+    "type": "service"
   }
 ]
