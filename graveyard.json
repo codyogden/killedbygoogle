@@ -1758,5 +1758,13 @@
     "link": "https://support.google.com/poly/answer/10192635",
     "name": "Poly",
     "type": "service"
+  },
+  {
+    "dateClose": "2020-12-14",
+    "dateOpen": "2017-12-11",
+    "description": "Google Home Max was a large, stereo smart speaker with two tweeters and subwoofers, aux input, and a USB-C input (for wired ethernet) featuring Smart Sound machine learning technology.",
+    "link": "https://9to5google.com/2020/12/14/google-home-max-discontinued/",
+    "name": "Google Home Max",
+    "type": "hardware"
   }
 ]
