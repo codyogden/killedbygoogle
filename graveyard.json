@@ -1784,6 +1784,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2019-09-03",
+    "dateOpen": "2013-08-18",
+    "description": "Timely Alarm Clock was an Android application providing alarm, stopwatch and timer functionality with synchronisation across devices.",
+    "link": "http://www.bitspin.ch/google",
+    "name": "Timely",
+    "type": "app"
+  },
+  {
     "dateClose": "2021-01-22",
     "dateOpen": "2014-06-14",
     "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratsophere",
