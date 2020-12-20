@@ -1774,5 +1774,13 @@
     "link": "https://9to5google.com/2020/12/14/google-home-max-discontinued/",
     "name": "Google Home Max",
     "type": "hardware"
+  },
+  {
+    "dateClose": "2020-07-30",
+    "dateOpen": "2018-05-08",
+    "description": "Sceneform SDK for Android was a library and toolset for building AR scenes.",
+    "link": "https://stackoverflow.com/questions/62453399/google-sceneform-is-it-deprecated-any-replacement",
+    "name": "Sceneform SDK for Android",
+    "type": "app"
   }
 ]
