@@ -26,7 +26,7 @@
   {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
-    "description": "Whenever you signed in to a site, Password Checkup triggered a warning if the username and password you used were one of over 4 billion credentials that Google knew to be unsafe.",
+    "description": "Password Checkup provided a warning to users if they were using a username and password combination checked against over 4 billion credentials that Google knew to be unsafe.",
     "link": "https://9to5google.com/2020/07/30/password-checkup-chrome-extension/",
     "name": "Password Checkup extension",
     "type": "app"
@@ -1731,7 +1731,7 @@
     "dateClose": "2021-06-30",
     "dateOpen": "2015-08-01",
     "description": "Expeditions is a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
-    "link": "https://de.wikipedia.org/wiki/Google_Expeditions",
+    "link": "https://en.wikipedia.org/wiki/Google_Expeditions",
     "name": "Expeditions",
     "type": "app"
   },
