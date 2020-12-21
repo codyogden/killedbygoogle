@@ -39,12 +39,12 @@ export default class HomePage extends Component {
                     <meta name="twitter:description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
                     <meta name="twitter:site" content="@killedbygoogle" />
                     <meta name="twitter:creator" content="@killedbygoogle" />
-                    <meta name="twitter:image:src" content="https://killedbygoogle.com/assets/social/card-twitter.png" />
+                    <meta name="twitter:image:src" content="https://killedbygoogle.com/social/card-twitter.png" />
                     <meta name="og:title" property="og:title" content="Killed by Google" />
                     <meta name="og:url" property="og:url" content="https://killedbygoogle.com" />
                     <meta name="og:description" property="og:description" content="Killed by Google is the open source list of dead Google products, services, and devices. It serves as a tribute and memorial of beloved services and products killed by Google." />
-                    <meta name="image" property="og:image" content="https://killedbygoogle.com/assets/social/card.png" />
-                    <meta name="og:image" property="og:image" content="https://killedbygoogle.com/assets/social/card.png" />
+                    <meta name="image" property="og:image" content="https://killedbygoogle.com/social/card.png" />
+                    <meta name="og:image" property="og:image" content="https://killedbygoogle.com/social/card.png" />
                     <meta name="og:site_name" property="og:site_name" content="Killed by Google" />
                     <meta name="og:type" property="og:type" content="website" />
                     <meta name="author" content="Cody Ogden" />                    
