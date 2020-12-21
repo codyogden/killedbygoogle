@@ -43,9 +43,11 @@ export default class HomePage extends Component {
                     <meta name="og:title" property="og:title" content="Killed by Google" />
                     <meta name="og:url" property="og:url" content="https://killedbygoogle.com" />
                     <meta name="og:description" property="og:description" content="Killed by Google is the open source list of dead Google products, services, and devices. It serves as a tribute and memorial of beloved services and products killed by Google." />
+                    <meta name="image" property="og:image" content="https://killedbygoogle.com/assets/social/card.png" />
                     <meta name="og:image" property="og:image" content="https://killedbygoogle.com/assets/social/card.png" />
                     <meta name="og:site_name" property="og:site_name" content="Killed by Google" />
                     <meta name="og:type" property="og:type" content="website" />
+                    <meta name="author" content="Cody Ogden" />                    
                     <meta name="msvalidate.01" content="0C9605AF449480F57421EECCA9EB2B8A" />
                     <meta name="google-site-verification" content="9y9dretKdifnWDdkbkT9Qm1PtWMIe3qz6R09Xkm8Cdc" />
                     <script id="mcjs" src="chimp.js"></script>
