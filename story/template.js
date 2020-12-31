@@ -22,16 +22,16 @@ module.exports=graveyard=>`<!doctype html>
     <meta name="twitter:card" content="summary" />
     <link rel="canonical" href="https://killedbygoogle.com/story/">
     <style amp-custom>
-        .pbmnxkm{
+        .whitebg{
               background : rgb(255,255,255);
            }
-           .anlqn{
+           .main-guillotine-wrap{
               height : 42.67%;
               left : 14.17%;
               top : 26.33%;
               width : 71.11%;
            }
-           .mzfax{
+           .chopping-block-title{
               color : rgb(51, 51, 51);
               font-family : Roboto;
               font-size : 3.11em;
@@ -42,7 +42,7 @@ module.exports=graveyard=>`<!doctype html>
               top : 11.17%;
               width : 90.56%;
            }
-           .luuez{
+           .kbg-name{
               color : rgb(51, 51, 51);
               font-family : Roboto;
               font-size : 1.42em;
@@ -54,7 +54,7 @@ module.exports=graveyard=>`<!doctype html>
               top : 94.33%;
               width : 69.44%;
            }
-           .umwyw#logo img{
+           .kbg-logo-wrap#logo img{
               object-fit : cover;
               object-position : 0% 0%;
               max-width : unset;
@@ -65,23 +65,20 @@ module.exports=graveyard=>`<!doctype html>
               left : 0.00%;
               width : 100.00%;
            }
-           .umwyw amp-img img{
+           .kbg-logo-wrap amp-img img{
               object-fit : cover;
               object-position : 0% 0%;
            }
-           .umwyw amp-img{
+           .kbg-logo-wrap amp-img{
               transform : translateX(-50%) translateY(-50%) ;
            }
-           .umwyw{
+           .kbg-logo-wrap{
               height : 4.00em;
               left : 49.86%;
               top : 89.42%;
               width : 4.00em;
            }
-           .pbpfcou{
-              background : rgb(255,255,255);
-           }
-           .tfcyc#guillotine img{
+           .grave-guillotine-wrap#guillotine img{
               object-fit : cover;
               object-position : 0% 0%;
               max-width : unset;
@@ -92,20 +89,20 @@ module.exports=graveyard=>`<!doctype html>
               left : 0.00%;
               width : 100.00%;
            }
-           .tfcyc amp-img img{
+           .grave-guillotine-wrap amp-img img{
               object-fit : cover;
               object-position : 0% 0%;
            }
-           .tfcyc amp-img{
+           .grave-guillotine-wrap amp-img{
               transform : translateX(-50%) translateY(-50%) ;
            }
-           .tfcyc{
+           .grave-guillotine-wrap{
               height : 13.33em;
               left : 49.45%;
               top : 18.33%;
               width : 13.33em;
            }
-           .uqlvr{
+           .grave-name{
               color : rgb(51, 51, 51);
               font-family : Roboto;
               font-size : 3.11em;
@@ -117,7 +114,7 @@ module.exports=graveyard=>`<!doctype html>
               top : 41.83%;
               width : 69.44%;
            }
-           .uypid{
+           .grave-desc{
               color : rgb(51, 51, 51);
               font-family : Roboto;
               font-size : 1.42em;
@@ -129,7 +126,7 @@ module.exports=graveyard=>`<!doctype html>
               top : 52.83%;
               width : 69.44%;
            }
-           .gbieh{
+           .grave-death{
               color : rgb(51, 51, 51);
               font-family : Roboto;
               font-size : 1.24em;
@@ -141,7 +138,7 @@ module.exports=graveyard=>`<!doctype html>
               top : 34.50%;
               width : 44.72%;
            }
-           .giaeb{
+           .read-more{
               background : rgba(0,0,0,1);
               border-color : rgb(0, 0, 0);
               border-radius : 100px 100px 100px 100px;
@@ -288,25 +285,25 @@ module.exports=graveyard=>`<!doctype html>
         <!-- PAGE 1 STARTS HERE -->
         <amp-story-page class="page1 ms-st-pg" auto-advance-after="3000ms">
             <!-- PAGE BACKGROUND LAYER (page1) -->
-            <amp-story-grid-layer template="fill" class="pbmnxkmp">
-                <div class="pbmnxkm"></div>
+            <amp-story-grid-layer template="fill" class="whitebgp">
+                <div class="whitebg"></div>
             </amp-story-grid-layer>
             <!-- PAGE BACKGROUND LAYER (page1) ENDS -->
             <amp-story-grid-layer template="vertical">
                 <div class="letterbox">
                     <!-- svg_1 STARTS HERE -->
-                    <div class="anlqn pa svg-el" animate-in="fade-in" animate-in-duration="600ms" animate-in-delay="0ms">
+                    <div class="main-guillotine-wrap pa svg-el" animate-in="fade-in" animate-in-duration="600ms" animate-in-delay="0ms">
                         <amp-img width="256px" height="256px" layout="responsive" src="/guillotine.svg" alt=""></amp-img>
                     </div>
                     <!-- svg_1 ENDS HERE -->
                     <!-- Heading 1 STARTS HERE -->
-                    <h1 class="mzfax pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="300ms">The Chopping Block</h1>
+                    <h1 class="chopping-block-title pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="300ms">The Chopping Block</h1>
                     <!-- Heading 1 ENDS HERE -->
                     <!-- Supporting Text (span) STARTS HERE -->
-                    <span class="luuez pa">Killed by Google</span>
+                    <span class="kbg-name pa">Killed by Google</span>
                     <!-- Supporting Text (span) ENDS HERE -->
                     <!-- image_1 STARTS HERE -->
-                    <div class="umwyw pa" id="logo">
+                    <div class="kbg-logo-wrap pa" id="logo">
                         <amp-img width="150" height="150" layout="responsive" class=" img-fill  pa " src="/tombstone.svg" alt="Killed by Google Logo"></amp-img>
                     </div>
                     <!-- image_1 ENDS HERE -->
@@ -317,25 +314,25 @@ module.exports=graveyard=>`<!doctype html>
         <!-- PAGE 1 ENDS HERE -->
         ${graveyard.filter(e=>new Date()-new Date(e.dateClose)<0).map(e=>` <amp-story-page class="ms-st-pg" auto-advance-after="8000ms">
             <!-- PAGE BACKGROUND LAYER -->
-            <amp-story-grid-layer template="fill" class="pbpfcoup">
-                <div class="pbpfcou"></div>
+            <amp-story-grid-layer template="fill">
+                <div class="whitebg"></div>
             </amp-story-grid-layer>
             <!-- PAGE BACKGROUND LAYER ENDS -->
             <amp-story-grid-layer template="vertical">
                 <div class="letterbox">
                     <!-- image_1 STARTS HERE -->
-                    <div class="tfcyc pa" animate-in="fade-in" animate-in-duration="500ms" id="guillotine">
+                    <div class="grave-guillotine-wrap pa" animate-in="fade-in" animate-in-duration="500ms" id="guillotine">
                         <amp-img width="150" height="150" layout="responsive" class=" img-fill  pa " src="/guillotine.svg" alt="Guillotine Icon"></amp-img>
                     </div>
                     <!-- image_1 ENDS HERE -->
                     <!-- Heading 1 STARTS HERE -->
-                    <h1 class="uqlvr pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="100ms">${encode(e.name)}</h1>
+                    <h1 class="grave-name pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="100ms">${encode(e.name)}</h1>
                     <!-- Heading 1 ENDS HERE -->
                     <!-- This is a paragraph (p) STARTS HERE -->
-                    <p class="uypid pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="300ms">${encode(e.description)}</p>
+                    <p class="grave-desc pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="300ms">${encode(e.description)}</p>
                     <!-- This is a paragraph (p) ENDS HERE -->
                     <!-- Supporting Text (span) STARTS HERE -->
-                    <span class="gbieh pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="200ms">${[
+                    <span class="grave-death pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="200ms">${[
   "January",
   "February",
   "March",
@@ -351,7 +348,7 @@ module.exports=graveyard=>`<!doctype html>
 ][new Date(e.dateClose).getMonth()]+" "+new Date(e.dateClose).getFullYear()}</span>
                     <!-- Supporting Text (span) ENDS HERE -->
                     <!-- Killed by Google STARTS HERE -->
-                    <span class="giaeb pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="500ms">Read More<a href="${encode(e.link)}" role="link" data-tooltip-text="Open Link" class="story-tooltip pa" data-vars-ctalink="${encode(e.link)}" ></a></span>
+                    <span class="read-more pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="500ms">Read More<a href="${encode(e.link)}" role="link" data-tooltip-text="Open Link" class="story-tooltip pa" data-vars-ctalink="${encode(e.link)}" ></a></span>
                     <!-- Killed by Google ENDS HERE -->
                 </div>
             </amp-story-grid-layer>
