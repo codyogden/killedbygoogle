@@ -1,3 +1,4 @@
+let makeid=(()=>{let i=0;return function(){return "page"+i++}})()
 let encode=e=>e.replace(/[\x26\x0A\<>'"]/g,e=>"&#"+e.charCodeAt(0)+";")
 module.exports=graveyard=>`<!doctype html>
 <html amp lang="en">
@@ -346,13 +347,13 @@ amp-story {
 }
 
 amp-story-page amp-story-grid-layer .letterbox {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 100% !important;
+    height: 100%;
     flex-grow: 1;
     position: absolute;
     padding: 3rem 2rem;
@@ -367,7 +368,7 @@ amp-story-page amp-story-grid-layer .letterbox {
     <amp-story standalone poster-portrait-src="/vert-story-thumb.jpg" publisher-logo-src="/tombstone.svg" publisher="Killed by Google" title="The Chopping Block" poster-landscape-src="/horiz-story-thumb.jpg" poster-square-src="/square-story-thumb.jpg">
 
         <!-- PAGE 1 STARTS HERE -->
-        <amp-story-page class="page1 ms-st-pg" auto-advance-after="3000ms">
+        <amp-story-page class="page1 ms-st-pg" id="${makeid()}" auto-advance-after="3000ms">
             <!-- PAGE BACKGROUND LAYER (page1) -->
             <amp-story-grid-layer template="fill" class="whitebgp">
                 <div class="whitebg"></div>
@@ -395,7 +396,7 @@ amp-story-page amp-story-grid-layer .letterbox {
 
         </amp-story-page>
         <!-- PAGE 1 ENDS HERE -->
-        ${graveyard.filter(e=>new Date()-new Date(e.dateClose)<0).map(e=>` <amp-story-page class="ms-st-pg" auto-advance-after="8000ms">
+        ${graveyard.filter(e=>new Date()-new Date(e.dateClose)<0).map(e=>` <amp-story-page  id="${makeid()}" class="ms-st-pg" auto-advance-after="8000ms">
             <!-- PAGE BACKGROUND LAYER -->
             <amp-story-grid-layer template="fill">
                 <div class="whitebg"></div>
