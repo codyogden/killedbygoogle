@@ -22,9 +22,11 @@ fs.writeFile('public/graveyard.json', JSON.stringify(data), (err) => {
   if (err) throw err;
   log('Slugs added. JSON minified.');
 });
+
+const story = require('../story/template.js');
 fs.mkdir("public/story/", (err) => {
   if (err) throw err;
-  fs.writeFile('public/story/index.html', fs.readFileSync("story/template.html"), (err) => {
+  fs.writeFile('public/story/index.html', story(data), (err) => {
     const { log } = console;
     if (err) throw err;
     log('Story built.');
