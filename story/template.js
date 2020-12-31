@@ -36,6 +36,8 @@ module.exports=graveyard=>`<!doctype html>
     background-position: center;
     background-repeat: no-repeat;
     margin: 1rem;
+}
+.chopping-block-title{
     color : rgb(51, 51, 51);
     font-family : Roboto;
     font-size : 3.11em;
@@ -43,6 +45,7 @@ module.exports=graveyard=>`<!doctype html>
     letter-spacing : 0.03em;
     line-height : 1.4em;
     order: 0;
+    width:100%;
 }
 
 .kbg-name {
