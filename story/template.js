@@ -21,27 +21,28 @@ module.exports=graveyard=>`<!doctype html>
     <meta property="twitter:title" content="The Chopping Block - Killed by Google" />
     <meta name="twitter:card" content="summary" />
     <link rel="canonical" href="https://killedbygoogle.com/story/">
-    <style amp-custom>.whitebg {
+    <style amp-custom>
+.whitebg {
     background : rgb(255,255,255);
 }
 
 .main-guillotine-wrap {
-    height : 42.67%;
-    left : 14.17%;
-    top : 26.33%;
-    width : 71.11%;
-}
-
-.chopping-block-title {
+    order: 1;
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+    background: url(/guillotine.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1rem;
     color : rgb(51, 51, 51);
     font-family : Roboto;
     font-size : 3.11em;
     font-weight : 300;
-    left : 4.72%;
     letter-spacing : 0.03em;
     line-height : 1.4em;
-    top : 11.17%;
-    width : 90.56%;
+    order: 0;
 }
 
 .kbg-name {
@@ -49,12 +50,11 @@ module.exports=graveyard=>`<!doctype html>
     font-family : Roboto;
     font-size : 1.42em;
     font-weight : 400;
-    left : 15.28%;
     letter-spacing : 0.06em;
     line-height : 1.25em;
     text-align : center;
-    top : 94.33%;
-    width : 69.44%;
+    order: 4;
+    margin-top: 0.5rem;
 }
 
 .kbg-logo-wrap#logo img {
@@ -75,14 +75,13 @@ module.exports=graveyard=>`<!doctype html>
 }
 
 .kbg-logo-wrap amp-img {
-    transform : translateX(-50%) translateY(-50%) ;
 }
 
 .kbg-logo-wrap {
     height : 4.00em;
-    left : 49.86%;
-    top : 89.42%;
     width : 4.00em;
+    order: 3;
+    margin-top: 1rem;
 }
 
 .grave-guillotine-wrap#guillotine img {
@@ -164,6 +163,7 @@ module.exports=graveyard=>`<!doctype html>
     text-align : center;
     width: 8em;
     order: 999;
+    position: relative;
 }
 
 amp-img {
@@ -265,12 +265,13 @@ p, h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 a.story-tooltip {
     text-decoration: none;
     color: inherit;
+    position: absolute;
 }
 
 .offset {
@@ -341,7 +342,7 @@ amp-story {
     line-height: 1.5;
 }
 
-amp-story-page:not(.page1) amp-story-grid-layer .letterbox {
+amp-story-page amp-story-grid-layer .letterbox {
     display: flex !important;
     flex-direction: column;
     align-items: center;
@@ -352,8 +353,8 @@ amp-story-page:not(.page1) amp-story-grid-layer .letterbox {
     flex-grow: 1;
     position: absolute;
     padding: 3rem 2rem;
+    overflow: hidden;
 }
-
     </style>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?display=swap&family=Roboto:400,300,500" media="all">
 </head>
@@ -373,7 +374,6 @@ amp-story-page:not(.page1) amp-story-grid-layer .letterbox {
                 <div class="letterbox">
                     <!-- svg_1 STARTS HERE -->
                     <div class="main-guillotine-wrap pa svg-el" animate-in="fade-in" animate-in-duration="600ms" animate-in-delay="0ms">
-                        <amp-img width="256px" height="256px" layout="responsive" src="/guillotine.svg" alt=""></amp-img>
                     </div>
                     <!-- svg_1 ENDS HERE -->
                     <!-- Heading 1 STARTS HERE -->
