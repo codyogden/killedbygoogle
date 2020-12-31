@@ -1,7 +1,6 @@
-
-<!doctype html>
+let encode=e=>e.replace(/[\x26\x0A\<>'"]/g,e=>"&#"+e.charCodeAt(0)+";")
+module.exports=graveyard=>`<!doctype html>
 <html amp lang="en">
-
 <head>
     <meta charset="utf-8">
     <link href="https://cdn.ampproject.org/v0.js" rel="preload" as="script" />
@@ -296,19 +295,19 @@
             <amp-story-grid-layer template="vertical">
                 <div class="letterbox">
                     <!-- svg_1 STARTS HERE -->
-                    <div class='anlqn pa svg-el' animate-in='fade-in' animate-in-duration='600ms' animate-in-delay='0ms'>
-                        <amp-img width='256px' height='256px' layout='responsive' src='/guillotine.svg' alt=''></amp-img>
+                    <div class="anlqn pa svg-el" animate-in="fade-in" animate-in-duration="600ms" animate-in-delay="0ms">
+                        <amp-img width="256px" height="256px" layout="responsive" src="/guillotine.svg" alt=""></amp-img>
                     </div>
                     <!-- svg_1 ENDS HERE -->
                     <!-- Heading 1 STARTS HERE -->
-                    <h1 class='mzfax pa' animate-in='fade-in' animate-in-duration='500ms' animate-in-delay='300ms'>The Chopping Block</h1>
+                    <h1 class="mzfax pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="300ms">The Chopping Block</h1>
                     <!-- Heading 1 ENDS HERE -->
                     <!-- Supporting Text (span) STARTS HERE -->
-                    <span class='luuez pa'>Killed by Google</span>
+                    <span class="luuez pa">Killed by Google</span>
                     <!-- Supporting Text (span) ENDS HERE -->
                     <!-- image_1 STARTS HERE -->
-                    <div class='umwyw pa' id='logo'>
-                        <amp-img width='150' height='150' layout='responsive' class=' img-fill  pa ' src='/tombstone.svg' alt='Killed by Google Logo'></amp-img>
+                    <div class="umwyw pa" id="logo">
+                        <amp-img width="150" height="150" layout="responsive" class=" img-fill  pa " src="/tombstone.svg" alt="Killed by Google Logo"></amp-img>
                     </div>
                     <!-- image_1 ENDS HERE -->
                 </div>
@@ -316,8 +315,7 @@
 
         </amp-story-page>
         <!-- PAGE 1 ENDS HERE -->
-        <!-- PAGE 2 STARTS HERE -->
-        <amp-story-page class="ms-st-pg" auto-advance-after="8000ms">
+        ${graveyard.filter(e=>new Date()-new Date(e.dateClose)<0).map(e=>` <amp-story-page class="ms-st-pg" auto-advance-after="8000ms">
             <!-- PAGE BACKGROUND LAYER -->
             <amp-story-grid-layer template="fill" class="pbpfcoup">
                 <div class="pbpfcou"></div>
@@ -326,26 +324,38 @@
             <amp-story-grid-layer template="vertical">
                 <div class="letterbox">
                     <!-- image_1 STARTS HERE -->
-                    <div class='tfcyc pa' animate-in='fade-in' animate-in-duration='500ms' id='guillotine'>
-                        <amp-img width='150' height='150' layout='responsive' class=' img-fill  pa ' src='/guillotine.svg' alt='Guillotine Icon'></amp-img>
+                    <div class="tfcyc pa" animate-in="fade-in" animate-in-duration="500ms" id="guillotine">
+                        <amp-img width="150" height="150" layout="responsive" class=" img-fill  pa " src="/guillotine.svg" alt="Guillotine Icon"></amp-img>
                     </div>
                     <!-- image_1 ENDS HERE -->
                     <!-- Heading 1 STARTS HERE -->
-                    <h1 class='uqlvr pa' animate-in='fade-in' animate-in-duration='500ms' animate-in-delay='100ms'>Tour Creator</h1>
+                    <h1 class="uqlvr pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="100ms">${encode(e.name)}</h1>
                     <!-- Heading 1 ENDS HERE -->
                     <!-- This is a paragraph (p) STARTS HERE -->
-                    <p class='uypid pa' animate-in='fade-in' animate-in-duration='500ms' animate-in-delay='300ms'>Scheduled to be killed in 6 months,&nbsp;Tour Creator allowed users to build immersive, 360° guided tours that could be viewed with VR devices.&nbsp;It will be about 3 years old.</p>
+                    <p class="uypid pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="300ms">${encode(e.description)}</p>
                     <!-- This is a paragraph (p) ENDS HERE -->
                     <!-- Supporting Text (span) STARTS HERE -->
-                    <span class='gbieh pa' animate-in='fade-in' animate-in-duration='500ms' animate-in-delay='200ms'>June 2021</span>
+                    <span class="gbieh pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="200ms">${[
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+][new Date(e.dateClose).getMonth()]+" "+new Date(e.dateClose).getFullYear()}</span>
                     <!-- Supporting Text (span) ENDS HERE -->
                     <!-- Killed by Google STARTS HERE -->
-                    <span class='giaeb pa' animate-in='fade-in' animate-in-duration='500ms' animate-in-delay='500ms'>Read More<a href='https://www.theverge.com/2020/11/13/21564279/google-expeditions-vr-cardboard-tours-shutdown-arts-culture-app-migration' role='link' data-tooltip-text='Open Link' class='story-tooltip pa' data-vars-ctalink='https://www.theverge.com/2020/11/13/21564279/google-expeditions-vr-cardboard-tours-shutdown-arts-culture-app-migration' ></a></span>
+                    <span class="giaeb pa" animate-in="fade-in" animate-in-duration="500ms" animate-in-delay="500ms">Read More<a href="${encode(e.link)}" role="link" data-tooltip-text="Open Link" class="story-tooltip pa" data-vars-ctalink="${encode(e.link)}" ></a></span>
                     <!-- Killed by Google ENDS HERE -->
                 </div>
             </amp-story-grid-layer>
-        </amp-story-page>
-
+        </amp-story-page>`).join("\n")}
         <amp-story-bookend layout="nodisplay">
             <script type="application/json">
                 {"bookendVersion":"v1.0","components":[],"shareProviders":["email","twitter","facebook"]}
@@ -353,4 +363,4 @@
         </amp-story-bookend>
     </amp-story>
 </body>
-</html>
+</html>`
