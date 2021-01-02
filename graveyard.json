@@ -8,6 +8,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2020-12-10",
+    "dateOpen": "2017-12-14",
+    "description": "YouTube VR allowed you to easily find and watch 360 videos and virtual reality content with SteamVR-compatible headsets.",
+    "link": "https://steamdb.info/app/755770/history/",
+    "name": "YouTube VR (SteamVR)",
+    "type": "app"
+  },
+  {
     "dateClose": "2020-06-24",
     "dateOpen": "2018-09-01",
     "description": "Pigeon Transit was a transit app that used croudsourced information about delays, crowded trains, escalator outages, live entertainment, dirty or unsafe conditions.",
