@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-03-31",
+    "dateOpen": "",
+    "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
+    "link": "https://github.com/codyogden/killedbygoogle/issues/865",
+    "name": "Google Go Links",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-01-05",
     "dateOpen": "2015-05-28",
     "description": "An Android-based embedded operating system (originally named Brillo) aimed to run on Internet of Things (IoT) devices",
