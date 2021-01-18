@@ -1782,5 +1782,13 @@
     "link": "https://stackoverflow.com/questions/62453399/google-sceneform-is-it-deprecated-any-replacement",
     "name": "Sceneform SDK for Android",
     "type": "app"
+  },
+  {
+    "dateClose": "2012-06-01",
+    "dateOpen": "2009-01-01",
+    "description": "The WIMM One was a smart watch running \"micro apps\", which were independent applications with phone synchronization, complete with a developer ecosystem and marketplace.",
+    "link": "https://gigaom.com/2013/08/30/google-wimm-labs-smartwatch-acquisition/",
+    "name": "WIMM ONE by WIMM Labs",
+    "type": "hardware"
   }
 ]
