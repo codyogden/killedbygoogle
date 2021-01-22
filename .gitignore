@@ -59,9 +59,10 @@ typings/
 
 # next.js build output
 .next
+/out
 
 # Apple
 .DS_Store
 
 # Build Files
-public/
+public/graveyard.json
