@@ -1782,5 +1782,13 @@
     "link": "https://stackoverflow.com/questions/62453399/google-sceneform-is-it-deprecated-any-replacement",
     "name": "Sceneform SDK for Android",
     "type": "app"
+  },
+  {
+    "dateClose": "2021-01-22",
+    "dateOpen": "2014-06-14",
+    "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratsophere",
+    "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
+    "name": "Loon",
+    "type": "service"
   }
 ]
