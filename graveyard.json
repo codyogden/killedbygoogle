@@ -2,7 +2,7 @@
   {
     "dateClose": "2022-01-05",
     "dateOpen": "2015-05-28",
-    "description": "Android Things was an Android-based embedded operating system (originally named Brillo) aimed to run on Internet of Things (IoT) devices",
+    "description": "Android Things was an Android-based embedded operating system (originally named Brillo) aimed to run on Internet of Things (IoT) devices.",
     "link": "https://android-developers.googleblog.com/2019/02/an-update-on-android-things.html",
     "name": "Android Things",
     "type": "service"
