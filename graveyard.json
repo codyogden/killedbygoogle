@@ -1790,5 +1790,13 @@
     "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
     "name": "Loon",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-02-01",
+    "dateOpen": "2019-03-19",
+    "description": "Stadia Games and Entertainment was an internal game studio focused on producing first party titles for Google Stadia.",
+    "link": "https://blog.google/products/stadia/focusing-on-stadias-future-as-a-platform-and-winding-down-sge",
+    "name": "Stadia Games and Entertainment",
+    "type": "service"
   }
 ]
