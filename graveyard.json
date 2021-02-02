@@ -1,4 +1,12 @@
 [
+    {
+    "dateClose": "2021-02-01",
+    "dateOpen": 2019-03-01",
+    "description": "Stadia Games and Entertainment (SG&E) was Google's game development service for the Stadia platform.",
+    "link": "https://blog.google/products/stadia/focusing-on-stadias-future-as-a-platform-and-winding-down-sge/",
+    "name": "Stadia Games and Entertainment (SG&E)",
+    "type": "service"
+  },
   {
     "dateClose": "2022-01-05",
     "dateOpen": "2015-05-28",
