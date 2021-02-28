@@ -1,16 +1,24 @@
 [
   {
     "dateClose": "2021-03-31",
-    "dateOpen": "",
+    "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
     "link": "https://github.com/codyogden/killedbygoogle/issues/865",
     "name": "Google Go Links",
     "type": "service"
   },
   {
+    "dateClose": "2021-01-26",
+    "dateOpen": "2016-04-05",
+    "description": "Tilt Brush was a room-scale 3D-painting virtual-reality application available from Google, originally developed by Skillman & Hackett. .",
+    "link": "https://www.tiltbrush.com/",
+    "name": "Tilt Brush",
+    "type": "app"
+  },
+  {
     "dateClose": "2022-01-05",
     "dateOpen": "2015-05-28",
-    "description": "An Android-based embedded operating system (originally named Brillo) aimed to run on Internet of Things (IoT) devices",
+    "description": "Android Things was an Android-based embedded operating system (originally named Brillo) aimed to run on Internet of Things (IoT) devices.",
     "link": "https://android-developers.googleblog.com/2019/02/an-update-on-android-things.html",
     "name": "Android Things",
     "type": "service"
@@ -552,7 +560,7 @@
     "type": "service"
   },
   {
-    "dateClose": "2021-06-30",
+    "dateClose": "2022-06-30",
     "dateOpen": "2010-12-06",
     "description": "Google Chrome Apps were hosted or packaged web applications that ran on the Google Chrome browser.",
     "link": "https://en.wikipedia.org/wiki/Google_Chrome_App",
@@ -1790,5 +1798,13 @@
     "link": "https://stackoverflow.com/questions/62453399/google-sceneform-is-it-deprecated-any-replacement",
     "name": "Sceneform SDK for Android",
     "type": "app"
+  },
+  {
+    "dateClose": "2021-01-22",
+    "dateOpen": "2014-06-14",
+    "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratsophere",
+    "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
+    "name": "Loon",
+    "type": "service"
   }
 ]
