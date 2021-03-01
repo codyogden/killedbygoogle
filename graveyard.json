@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-03-31",
+    "dateOpen": "2010-01-01",
+    "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
+    "link": "https://github.com/codyogden/killedbygoogle/issues/865",
+    "name": "Google Go Links",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-01-26",
     "dateOpen": "2016-04-05",
     "description": "Tilt Brush was a room-scale 3D-painting virtual-reality application available from Google, originally developed by Skillman & Hackett. .",
