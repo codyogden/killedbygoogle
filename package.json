@@ -15,7 +15,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "date-fns": "^2.17.0",
-    "next": "^10.0.6",
+    "next": "^10.0.8",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
