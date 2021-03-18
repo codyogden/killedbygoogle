@@ -1814,5 +1814,13 @@
     "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
     "name": "Loon",
     "type": "service"
+  },
+  {
+    "dateClose": "2017-07-26",
+    "dateOpen": "2010-09-08",
+    "description": "Google Instant was a service to show results as soon as you typed on Google Search",
+    "link": "https://searchengineland.com/google-dropped-google-instant-search-279674",
+    "name": "Google Instant",
+    "type": "service"
   }
 ]
