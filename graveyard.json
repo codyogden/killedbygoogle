@@ -248,6 +248,14 @@
     "type": "hardware"
   },
   {
+    "dateClose": "2021-03-03",
+    "dateOpen": "2014-06-25",
+    "description": "Google Cardboard was a low-cost, virtual reality (VR) platform named after its folded cardboard viewer into which a smartphone was inserted.",
+    "link": "https://en.wikipedia.org/wiki/Google_Cardboard",
+    "name": "Google Cardboard",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2017-09-20",
     "dateOpen": "2010-06-15",
     "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
