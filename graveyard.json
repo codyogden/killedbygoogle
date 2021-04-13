@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-06-15",
+    "dateOpen": "2011-05-10",
+    "description": "Google Play Movies & TV, originally Google TV, was an app used to view purchased and rented media and was ultimately replaced with YouTube.",
+    "link": "https://en.wikipedia.org/wiki/Google_TV",
+    "name": "Google Play Movies & TV",
+    "type": "app"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
