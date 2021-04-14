@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-04-09",
+    "dateOpen": "2019-05-14",
+    "description": "The Google Shopping Mobile App, which had absorbed Google Express when it launched, provided a native shopping experience with a personalized homepage for mobile users. It is now retired and the functionality lives on in the Shopping Tab.",
+    "link": "https://9to5google.com/2021/04/09/google-shopping-app/",
+    "name": "Google Shopping Mobile App",
+    "type": "app"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
