@@ -24,6 +24,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2021-03-31",
+    "dateOpen": "2011-09-25",
+    "description": "Google Crisis Map was a website that allowed to create, publish, and share maps by combining layers from anywhere on the web.",
+    "link": "https://support.google.com/maps/answer/10394155",
+    "name": "Google Crisis Map",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-06-24",
     "dateOpen": "2018-09-01",
     "description": "Pigeon Transit was a transit app that used croudsourced information about delays, crowded trains, escalator outages, live entertainment, dirty or unsafe conditions.",
