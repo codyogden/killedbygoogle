@@ -1,5 +1,21 @@
 [
   {
+    "dateClose": "2021-03-31",
+    "dateOpen": "2010-01-01",
+    "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
+    "link": "https://github.com/codyogden/killedbygoogle/issues/865",
+    "name": "Google Go Links",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-01-26",
+    "dateOpen": "2016-04-05",
+    "description": "Tilt Brush was a room-scale 3D-painting virtual-reality application available from Google, originally developed by Skillman & Hackett. .",
+    "link": "https://www.tiltbrush.com/",
+    "name": "Tilt Brush",
+    "type": "app"
+  },
+  {
     "dateClose": "2022-01-05",
     "dateOpen": "2015-05-28",
     "description": "Android Things was an Android-based embedded operating system (originally named Brillo) aimed to run on Internet of Things (IoT) devices.",
@@ -237,6 +253,14 @@
     "description": "Google Radio Automation was a hardware and software service used by radio operators to automate song playing among other radio station functions.",
     "link": "https://en.wikipedia.org/wiki/List_of_Google_products#2018",
     "name": "Google Radio Automation",
+    "type": "hardware"
+  },
+  {
+    "dateClose": "2021-03-03",
+    "dateOpen": "2014-06-25",
+    "description": "Google Cardboard was a low-cost, virtual reality (VR) platform named after its folded cardboard viewer into which a smartphone was inserted.",
+    "link": "https://en.wikipedia.org/wiki/Google_Cardboard",
+    "name": "Google Cardboard",
     "type": "hardware"
   },
   {
