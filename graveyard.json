@@ -1539,7 +1539,7 @@
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
     "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
-    "link": "https://developers.google.com/realtime/overview",
+    "link": "https://developers.google.com/realtime/deprecation",
     "name": "Google Realtime API",
     "type": "service"
   },
