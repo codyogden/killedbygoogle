@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-05-25",
+    "dateOpen": "2015-08-30",
+    "description": "Google Wifi was a line of mesh-capable wireless routers designed to simplify mesh networking at home. It got rebranded as Nest Wifi and was merged into the Google Home app.",
+    "link": "https://github.com/codyogden/killedbygoogle/issues/913",
+    "name": "Google Wifi",
+    "type": "app"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
