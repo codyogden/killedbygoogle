@@ -12,7 +12,7 @@ updates:
     interval: daily
     time: "02:00"
     timezone: America/Chicago
-  open-pull-requests-limit: 99
+  open-pull-requests-limit: 3
   ignore:
   - dependency-name: next
     versions:
