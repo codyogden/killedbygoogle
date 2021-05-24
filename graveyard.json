@@ -10,7 +10,7 @@
   {
     "dateClose": "2021-01-26",
     "dateOpen": "2016-04-05",
-    "description": "Tilt Brush was a room-scale 3D-painting virtual-reality application available from Google, originally developed by Skillman & Hackett. .",
+    "description": "Tilt Brush was a room-scale 3D-painting virtual-reality application available from Google, originally developed by Skillman & Hackett.",
     "link": "https://www.tiltbrush.com/",
     "name": "Tilt Brush",
     "type": "app"
@@ -34,7 +34,7 @@
   {
     "dateClose": "2020-06-24",
     "dateOpen": "2018-09-01",
-    "description": "Pigeon Transit was a transit app that used croudsourced information about delays, crowded trains, escalator outages, live entertainment, dirty or unsafe conditions.",
+    "description": "Pigeon Transit was a transit app that used crowdsourced information about delays, crowded trains, escalator outages, live entertainment, dirty or unsafe conditions.",
     "link": "https://www.slashgear.com/pigeon-crowdsourced-transit-app-experiment-is-shutting-down-11624401/",
     "name": "Pigeon Transit",
     "type": "app"
@@ -1090,7 +1090,7 @@
   {
     "dateClose": "2016-02-18",
     "dateOpen": "2013-06-01",
-    "description": "Pie was a work-centric groupchat website and app comparable to Slack.",
+    "description": "Pie was a work-centric group chat website and app comparable to Slack.",
     "link": "https://www.pie.co",
     "name": "Pie",
     "type": "service"
@@ -1546,7 +1546,7 @@
   {
     "dateClose": "2019-04-23",
     "dateOpen": "2015-03-23",
-    "description": "Data Saver was an extension for Chrome that routed webpages through Google servers to compress and reduce the user's bandwidth.",
+    "description": "Data Saver was an extension for Chrome that routed web pages through Google servers to compress and reduce the user's bandwidth.",
     "link": "https://blog.chromium.org/2019/04/data-saver-is-now-lite-mode.html",
     "name": "Data Saver Extension for Chrome",
     "type": "service"
@@ -1826,7 +1826,7 @@
   {
     "dateClose": "2021-01-22",
     "dateOpen": "2014-06-14",
-    "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratsophere",
+    "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratosphere",
     "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
     "name": "Loon",
     "type": "service"
