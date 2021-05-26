@@ -7,7 +7,7 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
-    "jest": "26.6.3",
+    "jest": "27.0.1",
     "jest-resolve": "26.6.2",
     "moment": "^2.29.1",
     "slugify": "1.5.3"
