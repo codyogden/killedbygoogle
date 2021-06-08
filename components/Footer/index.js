@@ -108,7 +108,7 @@ const Footer = () => (
           </p>
                 </div>
                 <CopyNotice>
-                    <a href="https://github.com/codyogden/killedbygoogle/blob/master/LICENSE">
+                    <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
                         &copy; 2020 Cody Ogden.
           </a>
           &nbsp;-&nbsp;
