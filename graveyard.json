@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-06-01",
+    "dateOpen": "2014-08-26",
+    "description": "Zync render was a cloud render platform for animation and visual effects.",
+    "link": "https://www.reddit.com/r/vfx/comments/gur4lc/zync_render_will_shut_down_june_1_2021/",
+    "name": "Zync Render",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
