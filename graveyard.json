@@ -1839,4 +1839,12 @@
     "name": "Loon",
     "type": "service"
   }
+  {
+    "dateClose": "2021-06-23",
+    "dateOpen": "2018-04-06",
+    "description": "Cloud Connect Community (cloudconnectcommunity.com) was a platform for Google customers to connect. It has now been replaced with Google Connect Community (googleconnectcommunity.com)",
+    "link": "https://docs.google.com/presentation/d/16kc1V0mISM-ZXJQqyRf0DnlT444eZa5XJn_bku8Ng-Q/edit?resourcekey=0-AJmxgjAxyDUt8pbPJSuXWg#slide=id.gb4a3fac3a8_7_1911",
+    "name": "Cloud Cloud Community",
+    "type": "service"
+  }
 ]
