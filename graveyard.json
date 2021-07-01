@@ -1,4 +1,11 @@
-[
+[  {
+    "dateClose": "2021-09-27",
+    "dateOpen": "2017-11-01",
+    "description": "An analytics platform for chatbots, mainly used for Google's own Dialogflow AI chatbot service. Started by the Google-funded Area120 incubator. Some of its features were moved into the Dialogflow console itself.",
+    "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
+    "name": "Chatbase",
+    "type": "service"
+  },
   {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
