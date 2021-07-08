@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2012-07-01",
+    "dateOpen": "2009-11-05",
+    "description": "Hosted enterprise product search to power online retail stores and e-commerce websites with the speed and accuracy customers expect from Google.",
+    "link": "https://techcrunch.com/2012/07/03/google-shutdowns-continue-igoogle-google-video-google-mini-others-are-killed/",
+    "name": "Google Commerce Search",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
