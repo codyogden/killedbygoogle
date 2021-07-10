@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2017-06-20”,
+    "dateOpen": "2012-08-01”,
+    "description": "Search API allowed developers to index, organise and present faceted search results. It could index structured data like Geopoint, Time Field, Number Field, HTML and Text Field.",
+    "link": "https://cloud.google.com/appengine/docs/deprecations",
+    "name": "Google Cloud Search API“,
+    "type": "service"
+  },
+  {
     "dateClose": "2012-07-01",
     "dateOpen": "2009-11-05",
     "description": "Google Commerce Search was an enterprise search service that powered online retail stores and e-commerce websites that improved speed and accuracy.",
