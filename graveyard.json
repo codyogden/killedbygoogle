@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2012-07-01",
+    "dateOpen": "2009-11-05",
+    "description": "Google Commerce Search was an enterprise search service that powered online retail stores and e-commerce websites that improved speed and accuracy.",
+    "link": "https://techcrunch.com/2012/07/03/google-shutdowns-continue-igoogle-google-video-google-mini-others-are-killed/",
+    "name": "Google Commerce Search",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
@@ -22,6 +30,14 @@
     "link": "https://android-developers.googleblog.com/2019/02/an-update-on-android-things.html",
     "name": "Android Things",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-06-08",
+    "dateOpen": "2016-06-01",
+    "description": "Measure allowed users to take measurements of everyday objects with their device's camera utilizing ARCore technology.",
+    "link": "https://www.androidpolice.com/2021/06/08/google-kills-measure-its-ar-based-measurement-taking-app/",
+    "name": "Measure",
+    "type": "app"
   },
   {
     "dateClose": "2021-03-31",
