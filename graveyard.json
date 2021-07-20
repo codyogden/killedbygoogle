@@ -1846,5 +1846,13 @@
     "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
     "name": "Loon",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-09-30",
+    "dateOpen": "2005-10-10",
+    "description": "Google Bookmarks was a private web-based bookmarking service not integrated with any other Google services.",
+    "link": "https://en.wikipedia.org/wiki/Google_Bookmarks",
+    "name": "Google Bookmarks",
+    "type": "service"
   }
 ]
