@@ -160,7 +160,7 @@ const showAd = () => {
         return (
             <>
                 <Carbon
-                    name={(Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15))}
+                    name="kbg-carbon"
                     placement="killedbygooglecom"
                     serve="CK7I653N"
                     fallback={FallbackAd}
