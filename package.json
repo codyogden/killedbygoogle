@@ -7,6 +7,7 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "jest": "27.0.6",
     "jest-resolve": "27.0.4",
     "moment": "^2.29.1",
@@ -28,5 +29,10 @@
     "start": "next start",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
     "test": "jest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
