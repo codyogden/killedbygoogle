@@ -17,7 +17,7 @@ export default class Filter extends Component {
 
   changeHandler(arg) {
     const { filterHandler } = this.props;
-    const filterVal = (arg.value === 'all') ? '' : arg.value;
+    const filterVal = (arg.value === 'all') ? false : arg.value;
     this.setState({
       active: filterVal,
     });
