@@ -52,7 +52,7 @@ export default function App({ items }) {
         <>
             {items.length ? <>
                 <Controls>
-                    <Search search={updateSearchTerm} />
+                    <Search searchCallback={updateSearchTerm} />
                     <Filter
                         current={activeFilter}
                         filterHandler={updateActiveFilter}
