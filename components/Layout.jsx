@@ -1,39 +1,27 @@
 import Head from 'next/head';
-
-import slugify from 'slugify';
-import graveyard from '../graveyard.json';
-
-// Components
-import Header from '../components/Header';
-import App from '../components/App';
-import Footer from '../components/Footer';
-
-export default function HomePage({items}) {
+import Header from './Header';
+import Footer from './Footer';
+export default function Layout(props) {
 
     function analytics() {
         if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined')
             return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
     }
 
-    function card() {
-        if (process.env.NODE_ENV === 'production')
-            return (<script src="https://card.codyogden.com/card.js"></script>);
-    }
-
-    return (
+    return(
         <>
             <Head>
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5" />
                 <meta name="description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
-                <link rel="shortcut icon" href="favicon.png" />
+                <link rel="shortcut icon" href="https://killedbygoogle.com/favicon.png" />
                 <title>Google Graveyard - Killed by Google</title>
                 <meta name="theme-color" content="#FAFAFA" />
                 <link rel="canonical" href="https://killedbygoogle.com" />
-                <meta name="image" content="social/card.png"></meta>
+                <meta name="image" content="/social/card.png"></meta>
                 <meta itemProp="name" content="Killed by Google" />
                 <meta itemProp="description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
-                <meta itemProp="image" content="social/card.png" />
+                <meta itemProp="image" content="/social/card.png" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Killed by Google" />
                 <meta name="twitter:description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
@@ -54,35 +42,8 @@ export default function HomePage({items}) {
                 {analytics()}
             </Head>
             <Header />
-            <App items={items} />
+            {props.children}
             <Footer />
-            {card()}
         </>
     );
-}
-
-export function getStaticProps(context) {
-    
-    slugify.extend({
-        '+': '-plus',
-        '@': '-at',
-    });
-
-    graveyard.map((item) => {
-        const newItem = item;
-        newItem.slug = slugify(item.name, {
-            lower: true,
-        });
-        return newItem;
-    });
-
-    graveyard.sort(
-        (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
-    );
-
-    return {
-        props: {
-            items: graveyard
-        }
-    }
 }

@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 // Compoents
@@ -25,93 +25,42 @@ const Controls = styled.div`
     }
 `;
 
-export default class App extends Component {
+export default function App({ items }) {
+    const [listItems, updateListItems] = useState(items);
+    const [searchTerm, updateSearchTerm] = useState('');
+    const [activeFilter, updateActiveFilter] = useState(false);
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            listOfItems: [],
-            fullList: [],
-            activeFilter: false,
-            term: '',
-        };
-
-        // Bindings
-        this.searchFilter = this.searchFilter.bind(this);
-        this.setFilter = this.setFilter.bind(this);
-        this.search = this.search.bind(this);
-    }
-
-    async componentDidMount() {
-        const req = await fetch('/graveyard.json');
-        const res = await req.json();
-        const data = await res.sort(
-            (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
-        );
-        this.setState({
-            listOfItems: data,
-            fullList: data
-        });
-    }
-
-    setFilter(val) {
-        this.setState(
-            {
-                activeFilter: val,
-            },
-            this.search
-        );
-    }
-    searchFilter(term) {
-        this.setState(
-            {
-                term,
-            },
-            this.search
-        );
-    }
-    search() {
-        const { fullList, activeFilter, term } = this.state;
-        const regexp = new RegExp(term.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
-        // If a filter is active, only search through those results
+    useEffect(() => {
+        const regexp = new RegExp(searchTerm.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
         const list = activeFilter
-            ? fullList.filter(el => el.type === activeFilter)
-            : fullList;
+            ? items.filter(el => el.type === activeFilter)
+            : items;
         // If search goes empty
-        if (term === '') {
+        if (searchTerm === '') {
             // Reset the list.
-            this.setState({
-                listOfItems: list,
-            });
+            updateListItems(list);
         } else {
             // Otherwise filter the list by name and description
-            this.setState({
-                listOfItems: list.filter(
-                    el =>
-                        regexp.test(el.name.toLowerCase()) ||
-                        regexp.test(el.description.toLowerCase())
-                ),
-            });
+            updateListItems(list.filter(el =>
+                regexp.test(el.name.toLowerCase()) ||
+                regexp.test(el.description.toLowerCase())
+            ));
         }
-    }
-    
-    render() {
-        const { listOfItems, activeFilter, fullList } = this.state;
+    }, [searchTerm, activeFilter]);
 
-        return (
-            <>
-                {fullList.length ? <>
-                    <Controls>
-                        <Search search={this.searchFilter} />
-                        <Filter
-                            current={activeFilter}
-                            filterHandler={this.setFilter}
-                            items={fullList}
-                        />
-                    </Controls>
-                    <List items={listOfItems} />
-                </> : <Loader />}
-            </>
-        );
-    }
-};
+    return (
+        <>
+            {items.length ? <>
+                <Controls>
+                    <Search searchCallback={updateSearchTerm} />
+                    <Filter
+                        current={activeFilter}
+                        filterHandler={updateActiveFilter}
+                        items={items}
+                    />
+                </Controls>
+                <List items={listItems} />
+            </> : <Loader />}
+        </>
+    );
+}
