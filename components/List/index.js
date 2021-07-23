@@ -1,4 +1,4 @@
-import { Component, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Carbon from '../Carbon';
@@ -140,7 +140,7 @@ const FollowerCount = () => {
     )
 };
 
-const FallbackAd = () => <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
+export const FallbackAd = () => <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
     <div>
         <div>
             <img src="twitter-blue.svg" alt="Twitter" />

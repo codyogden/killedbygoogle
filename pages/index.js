@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { Component } from 'react';
 
 import slugify from 'slugify';
 import graveyard from '../graveyard.json';

@@ -1,5 +1,6 @@
 import _ from "lodash";
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { FallbackAd } from './List';
 
 interface CarbonProps {
     name: string
@@ -7,16 +8,15 @@ interface CarbonProps {
     script?: string
     placement: string
     fallback: React.ReactNode
-    showFallback: Boolean
 }
 
 export default function Carbon(props: CarbonProps) {
     const [forceUpdate, updateForceUpdate] = useState(0);
+    const [showFallback, updateShowFallback] = useState(false);
     let name = props.name || "pixelmobco";
     let serve = props.serve || "CK7I42Q7";
     let placement = props.placement || "";
     let fallback = props.fallback || null;
-    let showFallback = false;
 
     const adShowing = () => document.getElementById(`${name} #carbonads`) !== null;
 
@@ -28,18 +28,20 @@ export default function Carbon(props: CarbonProps) {
         script.type = "text/javascript";
         script.src = `//cdn.carbonads.com/carbon.js?serve=${serve}&placement=${placement}`;
         script.onerror = () => {
-            showFallback = true;
-            updateForceUpdate(1);
+            updateShowFallback(true);
         };
         script.addEventListener("load", () => {
-            if (!adShowing) _.invoke((window as any)._carbonads, "refresh");
+            if (adShowing()) {
+                _.invoke((window as any)._carbonads, "refresh")
+                updateForceUpdate(1);
+            }
         });
 
         document.querySelector(`#${name}`).appendChild(script);
     }, [])
 
-    if (showFallback && fallback) {
-        return fallback;
+    if (showFallback) {
+        return <FallbackAd />;
     }
     return <div id={name} />;
 }
