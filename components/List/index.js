@@ -125,15 +125,18 @@ const AdPlaceholder = styled.a`
 `;
 
 const FollowerCount = () => {
-    const [count, updateCount] = useState(false);
+    const [count, _updateCount] = useState(false);
 
-    useEffect(async () => {
-        if(!count) {
-            const res = await fetch('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=killedbygoogle');
-            const data = await res.json();
-            updateCount(data[0]['followers_count']);
-        }
-    });
+    /*
+        This used to fetch the follower count from a private Twitter API, but it now fails now with a CORS error.
+
+        The endpoint is:
+            https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=killedbygoogle
+        Which currently sends the header:
+            access-contol-allow-origin: platform.twitter.com
+
+        To bring this back, we'd probably need to use the official Twitter API. Maybe not worth it for an Ad fallback.
+    */
 
     return (
         <span>{(count) ? count.toLocaleString('en') : 'a bunch of'}</span>
