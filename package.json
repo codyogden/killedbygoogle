@@ -8,6 +8,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.14",
+    "@types/styled-components": "^5.1.11",
     "cz-conventional-changelog": "^3.3.0",
     "jest": "27.0.6",
     "jest-resolve": "27.0.4",
