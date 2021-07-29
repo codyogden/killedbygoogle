@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
+import { useState } from 'react';
 import styled from 'styled-components';
 import Carbon from '../Carbon';
 
@@ -12,6 +11,7 @@ import { ListContainer } from './List.atoms';
 import {
     ListItem,
 } from './Item.atoms';
+import { Product } from '../../types/Product';
 
 // Styled Components
 const SRT = styled.span`
@@ -125,7 +125,7 @@ const AdPlaceholder = styled.a`
 `;
 
 const FollowerCount = () => {
-    const [count, _updateCount] = useState(false);
+    const [count, _updateCount] = useState<(boolean | number)>(false);
 
     /*
         This used to fetch the follower count from a private Twitter API, but it now fails now with a CORS error.
@@ -153,19 +153,23 @@ export const FallbackAd = () => <AdPlaceholder href="https://twitter.com/killedb
 </AdPlaceholder>;
 
 const showAd = () => {
-    if( process.env.NODE_ENV === 'production' )
+    if (process.env.NODE_ENV === 'production')
         return (
-                <Carbon
-                    name="kbg-carbon"
-                    placement="killedbygooglecom"
-                    serve="CK7I653N"
-                    fallback={FallbackAd}
-                />
+            <Carbon
+                name="kbg-carbon"
+                placement="killedbygooglecom"
+                serve="CK7I653N"
+                fallback={FallbackAd}
+            />
         );
     return <FallbackAd />
 };
 
-const List = ({ items }) => (
+type Props = {
+    items: Product[]
+}
+
+const List: React.FC<Props> = ({ items }) => (
     <ListContainer>
         <AdContainer>
             <SRT>Advertisement</SRT>
@@ -177,8 +181,5 @@ const List = ({ items }) => (
     </ListContainer>
 );
 
-List.propTypes = {
-    items: PropTypes.arrayOf(PropTypes.shape(Item.propTypes)).isRequired,
-};
 
 export default List;
