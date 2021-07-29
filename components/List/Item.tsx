@@ -74,7 +74,7 @@ export default function Item(props: Product) {
     let dateCloseISO = parseISO(props.dateClose);
     const relativeDate = formatDistanceToNow(dateCloseISO);
     if (!isPast()) {
-      return <span>{`${soonToDieIdiom()} in ${relativeDate}, `}</span>;
+      return <span suppressHydrationWarning>{`${soonToDieIdiom()} in ${relativeDate}, `}</span>;
     }
     return <span>{`Killed ${relativeDate} ago, `}</span>;
   };

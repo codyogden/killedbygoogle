@@ -38,7 +38,7 @@ export default function Filter({ items, filterHandler }) {
   return (
     <label>
       <SRT>Filter Graveyard List</SRT>
-      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} disabled={true} />
+      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} disabled={true} instanceId="filter-select"/>
     </label>
   );
 }
