@@ -37,7 +37,7 @@ export default function Carbon(props: CarbonProps) {
             }
         });
 
-        document.querySelector(`#${name}`).appendChild(script);
+        document.querySelector(`#${name}`)?.appendChild(script);
     }, [])
 
     if (showFallback) {

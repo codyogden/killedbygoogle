@@ -7,8 +7,9 @@ import graveyard from '../graveyard.json';
 import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
+import { ProductWithSlug } from '../types/Product';
 
-export default function HomePage({ items }) {
+const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 
     function analytics() {
         if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined')
@@ -60,6 +61,7 @@ export default function HomePage({ items }) {
         </>
     );
 }
+export default HomePage;
 
 export function getStaticProps(_context) {
 

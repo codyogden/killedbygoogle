@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 // Compoents
@@ -6,6 +6,7 @@ import List from './List';
 import Filter from './Filter';
 import Search from './Search';
 import Loader from './Loader';
+import { ProductWithSlug } from '../types/Product';
 
 const Controls = styled.div`
     display: grid;
@@ -25,10 +26,11 @@ const Controls = styled.div`
     }
 `;
 
-export default function App({ items }) {
+
+const App: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [listItems, updateListItems] = useState(items);
     const [searchTerm, updateSearchTerm] = useState('');
-    const [activeFilter, updateActiveFilter] = useState(false);
+    const [activeFilter, updateActiveFilter] = useState<string | boolean>(false);
 
     useEffect(() => {
         const regexp = new RegExp(searchTerm.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
@@ -54,7 +56,6 @@ export default function App({ items }) {
                 <Controls>
                     <Search searchCallback={updateSearchTerm} />
                     <Filter
-                        current={activeFilter}
                         filterHandler={updateActiveFilter}
                         items={items}
                     />
@@ -64,3 +65,4 @@ export default function App({ items }) {
         </>
     );
 }
+export default App;

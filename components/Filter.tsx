@@ -5,7 +5,6 @@ import SRT from './SRT';
 import { Product } from '../types/Product';
 
 type Props = {
-  current: boolean;
   items: Product[];
   filterHandler: (b: boolean) => void;
 }
