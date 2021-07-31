@@ -8,7 +8,7 @@ import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
 
-export default function HomePage({items}) {
+export default function HomePage({ items }) {
 
     function analytics() {
         if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined')
@@ -61,28 +61,23 @@ export default function HomePage({items}) {
     );
 }
 
-export function getStaticProps(context) {
-    
+export function getStaticProps(_context) {
+
     slugify.extend({
         '+': '-plus',
         '@': '-at',
     });
 
-    graveyard.map((item) => {
-        const newItem = item;
-        newItem.slug = slugify(item.name, {
+    const processed = graveyard.map((item) => ({
+        ...item,
+        slug: slugify(item.name, {
             lower: true,
-        });
-        return newItem;
-    });
-
-    graveyard.sort(
-        (a, b) => new Date(b.dateClose) - new Date(a.dateClose)
-    );
+        })
+    })).sort((a, b) => (new Date(b.dateClose)).getTime() - (new Date(a.dateClose)).getTime());
 
     return {
         props: {
-            items: graveyard
+            items: processed
         }
     }
 }
