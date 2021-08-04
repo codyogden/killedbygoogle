@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2021-06-01",
+    "dateOpen": "2014-08-26",
+    "description": "Zync render was a cloud render platform for animation and visual effects.",
+    "link": "https://www.reddit.com/r/vfx/comments/gur4lc/zync_render_will_shut_down_june_1_2021/",
+    "name": "Zync Render",
+    "type": "service"
+  },
+  {
     "dateClose": "2012-07-01",
     "dateOpen": "2009-11-05",
     "description": "Google Commerce Search was an enterprise search service that powered online retail stores and e-commerce websites that improved speed and accuracy.",
@@ -61,6 +69,14 @@
     "description": "Enhanced 404 Pages was a JavaScript library that added suggested URLs and a search box to a website's 404 Not Found page.",
     "link": "https://webmasters.googleblog.com/2008/08/make-your-404-pages-more-useful.html",
     "name": "Enhanced 404 Pages",
+    "type": "service"
+  },
+  {
+    "dateClose": "2010-02-28",
+    "dateOpen": "2006-12-01",
+    "description": "YouTube Streams allowed users to watch a YouTube video together while chatting about the video in real time.",
+    "link": "https://mashable.com/archive/youtube-test-tube",
+    "name": "YouTube Streams",
     "type": "service"
   },
   {
@@ -309,6 +325,14 @@
     "description": "Google Allo was an instant messaging mobile app for Android, iOS, and Web with special features like a virtual assistant and encrypted mode. It was rebranded as Google Chat.",
     "link": "https://en.wikipedia.org/wiki/Google_Allo",
     "name": "Google Allo",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-07-22",
+    "dateOpen": "2019-05-01",
+    "description": "CallJoy was an Area 120 project that provided phone automation for small-to-mediaum businesses allowing them to train the bot agent with responses to common customer questions.",
+    "link": "https://techcrunch.com/2019/05/01/google-launches-calljoy-a-virtual-customer-service-phone-agent-for-small-businesses/",
+    "name": "CallJoy",
     "type": "app"
   },
   {
@@ -1549,14 +1573,6 @@
     "description": "Google Cloud Messaging (GCM) was a notification service that enabled developers to send messages between servers and client apps running on Android or Chrome.",
     "link": "https://en.wikipedia.org/wiki/Google_Cloud_Messaging",
     "name": "Google Cloud Messaging (GCM)",
-    "type": "service"
-  },
-  {
-    "dateClose": "2021-06-30",
-    "dateOpen": "2013-03-15",
-    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"first half 2021\".",
-    "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
-    "name": "Google Hangouts",
     "type": "service"
   },
   {
