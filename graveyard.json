@@ -712,6 +712,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2021-07-15",
+    "dateOpen": "2013-06-31",
+    "description": "Tour Builder allowed users to create and share interactive tours inside Google Earch with photos and videos of locations.",
+    "link": "https://knowledgequest.aasl.org/so-long-google-tour-builder-hello-google-earth/",
+    "name": "Tour Builder",
+    "type": "service"
+  },
+  {
     "dateClose": "2010-12-17",
     "dateOpen": "2005-10-25",
     "description": "Google Base was a database provided by Google into which any user can add almost any type of content, such as text, images, and structured information.",
