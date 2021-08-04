@@ -64,6 +64,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2010-02-28",
+    "dateOpen": "2006-12-01",
+    "description": "YouTube Streams allowed users to watch a YouTube video together while chatting about the video in real time.",
+    "link": "https://mashable.com/archive/youtube-test-tube",
+    "name": "YouTube Streams",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-08-31",
     "dateOpen": "2019-02-05",
     "description": "Password Checkup provided a warning to users if they were using a username and password combination checked against over 4 billion credentials that Google knew to be unsafe.",
