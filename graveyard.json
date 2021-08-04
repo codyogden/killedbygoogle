@@ -312,6 +312,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2020-07-22",
+    "dateOpen": "2019-05-01",
+    "description": "CallJoy was an Area 120 project that provided phone automation for small-to-mediaum businesses allowing them to train the bot agent with responses to common customer questions.",
+    "link": "https://techcrunch.com/2019/05/01/google-launches-calljoy-a-virtual-customer-service-phone-agent-for-small-businesses/",
+    "name": "CallJoy",
+    "type": "app"
+  },
+  {
     "dateClose": "2015-12-21",
     "dateOpen": "2005-09-14",
     "description": "Google Blog Search API was a way to search blogs utilizing Google.",
