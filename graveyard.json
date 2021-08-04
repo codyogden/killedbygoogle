@@ -1552,14 +1552,6 @@
     "type": "service"
   },
   {
-    "dateClose": "2021-06-30",
-    "dateOpen": "2013-03-15",
-    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"first half 2021\".",
-    "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
-    "name": "Google Hangouts",
-    "type": "service"
-  },
-  {
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
     "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
