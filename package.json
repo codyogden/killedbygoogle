@@ -1,25 +1,31 @@
 {
   "name": "killedbygoogle",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "killedbygoogle.com",
   "main": "src/index.js",
   "repository": "git@github.com:codyogden/killedbygoogle.git",
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
-    "jest": "27.0.4",
-    "jest-resolve": "27.0.4",
+    "@types/lodash": "^4.14.171",
+    "@types/react": "^17.0.15",
+    "@types/react-select": "^4.0.17",
+    "@types/styled-components": "^5.1.11",
+    "cz-conventional-changelog": "^3.3.0",
+    "jest": "27.0.6",
+    "jest-resolve": "27.0.6",
     "moment": "^2.29.1",
-    "slugify": "1.5.3"
+    "typescript": "^4.3.5"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
-    "date-fns": "2.21.3",
+    "date-fns": "2.23.0",
     "next": "10.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-select": "4.3.1",
+    "slugify": "1.6.0",
     "styled-components": "5.3.0"
   },
   "scripts": {
@@ -28,5 +34,10 @@
     "start": "next start",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
     "test": "jest"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
