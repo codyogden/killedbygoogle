@@ -63,6 +63,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2020-12-10",
+    "dateOpen": "2017-12-14",
+    "description": "YouTube VR allowed you to easily find and watch 360 videos and virtual reality content with SteamVR-compatible headsets.",
+    "link": "https://steamdb.info/app/755770/history/",
+    "name": "YouTube VR (SteamVR)",
+    "type": "app"
+  },
+  {
     "dateClose": "2021-06-08",
     "dateOpen": "2016-06-01",
     "description": "Measure allowed users to take measurements of everyday objects with their device's camera utilizing ARCore technology.",
