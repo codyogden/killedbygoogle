@@ -1,4 +1,11 @@
-[
+[  {
+    "dateClose": "2021-09-27",
+    "dateOpen": "2017-11-01",
+    "description": "Analytics platform for Google's Dialogflow chatbot & others, started by the Google-funded Area120 incubator then retired and partially merged into Dialogflow itself.",
+    "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
+    "name": "Chatbase",
+    "type": "service"
+  },
   {
     "dateClose": "2021-06-01",
     "dateOpen": "2014-08-26",
