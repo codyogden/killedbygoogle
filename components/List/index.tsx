@@ -1,5 +1,4 @@
-import { Component } from 'react';
-import PropTypes from 'prop-types';
+import { useState } from 'react';
 import styled from 'styled-components';
 import Carbon from '../Carbon';
 
@@ -12,6 +11,7 @@ import { ListContainer } from './List.atoms';
 import {
     ListItem,
 } from './Item.atoms';
+import { Product } from '../../types/Product';
 
 // Styled Components
 const SRT = styled.span`
@@ -124,58 +124,56 @@ const AdPlaceholder = styled.a`
     }
 `;
 
-class FollowerCount extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            count: 0,
-        };
-    }
-    async componentDidMount() {
-        const res = await fetch('https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=killedbygoogle');
-        const data = await res.json();
-        this.setState({
-            count: data[0]['followers_count']
-        });
-    }
-    render() {
-        const { count } = this.state;
-        return(
-            <span> { (count) ? count.toLocaleString('en') : 'a bunch of' }</span>
-        );
-    }
-}
+const FollowerCount = () => {
+    const [count, _updateCount] = useState<(boolean | number)>(false);
 
-const FallbackAd = <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
+    /*
+        This used to fetch the follower count from a private Twitter API, but it now fails now with a CORS error.
+
+        The endpoint is:
+            https://cdn.syndication.twimg.com/widgets/followbutton/info.json?screen_names=killedbygoogle
+        Which currently sends the header:
+            access-contol-allow-origin: platform.twitter.com
+
+        To bring this back, we'd probably need to use the official Twitter API. Maybe not worth it for an Ad fallback.
+    */
+
+    return (
+        <span>{(count) ? count.toLocaleString('en') : 'a bunch of'}</span>
+    )
+};
+
+export const FallbackAd = () => <AdPlaceholder href="https://twitter.com/killedbygoogle" target="_blank" rel="noopener noreferrer">
     <div>
         <div>
             <img src="twitter-blue.svg" alt="Twitter" />
         </div>
-        <div>Join<FollowerCount /> others and follow<br /> @killedbygoogle on Twitter.</div>
+        <div>Join <FollowerCount /> others and follow<br /> @killedbygoogle on Twitter.</div>
     </div>
 </AdPlaceholder>;
 
 const showAd = () => {
-    if( process.env.NODE_ENV === 'production' )
+    if (process.env.NODE_ENV === 'production')
         return (
-            <>
-                <Carbon
-                    name="kbg-carbon"
-                    placement="killedbygooglecom"
-                    serve="CK7I653N"
-                    fallback={FallbackAd}
-                />
-            </>
+            <Carbon
+                name="kbg-carbon"
+                placement="killedbygooglecom"
+                serve="CK7I653N"
+                fallback={FallbackAd}
+            />
         );
     return <FallbackAd />
 };
 
-const List = ({ items }) => (
+type Props = {
+    items: Product[]
+}
+
+const List: React.FC<Props> = ({ items }) => (
     <ListContainer>
         <AdContainer>
             <SRT>Advertisement</SRT>
             {showAd()}
-
         </AdContainer>
         {items.map(item => (
             <Item key={item.name} {...item} />
@@ -183,8 +181,5 @@ const List = ({ items }) => (
     </ListContainer>
 );
 
-List.propTypes = {
-    items: PropTypes.arrayOf(PropTypes.shape(Item.propTypes)).isRequired,
-};
 
 export default List;
