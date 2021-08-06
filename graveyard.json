@@ -1887,14 +1887,6 @@
     "type": "service"
   },
   {
-    "dateClose": "2021-06-23",
-    "dateOpen": "2018-04-06",
-    "description": "Cloud Connect Community (cloudconnectcommunity.com) was a platform for Google customers to connect. It has now been replaced with Google Connect Community (googleconnectcommunity.com)",
-    "link": "https://workspaceupdates.googleblog.com/2021/06/new-admin-google-cloud-community.html",
-    "name": "Cloud Connect Community",
-    "type": "service"
-  },
-  {
     "dateClose": "2021-09-30",
     "dateOpen": "2005-10-10",
     "description": "Google Bookmarks was a private web-based bookmarking service not integrated with any other Google services.",
