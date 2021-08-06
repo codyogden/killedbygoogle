@@ -1871,14 +1871,6 @@
     "type": "hardware"
   },
   {
-    "dateClose": "2020-07-30",
-    "dateOpen": "2018-05-08",
-    "description": "Sceneform SDK for Android was a library and toolset for building AR scenes.",
-    "link": "https://stackoverflow.com/questions/62453399/google-sceneform-is-it-deprecated-any-replacement",
-    "name": "Sceneform SDK for Android",
-    "type": "app"
-  },
-  {
     "dateClose": "2021-05-31",
     "dateOpen": "2013-08-18",
     "description": "Timely Alarm Clock was an Android application providing alarm, stopwatch and timer functionality with synchronisation across devices.",
