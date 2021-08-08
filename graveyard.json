@@ -1,4 +1,67 @@
-[
+[  {
+    "dateClose": "2021-09-27",
+    "dateOpen": "2017-11-01",
+    "description": "Analytics platform for Google's Dialogflow chatbot & others, started by the Google-funded Area120 incubator then retired and partially merged into Dialogflow itself.",
+    "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
+    "name": "Chatbase",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-06-01",
+    "dateOpen": "2014-08-26",
+    "description": "Zync render was a cloud render platform for animation and visual effects.",
+    "link": "https://www.reddit.com/r/vfx/comments/gur4lc/zync_render_will_shut_down_june_1_2021/",
+    "name": "Zync Render",
+    "type": "service"
+  },
+  {
+    "dateClose": "2012-07-01",
+    "dateOpen": "2009-11-05",
+    "description": "Google Commerce Search was an enterprise search service that powered online retail stores and e-commerce websites that improved speed and accuracy.",
+    "link": "https://techcrunch.com/2012/07/03/google-shutdowns-continue-igoogle-google-video-google-mini-others-are-killed/",
+    "name": "Google Commerce Search",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-04-09",
+    "dateOpen": "2019-05-14",
+    "description": "The Google Shopping Mobile App, which had absorbed Google Express when it launched, provided a native shopping experience with a personalized homepage for mobile users. It is now retired and the functionality lives on in the Shopping Tab.",
+    "link": "https://9to5google.com/2021/04/09/google-shopping-app/",
+    "name": "Google Shopping Mobile App",
+    "type": "app"
+  },
+  {
+    "dateClose": "2021-06-15",
+    "dateOpen": "2011-05-10",
+    "description": "Google Play Movies & TV, originally Google TV, was an app used to view purchased and rented media and was ultimately replaced with YouTube.",
+    "link": "https://en.wikipedia.org/wiki/Google_TV",
+    "name": "Google Play Movies & TV",
+    "type": "app"
+  },
+  {
+    "dateClose": "2021-04-01",
+    "dateOpen": "2012-10-30",
+    "description": "Google Public Alerts was an online notification service owned by Google.org that sends safety alerts to various countries.",
+    "link": "https://en.wikipedia.org/wiki/Google_Public_Alerts",
+    "name": "Google Public Alerts",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-03-31",
+    "dateOpen": "2010-01-01",
+    "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
+    "link": "https://github.com/codyogden/killedbygoogle/issues/865",
+    "name": "Google Go Links",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-01-26",
+    "dateOpen": "2016-04-05",
+    "description": "Tilt Brush was a room-scale 3D-painting virtual-reality application available from Google, originally developed by Skillman & Hackett.",
+    "link": "https://www.tiltbrush.com/",
+    "name": "Tilt Brush",
+    "type": "app"
+  },
   {
     "dateClose": "2022-01-05",
     "dateOpen": "2015-05-28",
@@ -8,9 +71,33 @@
     "type": "service"
   },
   {
+    "dateClose": "2020-12-10",
+    "dateOpen": "2017-12-14",
+    "description": "YouTube VR allowed you to easily find and watch 360 videos and virtual reality content with SteamVR-compatible headsets.",
+    "link": "https://steamdb.info/app/755770/history/",
+    "name": "YouTube VR (SteamVR)",
+    "type": "app"
+  },
+  {
+    "dateClose": "2021-06-08",
+    "dateOpen": "2016-06-01",
+    "description": "Measure allowed users to take measurements of everyday objects with their device's camera utilizing ARCore technology.",
+    "link": "https://www.androidpolice.com/2021/06/08/google-kills-measure-its-ar-based-measurement-taking-app/",
+    "name": "Measure",
+    "type": "app"
+  },
+  {
+    "dateClose": "2021-03-31",
+    "dateOpen": "2011-09-25",
+    "description": "Google Crisis Map was a website that allowed to create, publish, and share maps by combining layers from anywhere on the web.",
+    "link": "https://support.google.com/maps/answer/10394155",
+    "name": "Google Crisis Map",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-06-24",
     "dateOpen": "2018-09-01",
-    "description": "Pigeon Transit was a transit app that used croudsourced information about delays, crowded trains, escalator outages, live entertainment, dirty or unsafe conditions.",
+    "description": "Pigeon Transit was a transit app that used crowdsourced information about delays, crowded trains, escalator outages, live entertainment, dirty or unsafe conditions.",
     "link": "https://www.slashgear.com/pigeon-crowdsourced-transit-app-experiment-is-shutting-down-11624401/",
     "name": "Pigeon Transit",
     "type": "app"
@@ -21,6 +108,14 @@
     "description": "Enhanced 404 Pages was a JavaScript library that added suggested URLs and a search box to a website's 404 Not Found page.",
     "link": "https://webmasters.googleblog.com/2008/08/make-your-404-pages-more-useful.html",
     "name": "Enhanced 404 Pages",
+    "type": "service"
+  },
+  {
+    "dateClose": "2010-02-28",
+    "dateOpen": "2006-12-01",
+    "description": "YouTube Streams allowed users to watch a YouTube video together while chatting about the video in real time.",
+    "link": "https://mashable.com/archive/youtube-test-tube",
+    "name": "YouTube Streams",
     "type": "service"
   },
   {
@@ -232,6 +327,14 @@
     "type": "hardware"
   },
   {
+    "dateClose": "2021-03-03",
+    "dateOpen": "2014-06-25",
+    "description": "Google Cardboard was a low-cost, virtual reality (VR) platform named after its folded cardboard viewer into which a smartphone was inserted.",
+    "link": "https://en.wikipedia.org/wiki/Google_Cardboard",
+    "name": "Google Cardboard",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2017-09-20",
     "dateOpen": "2010-06-15",
     "description": "YouTube Video Editor was a web-based tool for editing, merging, and adding special effects to video content.",
@@ -261,6 +364,14 @@
     "description": "Google Allo was an instant messaging mobile app for Android, iOS, and Web with special features like a virtual assistant and encrypted mode. It was rebranded as Google Chat.",
     "link": "https://en.wikipedia.org/wiki/Google_Allo",
     "name": "Google Allo",
+    "type": "app"
+  },
+  {
+    "dateClose": "2020-07-22",
+    "dateOpen": "2019-05-01",
+    "description": "CallJoy was an Area 120 project that provided phone automation for small-to-mediaum businesses allowing them to train the bot agent with responses to common customer questions.",
+    "link": "https://techcrunch.com/2019/05/01/google-launches-calljoy-a-virtual-customer-service-phone-agent-for-small-businesses/",
+    "name": "CallJoy",
     "type": "app"
   },
   {
@@ -664,6 +775,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2021-07-15",
+    "dateOpen": "2013-06-30",
+    "description": "Tour Builder allowed users to create and share interactive tours inside Google Earth with photos and videos of locations.",
+    "link": "https://knowledgequest.aasl.org/so-long-google-tour-builder-hello-google-earth/",
+    "name": "Tour Builder",
+    "type": "service"
+  },
+  {
     "dateClose": "2010-12-17",
     "dateOpen": "2005-10-25",
     "description": "Google Base was a database provided by Google into which any user can add almost any type of content, such as text, images, and structured information.",
@@ -1058,7 +1177,7 @@
   {
     "dateClose": "2016-02-18",
     "dateOpen": "2013-06-01",
-    "description": "Pie was a work-centric groupchat website and app comparable to Slack.",
+    "description": "Pie was a work-centric group chat website and app comparable to Slack.",
     "link": "https://www.pie.co",
     "name": "Pie",
     "type": "service"
@@ -1496,25 +1615,17 @@
     "type": "service"
   },
   {
-    "dateClose": "2021-06-30",
-    "dateOpen": "2013-03-15",
-    "description": "Google Hangouts was a communication platform which included messages, video chat, and VOIP features. Execution scheduled \"first half 2021\".",
-    "link": "https://arstechnica.com/gadgets/2019/01/the-great-google-hangouts-shutdown-begins-october-2019/",
-    "name": "Google Hangouts",
-    "type": "service"
-  },
-  {
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
     "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
-    "link": "https://developers.google.com/realtime/overview",
+    "link": "https://developers.google.com/realtime/deprecation",
     "name": "Google Realtime API",
     "type": "service"
   },
   {
     "dateClose": "2019-04-23",
     "dateOpen": "2015-03-23",
-    "description": "Data Saver was an extension for Chrome that routed webpages through Google servers to compress and reduce the user's bandwidth.",
+    "description": "Data Saver was an extension for Chrome that routed web pages through Google servers to compress and reduce the user's bandwidth.",
     "link": "https://blog.chromium.org/2019/04/data-saver-is-now-lite-mode.html",
     "name": "Data Saver Extension for Chrome",
     "type": "service"
@@ -1776,17 +1887,17 @@
     "type": "hardware"
   },
   {
-    "dateClose": "2020-07-30",
-    "dateOpen": "2018-05-08",
-    "description": "Sceneform SDK for Android was a library and toolset for building AR scenes.",
-    "link": "https://stackoverflow.com/questions/62453399/google-sceneform-is-it-deprecated-any-replacement",
-    "name": "Sceneform SDK for Android",
+    "dateClose": "2021-05-31",
+    "dateOpen": "2013-08-18",
+    "description": "Timely Alarm Clock was an Android application providing alarm, stopwatch and timer functionality with synchronisation across devices.",
+    "link": "http://www.bitspin.ch/google",
+    "name": "Timely",
     "type": "app"
   },
   {
     "dateClose": "2021-01-22",
     "dateOpen": "2014-06-14",
-    "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratsophere",
+    "description": "Loon was a service to provide internet access via an array of high-altitude balloons hovering in the Earth's stratosphere",
     "link": "https://www.theverge.com/2021/1/21/22243484/alphabet-google-shutting-down-loon-internet-balloon-company-x",
     "name": "Loon",
     "type": "service"
@@ -1797,6 +1908,14 @@
     "description": "Swift for TensorFlow (S4TF) was a next-generation platform for machine learning with a focus on differentiable programming.",
     "link": "https://github.com/tensorflow/swift",
     "name": "Swift for TensorFlow",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-09-30",
+    "dateOpen": "2005-10-10",
+    "description": "Google Bookmarks was a private web-based bookmarking service not integrated with any other Google services.",
+    "link": "https://en.wikipedia.org/wiki/Google_Bookmarks",
+    "name": "Google Bookmarks",
     "type": "service"
   }
 ]
