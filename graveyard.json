@@ -1903,6 +1903,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2021-02-12",
+    "dateOpen": "2018-04-22",
+    "description": "Swift for TensorFlow (S4TF) was a next-generation platform for machine learning with a focus on differentiable programming.",
+    "link": "https://github.com/tensorflow/swift",
+    "name": "Swift for TensorFlow",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-09-30",
     "dateOpen": "2005-10-10",
     "description": "Google Bookmarks was a private web-based bookmarking service not integrated with any other Google services.",
