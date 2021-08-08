@@ -39,6 +39,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2021-04-01",
+    "dateOpen": "2012-10-30",
+    "description": "Google Public Alerts was an online notification service owned by Google.org that sends safety alerts to various countries.",
+    "link": "https://en.wikipedia.org/wiki/Google_Public_Alerts",
+    "name": "Google Public Alerts",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-03-31",
     "dateOpen": "2010-01-01",
     "description": "(also known as Google Short Links) was a URL shortening service. It also supported custom domain for customers of Google Workspace (formerly G Suite (formerly Google Apps)).",
