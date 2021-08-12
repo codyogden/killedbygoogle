@@ -8,7 +8,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/lodash": "^4.14.171",
-    "@types/react": "^17.0.16",
+    "@types/react": "^17.0.17",
     "@types/react-select": "^4.0.17",
     "@types/styled-components": "^5.1.12",
     "cz-conventional-changelog": "^3.3.0",
