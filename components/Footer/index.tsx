@@ -7,7 +7,8 @@ import PressCoverage from '../PressCoverage';
 
 // Images
 
-const SocialLink = ({
+
+const SocialLink: React.FC<{ url: string; imgSrc: string; altText: string }> = ({
     url,
     imgSrc,
     altText,

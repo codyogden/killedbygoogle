@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 // Compoents
 import List from './List';
-import Filter from './Filter';
+import Filter, { FilterType } from './Filter';
 import Search from './Search';
 import Loader from './Loader';
 import { ProductWithSlug } from '../types/Product';
@@ -30,13 +30,12 @@ const Controls = styled.div`
 const App: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [listItems, updateListItems] = useState(items);
     const [searchTerm, updateSearchTerm] = useState('');
-    const [activeFilter, updateActiveFilter] = useState<string | boolean>(false);
+    const [activeFilter, updateActiveFilter] = useState<FilterType>('all');
 
     useEffect(() => {
         const regexp = new RegExp(searchTerm.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
-        const list = activeFilter
-            ? items.filter(el => el.type === activeFilter)
-            : items;
+        const list = activeFilter === 'all' ? items :
+            items.filter(el => el.type === activeFilter);
         // If search goes empty
         if (searchTerm === '') {
             // Reset the list.
