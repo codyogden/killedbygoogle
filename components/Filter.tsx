@@ -4,15 +4,29 @@ import Select from 'react-select';
 import SRT from './SRT';
 import { Product } from '../types/Product';
 
+export type FilterType = Product['type'] | 'all';
+
+function isFilterType(x: unknown): x is FilterType {
+  switch (x) {
+
+    case "app":
+    case "hardware":
+    case "service":
+    case "all":
+      return true;
+    default:
+      return false;
+  }
+}
+
 type Props = {
   items: Product[];
-  filterHandler: (b: boolean) => void;
+  filterHandler: (b: FilterType) => void;
 }
 
 const Filter: React.FC<Props> = ({ items, filterHandler }) => {
-  const [active, updateActiveValue] = useState(0);
 
-  const getCount = (type) => items.filter(item => item.type === type).length;
+  const getCount = (type: string) => items.filter(item => item.type === type).length;
 
   const selectOptions = [
     {
@@ -33,10 +47,12 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
     }
   ];
 
-  const changeHandler = (arg) => {
-    const filterVal = (arg.value === 'all') ? false : arg.value;
-    updateActiveValue(filterVal);
-    filterHandler(filterVal);
+  type OnChange = Select["onChange"];
+  const changeHandler: OnChange = (arg) => {
+    const filterVal = arg?.value;
+    if (isFilterType(filterVal)) {
+      filterHandler(filterVal);
+    }
   }
 
   return (

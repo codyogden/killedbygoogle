@@ -1,17 +1,17 @@
-import Document from 'next/document';
+import { AppType, ComponentsEnhancer, Enhancer } from 'next/dist/next-server/lib/utils';
+import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
-    static async getInitialProps(ctx) {
+    static async getInitialProps(ctx: DocumentContext) {
         const sheet = new ServerStyleSheet();
         const originalRenderPage = ctx.renderPage;
 
+        const enhanceApp: Enhancer<AppType> = (App) => (props) =>
+            sheet.collectStyles(<App {...props} />)
+
         try {
-            ctx.renderPage = () =>
-                originalRenderPage({
-                    enhanceApp: (App) => (props) =>
-                        sheet.collectStyles(<App {...props} />),
-                });
+            ctx.renderPage = () => originalRenderPage({ enhanceApp });
 
             const initialProps = await Document.getInitialProps(ctx);
             return {
