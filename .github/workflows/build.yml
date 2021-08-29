@@ -1,4 +1,4 @@
-name: build
+name: build/test
 
 on: [push, pull_request]
 
@@ -8,7 +8,9 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [14, 16]
+
+    name: Node ${{ matrix.node-version }}
 
     steps:
       - uses: actions/checkout@v1
