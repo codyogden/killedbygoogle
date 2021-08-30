@@ -1,4 +1,4 @@
-import { AppType, ComponentsEnhancer, Enhancer } from 'next/dist/next-server/lib/utils';
+import { AppType, Enhancer } from 'next/dist/shared/lib/utils';
 import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
