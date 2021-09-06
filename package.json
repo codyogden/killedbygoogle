@@ -11,7 +11,7 @@
     "@types/lodash": "^4.14.172",
     "@types/react": "^17.0.19",
     "@types/react-select": "^4.0.17",
-    "@types/styled-components": "^5.1.13",
+    "@types/styled-components": "^5.1.14",
     "cz-conventional-changelog": "^3.3.0",
     "jest": "27.1.0",
     "jest-resolve": "27.1.0",
