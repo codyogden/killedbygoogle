@@ -1,15 +1,15 @@
-const moment = require('moment');
-const slugify = require('slugify');
+import moment from "moment";
+import slugify from "slugify";
 
-const data = require('./graveyard.json');
+import data from "./graveyard.json";
 
 slugify.extend({
-  '+': 'plus',
-  '@': 'at',
+  "+": "plus",
+  "@": "at",
 });
 
-describe('graveyard', () => {
-  it('objects should be valid', () => {
+describe("graveyard", () => {
+  it("objects should be valid", () => {
     data.forEach((product) => {
       // All data is present for each product
       expect(product.dateClose).not.toBeNull();
@@ -21,23 +21,23 @@ describe('graveyard', () => {
 
       // Check `dateClose` format
       // Format: YYYY-MM-DD
-      expect(product.dateClose.split('-')).toHaveLength(3);
+      expect(product.dateClose.split("-")).toHaveLength(3);
       // Format Year: YYYY
-      expect(product.dateClose.split('-')[0]).toHaveLength(4);
+      expect(product.dateClose.split("-")[0]).toHaveLength(4);
       // Format Month: MM
-      expect(product.dateClose.split('-')[1]).toHaveLength(2);
+      expect(product.dateClose.split("-")[1]).toHaveLength(2);
       // Format Day: DD
-      expect(product.dateClose.split('-')[2]).toHaveLength(2);
+      expect(product.dateClose.split("-")[2]).toHaveLength(2);
 
       // Check `dateOpen` format
       // Format: YYYY-MM-DD
-      expect(product.dateOpen.split('-')).toHaveLength(3);
+      expect(product.dateOpen.split("-")).toHaveLength(3);
       // Format Year: YYYY
-      expect(product.dateOpen.split('-')[0]).toHaveLength(4);
+      expect(product.dateOpen.split("-")[0]).toHaveLength(4);
       // Format Month: MM
-      expect(product.dateOpen.split('-')[1]).toHaveLength(2);
+      expect(product.dateOpen.split("-")[1]).toHaveLength(2);
       // Format Day: DD
-      expect(product.dateOpen.split('-')[2]).toHaveLength(2);
+      expect(product.dateOpen.split("-")[2]).toHaveLength(2);
 
       // Dates are Chronologically Correct
       const dateClose = moment(product.dateClose);
@@ -47,19 +47,16 @@ describe('graveyard', () => {
       expect(dateClose.isAfter(dateOpen)).toBe(true);
     });
   });
-  it('names are unique', () => {
-    // Add a slug to each item
-    data.map((item) => {
-      const newItem = item;
-      newItem.slug = slugify(item.name, {
-        lower: true,
-      });
-      return newItem;
-    });
+  it("names are unique", () => {
+    // Slug for each name
+    const slugs = data.map((item: Record<string, string>) =>
+      slugify(item.name, { lower: true })
+    );
+
     // Create a set (removes any duplicate slugs)
-    const items = [...new Set(data.map(item => item.slug))];
+    const slugSet = new Set(slugs);
 
     // Both the data and items arr should have the same length
-    expect(items.length).toBe(data.length);
+    expect(slugSet.size).toBe(data.length);
   });
 });

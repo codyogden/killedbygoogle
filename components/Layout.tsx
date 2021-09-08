@@ -1,14 +1,15 @@
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
-export default function Layout(props) {
+
+const Layout: React.FC = (props) => {
 
     function analytics() {
         if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined')
             return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
     }
 
-    return(
+    return (
         <>
             <Head>
                 <meta charSet="UTF-8" />
@@ -47,3 +48,5 @@ export default function Layout(props) {
         </>
     );
 }
+
+export default Layout;

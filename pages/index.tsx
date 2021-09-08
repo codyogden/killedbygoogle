@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
 import { ProductWithSlug } from '../types/Product';
+import { GetStaticProps } from 'next';
 
 const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 
@@ -63,7 +64,7 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 }
 export default HomePage;
 
-export function getStaticProps(_context) {
+export const getStaticProps: GetStaticProps = async (_context) => {
 
     slugify.extend({
         '+': '-plus',
