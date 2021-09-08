@@ -1,15 +1,15 @@
 [ {
   "dateClose": "2021-07-30",
   "dateOpen": "2013-07-01",
-  "description": "Fitbit Coach was a personalized video based workout app. Originally Fitstar, this application was acquired by Fitbit in 2015 and rebranded Fitbit Coach.  It became part of Google in January 2021 with the close of the Fitbit acquisition",
+  "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
   "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
-  "name": "Fitbit Coach (formerly Fitstar)",
+  "name": "Fitbit Coach",
   "type": "app"
   }, 
   {
     "dateClose": "2021-07-30",
     "dateOpen": "2014-09-01",
-    "description": "FitStar Yoga was a personalized video based yoga app. This application was acquired by Fitbit in 2015 and became part of Google in January 2021 with the close of the Fitbit acquisition",
+    "description": "Fitstar Yoga was a video-based yoga app that created unique yoga sessions based on user preference and skill level.",
     "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm#FitStarY",
     "name": "Fitstar Yoga",
     "type": "app"
