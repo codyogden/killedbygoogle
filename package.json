@@ -9,7 +9,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.172",
-    "@types/react": "^17.0.19",
+    "@types/react": "^17.0.21",
     "@types/react-select": "^4.0.17",
     "@types/styled-components": "^5.1.14",
     "cz-conventional-changelog": "^3.3.0",
