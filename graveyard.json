@@ -1933,5 +1933,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Bookmarks",
     "name": "Google Bookmarks",
     "type": "service"
+  },
+  {
+    "dateClose": "2019-05-10",
+    "dateOpen": "2015-04-22",
+    "description": "Flatui was an immediate mode C++ GUI library destined for games and graphical applications.",
+    "link": "https://github.com/google/flatui",
+    "name": "Flatui",
+    "type": "service"
   }
 ]
