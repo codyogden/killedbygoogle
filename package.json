@@ -14,7 +14,7 @@
     "@types/styled-components": "^5.1.14",
     "cz-conventional-changelog": "^3.3.0",
     "jest": "27.1.0",
-    "jest-resolve": "27.1.0",
+    "jest-resolve": "27.2.2",
     "moment": "^2.29.1",
     "typescript": "^4.3.5"
   },
