@@ -66,3 +66,6 @@ typings/
 
 # Build Files
 public/graveyard.json
+
+# Commitizen
+!.czrc

@@ -52,7 +52,6 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="author" content="Cody Ogden" />
                 <meta name="msvalidate.01" content="0C9605AF449480F57421EECCA9EB2B8A" />
                 <meta name="google-site-verification" content="9y9dretKdifnWDdkbkT9Qm1PtWMIe3qz6R09Xkm8Cdc" />
-                <script id="mcjs" src="chimp.js"></script>
                 {analytics()}
             </Head>
             <Header />
