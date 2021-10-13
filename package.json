@@ -12,7 +12,6 @@
     "@types/react": "^17.0.27",
     "@types/react-select": "^4.0.17",
     "@types/styled-components": "^5.1.14",
-    "cz-conventional-changelog": "^3.3.0",
     "jest": "27.1.0",
     "jest-resolve": "27.1.0",
     "moment": "^2.29.1",
@@ -35,10 +34,5 @@
     "start": "next start",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
     "test": "jest"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
