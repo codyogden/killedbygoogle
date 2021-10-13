@@ -1,1 +1,0 @@
-!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/a1ce2408fc709a741802e8fc2/04118b60b044eaab03b386272.js");
