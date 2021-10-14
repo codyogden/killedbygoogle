@@ -1,4 +1,3 @@
-import { result } from 'lodash';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
@@ -19,7 +18,9 @@ const P = styled.p`
 `;
 
 const Button = styled.button`
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(31, 141, 214);
     color: #fff;
     width: 100%;
@@ -30,16 +31,28 @@ const Button = styled.button`
     font-size: 0.9rem;
     &:hover {
         cursor: pointer;
+        background-color: #4ba3de;
+    }
+    &:active {
+        background-color: #1870ab;
     }
     &:disabled {
         color: #333;
-        background-color: #eee;
+        background-color: #8fc6ea;
     }
+}
 `;
 
 const ButtonClose = styled(Button)`
     background-color: transparent;
     color: rgb(31, 141, 214);
+    margin-top: 8px;
+    &:hover {
+        background-color: #d2e8f6;
+    }
+    &:active {
+        background-color: #a5d1ee;
+    }
 `;
 
 const Input = styled.input`
@@ -59,6 +72,20 @@ const DisplayError = styled.div`
     text-align: center;
 `;
 
+const Loader = styled.img`
+    height: 16px;
+    width: 16px;
+    animation: spin 2s linear infinite;
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+`;
+
 interface Props {
     handleClose: () => void;
 }
@@ -72,15 +99,18 @@ const Form = ({ handleClose }: Props) => {
 
     const onSubmit = async (data: any) => {
         setIsLoading(true);
-
         // Development Testing
         if(process.env.NODE_ENV !== 'production') {
             if(data.email === "error@killedbygoogle.com") {
-                setServerError('Something went wrong. Try again later.');
-                return setIsLoading(false);
+                return setTimeout(() => {
+                    setServerError('Something went wrong. Try again later.');
+                    setIsLoading(false);
+                }, 5000);
             }
-            setIsLoading(false);
-            return setFormSuccess(true);
+            return setTimeout(() => {
+                setIsLoading(false);
+                setFormSuccess(true);
+            }, 5000);
         }
 
         // Production
@@ -132,10 +162,13 @@ const Form = ({ handleClose }: Props) => {
                     })}
                     type="email"
                     placeholder="knife@killedbygoogle.com"
+                    disabled={isLoading}
                 />
             </label>
 
-            <Button type="submit" disabled={isLoading}>Subscribe</Button>
+            <Button type="submit" disabled={isLoading}>
+                {!isLoading ? 'Subscribe' : <Loader src="/loading.svg" />}
+            </Button>
 
             <ButtonClose type="button" onClick={handleClose}>No Thanks</ButtonClose>
 
