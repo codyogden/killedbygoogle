@@ -1,10 +1,11 @@
-[ {
-  "dateClose": "2021-07-30",
-  "dateOpen": "2013-07-01",
-  "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
-  "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
-  "name": "Fitbit Coach",
-  "type": "app"
+[
+  {
+    "dateClose": "2021-07-30",
+    "dateOpen": "2013-07-01",
+    "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
+    "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
+    "name": "Fitbit Coach",
+    "type": "app"
   }, 
   {
     "dateClose": "2021-07-30",
@@ -21,6 +22,14 @@
     "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
     "name": "Chatbase",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-10-15",
+    "dateOpen": "2014-10-31",
+    "description": "My Maps was an Android application that enabled users to create custom maps for personal use or sharing on their mobile device.",
+    "link": "https://9to5google.com/2021/07/20/google-my-maps-android-shutdown/",
+    "name": "Google My Maps",
+    "type": "app"
   },
   {
     "dateClose": "2021-06-01",
