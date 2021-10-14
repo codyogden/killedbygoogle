@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
+import LoadingIcon from './loading.svg';
 
 const H2 = styled.h2`
     margin-top: 0;
@@ -53,6 +54,10 @@ const ButtonClose = styled(Button)`
     &:active {
         background-color: #a5d1ee;
     }
+    &:disabled {
+        color: #eee;
+        background-color: transparent;
+    }
 `;
 
 const Input = styled.input`
@@ -72,9 +77,10 @@ const DisplayError = styled.div`
     text-align: center;
 `;
 
-const Loader = styled.img`
-    height: 16px;
-    width: 16px;
+const Loader = styled(LoadingIcon)`
+    height: 30px;
+    width: 30px;
+    position: absolute;
     animation: spin 2s linear infinite;
     @keyframes spin {
         from {
@@ -98,6 +104,7 @@ const Form = ({ handleClose }: Props) => {
     const [serverError, setServerError] = useState('');
 
     const onSubmit = async (data: any) => {
+        setServerError('');
         setIsLoading(true);
         // Development Testing
         if(process.env.NODE_ENV !== 'production') {
@@ -167,10 +174,10 @@ const Form = ({ handleClose }: Props) => {
             </label>
 
             <Button type="submit" disabled={isLoading}>
-                {!isLoading ? 'Subscribe' : <Loader src="/loading.svg" />}
+                {!isLoading ? 'Subscribe' : <div style={{ height: '16px', width: '16px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}><Loader /></div>}
             </Button>
 
-            <ButtonClose type="button" onClick={handleClose}>No Thanks</ButtonClose>
+            <ButtonClose type="button" onClick={handleClose} disabled={isLoading}>No Thanks</ButtonClose>
 
             <DisplayError>
                 {errors.email && <span>An email is required.</span>}
