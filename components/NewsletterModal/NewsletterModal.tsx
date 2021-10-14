@@ -77,15 +77,6 @@ const NewsletterModal = () => {
             }
         }
 
-        // console.log(Date.now() - secInWeek - secInWeek);
-
-        console.log({
-            shown: !shown,
-            subscribed: ls !== 'subscribed',
-            showAfterDismiss
-        });
-         
-
         if (!shown && ls !== 'subscribed' && showAfterDismiss)
             setTimeout(() => {
                 setShowing({

@@ -1,4 +1,3 @@
-import { result } from 'lodash';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
@@ -19,7 +18,9 @@ const P = styled.p`
 `;
 
 const Button = styled.button`
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(31, 141, 214);
     color: #fff;
     width: 100%;
@@ -30,12 +31,28 @@ const Button = styled.button`
     font-size: 0.9rem;
     &:hover {
         cursor: pointer;
+        background-color: #4ba3de;
     }
+    &:active {
+        background-color: #1870ab;
+    }
+    &:disabled {
+        color: #333;
+        background-color: #8fc6ea;
+    }
+}
 `;
 
 const ButtonClose = styled(Button)`
     background-color: transparent;
     color: rgb(31, 141, 214);
+    margin-top: 8px;
+    &:hover {
+        background-color: #d2e8f6;
+    }
+    &:active {
+        background-color: #a5d1ee;
+    }
 `;
 
 const Input = styled.input`
@@ -55,6 +72,20 @@ const DisplayError = styled.div`
     text-align: center;
 `;
 
+const Loader = styled.img`
+    height: 16px;
+    width: 16px;
+    animation: spin 2s linear infinite;
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+`;
+
 interface Props {
     handleClose: () => void;
 }
@@ -68,6 +99,21 @@ const Form = ({ handleClose }: Props) => {
 
     const onSubmit = async (data: any) => {
         setIsLoading(true);
+        // Development Testing
+        if(process.env.NODE_ENV !== 'production') {
+            if(data.email === "error@killedbygoogle.com") {
+                return setTimeout(() => {
+                    setServerError('Something went wrong. Try again later.');
+                    setIsLoading(false);
+                }, 5000);
+            }
+            return setTimeout(() => {
+                setIsLoading(false);
+                setFormSuccess(true);
+            }, 5000);
+        }
+
+        // Production
         const result = await fetch(
             'https://newsletter.killedbygoogle.com/members/api/send-magic-link/',
             {
@@ -81,6 +127,7 @@ const Form = ({ handleClose }: Props) => {
             .then(response => {
                 if (response.status !== 201) {
                     setServerError('Something went wrong. Try again later.');
+                    setIsLoading(false);
                 }
                 window.localStorage.setItem('kbg-newsletter', 'subscribed');
                 return setFormSuccess(true);
@@ -91,10 +138,12 @@ const Form = ({ handleClose }: Props) => {
 
     if(formSuccess) return <>
         <div>
-            <div style={{ width: '80px', 'height': '60px'}}>&nbsp;</div>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src="/envelope.svg" style={{ width: '80px', height: '60px' }} />
+            </div>
         </div>
         <H2>Now check your email!</H2>
-        <P>To complete signup, click the confirmation link in your inbox. If it doesn’t arrive within a few minutes, check your spam folder!</P>
+        <P style={{ paddingTop: '0px' }}>To complete signup, click the confirmation link in your inbox. If it doesn’t arrive within a few minutes, check your spam folder!</P>
         <Button onClick={handleClose}>Close</Button>
     </>;
 
@@ -113,10 +162,13 @@ const Form = ({ handleClose }: Props) => {
                     })}
                     type="email"
                     placeholder="knife@killedbygoogle.com"
+                    disabled={isLoading}
                 />
             </label>
 
-            <Button type="submit">Subscribe</Button>
+            <Button type="submit" disabled={isLoading}>
+                {!isLoading ? 'Subscribe' : <Loader src="/loading.svg" />}
+            </Button>
 
             <ButtonClose type="button" onClick={handleClose}>No Thanks</ButtonClose>
 
