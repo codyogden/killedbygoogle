@@ -110,7 +110,6 @@ const Form = ({ handleClose }: Props) => {
                 <Input
                     {...register('email', {
                         required: true,
-                        pattern: /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/,
                     })}
                     type="email"
                     placeholder="knife@killedbygoogle.com"
