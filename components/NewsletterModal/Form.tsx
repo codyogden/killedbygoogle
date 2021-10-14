@@ -31,6 +31,10 @@ const Button = styled.button`
     &:hover {
         cursor: pointer;
     }
+    &:disabled {
+        color: #333;
+        background-color: #eee;
+    }
 `;
 
 const ButtonClose = styled(Button)`
@@ -68,6 +72,18 @@ const Form = ({ handleClose }: Props) => {
 
     const onSubmit = async (data: any) => {
         setIsLoading(true);
+
+        // Development Testing
+        if(process.env.NODE_ENV !== 'production') {
+            if(data.email === "error@killedbygoogle.com") {
+                setServerError('Something went wrong. Try again later.');
+                return setIsLoading(false);
+            }
+            setIsLoading(false);
+            return setFormSuccess(true);
+        }
+
+        // Production
         const result = await fetch(
             'https://newsletter.killedbygoogle.com/members/api/send-magic-link/',
             {
@@ -81,6 +97,7 @@ const Form = ({ handleClose }: Props) => {
             .then(response => {
                 if (response.status !== 201) {
                     setServerError('Something went wrong. Try again later.');
+                    setIsLoading(false);
                 }
                 window.localStorage.setItem('kbg-newsletter', 'subscribed');
                 return setFormSuccess(true);
@@ -91,10 +108,12 @@ const Form = ({ handleClose }: Props) => {
 
     if(formSuccess) return <>
         <div>
-            <div style={{ width: '80px', 'height': '60px'}}>&nbsp;</div>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+                <img src="/envelope.svg" style={{ width: '80px', height: '60px' }} />
+            </div>
         </div>
         <H2>Now check your email!</H2>
-        <P>To complete signup, click the confirmation link in your inbox. If it doesn’t arrive within a few minutes, check your spam folder!</P>
+        <P style={{ paddingTop: '0px' }}>To complete signup, click the confirmation link in your inbox. If it doesn’t arrive within a few minutes, check your spam folder!</P>
         <Button onClick={handleClose}>Close</Button>
     </>;
 
@@ -116,7 +135,7 @@ const Form = ({ handleClose }: Props) => {
                 />
             </label>
 
-            <Button type="submit">Subscribe</Button>
+            <Button type="submit" disabled={isLoading}>Subscribe</Button>
 
             <ButtonClose type="button" onClick={handleClose}>No Thanks</ButtonClose>
 
