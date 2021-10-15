@@ -16,7 +16,6 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     function analytics() {
         if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined')
             return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
-        return (<script async defer data-website-id="f5b55b43-120d-46a7-9fae-ac1359739aba" src="https://analytics.bale.media/umami.js"></script>);
     }
 
     function card() {
