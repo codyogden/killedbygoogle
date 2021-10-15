@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { Component, useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { useEffect, useState } from 'react';
 import SRT from '../SRT';
 
 // Import Styled Components
@@ -11,13 +10,13 @@ interface SearchProps {
 }
 
 export default function Search({ searchCallback }: SearchProps) {
+  const [searchValue, updateValue] = useState('');
 
-  const [value, updateValue] = useState('');
-
-  const updateSearch = (event: React.FormEvent<HTMLInputElement>) => {
-    updateValue(event.currentTarget.value);
-    searchCallback(event.currentTarget.value);
-  };
+  useEffect(() => {
+    console.log(searchValue);
+    const delayFn = setTimeout(() => searchCallback(searchValue), 350);
+    return () => clearTimeout(delayFn);
+  }, [searchValue]);
 
   return (
     <SearchContainer>
@@ -27,8 +26,8 @@ export default function Search({ searchCallback }: SearchProps) {
           id="searchBox"
           placeholder="Search"
           type="text"
-          value={value}
-          onChange={updateSearch}
+          value={searchValue}
+          onChange={(event: React.FormEvent<HTMLInputElement>) => updateValue(event.currentTarget.value)}
         />
       </label>
     </SearchContainer>

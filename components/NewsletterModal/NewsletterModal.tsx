@@ -88,7 +88,7 @@ const NewsletterModal = () => {
     
     const closeModal = (success: Boolean = false) => {
         if(!success) {
-            window.umami.trackEvent('Dismissed', 'newsletter');
+            window.umami.trackEvent('dismissed', 'newsletter');
         }
         setShowing({
             showing: false,
@@ -98,10 +98,13 @@ const NewsletterModal = () => {
 
     const maybeClose = (e: any) => {
         if (e.target === overlayRef.current) {
-            if(window.localStorage.getItem('kbg-newsletter') !== 'subscribed') {
+            const isSubscribed = window.localStorage.getItem('kbg-newsletter') !== 'subscribed';
+            if (isSubscribed) {
                 window.localStorage.setItem('kbg-newsletter', `dismissed:${Date.now()}`);
+                closeModal(false);
+            } else {
+                closeModal(true);
             }
-            closeModal();
         }  
     };
 
