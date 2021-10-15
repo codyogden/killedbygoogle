@@ -85,27 +85,31 @@ const NewsletterModal = () => {
                 });
             }, 5000);
     }, []);
+    
+    const closeModal = (success: Boolean = false) => {
+        if(!success) {
+            window.umami.trackEvent('Dismissed', 'newsletter');
+        }
+        setShowing({
+            showing: false,
+            shown: true,
+        })
+    };
 
     const maybeClose = (e: any) => {
         if (e.target === overlayRef.current) {
-            setShowing({
-                showing: false,
-                shown: true,
-            });
             if(window.localStorage.getItem('kbg-newsletter') !== 'subscribed') {
-                window.localStorage.setItem('kbg-newsletter', `dismissed:${Date.now()}`)
+                window.localStorage.setItem('kbg-newsletter', `dismissed:${Date.now()}`);
             }
-        }
+            closeModal();
+        }  
     };
 
     if(!showing) return <></>;
     
     return <Overlay className={showing && 'active'} ref={overlayRef} onClick={maybeClose}>
         <Modal className={showing && 'active'}>
-            <Form handleClose={() => setShowing({
-                showing: false,
-                shown: true,
-            })} />
+            <Form handleClose={closeModal} />
         </Modal>
     </Overlay>;
 };
