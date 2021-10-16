@@ -1,4 +1,3 @@
-import React, { Component, useState } from 'react';
 import Select from 'react-select';
 
 import SRT from './SRT';
@@ -53,7 +52,7 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
     if (isFilterType(filterVal)) {
       filterHandler(filterVal);
     }
-    window.umami.trackEvent('Changed filter', 'ui');
+    window.umami.trackEvent(filterVal, 'filter');
   }
 
   return (

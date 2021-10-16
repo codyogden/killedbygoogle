@@ -21,6 +21,3 @@ export const ListContainer = styled.ul`
   }
 `;
 
-export default {
-  ListContainer,
-};

@@ -46,7 +46,7 @@ const App: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 regexp.test(el.description.toLowerCase())
             ));
         }
-    }, [searchTerm, activeFilter]);
+    }, [searchTerm, activeFilter, items]);
 
     useEffect(() => {
         if(searchTerm !== '')

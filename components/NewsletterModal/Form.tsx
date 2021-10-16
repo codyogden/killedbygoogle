@@ -152,7 +152,7 @@ const Form = ({ handleClose }: Props) => {
     if(formSuccess) return <>
         <div>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
-                <img src="/envelope.svg" style={{ width: '80px', height: '60px' }} />
+                <img src="/envelope.svg" style={{ width: '80px', height: '60px' }} alt="envelope" aria-hidden="true" />
             </div>
         </div>
         <H2>Now check your email!</H2>
@@ -162,7 +162,7 @@ const Form = ({ handleClose }: Props) => {
 
     return <>
         <H2 style={{marginBottom: 0}}>Subscribe to the<br/>Killed by Google Newsletter</H2>
-        <P style={{fontSize: '0.9rem', marginTop: '0', }}>Get exclusive content and curated tech news<br/> and be the first to know about Google's next victim.</P>
+        <P style={{fontSize: '0.9rem', marginTop: '0', }}>Get exclusive content and curated tech news<br /> and be the first to know about {`Google's`} next victim.</P>
         <form onSubmit={handleSubmit(onSubmit)}>
 
             <input {...register('name', { validate: (val) => val === '' })} type="hidden" />
