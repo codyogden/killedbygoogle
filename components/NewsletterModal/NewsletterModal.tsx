@@ -84,7 +84,7 @@ const NewsletterModal = () => {
                     shown: true,
                 });
             }, 5000);
-    }, []);
+    }, [shown]);
     
     const closeModal = (success: Boolean = false) => {
         if(!success) {

@@ -18,9 +18,9 @@ export default function Carbon(props: CarbonProps) {
     let placement = props.placement || "";
     let fallback = props.fallback || null;
 
-    const adShowing = () => document.getElementById(`${name} #carbonads`) !== null;
-
+    
     useEffect(() => {
+        const adShowing = () => document.getElementById(`${name} #carbonads`) !== null;
         let script = document.createElement("script");
         script.defer = !!script;
         script.async = true;
@@ -38,7 +38,7 @@ export default function Carbon(props: CarbonProps) {
         });
 
         document.querySelector(`#${name}`)?.appendChild(script);
-    }, [])
+    }, [name, placement, serve])
 
     if (showFallback) {
         return <FallbackAd />;

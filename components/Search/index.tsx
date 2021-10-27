@@ -13,10 +13,9 @@ export default function Search({ searchCallback }: SearchProps) {
   const [searchValue, updateValue] = useState('');
 
   useEffect(() => {
-    console.log(searchValue);
     const delayFn = setTimeout(() => searchCallback(searchValue), 350);
     return () => clearTimeout(delayFn);
-  }, [searchValue]);
+  }, [searchValue, searchCallback]);
 
   return (
     <SearchContainer>

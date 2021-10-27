@@ -33,7 +33,3 @@ export const CreatorTag = styled.div`
   margin-top: 1.5em;
   text-align: center;
 `;
-
-export default {
-  FooterContainer,
-};
