@@ -14,9 +14,8 @@ import NewsletterModal from '../components/NewsletterModal/NewsletterModal';
 const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 
     function analytics() {
-        if (process.env.NODE_ENV === 'production' && typeof window !== 'undefined')
+        if (typeof window !== 'undefined')
             return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
-        return (<script async defer data-website-id="37160455-930a-438f-8d18-730be9f76f29" src="https://analytics.bale.media/umami.js"></script>);
     }
 
     function card() {
