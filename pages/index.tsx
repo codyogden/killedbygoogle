@@ -9,7 +9,7 @@ import App from '../components/App';
 import Footer from '../components/Footer';
 import { ProductWithSlug } from '../types/Product';
 import { GetStaticProps } from 'next';
-import NewsletterModal from '../components/NewsletterModal/NewsletterModal';
+// import NewsletterModal from '../components/NewsletterModal/NewsletterModal';
 
 const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 
@@ -59,7 +59,6 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
             <App items={items} />
             <Footer />
             {card()}
-            <NewsletterModal />
         </>
     );
 }
