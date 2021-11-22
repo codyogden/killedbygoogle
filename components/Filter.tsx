@@ -1,4 +1,4 @@
-import Select from 'react-select';
+import Select, { Options, SingleValue } from 'react-select';
 
 import SRT from './SRT';
 import { Product } from '../types/Product';
@@ -27,7 +27,11 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
 
   const getCount = (type: string) => items.filter(item => item.type === type).length;
 
-  const selectOptions = [
+  type Option = {
+    value: string;
+    label: string;
+  }
+  const selectOptions: Option[] = [
     {
       value: 'all',
       label: `All (${items.length})`,
@@ -46,8 +50,7 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
     }
   ];
 
-  type OnChange = Select["onChange"];
-  const changeHandler: OnChange = (arg) => {
+  const changeHandler = (arg: SingleValue<Option>): void => {
     const filterVal = arg?.value;
     if (isFilterType(filterVal)) {
       filterHandler(filterVal);
@@ -58,7 +61,7 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   return (
     <label>
       <SRT>Filter Graveyard List</SRT>
-      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} disabled={true} instanceId="filter-select" />
+      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} instanceId="filter-select" />
     </label>
   );
 }
