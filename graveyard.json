@@ -498,7 +498,7 @@
   {
     "dateClose": "2018-04-30",
     "dateOpen": "2010-05-31",
-    "description": "Encrypted Search provided users with anonymous internet searching.",
+    "description": "Encrypted Search provided users with anonymous internet searching. In its place, Google uses HTTPS encryption by default for everyone.",
     "link": "https://en.wikipedia.org/wiki/Google_Search#Dedicated_encrypted_search_page",
     "name": "Encrypted Search",
     "type": "service"
