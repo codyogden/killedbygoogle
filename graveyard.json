@@ -22,6 +22,14 @@
     "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
     "name": "Chatbase",
     "type": "service"
+  }, 
+  {
+    "dateClose": "2021-12-11",
+    "dateOpen": "2000-12-11",
+    "description": "Google Toolbar was a web browser toolbar that provided a search box in web browsers like Internet Explorer and Firefox.",
+    "link": "https://en.wikipedia.org/wiki/Google_Toolbar",
+    "name": "Google Toolbar",
+    "type": "service"
   },
   {
     "dateClose": "2021-10-15",
