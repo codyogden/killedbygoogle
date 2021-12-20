@@ -16,6 +16,14 @@
     "type": "app"
   }, 
   {
+    "dateClose": "2022-12-19",
+    "dateOpen": "2015-08-31",
+    "description": "Google OnHub was a series of residential wireless routers manufactured by Asus and TP-Link that were powered by Google software, managed by Google apps, and offered enhanced special features like Google Assistant.",
+    "link": "https://en.wikipedia.org/wiki/Google_OnHub",
+    "name": "Google OnHub",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2021-09-27",
     "dateOpen": "2017-11-01",
     "description": "Analytics platform for Google's Dialogflow chatbot & others, started by the Google-funded Area120 incubator then retired and partially merged into Dialogflow itself.",
