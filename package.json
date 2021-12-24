@@ -26,7 +26,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-hook-form": "^7.17.3",
+    "react-hook-form": "^7.22.5",
     "react-select": "5.2.1",
     "slugify": "1.6.3",
     "styled-components": "5.3.1"
