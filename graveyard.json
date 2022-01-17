@@ -1958,5 +1958,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Bookmarks",
     "name": "Google Bookmarks",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-12-16",
+    "dateOpen": "2018-05-08",
+    "description": "Material Gallery is a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
+    "link": "https://support.google.com/materialgallery/answer/11044972?hl=en&ref_topic=11045865",
+    "name": "Material Gallery",
+    "type": "service"
   }
 ]
