@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
@@ -28,14 +29,16 @@ const Title = styled.h1`
 
 const Header = () => (
     <HeaderContainer>
-        <a href="/" rel="noreferrer noopener">
-            <BrandingContainer>
-                    <Logo>
-                        <img width="60px" src="tombstone.svg" alt="Tombstone" />
-                    </Logo>
-                    <Title>Killed by Google</Title>
-            </BrandingContainer>
-        </a>
+        <Link href="/" passHref>
+            <a rel="noreferrer noopener">
+                <BrandingContainer>
+                        <Logo>
+                            <img width="60px" src="/tombstone.svg" height="60px" alt="Tombstone" />
+                        </Logo>
+                        <Title>Killed by Google</Title>
+                </BrandingContainer>
+            </a>
+        </Link>
     </HeaderContainer>
 );
 

@@ -9,24 +9,26 @@
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.172",
-    "@types/react": "^17.0.19",
-    "@types/react-select": "^4.0.17",
+    "@types/react": "^17.0.27",
     "@types/styled-components": "^5.1.14",
-    "cz-conventional-changelog": "^3.3.0",
-    "jest": "27.1.0",
-    "jest-resolve": "27.1.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "jest": "27.3.1",
+    "jest-resolve": "27.3.1",
     "moment": "^2.29.1",
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.5.0",
     "babel-plugin-styled-components": "^1.13.2",
     "date-fns": "2.23.0",
     "next": "^11",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-select": "4.3.1",
-    "slugify": "1.6.0",
+    "react-hook-form": "^7.17.3",
+    "react-select": "5.2.1",
+    "slugify": "1.6.3",
     "styled-components": "5.3.1"
   },
   "scripts": {
@@ -35,10 +37,5 @@
     "start": "next start",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
     "test": "jest"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }

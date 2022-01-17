@@ -1,10 +1,51 @@
-[  {
+[
+  {
+    "dateClose": "2021-07-30",
+    "dateOpen": "2013-07-01",
+    "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
+    "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
+    "name": "Fitbit Coach",
+    "type": "app"
+  }, 
+  {
+    "dateClose": "2021-07-30",
+    "dateOpen": "2014-09-01",
+    "description": "Fitstar Yoga was a video-based yoga app that created unique yoga sessions based on user preference and skill level.",
+    "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm#FitStarY",
+    "name": "Fitstar Yoga",
+    "type": "app"
+  }, 
+  {
+    "dateClose": "2022-12-19",
+    "dateOpen": "2015-08-31",
+    "description": "Google OnHub was a series of residential wireless routers manufactured by Asus and TP-Link that were powered by Google software, managed by Google apps, and offered enhanced special features like Google Assistant.",
+    "link": "https://en.wikipedia.org/wiki/Google_OnHub",
+    "name": "Google OnHub",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2021-09-27",
     "dateOpen": "2017-11-01",
     "description": "Analytics platform for Google's Dialogflow chatbot & others, started by the Google-funded Area120 incubator then retired and partially merged into Dialogflow itself.",
     "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
     "name": "Chatbase",
     "type": "service"
+  }, 
+  {
+    "dateClose": "2021-12-11",
+    "dateOpen": "2000-12-11",
+    "description": "Google Toolbar was a web browser toolbar that provided a search box in web browsers like Internet Explorer and Firefox.",
+    "link": "https://en.wikipedia.org/wiki/Google_Toolbar",
+    "name": "Google Toolbar",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-10-15",
+    "dateOpen": "2014-10-31",
+    "description": "My Maps was an Android application that enabled users to create custom maps for personal use or sharing on their mobile device.",
+    "link": "https://9to5google.com/2021/07/20/google-my-maps-android-shutdown/",
+    "name": "Google My Maps",
+    "type": "app"
   },
   {
     "dateClose": "2021-06-01",
@@ -361,7 +402,7 @@
   {
     "dateClose": "2019-03-13",
     "dateOpen": "2016-09-21",
-    "description": "Google Allo was an instant messaging mobile app for Android, iOS, and Web with special features like a virtual assistant and encrypted mode. It was rebranded as Google Chat.",
+    "description": "Google Allo was an instant messaging mobile app for Android, iOS, and Web with special features like a virtual assistant and encrypted mode.",
     "link": "https://en.wikipedia.org/wiki/Google_Allo",
     "name": "Google Allo",
     "type": "app"

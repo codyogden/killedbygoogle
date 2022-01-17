@@ -26,7 +26,6 @@ const Controls = styled.div`
     }
 `;
 
-
 const App: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [listItems, updateListItems] = useState(items);
     const [searchTerm, updateSearchTerm] = useState('');
@@ -47,7 +46,12 @@ const App: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 regexp.test(el.description.toLowerCase())
             ));
         }
-    }, [searchTerm, activeFilter]);
+    }, [searchTerm, activeFilter, items]);
+
+    useEffect(() => {
+        if(searchTerm !== '')
+            window.umami.trackEvent(searchTerm, 'search');
+    }, [searchTerm]);
 
     return (
         <>

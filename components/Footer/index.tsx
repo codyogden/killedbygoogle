@@ -19,7 +19,7 @@ const SocialLink: React.FC<{ url: string; imgSrc: string; altText: string }> = (
 
     return (
         <a style={style} href={url}>
-            <img src={imgSrc} alt={altText} />
+            <img width="24px" height="24px" src={imgSrc} alt={altText} />
         </a>
     );
 };
@@ -31,7 +31,6 @@ const CopyNotice = styled.div`
 `;
 
 const TombstoneStyle = {
-    width: '60px',
     marginRight: '10px',
 };
 
@@ -64,7 +63,9 @@ const Footer = () => (
         <FooterContainer>
             <FlexWrap>
                 <FooterTitle>
-                    <img style={TombstoneStyle} src='tombstone-alt.svg' alt="Tombstone" />
+                    <div style={TombstoneStyle}>
+                        <img height="60px" width="60px" src='/tombstone-alt.svg' alt="Tombstone" />
+                    </div>
                     <Title>Killed by Google</Title>
                 </FooterTitle>
                 <div>
@@ -125,12 +126,12 @@ const Footer = () => (
                     <SocialLink
                         url="https://github.com/codyogden/killedbygoogle"
                         altText="GitHub"
-                        imgSrc='github.svg'
+                        imgSrc='/github.svg'
                     />
                     <SocialLink
                         url="https://twitter.com/killedbygoogle"
                         altText="Twitter"
-                        imgSrc='twitter.svg'
+                        imgSrc='/twitter.svg'
                     />
                 </SocialWrapper>
             </FlexWrap>
