@@ -12,7 +12,7 @@
     "@types/react": "^17.0.27",
     "@types/styled-components": "^5.1.14",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "eslint-config-next": "12.0.8",
     "jest": "27.3.1",
     "jest-resolve": "27.3.1",
     "moment": "^2.29.1",
