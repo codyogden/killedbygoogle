@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
-    "babel-plugin-styled-components": "^1.13.2",
+    "babel-plugin-styled-components": "^2.0.2",
     "date-fns": "2.23.0",
     "next": "^11",
     "prop-types": "^15.7.2",
