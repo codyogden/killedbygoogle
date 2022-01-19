@@ -9,7 +9,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.1",
     "@types/lodash": "^4.14.172",
-    "@types/react": "^17.0.27",
+    "@types/react": "^17.0.38",
     "@types/styled-components": "^5.1.20",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.8",
