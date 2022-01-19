@@ -1966,5 +1966,13 @@
     "link": "https://support.google.com/materialgallery/answer/11044972?hl=en&ref_topic=11045865",
     "name": "Material Gallery",
     "type": "service"
+  },
+  {
+    "dateClose": "2022-05-01",
+    "dateOpen": "2006-08-28",
+    "description": "G Suite legacy free edition was a free tier offering of Google Workspace (formerly G Suite (formerly Google Apps)), with maximum user limits of 10-50 users depending on when the account was created.",
+    "link": "https://support.google.com/a/answer/2855120",
+    "name": "G Suite legacy free edition",
+    "type": "service"
   }
 ]
