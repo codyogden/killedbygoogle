@@ -29,7 +29,7 @@
     "react-hook-form": "^7.24.1",
     "react-select": "5.2.2",
     "slugify": "1.6.5",
-    "styled-components": "5.3.1"
+    "styled-components": "5.3.3"
   },
   "scripts": {
     "dev": "next dev",
