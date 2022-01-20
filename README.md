@@ -18,7 +18,7 @@ To add a product, gather the following information:
 - Launch Date (`dateOpen`)
 - Discontinued Date (`dateClose`)
 - Description (`description`)
-- Link (`link`) - Relevant link to the source (Please try to avoid Google Support articles as they tend to be taken down quickly - news articles work better.)
+- Link (`link`) - Relevant link to the source.
 - Type (`type`) - one of App, Service or Hardware
 
 If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/codyogden/killedbygoogle/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
@@ -47,7 +47,7 @@ The description should be a single sentence describing the product. It should be
 Please be respectful, only use past tense.
 
 ### Link
-Link should be a resource that mentions the discontinuation date and talks about the product. Wikipedia is perfect.
+Link should be a resource that mentions the discontinuation date and talks about the product. Links to Wikipedia or a news organization should be prioritized. **Please do not use Google Support articles, linking to the product's URL, the product's marketing URL, or other Google-provided links.** Google removes these links quickly after a service is ended.
 
 ### Type
 The type should be either `app`, `service`, or `hardware` as a string.
