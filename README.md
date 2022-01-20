@@ -18,7 +18,7 @@ To add a product, gather the following information:
 - Launch Date (`dateOpen`)
 - Discontinued Date (`dateClose`)
 - Description (`description`)
-- Link (`link`) - Relevant link to the source
+- Link (`link`) - Relevant link to the source (Please try to avoid Google Support articles as they tend to be taken down quickly - news articles work better.)
 - Type (`type`) - one of App, Service or Hardware
 
 If you are not familiar with or do not want to use `git`, submit a [new issue](https://github.com/codyogden/killedbygoogle/issues/new?template=add-an-obituary.md) requesting the change. If you are already familiar with `git`, follow these steps:
