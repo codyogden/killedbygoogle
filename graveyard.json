@@ -6,7 +6,15 @@
     "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
     "name": "Fitbit Coach",
     "type": "app"
-  }, 
+  },
+  {
+    "dateClose": "2020-02-17",
+    "dateOpen": "2018-08-19",
+    "description": "Cameos on Google allowed celebrities and other public figures to record video responses to the most common questions asked about them which would be shown to users in Google Search results.",
+    "link": "https://techcrunch.com/2018/08/09/google-launches-cameos-a-video-qa-app-aimed-at-celebs/",
+    "name": "Cameos on Google",
+    "type": "service"
+  },
   {
     "dateClose": "2021-07-30",
     "dateOpen": "2014-09-01",
