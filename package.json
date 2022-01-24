@@ -7,7 +7,7 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^27.0.1",
+    "@types/jest": "^27.4.0",
     "@types/lodash": "^4.14.178",
     "@types/react": "^17.0.38",
     "@types/styled-components": "^5.1.20",
