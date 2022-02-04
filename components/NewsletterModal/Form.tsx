@@ -144,7 +144,7 @@ const Form = ({ handleClose }: Props) => {
     };
 
     useEffect(() => {
-        if (typeof window !== "undefined" && formSuccess === true) {
+        if(typeof window !== "undefined" && formSuccess === true && window.umami?.trackEvent) {
             window.umami.trackEvent('subscribed', 'newsletter');
         }
     }, [formSuccess]);

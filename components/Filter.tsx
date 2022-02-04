@@ -55,7 +55,8 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
     if (isFilterType(filterVal)) {
       filterHandler(filterVal);
     }
-    window.umami.trackEvent(filterVal, 'filter');
+    if (window.umami?.trackEvent)
+      window.umami.trackEvent(filterVal, 'filter');
   }
 
   return (

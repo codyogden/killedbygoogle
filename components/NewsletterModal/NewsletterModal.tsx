@@ -87,7 +87,7 @@ const NewsletterModal = () => {
     }, [shown]);
     
     const closeModal = (success: Boolean = false) => {
-        if(!success) {
+        if(!success && window.umami?.trackEvent) {
             window.umami.trackEvent('dismissed', 'newsletter');
         }
         setShowing({
