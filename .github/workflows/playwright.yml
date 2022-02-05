@@ -4,10 +4,10 @@ on:
     branches: [ main ]
     paths:
       - 'components/**'
-      - 'pages/**'
-      - 'types/**'
-      - 'public/**'
       - 'e2e/**'
+      - 'pages/**'
+      - 'public/**'
+      - 'types/**'
   deployment_status:
 jobs:
   tests:
