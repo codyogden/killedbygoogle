@@ -16,6 +16,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2016-02-21",
+    "dateOpen": "2012-06-21",
+    "description": "Google Maps Coordinate was a service for managing mobile workforces with the help of mobile apps and a web-based dashboard.",
+    "link": "https://techcrunch.com/2015/01/21/google-shuts-down-maps-coordinate-its-mobile-workforce-management-service/",
+    "name": "Google Maps Coordinate",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-07-30",
     "dateOpen": "2013-07-01",
     "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
