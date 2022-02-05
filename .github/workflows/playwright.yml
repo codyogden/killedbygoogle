@@ -2,6 +2,12 @@ name: Playwright
 on:
   pull_request:
     branches: [ main ]
+    paths:
+      - 'components/**'
+      - 'e2e/**'
+      - 'pages/**'
+      - 'public/**'
+      - 'types/**'
   deployment_status:
 jobs:
   tests:
