@@ -38,7 +38,7 @@
     "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm#FitStarY",
     "name": "Fitstar Yoga",
     "type": "app"
-  }, 
+  },
   {
     "dateClose": "2022-12-19",
     "dateOpen": "2015-08-31",
@@ -54,7 +54,7 @@
     "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
     "name": "Chatbase",
     "type": "service"
-  }, 
+  },
   {
     "dateClose": "2021-12-11",
     "dateOpen": "2000-12-11",
@@ -2021,6 +2021,38 @@
     "description": "YouTube Originals was a variety of original content including scripted series, educational videos, and music and celebrity programming.",
     "link": "https://arstechnica.com/gadgets/2022/01/google-kills-youtube-originals-its-original-video-content-group/",
     "name": "YouTube Originals",
+    "type": "service"
+  },
+  {
+    "dateClose": "2021-11-05",
+    "dateOpen": "2019-11-19",
+    "description": "Your News Update was a service that offed an audio digest of a mix of short news stories chosen in that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
+    "link": "https://9to5google.com/2021/11/05/google-assistant-your-news-update/",
+    "name": "Your News Update",
+    "type": "service"
+  },
+  {
+    "name": "Google Pinyin IME",
+    "dateOpen": "2007-04-04",
+    "dateClose": "2018-11-30",
+    "link": "https://en.wikipedia.org/wiki/Google_Pinyin",
+    "description": "Google Pinyin IME was an input method that allowed users on multiple operating systems to input characters from pinyin, the romanization of Standard Mandarin Chinese.",
+    "type": "service"
+  },
+  {
+    "name": "VR180 Creator",
+    "dateOpen": "2018-06-15",
+    "dateClose": "2021-07-31",
+    "link": "https://ubunlog.com/en/vr180-creator-edito-videovr/",
+    "description": "VR180 Creator allowed users to edit video taken on 180 degree and 360 degree devices on multiple operating systems.",
+    "type": "app"
+  },
+  {
+    "name": "Google Sites (Classic)",
+    "dateOpen": "2008-02-28",
+    "dateClose": "2021-11-30",
+    "link": "https://en.wikipedia.org/wiki/Google_Sites",
+    "description": "Google Sites (Classic) allowed users to build and edit websites and wiki portals for private and public use.",
     "type": "service"
   }
 ]
