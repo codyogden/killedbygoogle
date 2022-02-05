@@ -38,7 +38,7 @@
     "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm#FitStarY",
     "name": "Fitstar Yoga",
     "type": "app"
-  }, 
+  },
   {
     "dateClose": "2022-12-19",
     "dateOpen": "2015-08-31",
@@ -54,7 +54,7 @@
     "link": "https://web.archive.org/web/20210701153646/https://chatbase.com/documentation/docs-overview",
     "name": "Chatbase",
     "type": "service"
-  }, 
+  },
   {
     "dateClose": "2021-12-11",
     "dateOpen": "2000-12-11",
@@ -2029,6 +2029,14 @@
     "description": "Your News Update was a service that offed an audio digest of a mix of short news stories chosen in that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
     "link": "https://9to5google.com/2021/11/05/google-assistant-your-news-update/",
     "name": "Your News Update",
+    "type": "service"
+  },
+  {
+    "name": "Google Pinyin IME",
+    "dateOpen": "2007-04-04",
+    "dateClose": "2018-11-30",
+    "link": "https://en.wikipedia.org/wiki/Google_Pinyin",
+    "description": "Google Pinyin IME was an input method that allowed users on multiple operating systems to input characters from pinyin, the romanization of Standard Mandarin Chinese.",
     "type": "service"
   }
 ]
