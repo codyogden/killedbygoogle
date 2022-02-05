@@ -1998,5 +1998,13 @@
     "link": "https://9to5google.com/2022/01/19/g-suite-legacy-free-edition/",
     "name": "G Suite (Legacy Free Edition)",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-10-01",
+    "dateOpen": "2017-07-01",
+    "description": "Backup and Sync was a desktop software tool for Windows and MacOS that allowed users to sync files from Google Drive to their local machine.",
+    "link": "https://9to5google.com/2021/02/04/google-drive-for-desktop-replace/",
+    "name": "Backup and Sync",
+    "type": "app"
   }
 ]
