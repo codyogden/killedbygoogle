@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 
 import {
   format,
@@ -7,7 +7,7 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import { Product } from '../../types/Product';
+import { ProductWithSlug } from '../../types/Product';
 
 // Import Styled Components
 import {
@@ -47,7 +47,7 @@ const soonToDieIdiom = () => {
   return items[Math.floor(Math.random() * items.length)];
 };
 
-export default function Item(props: Product) {
+export default function Item(props: ProductWithSlug) {
 
   const isPast = () => {
     return new Date() > new Date(props.dateClose);
@@ -70,11 +70,12 @@ export default function Item(props: Product) {
     );
   };
 
-  const timePhrase = () => {
+  const TimePhrase = (slug: string) => {
     let dateCloseISO = parseISO(props.dateClose);
     const relativeDate = formatDistanceToNow(dateCloseISO);
+    const futureDeathPhrase = useMemo(() => `${soonToDieIdiom()} in ${relativeDate}, `, [relativeDate]);
     if (!isPast()) {
-      return <span suppressHydrationWarning>{`${soonToDieIdiom()} in ${relativeDate}, `}</span>;
+      return <span suppressHydrationWarning>{futureDeathPhrase}</span>;
     }
     return <span>{`Killed ${relativeDate} ago, `}</span>;
   };
@@ -120,7 +121,7 @@ export default function Item(props: Product) {
           </a>
         </h2>
         <Description>
-          {timePhrase()}
+          {TimePhrase(props.slug)}
           {props.description}
           {getYears()}
         </Description>

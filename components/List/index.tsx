@@ -11,7 +11,7 @@ import { ListContainer } from './List.atoms';
 import {
     ListItem,
 } from './Item.atoms';
-import { Product } from '../../types/Product';
+import { ProductWithSlug } from '../../types/Product';
 
 // Styled Components
 const SRT = styled.span`
@@ -166,7 +166,7 @@ const showAd = () => {
 };
 
 type Props = {
-    items: Product[]
+    items: ProductWithSlug[]
 }
 
 const List: React.FC<Props> = ({ items }) => (
@@ -176,7 +176,7 @@ const List: React.FC<Props> = ({ items }) => (
             {showAd()}
         </AdContainer>
         {items.map(item => (
-            <Item key={item.name} {...item} />
+            <Item key={item.slug} {...item} />
         ))}
     </ListContainer>
 );
