@@ -2022,5 +2022,13 @@
     "link": "https://arstechnica.com/gadgets/2022/01/google-kills-youtube-originals-its-original-video-content-group/",
     "name": "YouTube Originals",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-11-05",
+    "dateOpen": "2019-11-19",
+    "description": "Your News Update was a service that offed an audio digest of a mix of short news stories chosen in that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
+    "link": "https://9to5google.com/2021/11/05/google-assistant-your-news-update/",
+    "name": "Your News Update",
+    "type": "service"
   }
 ]
