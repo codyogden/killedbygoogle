@@ -2038,5 +2038,13 @@
     "link": "https://en.wikipedia.org/wiki/Google_Pinyin",
     "description": "Google Pinyin IME was an input method that allowed users on multiple operating systems to input characters from pinyin, the romanization of Standard Mandarin Chinese.",
     "type": "service"
+  },
+  {
+    "name": "VR180 Creator",
+    "dateOpen": "2018-06-15",
+    "dateClose": "2021-07-31",
+    "link": "https://ubunlog.com/en/vr180-creator-edito-videovr/",
+    "description": "VR180 Creator allowed users to edit video taken on 180 degree and 360 degree devices on multiple operating systems.",
+    "type": "app"
   }
 ]
