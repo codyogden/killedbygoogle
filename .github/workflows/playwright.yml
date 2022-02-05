@@ -28,3 +28,9 @@ jobs:
       run: npx -p @playwright/test playwright test
       env:
         PLAYWRIGHT_TEST_BASE_URL: ${{ steps.waitFor200.outputs.url }}
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: playwright-results
+        path: test-results
