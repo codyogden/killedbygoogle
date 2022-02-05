@@ -38,7 +38,7 @@
     "build": "next build",
     "start": "next start",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
-    "test": "jest",
+    "test": "jest graveyard.test.ts",
     "test:e2e": "playwright test"
   }
 }
