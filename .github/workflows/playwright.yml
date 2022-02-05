@@ -27,4 +27,4 @@ jobs:
     - name: Run Playwright tests
       run: npx -p @playwright/test playwright test
       env:
-        PLAYWRIGHT_TEST_BASE_URL: ${{ github.event.deployment_status.target_url }}
+        PLAYWRIGHT_TEST_BASE_URL: ${{ steps.waitFor200.outputs.url }}
