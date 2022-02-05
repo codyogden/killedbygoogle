@@ -2094,5 +2094,13 @@
     "link": "https://www.seroundtable.com/google-posts-knowledge-panels-discontinued-31755.html",
     "description": "Posts on Google allowed notable individuals with knowledge graph panels to author specific content that would appear in Google Search results. ",
     "type": "service"
+  },
+  {
+    "name": "YouTube Community Contributions",
+    "dateOpen": "2016-01-01",
+    "dateClose": "2020-09-28",
+    "link": "https://www.engadget.com/youtube-community-contributions-saying-goodbye-141205281.html",
+    "description": "YouTube Community Contributions allowed users to contribute translations for video titles or submit descriptions, closed captions or subtitles on YouTube content.",
+    "type": "service"
   }
 ]
