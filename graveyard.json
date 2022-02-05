@@ -2078,5 +2078,13 @@
     "link": "https://9to5google.com/2019/07/15/google-killing-adsense-apps/",
     "description": "AdSense (mobile app) allowed users to manage their AdSense accounts in a native app for iOS and Android.",
     "type": "app"
+  },
+  {
+    "name": "YouTube for PS Vita",
+    "dateOpen": "2012-06-26",
+    "dateClose": "2015-03-20",
+    "link": "https://www.ign.com/articles/2015/01/28/sony-to-end-ps-vita-support-for-maps-near-and-youtube",
+    "description": "YouTube for PlayStation Vita was a native YouTube browsing and viewing application for the PS Vita and PSTV game consoles.",
+    "type": "app"
   }
 ]
