@@ -2062,5 +2062,13 @@
     "link": "https://www.xda-developers.com/google-no-longer-offer-playground-ar-stickers-future-pixel-phones-starting-pixel-4a/",
     "description": "Playground AR (aka AR Stickers) allowed users to place virtual characters and objects in augmented reality via the Camera App on Pixel phones.",
     "type": "app"
+  },
+  {
+    "name": "Personal Blocklist",
+    "dateOpen": "2011-02-01",
+    "dateClose": "2019-08-01",
+    "link": "https://searchengineland.com/google-finally-discontinues-the-blocked-sites-feature-152885",
+    "description": "Personal Blocklist was a Chrome Web Extension by Google that allowed users to block certain websites from appearing in Google search results.",
+    "type": "service"
   }
 ]
