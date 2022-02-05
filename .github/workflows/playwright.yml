@@ -6,6 +6,7 @@ on:
       - 'components/**'
       - 'pages/**'
       - 'types/**'
+      - 'public/**'
       - 'e2e/**'
   deployment_status:
 jobs:
