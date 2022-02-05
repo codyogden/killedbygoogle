@@ -20,10 +20,10 @@ jobs:
     - name: Install Playwright
       run: npx playwright install --with-deps
     - name: Waiting for 200 from the Netlify Preview
-      uses: jakepartusch/wait-for-netlify-action@v1.2
+      uses: jakepartusch/wait-for-netlify-action@v1.3
       id: waitFor200
       with:
-        site_name: killedbygoogle
+        site_name: "killedbygoogle"
         max_timeout: 360
     - name: Run Playwright tests
       run: npx -p @playwright/test playwright test
