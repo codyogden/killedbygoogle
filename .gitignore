@@ -69,3 +69,5 @@ public/graveyard.json
 
 # Commitizen
 !.czrc
+test-results/
+playwright-report/

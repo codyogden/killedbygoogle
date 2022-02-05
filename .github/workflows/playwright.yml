@@ -1,0 +1,36 @@
+name: Playwright Tests
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  deployment_status:
+jobs:
+  test:
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16.x'
+    - name: Install dependencies
+      run: yarn
+    - name: Install Playwright
+      run: npx playwright install --with-deps
+    - name: Waiting for 200 from the Netlify Preview
+      uses: jakepartusch/wait-for-netlify-action@v1.3
+      id: waitFor200
+      with:
+        site_name: "killedbygoogle"
+        max_timeout: 360
+    - name: Run Playwright tests
+      run: npx -p @playwright/test playwright test
+      env:
+        PLAYWRIGHT_TEST_BASE_URL: ${{ steps.waitFor200.outputs.url }}
+    - name: Upload test results
+      if: always()
+      uses: actions/upload-artifact@v2
+      with:
+        name: playwright-results
+        path: playwright-report
