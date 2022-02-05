@@ -2086,5 +2086,13 @@
     "link": "https://www.ign.com/articles/2015/01/28/sony-to-end-ps-vita-support-for-maps-near-and-youtube",
     "description": "YouTube for PlayStation Vita was a native YouTube browsing and viewing application for the PS Vita and PSTV game consoles.",
     "type": "app"
+  },
+  {
+    "name": "Posts on Google",
+    "dateOpen": "2012-05-16",
+    "dateClose": "2021-07-31",
+    "link": "https://www.seroundtable.com/google-posts-knowledge-panels-discontinued-31755.html",
+    "description": "Posts on Google allowed notable individuals with knowledge graph panels to author specific content that would appear in Google Search results. ",
+    "type": "service"
   }
 ]
