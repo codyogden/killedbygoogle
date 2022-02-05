@@ -1,19 +1,19 @@
 [
   {
-    "dateClose": "2021-07-30",
-    "dateOpen": "2013-07-01",
-    "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
-    "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
-    "name": "Fitbit Coach",
-    "type": "app"
-  },
-  {
     "dateClose": "2022-02-17",
     "dateOpen": "2018-08-19",
     "description": "Cameos on Google allowed celebrities and other public figures to record video responses to the most common questions asked about them which would be shown to users in Google Search results.",
     "link": "https://techcrunch.com/2018/08/09/google-launches-cameos-a-video-qa-app-aimed-at-celebs/",
     "name": "Cameos on Google",
     "type": "service"
+  },
+  {
+    "dateClose": "2021-07-30",
+    "dateOpen": "2013-07-01",
+    "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
+    "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
+    "name": "Fitbit Coach",
+    "type": "app"
   },
   {
     "dateClose": "2021-07-30",
