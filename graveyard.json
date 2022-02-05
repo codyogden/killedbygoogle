@@ -1994,9 +1994,9 @@
   {
     "dateClose": "2022-05-01",
     "dateOpen": "2006-08-28",
-    "description": "G Suite legacy free edition was a free tier offering of Google Workspace (formerly G Suite (formerly Google Apps)), with maximum user limits of 10-50 users depending on when the account was created.",
+    "description": "G Suite (Legacy Free Edition) was a free tier offering some of the services included in Google's productivity suite.",
     "link": "https://9to5google.com/2022/01/19/g-suite-legacy-free-edition/",
-    "name": "G Suite legacy free edition",
+    "name": "G Suite (Legacy Free Edition)",
     "type": "service"
   }
 ]
