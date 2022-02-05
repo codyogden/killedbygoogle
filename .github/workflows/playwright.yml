@@ -15,7 +15,7 @@ jobs:
       with:
         node-version: '16.x'
     - name: Install dependencies
-      run: yarn ci
+      run: yarn
     - name: Install Playwright
       run: npx playwright install --with-deps
     - name: Waiting for 200 from the Netlify Preview
