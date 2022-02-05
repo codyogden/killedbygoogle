@@ -1,9 +1,9 @@
-name: Build
+name: Test Graveyard
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
+    paths:
+      - 'graveyard.json'
 jobs: 
   build:
     runs-on: ubuntu-latest
