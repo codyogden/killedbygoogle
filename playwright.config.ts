@@ -2,6 +2,8 @@ import type { PlaywrightTestConfig } from '@playwright/test';
 import { devices } from '@playwright/test';
 require('dotenv').config();
 
+console.log('base', process.env.PLAYWRIGHT_TEST_BASE_URL);
+
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
