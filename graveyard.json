@@ -8,6 +8,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2020-04-23",
+    "dateOpen": "2014-11-20",
+    "description": "Google Contributor was a program run by Google that allowed users in the Google Network of content sites to view the websites without any advertisements that are administered, sorted, and maintained by Google.",
+    "link": "https://en.wikipedia.org/wiki/Google_Contributor",
+    "name": "Google Contributor",
+    "type": "service"
+  },
+  {
     "dateClose": "2021-07-30",
     "dateOpen": "2013-07-01",
     "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
