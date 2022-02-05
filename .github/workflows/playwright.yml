@@ -1,10 +1,10 @@
-name: Playwright Tests
+name: Playwright
 on:
   pull_request:
     branches: [ main ]
   deployment_status:
 jobs:
-  test:
+  tests:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:

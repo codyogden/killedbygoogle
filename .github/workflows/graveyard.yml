@@ -1,11 +1,11 @@
-name: Test Graveyard
+name: Graveyard
 on:
   pull_request:
     branches: [ main ]
     paths:
       - 'graveyard.json'
 jobs: 
-  build:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
