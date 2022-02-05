@@ -2070,5 +2070,13 @@
     "link": "https://searchengineland.com/google-finally-discontinues-the-blocked-sites-feature-152885",
     "description": "Personal Blocklist was a Chrome Web Extension by Google that allowed users to block certain websites from appearing in Google search results.",
     "type": "service"
+  },
+  {
+    "name": "AdSense (mobile app)",
+    "dateOpen": "2013-07-31",
+    "dateClose": "2019-12-31",
+    "link": "https://9to5google.com/2019/07/15/google-killing-adsense-apps/",
+    "description": "AdSense (mobile app) allowed users to manage their AdSense accounts in a native app for iOS and Android.",
+    "type": "app"
   }
 ]
