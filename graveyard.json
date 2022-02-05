@@ -2086,5 +2086,13 @@
     "link": "https://www.ign.com/articles/2015/01/28/sony-to-end-ps-vita-support-for-maps-near-and-youtube",
     "description": "YouTube for PlayStation Vita was a native YouTube browsing and viewing application for the PS Vita and PSTV game consoles.",
     "type": "app"
+  },
+  {
+    "name": "YouTube Community Contributions",
+    "dateOpen": "2016-01-01",
+    "dateClose": "2020-09-28",
+    "link": "https://www.engadget.com/youtube-community-contributions-saying-goodbye-141205281.html",
+    "description": "YouTube Community Contributions allowed users to contribute translations for video titles or submit descriptions, closed captions or subtitles on YouTube content.",
+    "type": "service"
   }
 ]
