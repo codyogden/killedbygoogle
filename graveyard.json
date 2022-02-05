@@ -2046,5 +2046,13 @@
     "link": "https://ubunlog.com/en/vr180-creator-edito-videovr/",
     "description": "VR180 Creator allowed users to edit video taken on 180 degree and 360 degree devices on multiple operating systems.",
     "type": "app"
+  },
+  {
+    "name": "Google Sites (Classic)",
+    "dateOpen": "2008-02-28",
+    "dateClose": "2021-11-30",
+    "link": "https://en.wikipedia.org/wiki/Google_Sites",
+    "description": "Google Sites (Classic) allowed users to build and edit websites and wiki portals for private and public use.",
+    "type": "service"
   }
 ]
