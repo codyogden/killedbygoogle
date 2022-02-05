@@ -2006,5 +2006,13 @@
     "link": "https://9to5google.com/2021/02/04/google-drive-for-desktop-replace/",
     "name": "Backup and Sync",
     "type": "app"
+  },
+  {
+    "dateClose": "2021-12-31",
+    "dateOpen": "2017-12-01",
+    "description": "Streams was a \"clinician support app\" which aimed to improve clinical decision-making and patient safety across hospitals in the United Kingdom.",
+    "link": "https://techcrunch.com/2021/08/26/google-confirms-its-pulling-the-plug-on-streams-its-uk-clinician-support-app/",
+    "name": "Streams",
+    "type": "app"
   }
 ]
