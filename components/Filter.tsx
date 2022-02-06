@@ -1,6 +1,6 @@
 import Select, { Options, SingleValue } from 'react-select';
 
-import SRT from './SRT';
+import { SRT } from '../components';
 import { Product } from '../types/Product';
 
 export type FilterType = Product['type'] | 'all';

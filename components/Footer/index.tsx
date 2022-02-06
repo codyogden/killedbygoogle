@@ -1,14 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
+import { FC } from 'react';
+import styled from '@emotion/styled';
+import { css } from '@emotion/react'; 
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from './Footer.atoms';
-import PressCoverage from '../PressCoverage';
+import { PressCoverage } from '../../components';
+import Link from 'next/link';
 
-// Images
-
-
-const SocialLink: React.FC<{ url: string; imgSrc: string; altText: string }> = ({
+const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
     url,
     imgSrc,
     altText,
@@ -18,44 +17,59 @@ const SocialLink: React.FC<{ url: string; imgSrc: string; altText: string }> = (
     };
 
     return (
-        <a style={style} href={url}>
-            <img width="24px" height="24px" src={imgSrc} alt={altText} />
-        </a>
+        <Link href={url} passHref>
+            <a
+                css={{
+                    border: 'none',
+                }}
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <img
+                    css={{
+                        width: '24px',
+                        height: '24px',
+                    }}
+                    width='24px'
+                    height='24px'
+                    src={imgSrc}
+                    alt={altText}
+                />
+            </a>
+        </Link>
     );
 };
 
-const CopyNotice = styled.div`
-  font-size: 0.75em;
-  text-align: center;
-  margin: 30px 0 20px 0;
-`;
+const CopyNotice = styled.div(() => css({
+    fontSize: '0.75em',
+    margin: '30px 0 20px 0',
+    textAlign: 'center',
+}));
 
-const TombstoneStyle = {
-    marginRight: '10px',
-};
 
-const Title = styled.div`
-  font-size: 2.5em;
-  color: #fafafa;
-  font-weight: lighter;
-`;
+const Title = styled.div(() => css({
+    color: '#fafafa',
+    fontSize: '2.5em',
+    fontWeight: 'lighter',
+}));
 
-const FooterTitle = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 20px;
-`;
+const FooterTitle = styled.div(() => css({
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    paddingBottom: '20px',
+}));
 
-const SocialWrapper = styled.div`
-  padding: 15px 0;
-  display: flex;
-  justify-content: center;
-  a {
-    display: block;
-    margin: 0 10px;
-  }
-`;
+const SocialWrapper = styled.div(() => css({
+    display: 'flex',
+    justifyContent: 'center',
+    padding: '15px 0',
+
+    ['a']: {
+        display: 'block',
+        margin: '0 10px',
+    },
+}));
 
 const Footer = () => (
     <>
@@ -63,7 +77,9 @@ const Footer = () => (
         <FooterContainer>
             <FlexWrap>
                 <FooterTitle>
-                    <div style={TombstoneStyle}>
+                    <div css={{
+                        marginRight: '10px',
+                    }}>
                         <img height="60px" width="60px" src='/tombstone-alt.svg' alt="Tombstone" />
                     </div>
                     <Title>Killed by Google</Title>

@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 
 const links = [
   {
@@ -50,48 +50,51 @@ const links = [
   },
 ];
 
-const Container = styled.ul`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 1000px;
-  max-width: 80%;
-  margin: 0 auto;
-  list-style-type: none;
-  padding: 0;
-`;
+const Container = styled.ul(() => css({
+  alignItems: 'center',
+  display: 'flex',
+  flexFlow: 'row wrap',
+  justifyContent: 'center',
+  listStyleType: 'none',
+  margin: '0 auto',
+  maxWidth: '80%',
+  padding: 0,
+  width: '1000px',
+}));
 
-const Child = styled.li`
-  flex: 0 0 25%;
-  margin-top: 50px;
-  @media screen and (max-width: 700px) {
-    flex: 0 0 50%;
-    margin-top: 50px;
-  }
-  img {
-    max-width: 100%;
-  }
-  a {
-    border: none;
-  }
-`;
+const Child = styled.li(() => css({
+  flex: '0 0 25%',
+  marginTop: '50px',
 
-const Press = styled.div`
-  background-color: #e1e1e1;
-  padding: 40px 0;
-`;
+  ['@media screen and ( max-width: 700px )']: {
+    flex: '0 0 50%',
+  },
 
-const Title = styled.h4`
-  font-size: 1.25em;
-  margin: 0;
-  text-align: center;
-  font-weight: normal;
-  text-transform: uppercase;
-  @media screen and (max-width: 700px) {
-    margin-bottom: 0;
-  }
-`;
+  ['img']: {
+    maxWidth: '100%',
+  },
+
+  ['a']: {
+    border: 'none',
+  },
+}));
+
+const Press = styled.div(() => css({
+  backgroundColor: '#e1e1e1',
+  padding: '40px 0',
+}));
+
+const Title = styled.h4(() => css({
+  fontSize: '1.25em',
+  fontWeight: 'normal',
+  margin: 0,
+  textAlign: 'center',
+  textTransform: 'uppercase',
+  
+  ['@media screen and ( max-width: 700px )']: {
+    marginBottom: 0,
+  },
+}));
 
 const PressCoverage = () => (
   <Press>

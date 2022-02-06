@@ -1,23 +1,26 @@
-import styled from 'styled-components';
+import { css } from '@emotion/react';
+import styled from '@emotion/styled';
 
 const minwidth = 300;
-export const ListContainer = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, minmax( ${minwidth}px, 1fr ) );
-  gap: 3rem;
-  list-style-type: none;
-  padding: 0;
-  max-width: 1400px;
-  margin: 0 auto;
-  @media screen and ( max-width: ${(minwidth * 4) + 100}px ) {
-    grid-template-columns: repeat(2, minmax( ${minwidth}px, 1fr ) );
-  }
-  @media screen and ( max-width: ${(minwidth * 2.5) + 100}px ) {
-    grid-template-columns: 5px 2fr 5px;
-    & > li {
-      gap: 0;
-      grid-column: 2;
-    }
-  }
-`;
+export const ListContainer = styled.ul(() => css({
+  display: 'grid',
+  gap: '3rem',
+  gridTemplateColumns: `repeat(3, minmax( ${minwidth}px, 1fr ) )`,
+  listStyleType: 'none',
+  margin: '0 auto',
+  maxWidth: '1400px',
+  padding: 0,
 
+  [`@media screen and ( max-width: ${(minwidth * 4) + 100}px )`]: {
+    gridTemplateColumns: `repeat(2, minmax( ${minwidth}px, 1fr ) )`,
+  },
+
+  [`@media screen and ( max-width: ${(minwidth * 2.5) + 100}px )`]: {
+    gridTemplateColumns: '5px 2fr 5px',
+    
+    ['& > li']: {
+      gap: 0,
+      gridColumn: 2,
+    },
+  },
+}));
