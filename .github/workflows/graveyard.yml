@@ -4,6 +4,8 @@ on:
     branches: [ main ]
     paths:
       - 'graveyard.json'
+      - 'graveyard.test.ts'
+      - 'package.json'
 jobs: 
   tests:
     runs-on: ubuntu-latest
