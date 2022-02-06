@@ -7,7 +7,7 @@ test('Filter', async ({ page }) => {
     const Filter = page.locator('#listFilter');
     await Filter.click();
     await page.locator('#react-select-filter-select-listbox > div > div:nth-child(2)').click();
-    const ListItems = page.locator('ul[class^="Listatoms"] > li');
+    const ListItems = page.locator('#__next > ul > li');
     await expect(ListItems).toHaveCount(Number(graveyard.filter((item) => {
         return item.type === 'app';
     }).length) + 1);
