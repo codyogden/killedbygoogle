@@ -8,6 +8,7 @@ on:
       - 'pages/**'
       - 'public/**'
       - 'types/**'
+      - 'package.json'
   deployment_status:
 jobs:
   tests:
