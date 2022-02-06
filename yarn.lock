@@ -1333,7 +1333,7 @@
     source-map "^0.6.1"
     write-file-atomic "^3.0.0"
 
-"@jest/types@^27.2.5", "@jest/types@^27.4.2", "@jest/types@^27.5.0":
+"@jest/types@^27.2.5", "@jest/types@^27.5.0":
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-27.5.0.tgz#6ad04a5c5355fd9f46e5cf761850e0edb3c209dd"
   integrity sha512-oDHEp7gwSgA82RZ6pzUL3ugM2njP/lVB1MsxRZNOBk+CoNvh9SpH1lQixPFc/kDlV50v59csiW4HLixWmhmgPQ==
@@ -3635,7 +3635,7 @@ jest-get-type@^27.0.6, jest-get-type@^27.5.0:
   resolved "https://registry.yarnpkg.com/jest-get-type/-/jest-get-type-27.5.0.tgz#861c24aa1b176be83c902292cb9618d580cac8a7"
   integrity sha512-Vp6O8a52M/dahXRG/E0EJuWQROps2mDQ0sJYPgO8HskhdLwj9ajgngy2OAqZgV6e/RcU67WUHq6TgfvJb8flbA==
 
-jest-haste-map@^27.4.6, jest-haste-map@^27.5.0:
+jest-haste-map@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-27.5.0.tgz#7cc3a920caf304c89fbfceb5d5717b929873f175"
   integrity sha512-0KfckSBEKV+D6e0toXmIj4zzp72EiBnvkC0L+xYxenkLhAdkp2/8tye4AgMzz7Fqb1r8SWtz7+s1UQLrxMBang==
@@ -3748,23 +3748,7 @@ jest-resolve-dependencies@^27.5.0:
     jest-regex-util "^27.5.0"
     jest-snapshot "^27.5.0"
 
-jest-resolve@27.4.6:
-  version "27.4.6"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-27.4.6.tgz#2ec3110655e86d5bfcfa992e404e22f96b0b5977"
-  integrity sha512-SFfITVApqtirbITKFAO7jOVN45UgFzcRdQanOFzjnbd+CACDoyeX7206JyU92l4cRr73+Qy/TlW51+4vHGt+zw==
-  dependencies:
-    "@jest/types" "^27.4.2"
-    chalk "^4.0.0"
-    graceful-fs "^4.2.4"
-    jest-haste-map "^27.4.6"
-    jest-pnp-resolver "^1.2.2"
-    jest-util "^27.4.2"
-    jest-validate "^27.4.6"
-    resolve "^1.20.0"
-    resolve.exports "^1.1.0"
-    slash "^3.0.0"
-
-jest-resolve@^27.5.0:
+jest-resolve@27.5.0, jest-resolve@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-27.5.0.tgz#a8e95a68dfb4a59faa508d7b6d2c6a02dcabb712"
   integrity sha512-PkDpYEGV/nFqThnIrlPtj8oTxyAV3iuuS6or7dZYyUWaHr/tyyVb5qfBmZS6FEr7ozBHgjrF1bgcgIefnlicbw==
@@ -3871,7 +3855,7 @@ jest-snapshot@^27.5.0:
     pretty-format "^27.5.0"
     semver "^7.3.2"
 
-jest-util@^27.4.2, jest-util@^27.5.0:
+jest-util@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-27.5.0.tgz#0b9540d91b0de65d288f235fa9899e6eeeab8d35"
   integrity sha512-FUUqOx0gAzJy3ytatT1Ss372M1kmhczn8x7aE0++11oPGW1FyD/5NjYBI8w1KOXFm6IVjtaZm2szfJJL+CHs0g==
@@ -3883,7 +3867,7 @@ jest-util@^27.4.2, jest-util@^27.5.0:
     graceful-fs "^4.2.9"
     picomatch "^2.2.3"
 
-jest-validate@^27.4.6, jest-validate@^27.5.0:
+jest-validate@^27.5.0:
   version "27.5.0"
   resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-27.5.0.tgz#b3df32372d2c832fa5a5e31ee2c37f94f79f7f1f"
   integrity sha512-2XZzQWNrY9Ypo11mm4ZeVjvr++CQG/45XnmA2aWwx155lTwy1JGFI8LpQ2dBCSAeO21ooqg/FCIvv9WwfnPClA==
