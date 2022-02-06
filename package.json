@@ -7,11 +7,13 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.17.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
     "@playwright/test": "^1.18.1",
+    "@svgr/webpack": "^6.2.1",
     "@types/jest": "^27.4.0",
     "@types/lodash": "^4.14.178",
     "@types/react": "^17.0.39",
-    "@types/styled-components": "^5.1.21",
     "dotenv": "^16.0.0",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
@@ -21,17 +23,16 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@svgr/webpack": "^6.2.1",
-    "babel-plugin-styled-components": "^2.0.2",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "date-fns": "2.28.0",
     "enquirer": "^2.3.6",
     "next": "^12.0.10",
-    "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-select": "5.2.2",
-    "slugify": "1.6.5",
-    "styled-components": "5.3.3"
+    "slugify": "1.6.5"
   },
   "scripts": {
     "dev": "next dev",
@@ -39,6 +40,7 @@
     "start": "next start",
     "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
     "kill": "bin/kill",
+    "lint": "next lint",
     "test": "jest graveyard.test.ts",
     "test:e2e": "playwright test"
   }
