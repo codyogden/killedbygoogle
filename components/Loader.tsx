@@ -1,18 +1,22 @@
-import styled from 'styled-components';
+import { css } from '@emotion/react';
+import styled from '@emotion/styled';
 
-const LoaderContainer = styled.div`
-    margin: 60px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-`;
-
-const Knife = styled.img`
-    width: 60px;
-`;
+const LoaderContainer = styled.div(() => css({
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center',
+    margin: '60px auto',
+}));
 
 const Loader = () => <LoaderContainer>
-    <Knife width="60px" src="/knife.svg" alt="Knife"/>
+    <img
+        css={css({
+            width: '60px',
+        })}
+        width="60px"
+        src="/knife.svg"
+        alt="Knife"
+    />
 </LoaderContainer>;
 
 export default Loader;

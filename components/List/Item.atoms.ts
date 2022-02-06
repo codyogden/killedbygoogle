@@ -1,49 +1,52 @@
-import styled from 'styled-components';
+import styled from '@emotion/styled';
+import { css } from '@emotion/react';
 
-export const Description = styled.p`
-  padding-right: 2em;
-  font-size: 0.9em;
-  line-height: 1.5;
-  margin: 8px 0 0 0;
-`;
+export const Description = styled.p(() => css({
+  fontSize: '0.9em',
+  lineHeight: 1.5,
+  margin: '8px 0 0 0',
+  paddingRight: '2em',
+}));
 
-export const Icon = styled.img`
-  height: 50px;
-  width: 50px;
-`;
+export const Icon = styled.img(() => css({
+  height: '50px',
+  width: '50px',
+}));
 
-export const IconContainer = styled.div`
-  flex-basis: 100px;
-  flex-shrink: 0;
-  text-align: center;
-`;
+export const IconContainer = styled.div(() => css({
+  flexBasis: '100px',
+  flexShrink: 0,
+  textAlign: 'center',
+}));
 
-export const ListItem = styled.li`
-  max-width: 100%;
-  display: block;
-  margin: 1em auto;
-  display: flex;
-  box-sizing: border-box;
-  flex: 0 0 30%;
-  @media screen and (max-width: 1100px) {
-    flex: 0 0 50%;
-    margin: 0.5em auto;
-  }
-  h2 {
-    margin: 0;
-    font-weight: 300;
-  }
-  @media screen and (max-width: 700px) {
-    &#mobile-hide {
-      display: none;
-    }
-  }
-`;
+export const ListItem = styled.li(() => css({
+  boxSizing: 'border-box',
+  display: 'flex',
+  flex: '0 0 30%',
+  margin: '1em auto',
+  maxWidth: '100%',
 
-export const AgeRange = styled.div`
-  font-size: 0.75em;
-`;
+  ['@media screen and ( max-width: 900px )']: {
+    flex: '0 0 50%',
+    margin: '0.5em auto'
+  },
 
-export const ContentContainer = styled.div`
-  padding-bottom: 1.25em;
-`;
+  ['h2']: {
+    fontWeight: 300,
+    margin: 0,
+  },
+
+  ['@media screen and (max-width: 700px )']: {
+    ['&#mobile-hide']: {
+      display: 'none',
+    },
+  },
+}));
+
+export const AgeRange = styled.div(() => css({
+  fontSize: '0.75em',
+}));
+
+export const ContentContainer = styled.div(() => css({
+  paddingBottom: '1.25em',
+}));
