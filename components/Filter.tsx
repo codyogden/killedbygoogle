@@ -1,21 +1,8 @@
 import Select, { Options, SingleValue } from 'react-select';
 
 import { SRT } from '../components';
-import { Product } from '../types/Product';
+import { Product, ProductType } from '../types/Product';
 import { FilterType } from '../types/Filter';
-
-function isFilterType(x: unknown): x is FilterType {
-  switch (x) {
-
-    case "app":
-    case "hardware":
-    case "service":
-    case "all":
-      return true;
-    default:
-      return false;
-  }
-}
 
 type Props = {
   items: Product[];
@@ -32,28 +19,26 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   }
   const selectOptions: Option[] = [
     {
-      value: 'all',
+      value: FilterType.ALL,
       label: `All (${items.length})`,
     },
     {
-      value: 'app',
+      value: FilterType.APP,
       label: `Apps (${getCount('app')})`,
     },
     {
-      value: 'service',
+      value: FilterType.SERVICE,
       label: `Services (${getCount('service')})`,
     },
     {
-      value: 'hardware',
+      value: FilterType.HARDWARE,
       label: `Hardware (${getCount('hardware')})`,
     }
   ];
 
   const changeHandler = (arg: SingleValue<Option>): void => {
-    const filterVal = arg?.value;
-    if (isFilterType(filterVal)) {
+    const filterVal = arg?.value as FilterType;
       filterHandler(filterVal);
-    }
     if (window.umami?.trackEvent)
       window.umami.trackEvent(filterVal, 'filter');
   }
