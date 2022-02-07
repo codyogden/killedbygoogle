@@ -2,8 +2,7 @@ import Select, { Options, SingleValue } from 'react-select';
 
 import { SRT } from '../components';
 import { Product } from '../types/Product';
-
-export type FilterType = Product['type'] | 'all';
+import { FilterType } from '../types/Filter';
 
 function isFilterType(x: unknown): x is FilterType {
   switch (x) {

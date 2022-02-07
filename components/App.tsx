@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react';
 
-import { FilterType } from './Filter';
+import { FilterType } from '../types/Filter';
 import { ProductWithSlug } from '../types/Product';
 import {
     Controls,
