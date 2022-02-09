@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from 'react';
 
-import { FilterType } from './Filter';
-import { ProductWithSlug } from '../types/Product';
+import { FilterType } from '../types/Filter';
+import { ProductType, ProductWithSlug } from '../types/Product';
 import {
     Controls,
     Filter,
@@ -13,7 +13,7 @@ import {
 const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [listItems, updateListItems] = useState(items);
     const [searchTerm, updateSearchTerm] = useState('');
-    const [activeFilter, updateActiveFilter] = useState<FilterType>('all');
+    const [activeFilter, updateActiveFilter] = useState<ProductType|FilterType>(FilterType.ALL);
 
     useEffect(() => {
         const regexp = new RegExp(searchTerm.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
