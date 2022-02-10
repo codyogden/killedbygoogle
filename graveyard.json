@@ -2102,5 +2102,13 @@
     "link": "https://www.engadget.com/youtube-community-contributions-saying-goodbye-141205281.html",
     "description": "YouTube Community Contributions allowed users to contribute translations for video titles or submit descriptions, closed captions or subtitles on YouTube content.",
     "type": "service"
+  },
+  {
+    "name": "Google Currents (2019)",
+    "dateOpen": "2019-04-10",
+    "dateClose": "2023-03-31",
+    "link": "https://workspaceupdates.googleblog.com/2022/02/currents-spaces-migration.html",
+    "description": "Google Currents was service that provided social media features similar to Google+ for Google Workspace customers.",
+    "type": "service"
   }
 ]
