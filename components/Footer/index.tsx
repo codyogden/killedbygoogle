@@ -127,7 +127,7 @@ const Footer = () => (
                 </div>
                 <CopyNotice>
                     <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
-                        &copy; 2020 Cody Ogden.
+                        &copy; 2022 Cody Ogden.
           </a>
           &nbsp;-&nbsp;
           <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">
