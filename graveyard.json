@@ -2116,7 +2116,7 @@
     "dateOpen": "2014-01-15",
     "dateClose": "2022-03-29",
     "link": "https://www.androidpolice.com/google-is-retiring-chromes-data-saving-lite-mode-next-month-saying-its-no-longer-necessary/",
-    "description": "Chrome Lite Mode was a data saving feature that compressed websites server-side.",
+    "description": "Chrome Lite Mode was a feature that compressed websites using Google servers and saved data on mobile devices.",
     "type": "service"
   }
 ]
