@@ -2110,5 +2110,13 @@
     "link": "https://www.theverge.com/2022/2/10/22928042/google-plus-replacement-wind-down-currents-spaces",
     "description": "Google Currents was service that provided social media features similar to Google+ for Google Workspace customers.",
     "type": "service"
+  },
+  {
+    "name": "Google Assistant Snapshot",
+    "dateOpen": "2018-07-17",
+    "dateClose": "2022-03-03",
+    "link": "https://www.droid-life.com/2022/03/03/googles-assistant-snapshot-is-going-away/",
+    "description": "Google Assistant Snapshot was the successor to Google Now that provided predictive cards with information and daily updates in the Google app for Android and iOS.",
+    "type": "service"
   }
 ]
