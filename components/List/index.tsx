@@ -126,7 +126,7 @@ const showAd = () => {
                 name="kbg-carbon"
                 placement="killedbygooglecom"
                 serve="CK7I653N"
-                fallback={FallbackAd}
+                fallback={<FallbackAd />}
             />
         );
     return <FallbackAd />
