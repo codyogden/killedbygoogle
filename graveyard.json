@@ -2118,5 +2118,13 @@
     "link": "https://www.droid-life.com/2022/03/03/googles-assistant-snapshot-is-going-away/",
     "description": "Google Assistant Snapshot was the successor to Google Now that provided predictive cards with information and daily updates in the Google app for Android and iOS.",
     "type": "service"
+  },
+  {
+    "name": "Google Cloud Prediction API",
+    "dateOpen": "2010-05-31",
+    "dateClose": "2018-04-30",
+    "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
+    "description": "Google Cloud Prediction API was a PaaS for machine learning (ML) functionality to help developers build ML models to create application features such as recommendation systems, spam detection, and purchase prediction.",
+    "type": "service"
   }
 ]
