@@ -112,7 +112,7 @@ export const FallbackAd = () => <Link passHref href="https://twitter.com/killedb
     <AdPlaceholder target="_blank" rel="noopener noreferrer">
         <div>
             <div>
-                <img src="twitter-blue.svg" alt="Twitter" />
+                <img src="https://static.killedbygoogle.com/com/twitter-blue.svg" alt="Twitter" />
             </div>
             <div>Follow @killedbygoogle on Twitter.</div>
         </div>
