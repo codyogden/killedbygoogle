@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Netlify Status](https://img.shields.io/netlify/320a7a15-ce8b-4dba-befa-4c7922d5db9c)](https://app.netlify.com/sites/killedbygoogle/deploys) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/killedbygoogle?color=%231da1f2&label=%40killedbygoogle&style=flat-square)](https://twitter.com/killedbygoogle)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/killedbygoogle?color=%231da1f2&label=%40killedbygoogle&style=flat-square)](https://twitter.com/killedbygoogle)
 
 </div>
 
