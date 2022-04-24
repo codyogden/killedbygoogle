@@ -80,7 +80,7 @@ const Footer = () => (
                     <div css={{
                         marginRight: '10px',
                     }}>
-                        <img height="60px" width="60px" src='/tombstone-alt.svg' alt="Tombstone" />
+                        <img height="60px" width="60px" src='https://static.killedbygoogle.com/com/tombstone-alt.svg' alt="Tombstone" />
                     </div>
                     <Title>Killed by Google</Title>
                 </FooterTitle>
@@ -138,12 +138,12 @@ const Footer = () => (
                     <SocialLink
                         url="https://github.com/codyogden/killedbygoogle"
                         altText="GitHub"
-                        imgSrc='/github.svg'
+                        imgSrc='https://static.killedbygoogle.com/com/github.svg'
                     />
                     <SocialLink
                         url="https://twitter.com/killedbygoogle"
                         altText="Twitter"
-                        imgSrc='/twitter.svg'
+                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
                     />
                 </SocialWrapper>
             </FlexWrap>

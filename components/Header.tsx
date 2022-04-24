@@ -33,7 +33,7 @@ const Header = () => (
             }}>
                 <BrandingContainer>
                         <Logo>
-                            <img width="60px" src="/tombstone.svg" height="60px" alt="Tombstone" />
+                            <img width="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" height="60px" alt="Tombstone" />
                         </Logo>
                         <Title>Killed by Google</Title>
                 </BrandingContainer>
