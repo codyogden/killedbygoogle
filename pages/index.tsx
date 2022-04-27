@@ -1,6 +1,9 @@
+import { GetStaticProps } from 'next';
 import Head from 'next/head';
-
+import Script from 'next/script';
 import slugify from 'slugify';
+
+// Data
 import graveyard from '../graveyard.json';
 
 // Components
@@ -8,20 +11,8 @@ import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
 import { ProductWithSlug } from '../types/Product';
-import { GetStaticProps } from 'next';
-// import NewsletterModal from '../components/NewsletterModal/NewsletterModal';
 
 const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
-
-    function analytics() {
-        if (typeof window !== 'undefined')
-            return (<script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js"></script>);
-    }
-
-    function card() {
-        if (process.env.NODE_ENV === 'production')
-            return (<script async defer src="https://card.codyogden.com/card.js"></script>);
-    }
 
     return (
         <>
@@ -53,12 +44,12 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="author" content="Cody Ogden" />
                 <meta name="msvalidate.01" content="0C9605AF449480F57421EECCA9EB2B8A" />
                 <meta name="google-site-verification" content="9y9dretKdifnWDdkbkT9Qm1PtWMIe3qz6R09Xkm8Cdc" />
-                {analytics()}
             </Head>
+            <Script async defer data-website-id="3aa5ec3a-fd12-47f1-97d7-cceb0631cae4" src="https://analytics.bale.media/umami.js" />
             <Header />
             <App items={items} />
             <Footer />
-            {card()}
+            <Script async defer src="https://card.codyogden.com/card.js" />
         </>
     );
 }
