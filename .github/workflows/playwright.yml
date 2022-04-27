@@ -1,14 +1,5 @@
 name: Playwright
 on:
-  pull_request:
-    branches: [ main ]
-    paths:
-      - 'components/**'
-      - 'e2e/**'
-      - 'pages/**'
-      - 'public/**'
-      - 'types/**'
-      - 'package.json'
   deployment_status:
 jobs:
   tests:
