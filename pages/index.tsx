@@ -45,7 +45,7 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="msvalidate.01" content="0C9605AF449480F57421EECCA9EB2B8A" />
                 <meta name="google-site-verification" content="9y9dretKdifnWDdkbkT9Qm1PtWMIe3qz6R09Xkm8Cdc" />
             </Head>
-            <Script async defer data-website-id={process.env.UMAMI_ID} src="https://analytics.bale.media/umami.js" />
+            <script async defer data-website-id={process.env.UMAMI_ID} src="https://analytics.bale.media/umami.js" />
             <Header />
             <App items={items} />
             <Footer />
