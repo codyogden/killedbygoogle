@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-
+import React from 'react';
+import dynamic from 'next/dynamic';
 import {
   format,
   formatDistance,
@@ -8,6 +8,8 @@ import {
 } from 'date-fns';
 
 import { ProductWithSlug } from '../../types/Product';
+
+const DeathIdiom = dynamic(() => import('./LeadPhrase'), { ssr: false });
 
 // Import Styled Components
 import {
@@ -18,34 +20,6 @@ import {
   IconContainer,
   ListItem,
 } from './Item.atoms';
-
-const soonToDieIdiom = () => {
-  const items = [
-    'Sentenced to death',
-    '"Off with their heads!"',
-    'Kicking the bucket',
-    'Dead as a doorknob',
-    'Done for',
-    'Expiring',
-    'Biting the big one',
-    'Off to the glue factory',
-    'Another one bites the dust',
-    'To be turned off',
-    'Like a fork stuck in the outlet',
-    'Scheduled to be killed',
-    'To be exterminated',
-    'To be flushed',
-    'Getting unplugged',
-    'Vanishing',
-    'Going poof',
-    'Turning to ashes',
-    'Getting KO\'d',
-    'Running out of juice',
-    'Fading into darkness',
-    'Floating belly up'
-  ];
-  return items[Math.floor(Math.random() * items.length)];
-};
 
 export default function Item(props: ProductWithSlug) {
 
@@ -70,15 +44,9 @@ export default function Item(props: ProductWithSlug) {
     );
   };
 
-  const TimePhrase = (slug: string) => {
-    let dateCloseISO = parseISO(props.dateClose);
-    const relativeDate = formatDistanceToNow(dateCloseISO);
-    const futureDeathPhrase = useMemo(() => `${soonToDieIdiom()} in ${relativeDate}, `, [relativeDate]);
-    if (!isPast()) {
-      return <span suppressHydrationWarning>{futureDeathPhrase}</span>;
-    }
-    return <span>{`Killed ${relativeDate} ago, `}</span>;
-  };
+
+  const dateCloseISO = parseISO(props.dateClose);
+  const relativeDate = formatDistanceToNow(dateCloseISO);
 
   const ageRange = () => {
     const monthOpen = format(parseISO(props.dateClose), 'LLLL');
@@ -121,7 +89,7 @@ export default function Item(props: ProductWithSlug) {
           </a>
         </h2>
         <Description>
-          {TimePhrase(props.slug)}
+          {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
           {props.description}
           {getYears()}
         </Description>
