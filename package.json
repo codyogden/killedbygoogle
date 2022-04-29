@@ -7,7 +7,7 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.17.2",
+    "@babel/core": "^7.17.9",
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@playwright/test": "^1.21.0",
     "@svgr/webpack": "^6.2.1",
@@ -18,7 +18,7 @@
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.5",
     "jest": "28.0.2",
-    "jest-resolve": "27.5.1",
+    "jest-resolve": "28.0.2",
     "moment": "^2.29.3",
     "typescript": "^4.6.3"
   },
