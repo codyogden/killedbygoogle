@@ -20,6 +20,10 @@ module.exports = {
                 source: '/api/collect',
                 destination: 'https://analytics.bale.media/api/collect',
             },
+            {
+                source: '/social/:path*',
+                destination: 'https://static.killedbygoogle.com/com/social/:path*',
+            }
         ]
-    }
+    },
 };
