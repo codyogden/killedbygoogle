@@ -24,10 +24,10 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <title>Google Graveyard - Killed by Google</title>
                 <meta name="theme-color" content="#FAFAFA" />
                 <link rel="canonical" href="https://killedbygoogle.com" />
-                <meta name="image" content="social/card.png"></meta>
+                <meta name="image" content="https://killedbygoogle.com/social/card.png"></meta>
                 <meta itemProp="name" content="Killed by Google" />
                 <meta itemProp="description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
-                <meta itemProp="image" content="social/card.png" />
+                <meta itemProp="image" content="https://killedbygoogle.com/social/card.png" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Killed by Google" />
                 <meta name="twitter:description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
