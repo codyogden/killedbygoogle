@@ -9,5 +9,17 @@ module.exports = {
         });
 
         return config;
+    },
+    rewrites() {
+        return [
+            {
+                source: '/umami.js',
+                destination: 'https://analytics.bale.media/umami.js'
+            },
+            {
+                source: '/api/collect',
+                destination: 'https://analytics.bale.media/api/collect',
+            },
+        ]
     }
 };
