@@ -24,21 +24,21 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <title>Google Graveyard - Killed by Google</title>
                 <meta name="theme-color" content="#FAFAFA" />
                 <link rel="canonical" href="https://killedbygoogle.com" />
-                <meta name="image" content="https://static.killedbygoogle.com/com/social/card.png"></meta>
+                <meta name="image" content="social/card.png"></meta>
                 <meta itemProp="name" content="Killed by Google" />
                 <meta itemProp="description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
-                <meta itemProp="image" content="https://static.killedbygoogle.com/com/social/card.png" />
+                <meta itemProp="image" content="social/card.png" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Killed by Google" />
                 <meta name="twitter:description" content="Killed by Google is the Google Graveyard. A full list of dead products killed by Google in the Google Cemetery." />
                 <meta name="twitter:site" content="@killedbygoogle" />
                 <meta name="twitter:creator" content="@killedbygoogle" />
-                <meta name="twitter:image:src" content="https://static.killedbygoogle.com/com/social/card-twitter.png" />
+                <meta name="twitter:image:src" content="https://killedbygoogle.com/social/card-twitter.png" />
                 <meta name="og:title" property="og:title" content="Killed by Google" />
                 <meta name="og:url" property="og:url" content="https://killedbygoogle.com" />
                 <meta name="og:description" property="og:description" content="Killed by Google is the open source list of dead Google products, services, and devices. It serves as a tribute and memorial of beloved services and products killed by Google." />
-                <meta name="image" property="og:image" content="https://static.killedbygoogle.com/com/social/card.png" />
-                <meta name="og:image" property="og:image" content="https://static.killedbygoogle.com/com/social/card.png" />
+                <meta name="image" property="og:image" content="https://killedbygoogle.com/social/card.png" />
+                <meta name="og:image" property="og:image" content="https://killedbygoogle.com/social/card.png" />
                 <meta name="og:site_name" property="og:site_name" content="Killed by Google" />
                 <meta name="og:type" property="og:type" content="website" />
                 <meta name="author" content="Cody Ogden" />
