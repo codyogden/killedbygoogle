@@ -34,6 +34,7 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="twitter:site" content="@killedbygoogle" />
                 <meta name="twitter:creator" content="@killedbygoogle" />
                 <meta name="twitter:image:src" content="https://killedbygoogle.com/social/card-twitter.png" />
+                <meta name="twitter:image" content="https://killedbygoogle.com/social/card-twitter.png" />
                 <meta name="og:title" property="og:title" content="Killed by Google" />
                 <meta name="og:url" property="og:url" content="https://killedbygoogle.com" />
                 <meta name="og:description" property="og:description" content="Killed by Google is the open source list of dead Google products, services, and devices. It serves as a tribute and memorial of beloved services and products killed by Google." />
