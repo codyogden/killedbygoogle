@@ -16,7 +16,7 @@
     "@types/react": "^18.0.8",
     "dotenv": "^16.0.0",
     "eslint": "8.14.0",
-    "eslint-config-next": "12.1.5",
+    "eslint-config-next": "12.1.6",
     "jest": "28.0.2",
     "jest-resolve": "28.0.2",
     "moment": "^2.29.3",
