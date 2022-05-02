@@ -39,7 +39,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "preview": "bin/graveyard && yarn build && next export && npx http-server out/ -p 3000",
+    "preview": "yarn build && next export && npx http-server out/ -p 3000",
     "kill": "bin/kill",
     "lint": "next lint",
     "test": "jest graveyard.test.ts",

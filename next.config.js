@@ -10,6 +10,15 @@ module.exports = {
 
         return config;
     },
+    redirects() {
+        return [
+            {
+                source: '/graveyard.json',
+                destination: '/api/graveyard',
+                permanent: true,
+            },
+        ];
+    },
     rewrites() {
         return [
             {
