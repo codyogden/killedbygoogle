@@ -7,7 +7,7 @@
   "author": "Cody Ogden",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@playwright/test": "^1.21.1",
     "@svgr/webpack": "^6.2.1",
