@@ -11,7 +11,7 @@
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@playwright/test": "^1.21.1",
     "@svgr/webpack": "^6.2.1",
-    "@types/jest": "^27.4.1",
+    "@types/jest": "^27.5.0",
     "@types/lodash": "^4.14.182",
     "@types/react": "^18.0.8",
     "dotenv": "^16.0.0",
