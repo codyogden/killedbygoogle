@@ -3736,10 +3736,10 @@ jest-resolve-dependencies@^28.0.2:
     jest-regex-util "^28.0.2"
     jest-snapshot "^28.0.2"
 
-jest-resolve@28.0.2, jest-resolve@^28.0.2:
-  version "28.0.2"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-28.0.2.tgz#46faf8f418fbb7dd37ae958c7393c8bcaf331f8d"
-  integrity sha512-4smZQ+Z4bzRNAXmj2HSrDYOAVar/SBDClUWxDJrz3BHbw+URXGAPenziWIShmybBlcRnX0lVCs43UiB7+Fh+lg==
+jest-resolve@28.0.3, jest-resolve@^28.0.2:
+  version "28.0.3"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-28.0.3.tgz#63f8e6b53e40f265b3ca9116195221dd43e3d16d"
+  integrity sha512-lfgjd9JhEjpjIN3HLUfdysdK+A7ePQoYmd7WL9DUEWqdnngb1rF56eee6iDXJxl/3eSolpP43VD7VrhjL3NsoQ==
   dependencies:
     chalk "^4.0.0"
     graceful-fs "^4.2.9"
