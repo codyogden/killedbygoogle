@@ -8,6 +8,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2022-08-09",
+    "dateOpen": "2017-02-15",
+    "description": "YouTube Go was an app aimed at making YouTube easier to access on mobile devices in emerging markets through special features like downloading video on wifi for viewing later.",
+    "link": "https://9to5google.com/2022/05/03/youtube-go-shutting-down/",
+    "name": "YouTube Go",
+    "type": "app"
+  },
+  {
     "dateClose": "2020-04-23",
     "dateOpen": "2014-11-20",
     "description": "Google Contributor was a program run by Google that allowed users in the Google Network of content sites to view the websites without any advertisements that are administered, sorted, and maintained by Google.",
