@@ -13,7 +13,7 @@
     "@svgr/webpack": "^6.2.1",
     "@types/jest": "^27.5.0",
     "@types/lodash": "^4.14.182",
-    "@types/react": "^18.0.8",
+    "@types/react": "^18.0.9",
     "dotenv": "^16.0.0",
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
