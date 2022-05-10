@@ -18,7 +18,7 @@
     "eslint": "8.14.0",
     "eslint-config-next": "12.1.6",
     "jest": "28.1.0",
-    "jest-resolve": "28.0.3",
+    "jest-resolve": "28.1.0",
     "moment": "^2.29.3",
     "typescript": "^4.6.3"
   },
