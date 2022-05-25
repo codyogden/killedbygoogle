@@ -9,7 +9,7 @@
   "devDependencies": {
     "@babel/core": "^7.18.0",
     "@emotion/babel-preset-css-prop": "^11.2.0",
-    "@playwright/test": "^1.22.1",
+    "@playwright/test": "^1.22.2",
     "@svgr/webpack": "^6.2.1",
     "@types/jest": "^27.5.1",
     "@types/lodash": "^4.14.182",
