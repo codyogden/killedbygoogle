@@ -2134,5 +2134,13 @@
     "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
     "description": "Google Cloud Prediction API was a PaaS for machine learning (ML) functionality to help developers build ML models to create application features such as recommendation systems, spam detection, and purchase prediction.",
     "type": "service"
+  },
+  {
+    "name": "Wii Street U",
+    "dateOpen": "2013-02-14",
+    "dateClose": "2016-03-31",
+    "link": "https://www.nintendo.co.uk/Games/Wii-U-download-software/Wii-Street-U-powered-by-Google-724127.html",
+    "description": "Wii Street U was a map application powered by Google for the Nintendo Wii U. Users could see a 360-degree Google Maps Street View from the Wii U GamePad and look around using motion controls.",
+    "type": "app"
   }
 ]
