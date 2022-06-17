@@ -82,6 +82,7 @@ export default function Item(props: ProductWithSlug) {
       <IconContainer>
         {getIcon()}
         {ageRange()}
+        <Badge content={props.type} />
       </IconContainer>
       <ContentContainer>
         <h2>
@@ -89,7 +90,6 @@ export default function Item(props: ProductWithSlug) {
             {props.name}
           </a>
         </h2>
-        <Badge content={props.type} />
         <Description>
           {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
           {props.description}
