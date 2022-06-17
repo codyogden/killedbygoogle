@@ -8,6 +8,7 @@ import {
 } from 'date-fns';
 
 import { ProductWithSlug } from '../../types/Product';
+import Badge from '../Badge'; 
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'), { ssr: false });
 
@@ -88,6 +89,7 @@ export default function Item(props: ProductWithSlug) {
             {props.name}
           </a>
         </h2>
+        <Badge content={props.type} />
         <Description>
           {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
           {props.description}
