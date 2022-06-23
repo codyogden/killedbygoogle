@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2022-06-21",
+    "dateOpen": "2019-11-04",
+    "description": "Android Auto for phone screens was an app that allowed the screen of the phone to be used as an Android Auto interface while driving, intended for vehicles that did not have a compatible screen built in.",
+    "link": "https://www.androidpolice.com/google-kills-android-auto-for-phone-screens/",
+    "name": "Android Auto for phone screens",
+    "type": "app"
+  },
+  {
     "dateClose": "2022-02-17",
     "dateOpen": "2018-08-19",
     "description": "Cameos on Google allowed celebrities and other public figures to record video responses to the most common questions asked about them which would be shown to users in Google Search results.",
