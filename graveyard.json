@@ -2134,5 +2134,12 @@
     "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
     "description": "Google Cloud Prediction API was a PaaS for machine learning (ML) functionality to help developers build ML models to create application features such as recommendation systems, spam detection, and purchase prediction.",
     "type": "service"
-  }
+  },
+  {
+    "name": "Xbox Live achievements for YouTube",
+    "dateOpen": "2013-11-22",
+    "dateClose": "2017-08-05",
+    "link": "https://www.trueachievements.com/game/YouTube/achievements",
+    "description": "The YouTube app for Xbox One featured Xbox Live achievements like many other apps on the console. Following many reports of achievement not unlocking, the app was delisted and replaced with an identical app that had no achievements.",
+    "type": "service"
 ]
