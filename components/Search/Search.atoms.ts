@@ -10,7 +10,7 @@ export const SearchBox = styled.input(() => css({
   border: 'none',
   borderBottom: '1px solid #cfcfcf',
   boxSizing: 'border-box',
-  display: 'blcok',
+  display: 'block',
   fontSize: '1.25em',
   fontWeight: 'lighter',
   height: '100%',
