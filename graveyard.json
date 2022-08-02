@@ -2134,5 +2134,13 @@
     "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
     "description": "Google Cloud Prediction API was a PaaS for machine learning (ML) functionality to help developers build ML models to create application features such as recommendation systems, spam detection, and purchase prediction.",
     "type": "service"
+  },
+  {
+    "name": "Conversational Actions",
+    "dateOpen": "2016-10-04",
+    "dateClose": "2023-06-13",
+    "link": "https://developers.google.com/assistant/conversational/overview",
+    "description": "Conversational Actions extended the functionality of Google Assistant by allowing 3rd party developers to create custom experiences, or conversations, for users of Google Assistant.",
+    "type": "service"
   }
 ]
