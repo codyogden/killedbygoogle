@@ -99,3 +99,4 @@ export default function Item(props: ProductWithSlug) {
     </ListItem>
   );
 }
+
