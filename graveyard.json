@@ -2150,5 +2150,13 @@
     "link": "https://developers.google.com/assistant/conversational/overview",
     "description": "Conversational Actions extended the functionality of Google Assistant by allowing 3rd party developers to create custom experiences, or conversations, for users of Google Assistant.",
     "type": "service"
+  },
+  {
+    "name": "Kormo Jobs",
+    "dateOpen": "2019-08-15",
+    "dateClose": "2022-06-30",
+    "link": "https://www2.staffingindustry.com/row/Editorial/Daily-News/Asia-Google-shuts-down-its-Kormo-jobs-site-in-Asia-62393",
+    "description": "Kormo Jobs was an app that allowed users in primarily India, Indonesia, and Bangladesh to help them find jobs nearby that match their skills and interests.",
+    "type": "app"
   }
 ]
