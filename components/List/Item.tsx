@@ -8,6 +8,7 @@ import {
 } from 'date-fns';
 
 import { ProductWithSlug } from '../../types/Product';
+import Badge from '../Badge'; 
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'), { ssr: false });
 
@@ -81,6 +82,7 @@ export default function Item(props: ProductWithSlug) {
       <IconContainer>
         {getIcon()}
         {ageRange()}
+        <Badge content={props.type} />
       </IconContainer>
       <ContentContainer>
         <h2>
@@ -97,3 +99,4 @@ export default function Item(props: ProductWithSlug) {
     </ListItem>
   );
 }
+
