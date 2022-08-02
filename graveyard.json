@@ -2158,5 +2158,13 @@
     "link": "https://www2.staffingindustry.com/row/Editorial/Daily-News/Asia-Google-shuts-down-its-Kormo-jobs-site-in-Asia-62393",
     "description": "Kormo Jobs was an app that allowed users in primarily India, Indonesia, and Bangladesh to help them find jobs nearby that match their skills and interests.",
     "type": "app"
+  },
+  {
+    "name": "Google Hangouts",
+    "dateOpen": "2013-05-15",
+    "dateClose": "2022-11-30",
+    "link": "https://arstechnica.com/gadgets/2022/06/google-hangouts-finally-gets-a-shutdown-date-november-2022/",
+    "description": "Google Hangouts was a cross-platform instant messaging service.",
+    "type": "service"
   }
 ]
