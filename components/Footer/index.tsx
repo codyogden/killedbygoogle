@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styled from '@emotion/styled';
-import { css } from '@emotion/react'; 
+import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from 'components/Footer/Footer.atoms';
