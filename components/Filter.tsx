@@ -1,8 +1,8 @@
 import Select, { Options, SingleValue } from 'react-select';
 
-import { SRT } from '../components';
-import { Product, ProductType } from '../types/Product';
-import { FilterType } from '../types/Filter';
+import { SRT } from 'components';
+import { Product, ProductType } from 'types/Product';
+import { FilterType } from 'types/Filter';
 
 type Props = {
   items: Product[];

@@ -7,8 +7,8 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import { ProductWithSlug } from '../../types/Product';
-import Badge from '../Badge'; 
+import { ProductWithSlug } from 'types/Product';
+import Badge from 'components/Badge'; 
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'), { ssr: false });
 

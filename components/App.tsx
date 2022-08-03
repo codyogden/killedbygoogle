@@ -1,14 +1,14 @@
 import { FC, useEffect, useState } from 'react';
 
-import { FilterType } from '../types/Filter';
-import { ProductType, ProductWithSlug } from '../types/Product';
+import { FilterType } from 'types/Filter';
+import { ProductType, ProductWithSlug } from 'types/Product';
 import {
     Controls,
     Filter,
     List,
     Loader,
     Search,
-} from '../components';
+} from 'components';
 
 const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [listItems, updateListItems] = useState(items);

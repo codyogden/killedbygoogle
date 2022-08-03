@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
-import SRT from '../SRT';
+import SRT from 'components/SRT';
 
 // Import Styled Components
-import { SearchContainer, SearchBox } from './Search.atoms';
+import { SearchContainer, SearchBox } from 'components/Search/Search.atoms';
 
 interface SearchProps {
   searchCallback: Function
