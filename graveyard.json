@@ -1,5 +1,21 @@
 [
   {
+    "dateClose": "2022-06-21",
+    "dateOpen": "2019-11-04",
+    "description": "Android Auto for phone screens was an app that allowed the screen of the phone to be used as an Android Auto interface while driving, intended for vehicles that did not have a compatible screen built in.",
+    "link": "https://www.androidpolice.com/google-kills-android-auto-for-phone-screens/",
+    "name": "Android Auto for phone screens",
+    "type": "app"
+  },
+  {
+    "dateClose": "2022-07-31",
+    "dateOpen": "2018-11-18",
+    "description": "Google My Business was an app that allowed businesses to manage their Google Maps Business profiles.",
+    "link": "https://rizenmetrics.com/news-google-my-business-app-will-be-replaced/",
+    "name": "Google My Business (app)",
+    "type": "app"
+  },
+  {
     "dateClose": "2022-02-17",
     "dateOpen": "2018-08-19",
     "description": "Cameos on Google allowed celebrities and other public figures to record video responses to the most common questions asked about them which would be shown to users in Google Search results.",
@@ -2133,6 +2149,30 @@
     "dateClose": "2018-04-30",
     "link": "https://www.infoq.com/news/2017/06/google-drops-prediction-api/",
     "description": "Google Cloud Prediction API was a PaaS for machine learning (ML) functionality to help developers build ML models to create application features such as recommendation systems, spam detection, and purchase prediction.",
+    "type": "service"
+  },
+  {
+    "name": "Conversational Actions",
+    "dateOpen": "2016-10-04",
+    "dateClose": "2023-06-13",
+    "link": "https://developers.google.com/assistant/conversational/overview",
+    "description": "Conversational Actions extended the functionality of Google Assistant by allowing 3rd party developers to create custom experiences, or conversations, for users of Google Assistant.",
+    "type": "service"
+  },
+  {
+    "name": "Kormo Jobs",
+    "dateOpen": "2019-08-15",
+    "dateClose": "2022-06-30",
+    "link": "https://www2.staffingindustry.com/row/Editorial/Daily-News/Asia-Google-shuts-down-its-Kormo-jobs-site-in-Asia-62393",
+    "description": "Kormo Jobs was an app that allowed users in primarily India, Indonesia, and Bangladesh to help them find jobs nearby that match their skills and interests.",
+    "type": "app"
+  },
+  {
+    "name": "Google Hangouts",
+    "dateOpen": "2013-05-15",
+    "dateClose": "2022-11-30",
+    "link": "https://arstechnica.com/gadgets/2022/06/google-hangouts-finally-gets-a-shutdown-date-november-2022/",
+    "description": "Google Hangouts was a cross-platform instant messaging service.",
     "type": "service"
   }
 ]
