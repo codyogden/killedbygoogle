@@ -2174,5 +2174,13 @@
     "link": "https://arstechnica.com/gadgets/2022/06/google-hangouts-finally-gets-a-shutdown-date-november-2022/",
     "description": "Google Hangouts was a cross-platform instant messaging service.",
     "type": "service"
+  },
+    {
+    "name": "Google Cloud IoT Core",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "link": "https://www.prweb.com/releases/2022/8/prweb18844004.htm",
+    "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
+    "type": "service"
   }
 ]
