@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2022-06-01",
+    "dateOpen": "2016-08-16",
+    "description": "Google Duo was a video calling app that allowed people to call someone from their contact list.",
+    "link": "https://en.wikipedia.org/wiki/Google_Duo",
+    "name": "Google Duo",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-06-21",
     "dateOpen": "2019-11-04",
     "description": "Android Auto for phone screens was an app that allowed the screen of the phone to be used as an Android Auto interface while driving, intended for vehicles that did not have a compatible screen built in.",
