@@ -25,7 +25,7 @@
   "dependencies": {
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
+    "@emotion/styled": "^11.10.4",
     "date-fns": "2.28.0",
     "enquirer": "^2.3.6",
     "lodash": "^4.17.21",
