@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2023-01-18",
+    "dateOpen": "2019-11-19",
+    "description": "Stadia was a cloud gaming service developed and operated by Google. It is accessible through Chromecast Ultra and Android TV devices",
+    "link": "https://stadia.google.com/",
+    "name": "Google Stadia",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-06-21",
     "dateOpen": "2019-11-04",
     "description": "Android Auto for phone screens was an app that allowed the screen of the phone to be used as an Android Auto interface while driving, intended for vehicles that did not have a compatible screen built in.",
