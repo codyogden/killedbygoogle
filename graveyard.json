@@ -362,7 +362,7 @@
   {
     "dateClose": "2019-10-02",
     "dateOpen": "2010-07-07",
-    "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and web view application wrappers.",
+    "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and WebView application wrappers.",
     "link": "https://9to5google.com/2019/09/16/youtube-leanback-tv-interface-disabled-soon/",
     "name": "YouTube Leanback",
     "type": "service"
@@ -562,7 +562,7 @@
   {
     "dateClose": "2016-08-31",
     "dateOpen": "2012-11-28",
-    "description": "Web hosting in Google Drive was a method of uploading HTML, CSS and other files to publish live websites.",
+    "description": "Web hosting in Google Drive allowed users to publish live websites by uploading HTML, CSS, and other files.",
     "link": "https://gsuite-developers.googleblog.com/2015/08/deprecating-web-hosting-support-in.html",
     "name": "Web Hosting in Google Drive",
     "type": "service"
@@ -1562,7 +1562,7 @@
   {
     "dateClose": "2016-01-31",
     "dateOpen": "2007-11-08",
-    "description": "Songza was a free music streaming service that would recommend its user's various playlists based on time of day and mood or activity.",
+    "description": "Songza was a free music streaming service that would recommend its users' various playlists based on time of day and mood or activity.",
     "link": "https://en.wikipedia.org/wiki/Songza",
     "name": "Songza",
     "type": "service"
@@ -2058,7 +2058,7 @@
   {
     "dateClose": "2021-11-05",
     "dateOpen": "2019-11-19",
-    "description": "Your News Update was a service that offers an audio digest of a mix of short news stories chosen at that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
+    "description": "Your News Update was a service that offered an audio digest of a mix of short news stories chosen at that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
     "link": "https://9to5google.com/2021/11/05/google-assistant-your-news-update/",
     "name": "Your News Update",
     "type": "service"
@@ -2076,7 +2076,7 @@
     "dateOpen": "2018-06-15",
     "dateClose": "2021-07-31",
     "link": "https://ubunlog.com/en/vr180-creator-edito-videovr/",
-    "description": "VR180 Creator allowed users to edit video taken on 180 degrees and 360-degree devices on multiple operating systems.",
+    "description": "VR180 Creator allowed users to edit video taken on 180-degree and 360-degree devices on multiple operating systems.",
     "type": "app"
   },
   {
