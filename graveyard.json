@@ -2183,12 +2183,20 @@
     "description": "Google Hangouts was a cross-platform instant messaging service.",
     "type": "service"
   },
-    {
+  {
     "name": "Google Cloud IoT Core",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
     "link": "https://www.iotworldtoday.com/2022/08/23/google-cloud-to-shut-down-iot-core-service/",
     "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
+    "type": "service"
+  },
+  {
+    "name": "Polymer",
+    "dateOpen": "2015-05-29",
+    "dateClose": "2021-04-20",
+    "link": "http://polymer-project.org",
+    "description": "Polymer was an open-source JS library for web components",
     "type": "service"
   }
 ]
