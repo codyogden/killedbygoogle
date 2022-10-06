@@ -102,9 +102,7 @@ const Footer = () => (
             &nbsp;from around the world help compile, research, and maintain the
             information about dying and dead Google products. You can join the
             discussion on&nbsp;
-            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>, or
-            follow us on&nbsp;
-            <a href="https://twitter.com/killedbygoogle">Twitter</a>. A project
+            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>. A project
             by&nbsp;
             <a
                             href="https://codyogden.com"
@@ -139,11 +137,6 @@ const Footer = () => (
                         url="https://github.com/codyogden/killedbygoogle"
                         altText="GitHub"
                         imgSrc='https://static.killedbygoogle.com/com/github.svg'
-                    />
-                    <SocialLink
-                        url="https://twitter.com/killedbygoogle"
-                        altText="Twitter"
-                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
                     />
                 </SocialWrapper>
             </FlexWrap>
