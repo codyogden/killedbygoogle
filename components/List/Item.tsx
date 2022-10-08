@@ -57,7 +57,7 @@ export default function Item(props: ProductWithSlug) {
       const monthClose = format(dateClose, 'LLLL');
       return (
         <AgeRange>
-          <time dateTime={props.dateClose}>
+          <time dateTime={props.dateClose} title={`${props.dateClose}`}>
             {monthClose}
             <br />
             {yearClose}
@@ -67,11 +67,11 @@ export default function Item(props: ProductWithSlug) {
     }
     return (
       <AgeRange>
-        <time dateTime={props.dateOpen}>
+        <time dateTime={props.dateOpen} title={props.dateOpen}>
           {yearOpen}
         </time>
         {' - '}
-        <time dateTime={props.dateClose}>
+        <time dateTime={props.dateClose} title={props.dateClose}>
           {yearClose}
         </time>
       </AgeRange>
