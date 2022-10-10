@@ -49,7 +49,6 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
             <Header />
             <App items={items} />
             <Footer />
-            <Script async defer src="https://card.codyogden.com/card.js" />
         </>
     );
 }

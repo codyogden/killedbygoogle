@@ -8,6 +8,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2023-01-18",
+    "dateOpen": "2019-11-19",
+    "description": "Google Stadia was a cloud gaming service combining a WiFi gaming controller and allowed users to stream gameplay through web browsers, TV, mobile apps, and Chromecast.",
+    "link": "https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023/",
+    "name": "Google Stadia",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-06-21",
     "dateOpen": "2019-11-04",
     "description": "Android Auto for phone screens was an app that allowed the screen of the phone to be used as an Android Auto interface while driving, intended for vehicles that did not have a compatible screen built in.",
@@ -58,7 +66,7 @@
   {
     "dateClose": "2021-07-30",
     "dateOpen": "2013-07-01",
-    "description": "Fitbit Coach (formerly Fitstar) was video-based body weight workout app that used AI to personalize workouts based on user feedback.",
+    "description": "Fitbit Coach (formerly Fitstar) was a video-based bodyweight workout app that used AI to personalize workouts based on user feedback.",
     "link": "https://help.fitbit.com/articles/en_US/Help_article/2279.htm",
     "name": "Fitbit Coach",
     "type": "app"
@@ -210,7 +218,7 @@
   {
     "dateClose": "2010-02-28",
     "dateOpen": "2006-12-01",
-    "description": "YouTube Streams allowed users to watch a YouTube video together while chatting about the video in real time.",
+    "description": "YouTube Streams allowed users to watch a YouTube video together while chatting about the video in real-time.",
     "link": "https://mashable.com/archive/youtube-test-tube",
     "name": "YouTube Streams",
     "type": "service"
@@ -258,7 +266,7 @@
   {
     "dateClose": "2020-03-19",
     "dateOpen": "2018-05-09",
-    "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material based design system for your app.",
+    "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material-based design system for your app.",
     "link": "https://medium.com/google-design/whats-next-for-material-design-s-theming-tools-f65014ffcce7",
     "name": "Material Theme Editor",
     "type": "app"
@@ -266,7 +274,7 @@
   {
     "dateClose": "2020-02-17",
     "dateOpen": "2015-09-27",
-    "description": "Google Station is a service which gives partners an easy set of tools to roll-out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable and safe Wi-Fi zones.",
+    "description": "Google Station is a service that gives partners an easy set of tools to roll out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable, and safe Wi-Fi zones.",
     "link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
     "name": "Google Station",
     "type": "service"
@@ -322,7 +330,7 @@
   {
     "dateClose": "2011-06-05",
     "dateOpen": "1997-09-15",
-    "description": "Google Specialized Search allowed users to search across a limited index of the web for specialised topics like Linux, Microsoft, and 'Uncle Sam.'",
+    "description": "Google Specialized Search allowed users to search across a limited index of the web for specialized topics like Linux, Microsoft, and 'Uncle Sam.'",
     "link": "https://www.seroundtable.com/google-uncle-sam-13518.html",
     "name": "Google Specialized Search",
     "type": "service"
@@ -362,7 +370,7 @@
   {
     "dateClose": "2019-10-02",
     "dateOpen": "2010-07-07",
-    "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and webview application wrappers.",
+    "description": "YouTube Leanback was an optimized version of YouTube used for television web browsers and WebView application wrappers.",
     "link": "https://9to5google.com/2019/09/16/youtube-leanback-tv-interface-disabled-soon/",
     "name": "YouTube Leanback",
     "type": "service"
@@ -466,7 +474,7 @@
   {
     "dateClose": "2020-07-22",
     "dateOpen": "2019-05-01",
-    "description": "CallJoy was an Area 120 project that provided phone automation for small-to-mediaum businesses allowing them to train the bot agent with responses to common customer questions.",
+    "description": "CallJoy was an Area 120 project that provided phone automation for small-to-medium businesses allowing them to train the bot agent with responses to common customer questions.",
     "link": "https://techcrunch.com/2019/05/01/google-launches-calljoy-a-virtual-customer-service-phone-agent-for-small-businesses/",
     "name": "CallJoy",
     "type": "app"
@@ -538,7 +546,7 @@
   {
     "dateClose": "2013-07-01",
     "dateOpen": "2005-10-07",
-    "description": "Google Reader was a RSS/Atom feed aggregator.",
+    "description": "Google Reader was an RSS/Atom feed aggregator.",
     "link": "https://en.wikipedia.org/wiki/Google_Reader",
     "name": "Google Reader",
     "type": "service"
@@ -562,7 +570,7 @@
   {
     "dateClose": "2016-08-31",
     "dateOpen": "2012-11-28",
-    "description": "Web hosting in Google Drive was a method of uploading HTML, CSS and other files in order to publish live web sites.",
+    "description": "Web hosting in Google Drive allowed users to publish live websites by uploading HTML, CSS, and other files.",
     "link": "https://gsuite-developers.googleblog.com/2015/08/deprecating-web-hosting-support-in.html",
     "name": "Web Hosting in Google Drive",
     "type": "service"
@@ -658,7 +666,7 @@
   {
     "dateClose": "2015-06-30",
     "dateOpen": "2008-09-01",
-    "description": "Google Moderator was a service that used crowdsourcing to rank user-submitted questions, suggestions and ideas.",
+    "description": "Google Moderator was a service that used crowdsourcing to rank user-submitted questions, suggestions, and ideas.",
     "link": "https://en.wikipedia.org/wiki/Google_Moderator",
     "name": "Google Moderator",
     "type": "service"
@@ -802,7 +810,7 @@
   {
     "dateClose": "2008-11-24",
     "dateOpen": "2006-10-01",
-    "description": "SearchMash was an experimental, non-branded search engine that Google used to be able to play around with new search technologies, concepts and interfaces.",
+    "description": "SearchMash was an experimental, non-branded search engine that Google used to be able to play around with new search technologies, concepts, and interfaces.",
     "link": "https://techcrunch.com/2008/11/24/why-did-google-discontinue-searchmash/",
     "name": "SearchMash",
     "type": "service"
@@ -946,7 +954,7 @@
   {
     "dateClose": "2014-01-31",
     "dateOpen": "2009-03-27",
-    "description": "Bump! is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information, photos and files between devices.",
+    "description": "Bump! is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information, photos, and files between devices.",
     "link": "https://en.wikipedia.org/wiki/Bump_(application)",
     "name": "Bump!",
     "type": "app"
@@ -1074,7 +1082,7 @@
   {
     "dateClose": "2012-12-03",
     "dateOpen": "2008-08-05",
-    "description": "AdSense for Feeds was a RSS-based service for AdSense that allowed publishers to advertise on their RSS Feeds.",
+    "description": "AdSense for Feeds was an RSS-based service for AdSense that allowed publishers to advertise on their RSS Feeds.",
     "link": "https://adsenseforfeeds.blogspot.com/",
     "name": "AdSense for Feeds",
     "type": "service"
@@ -1090,7 +1098,7 @@
   {
     "dateClose": "2009-03-30",
     "dateOpen": "2007-09-30",
-    "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share it.",
+    "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share them.",
     "link": "https://www.google.com/s2/sharing/stuff",
     "name": "Google Shared Stuff",
     "type": "service"
@@ -1266,7 +1274,7 @@
   {
     "dateClose": "2016-04-30",
     "dateOpen": "2009-02-12",
-    "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance and elevation.",
+    "description": "MyTracks was a GPS tracking application for Android which allowed users to track their path, speed, distance, and elevation.",
     "link": "https://en.wikipedia.org/wiki/MyTracks",
     "name": "MyTracks",
     "type": "app"
@@ -1330,7 +1338,7 @@
   {
     "dateClose": "2015-12-11",
     "dateOpen": "2012-01-01",
-    "description": "Timeful was an iOS to do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
+    "description": "Timeful was an iOS to-do list and calendar application, developed to reinvent the way that people manage their most precious resource of time.",
     "link": "https://www.crunchbase.com/organization/timeful#section-overview",
     "name": "Timeful",
     "type": "app"
@@ -1394,7 +1402,7 @@
   {
     "dateClose": "2011-07-01",
     "dateOpen": "2009-11-01",
-    "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
+    "description": "Google Script Converter was an online transliteration tool for transliteration (script conversion) between Hindi, Romanagari, and various other scripts. It's ended because Google shut down Google Labs and all associated projects.",
     "link": "https://en.wikipedia.org/wiki/Google_Script_Converter",
     "name": "Google Script Converter",
     "type": "service"
@@ -1402,7 +1410,7 @@
   {
     "dateClose": "2012-08-20",
     "dateOpen": "2005-01-25",
-    "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded on to other websites.",
+    "description": "Google Video was a free video hosting service from Google, similar to YouTube, that allowed video clips to be hosted on Google servers and embedded onto other websites.",
     "link": "https://en.wikipedia.org/wiki/Google_Video",
     "name": "Google Video",
     "type": "service"
@@ -1426,7 +1434,7 @@
   {
     "dateClose": "2011-12-31",
     "dateOpen": "2009-01-01",
-    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language that attempted to blend the best features of 'old' and 'new' languages and best-practices.",
+    "description": "Noop was a project by Google engineers Alex Eagle and Christian Gruber aiming to develop a new programming language that attempted to blend the best features of 'old' and 'new' languages and best practices.",
     "link": "https://en.wikipedia.org/wiki/Noop",
     "name": "Noop Programming Language",
     "type": "service"
@@ -1434,7 +1442,7 @@
   {
     "dateClose": "2016-02-01",
     "dateOpen": "2013-07-01",
-    "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your own data as well as Google Maps data.",
+    "description": "Google Maps Engine was an online tool for map creation. It enabled you to create layered maps using your data as well as Google Maps data.",
     "link": "https://mangomap.com/blog/the-end-of-google-maps-engine-causes-mass-confusion/",
     "name": "Google Maps Engine",
     "type": "service"
@@ -1466,7 +1474,7 @@
   {
     "dateClose": "2011-07-20",
     "dateOpen": "2009-11-17",
-    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It built on top of image search by grouping images with similar visual and semantic qualities.",
+    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It is built on top of image search by grouping images with similar visual and semantic qualities.",
     "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
     "name": "Google Image Swirl",
     "type": "service"
@@ -1562,7 +1570,7 @@
   {
     "dateClose": "2016-01-31",
     "dateOpen": "2007-11-08",
-    "description": "Songza was a free music streaming service that would recommend its users various playlists based on time of day and mood or activity.",
+    "description": "Songza was a free music streaming service that would recommend its users' various playlists based on time of day and mood or activity.",
     "link": "https://en.wikipedia.org/wiki/Songza",
     "name": "Songza",
     "type": "service"
@@ -1642,7 +1650,7 @@
   {
     "dateClose": "2016-10-31",
     "dateOpen": "2012-05-01",
-    "description": "Pixate was a platform for creating sophisticated animations and interactions, and refine your designs through 100% native prototypes for iOS and Android. ",
+    "description": "Pixate was a platform for creating sophisticated animations and interactions, and refining your designs through 100% native prototypes for iOS and Android. ",
     "link": "https://techcrunch.com/2015/07/21/google-acquires-mobile-app-prototyping-tool-pixate/",
     "name": "Pixate",
     "type": "app"
@@ -1690,7 +1698,7 @@
   {
     "dateClose": "2009-02-12",
     "dateOpen": "2008-07-08",
-    "description": "Google Audio Ads service allowed advertisers to run campaigns on AM/FM radio stations in US using the AdWords interface.",
+    "description": "Google Audio Ads service allowed advertisers to run campaigns on AM/FM radio stations in the US using the AdWords interface.",
     "link": "http://google-tvads.blogspot.com/2009/02/google-exits-radio-but-will-explore.html",
     "name": "Google Audio Ads",
     "type": "service"
@@ -1714,7 +1722,7 @@
   {
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
-    "description": "Google Realtime API provided ways to synchronise resources between devices. It operated on files stored on Google Drive.",
+    "description": "Google Realtime API provided ways to synchronize resources between devices. It operated on files stored on Google Drive.",
     "link": "https://developers.google.com/realtime/deprecation",
     "name": "Google Realtime API",
     "type": "service"
@@ -1730,7 +1738,7 @@
   {
     "dateClose": "2013-11-11",
     "dateOpen": "2010-12-09",
-    "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya and Nigeria to help customers trade goods and services online.",
+    "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya, and Nigeria to help customers trade goods and services online.",
     "link": "https://www.google.com.gh/local/trader/",
     "name": "Google Trader",
     "type": "service"
@@ -1810,7 +1818,7 @@
   {
     "dateClose": "2016-04-01",
     "dateOpen": "2015-12-07",
-    "description": "uWeave (pronounced “micro weave”) was an implementation of the Weave protocol intended for use on microcontroller based devices.",
+    "description": "uWeave (pronounced “micro weave”) was an implementation of the Weave protocol intended for use on microcontroller-based devices.",
     "link": "https://weave.googlesource.com/weave/libweave/+log/master/third_party/libuweave",
     "name": "uWeave",
     "type": "app"
@@ -1834,7 +1842,7 @@
   {
     "dateClose": "2019-12-31",
     "dateOpen": "2012-09-27",
-    "description": "Field Trip was a mobile app that acted as a virtual tour guide by cross referencing multiple sources of information to provide users information about points of interest near them.",
+    "description": "Field Trip was a mobile app that acted as a virtual tour guide by cross-referencing multiple sources of information to provide users information about points of interest near them.",
     "link": "https://en.wikipedia.org/wiki/Field_Trip_(application)",
     "name": "Field Trip",
     "type": "app"
@@ -1906,7 +1914,7 @@
   {
     "dateClose": "2020-02-06",
     "dateOpen": "2011-02-08",
-    "description": "Androidify allowed users to create a custom Android avatar of for themselves and for others.",
+    "description": "Androidify allowed users to create a custom Android avatar for themselves and others.",
     "link": "https://9to5google.com/2020/02/06/google-removes-androidify-app/",
     "name": "Androidify",
     "type": "app"
@@ -1922,7 +1930,7 @@
   {
     "dateClose": "2017-01-01",
     "dateOpen": "2010-03-03",
-    "description": "Google Gesture Search allowed users to search contacts, applications, settings, music and bookmark on their Android device by drawing letters or numbers onto the screen.",
+    "description": "Google Gesture Search allowed users to search contacts, applications, settings, music, and bookmark on their Android device by drawing letters or numbers onto the screen.",
     "link": "https://en.wikipedia.org/wiki/Google_Gesture_Search",
     "name": "Gesture Search",
     "type": "app"
@@ -1930,7 +1938,7 @@
   {
     "dateClose": "2020-10-19",
     "dateOpen": "2017-11-15",
-    "description": "Nest Secure was a security system with an alarm, keypad, and motion sensor with embedded microphone.",
+    "description": "Nest Secure was a security system with an alarm, keypad, and motion sensor with an embedded microphone.",
     "link": "https://www.androidpolice.com/2020/10/19/google-confirms-the-nest-secure-has-been-discontinued/",
     "name": "Nest Secure",
     "type": "hardware"
@@ -1986,7 +1994,7 @@
   {
     "dateClose": "2021-05-31",
     "dateOpen": "2013-08-18",
-    "description": "Timely Alarm Clock was an Android application providing alarm, stopwatch and timer functionality with synchronisation across devices.",
+    "description": "Timely Alarm Clock was an Android application providing an alarm, stopwatch, and timer functionality with synchronization across devices.",
     "link": "http://www.bitspin.ch/google",
     "name": "Timely",
     "type": "app"
@@ -2034,7 +2042,7 @@
   {
     "dateClose": "2021-10-01",
     "dateOpen": "2017-07-01",
-    "description": "Backup and Sync was a desktop software tool for Windows and MacOS that allowed users to sync files from Google Drive to their local machine.",
+    "description": "Backup and Sync was a desktop software tool for Windows and macOS that allowed users to sync files from Google Drive to their local machine.",
     "link": "https://9to5google.com/2021/02/04/google-drive-for-desktop-replace/",
     "name": "Backup and Sync",
     "type": "app"
@@ -2058,7 +2066,7 @@
   {
     "dateClose": "2021-11-05",
     "dateOpen": "2019-11-19",
-    "description": "Your News Update was a service that offed an audio digest of a mix of short news stories chosen in that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
+    "description": "Your News Update was a service that offered an audio digest of a mix of short news stories chosen at that moment based on a user's interests, location, user history, and preferences, as well as the top news stories out there.",
     "link": "https://9to5google.com/2021/11/05/google-assistant-your-news-update/",
     "name": "Your News Update",
     "type": "service"
@@ -2076,7 +2084,7 @@
     "dateOpen": "2018-06-15",
     "dateClose": "2021-07-31",
     "link": "https://ubunlog.com/en/vr180-creator-edito-videovr/",
-    "description": "VR180 Creator allowed users to edit video taken on 180 degree and 360 degree devices on multiple operating systems.",
+    "description": "VR180 Creator allowed users to edit video taken on 180-degree and 360-degree devices on multiple operating systems.",
     "type": "app"
   },
   {
@@ -2140,7 +2148,7 @@
     "dateOpen": "2019-04-10",
     "dateClose": "2023-03-31",
     "link": "https://www.theverge.com/2022/2/10/22928042/google-plus-replacement-wind-down-currents-spaces",
-    "description": "Google Currents was service that provided social media features similar to Google+ for Google Workspace customers.",
+    "description": "Google Currents was a service that provided social media features similar to Google+ for Google Workspace customers.",
     "type": "service"
   },
   {
@@ -2187,7 +2195,7 @@
     "name": "Google Cloud IoT Core",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
-    "link": "https://www.prweb.com/releases/2022/8/prweb18844004.htm",
+    "link": "https://www.iotworldtoday.com/2022/08/23/google-cloud-to-shut-down-iot-core-service/",
     "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
     "type": "service"
   }
