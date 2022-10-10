@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/killedbygoogle?color=%231da1f2&label=%40killedbygoogle&style=flat-square)](https://twitter.com/killedbygoogle)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
 
 </div>
 
