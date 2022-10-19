@@ -1,5 +1,5 @@
 [
- {
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
@@ -2191,12 +2191,20 @@
     "description": "Google Hangouts was a cross-platform instant messaging service.",
     "type": "service"
   },
-    {
+  {
     "name": "Google Cloud IoT Core",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
     "link": "https://www.iotworldtoday.com/2022/08/23/google-cloud-to-shut-down-iot-core-service/",
     "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
     "type": "service"
+  },
+  {
+    "name": "ThreadIt",
+    "dateOpen": "2021-03-18",
+    "dateClose": "2022-12-19",
+    "link": "https://twitter.com/MattNavarra/status/1582818961967939584",
+    "description": "ThreadIt was a tool for recording and sharing short videos.",
+    "type": "app"
   }
 ]
