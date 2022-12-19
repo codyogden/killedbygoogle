@@ -2208,6 +2208,14 @@
     "type": "service"
   },
   {
+    "name": "Polymer",
+    "dateOpen": "2015-05-29",
+    "dateClose": "2021-04-20",
+    "link": "http://polymer-project.org",
+    "description": "Polymer was an open-source JS library for web components",
+    "type": "service"
+  },
+  }
     "name": "Build with Chrome",
     "dateOpen": "2014-01-28",
     "dateClose": "2017-01-31",
