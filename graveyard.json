@@ -2215,7 +2215,7 @@
     "description": "Polymer was an open-source JS library for web components",
     "type": "service"
   },
-  }
+  {
     "name": "Build with Chrome",
     "dateOpen": "2014-01-28",
     "dateClose": "2017-01-31",
