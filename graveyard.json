@@ -2214,7 +2214,7 @@
     "link": "https://techcrunch.com/2022/12/02/google-shuts-down-duplex-on-the-web-its-attempt-to-bring-ai-smarts-to-retail-sites-and-more/",
     "description": "Duplex on the Web was a Google Assistant technology that automated tasks on the web on behalf of a user; such as booking movie tickets or making restaurant reservations.",
     "type": "service"
-  ],
+  },
   {
     "name": "Polymer",
     "dateOpen": "2015-05-29",
