@@ -1,5 +1,13 @@
 [
  {
+    "dateClose": "2022-05-22",
+    "dateOpen": "2015-07-23",
+    "description": "Book on Google was a hotel booking service. Hotels could bid for their placing.",
+    "link": "https://support.google.com/hotelprices/answer/11894893",
+    "name": "Book on Google",
+    "type": "service"
+ },
+ {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
