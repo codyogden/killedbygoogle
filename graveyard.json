@@ -2208,6 +2208,14 @@
     "type": "service"
   },
   {
+    "name": "Threadit",
+    "dateOpen": "2021-03-18",
+    "dateClose": "2022-12-19",
+    "link": "https://9to5google.com/2022/10/19/google-workspace-threadit/",
+    "description": "Threadit was a tool for recording and sharing short videos.",
+    "type": "app"
+  },
+  {
     "name": "Duplex on the Web",
     "dateOpen": "2019-05-07",
     "dateClose": "2022-12-01",
