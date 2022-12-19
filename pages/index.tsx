@@ -4,13 +4,13 @@ import Script from 'next/script';
 import slugify from 'slugify';
 
 // Data
-import graveyard from '../graveyard.json';
+import graveyard from 'graveyard.json';
 
 // Components
-import Header from '../components/Header';
-import App from '../components/App';
-import Footer from '../components/Footer';
-import { ProductWithSlug } from '../types/Product';
+import Header from 'components/Header';
+import App from 'components/App';
+import Footer from 'components/Footer';
+import { ProductWithSlug } from 'types/Product';
 
 const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
 
