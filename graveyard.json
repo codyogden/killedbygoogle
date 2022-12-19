@@ -2199,12 +2199,20 @@
     "description": "Google Hangouts was a cross-platform instant messaging service.",
     "type": "service"
   },
-    {
+  {
     "name": "Google Cloud IoT Core",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
     "link": "https://www.iotworldtoday.com/2022/08/23/google-cloud-to-shut-down-iot-core-service/",
     "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
+    "type": "service"
+  },
+  {
+    "name": "Build with Chrome",
+    "dateOpen": "2014-01-28",
+    "dateClose": "2017-01-31",
+    "link": "https://brickipedia.fandom.com/wiki/Build_with_Chrome",
+    "description": "Build with Chrome was a collaboration between Chrome and the LEGO Group that allowed users to build and publish LEGO creations to any digital plot of land in the world through Google Maps.",
     "type": "service"
   }
 ]
