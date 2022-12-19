@@ -1,5 +1,5 @@
 [
- {
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
@@ -2205,6 +2205,14 @@
     "dateClose": "2023-08-16",
     "link": "https://www.iotworldtoday.com/2022/08/23/google-cloud-to-shut-down-iot-core-service/",
     "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
+    "type": "service"
+  },
+  {
+    "name": "Duplex on the Web",
+    "dateOpen": "2019-05-07",
+    "dateClose": "2022-12-01",
+    "link": "https://techcrunch.com/2022/12/02/google-shuts-down-duplex-on-the-web-its-attempt-to-bring-ai-smarts-to-retail-sites-and-more/",
+    "description": "Duplex on the Web was a Google Assistant technology that automated tasks on the web on behalf of a user; such as booking movie tickets or making restaurant reservations.",
     "type": "service"
   },
   {
