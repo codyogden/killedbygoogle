@@ -28,8 +28,13 @@ export default function Item(props: ProductWithSlug) {
     return new Date() > new Date(props.dateClose);
   };
 
+
+  const dateOpen = parseISO(props.dateOpen);
+  const dateClose = parseISO(props.dateClose);
+  const relativeDate = formatDistanceToNow(dateClose);
+
   const getYears = () => {
-    const duration = formatDistance(parseISO(props.dateClose), parseISO(props.dateOpen));
+    const duration = formatDistance(dateClose, dateOpen);
 
     if (!isPast()) {
       return ` It will be ${duration} old.`;
@@ -45,33 +50,28 @@ export default function Item(props: ProductWithSlug) {
     );
   };
 
-
-  const dateCloseISO = parseISO(props.dateClose);
-  const relativeDate = formatDistanceToNow(dateCloseISO);
-
   const ageRange = () => {
-    const monthOpen = format(parseISO(props.dateClose), 'LLLL');
-    const yearOpen = format(parseISO(props.dateOpen), 'uuuu');
-    const yearClose = format(parseISO(props.dateClose), 'uuuu');
+    const yearOpen = dateOpen.getFullYear();
+    const yearClose = dateClose.getFullYear();
     if (!isPast()) {
-      const date = parseISO(props.dateClose);
+      const monthClose = format(dateClose, 'LLLL');
       return (
         <AgeRange>
-          <time dateTime={format(date, 'uuuu-LL-dd')}>
-            {monthOpen}
+          <time dateTime={props.dateClose} title={`${props.dateClose}`}>
+            {monthClose}
             <br />
-            {format(date, 'uuuu')}
+            {yearClose}
           </time>
         </AgeRange>
       );
     }
     return (
       <AgeRange>
-        <time dateTime={format(parseISO(props.dateOpen), 'uuuu-LL-dd')}>
+        <time dateTime={props.dateOpen} title={props.dateOpen}>
           {yearOpen}
         </time>
         {' - '}
-        <time dateTime={format(parseISO(props.dateClose), 'uuuu-LL-dd')}>
+        <time dateTime={props.dateClose} title={props.dateClose}>
           {yearClose}
         </time>
       </AgeRange>
