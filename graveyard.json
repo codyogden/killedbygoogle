@@ -1,10 +1,26 @@
 [
+ {
+    "dateClose": "2022-11-01",
+    "dateOpen": "2012-03-29",
+    "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
+    "link": "https://www.searchenginejournal.com/google-surveys-is-shutting-down/465287/",
+    "name": "Google Surveys",
+    "type": "service"
+  },
   {
     "dateClose": "2023-01-18",
     "dateOpen": "2019-11-19",
     "description": "Google Stadia was a cloud gaming service combining a WiFi gaming controller and allowed users to stream gameplay through web browsers, TV, mobile apps, and Chromecast.",
     "link": "https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023/",
     "name": "Google Stadia",
+    "type": "service"
+  },
+  {
+    "dateClose": "2022-06-01",
+    "dateOpen": "2016-08-16",
+    "description": "Google Duo was a video calling app that allowed people to call someone from their contact list.",
+    "link": "https://en.wikipedia.org/wiki/Google_Duo",
+    "name": "Google Duo",
     "type": "service"
   },
   {
@@ -2197,6 +2213,14 @@
     "dateClose": "2021-04-20",
     "link": "http://polymer-project.org",
     "description": "Polymer was an open-source JS library for web components",
+    "type": "service"
+  },
+  }
+    "name": "Build with Chrome",
+    "dateOpen": "2014-01-28",
+    "dateClose": "2017-01-31",
+    "link": "https://brickipedia.fandom.com/wiki/Build_with_Chrome",
+    "description": "Build with Chrome was a collaboration between Chrome and the LEGO Group that allowed users to build and publish LEGO creations to any digital plot of land in the world through Google Maps.",
     "type": "service"
   }
 ]

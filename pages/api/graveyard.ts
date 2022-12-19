@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import slugify from 'slugify';
-import { Product } from '../../types/Product';
+import { Product } from 'types/Product';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     const data = await require('../../graveyard.json');

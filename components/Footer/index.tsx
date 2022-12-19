@@ -1,10 +1,10 @@
 import { FC } from 'react';
 import styled from '@emotion/styled';
-import { css } from '@emotion/react'; 
+import { css } from '@emotion/react';
 
 // Import Styled Components
-import { FooterContainer, FlexWrap } from './Footer.atoms';
-import { PressCoverage } from '../../components';
+import { FooterContainer, FlexWrap } from 'components/Footer/Footer.atoms';
+import { PressCoverage } from 'components';
 import Link from 'next/link';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
@@ -102,9 +102,7 @@ const Footer = () => (
             &nbsp;from around the world help compile, research, and maintain the
             information about dying and dead Google products. You can join the
             discussion on&nbsp;
-            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>, or
-            follow us on&nbsp;
-            <a href="https://twitter.com/killedbygoogle">Twitter</a>. A project
+            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>. A project
             by&nbsp;
             <a
                             href="https://codyogden.com"
@@ -139,11 +137,6 @@ const Footer = () => (
                         url="https://github.com/codyogden/killedbygoogle"
                         altText="GitHub"
                         imgSrc='https://static.killedbygoogle.com/com/github.svg'
-                    />
-                    <SocialLink
-                        url="https://twitter.com/killedbygoogle"
-                        altText="Twitter"
-                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
                     />
                 </SocialWrapper>
             </FlexWrap>
