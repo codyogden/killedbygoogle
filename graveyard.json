@@ -2238,5 +2238,13 @@
     "link": "https://brickipedia.fandom.com/wiki/Build_with_Chrome",
     "description": "Build with Chrome was a collaboration between Chrome and the LEGO Group that allowed users to build and publish LEGO creations to any digital plot of land in the world through Google Maps.",
     "type": "service"
+  },
+  {
+    "name": "Google Street View app",
+    "dateOpen": "2010-09-09",
+    "dateClose": "2023-03-21",
+    "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
+    "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
+    "type": "app"
   }
 ]
