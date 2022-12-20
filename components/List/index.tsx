@@ -1,15 +1,14 @@
-import { useState } from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 
-import { ProductWithSlug } from '../../types/Product';
+import { ProductWithSlug } from 'types/Product';
 
-import { Carbon, SRT } from '../../components';
-import Item from './Item';
+import { Carbon, SRT } from 'components';
+import Item from 'components/List/Item';
 import {
     ListItem,
-} from './Item.atoms';
-import { ListContainer } from './List.atoms';
+} from 'components/List/Item.atoms';
+import { ListContainer } from 'components/List/List.atoms';
 import Link from 'next/link';
 
 

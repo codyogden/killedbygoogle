@@ -16,6 +16,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2022-06-01",
+    "dateOpen": "2016-08-16",
+    "description": "Google Duo was a video calling app that allowed people to call someone from their contact list.",
+    "link": "https://en.wikipedia.org/wiki/Google_Duo",
+    "name": "Google Duo",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-06-21",
     "dateOpen": "2019-11-04",
     "description": "Android Auto for phone screens was an app that allowed the screen of the phone to be used as an Android Auto interface while driving, intended for vehicles that did not have a compatible screen built in.",
@@ -80,7 +88,7 @@
     "type": "app"
   },
   {
-    "dateClose": "2022-12-19",
+    "dateClose": "2023-01-11",
     "dateOpen": "2015-08-31",
     "description": "Google OnHub was a series of residential wireless routers manufactured by Asus and TP-Link that were powered by Google software, managed by Google apps, and offered enhanced special features like Google Assistant.",
     "link": "https://en.wikipedia.org/wiki/Google_OnHub",
@@ -1107,7 +1115,7 @@
     "dateClose": "2007-12-31",
     "dateOpen": "2001-01-01",
     "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
-    "link": "https://www.lifewire.com/google-zeitgeist-3481903",
+    "link": "https://web.archive.org/web/20210312230138/https://www.lifewire.com/google-zeitgeist-3481903",
     "name": "Zeitgeist",
     "type": "service"
   },
@@ -2197,6 +2205,38 @@
     "dateClose": "2023-08-16",
     "link": "https://www.iotworldtoday.com/2022/08/23/google-cloud-to-shut-down-iot-core-service/",
     "description": "Google Cloud IoT Core was a managed service designed to let customers securely connect, manage, and ingest data from globally dispersed devices.",
+    "type": "service"
+  },
+  {
+    "name": "Threadit",
+    "dateOpen": "2021-03-18",
+    "dateClose": "2022-12-19",
+    "link": "https://9to5google.com/2022/10/19/google-workspace-threadit/",
+    "description": "Threadit was a tool for recording and sharing short videos.",
+    "type": "app"
+  },
+  {
+    "name": "Duplex on the Web",
+    "dateOpen": "2019-05-07",
+    "dateClose": "2022-12-01",
+    "link": "https://techcrunch.com/2022/12/02/google-shuts-down-duplex-on-the-web-its-attempt-to-bring-ai-smarts-to-retail-sites-and-more/",
+    "description": "Duplex on the Web was a Google Assistant technology that automated tasks on the web on behalf of a user; such as booking movie tickets or making restaurant reservations.",
+    "type": "service"
+  },
+  {
+    "name": "Polymer",
+    "dateOpen": "2015-05-29",
+    "dateClose": "2021-04-20",
+    "link": "http://polymer-project.org",
+    "description": "Polymer was an open-source JS library for web components",
+    "type": "service"
+  },
+  {
+    "name": "Build with Chrome",
+    "dateOpen": "2014-01-28",
+    "dateClose": "2017-01-31",
+    "link": "https://brickipedia.fandom.com/wiki/Build_with_Chrome",
+    "description": "Build with Chrome was a collaboration between Chrome and the LEGO Group that allowed users to build and publish LEGO creations to any digital plot of land in the world through Google Maps.",
     "type": "service"
   },
   {
