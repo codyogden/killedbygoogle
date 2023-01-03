@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2022-12-24",
+    "dateOpen": "2020-10-16",
+    "description": "Google Taskmate was a crowdsourcing platform developed by Google that allows users to earn money by completing tasks on their smartphones. It was launched in 2020.",
+    "link" : "https://support.google.com/taskmate/answer/10217365#zippy=%2Cwhat-happens-to-tasks",
+    "name": "Google Taskmate",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
