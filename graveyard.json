@@ -2238,5 +2238,13 @@
     "link": "https://brickipedia.fandom.com/wiki/Build_with_Chrome",
     "description": "Build with Chrome was a collaboration between Chrome and the LEGO Group that allowed users to build and publish LEGO creations to any digital plot of land in the world through Google Maps.",
     "type": "service"
+  },
+  {
+    "name": "Google Optimize",
+    "dateOpen": "2012-06-01",
+    "dateClose": "2023-09-30",
+    "link": "https://support.google.com/optimize/answer/12979939",
+    "description": "Google Optimize was a web analytics and testing tool that allowed users to run experiments aimed at increasing visitor conversion rates and overall satisfaction.",
+    "type": "service"
   }
 ]
