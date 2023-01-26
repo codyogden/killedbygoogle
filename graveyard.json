@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2013-01-30",
+    "dateOpen": "2009-02-09",
+    "description": "Google Sync was a file synchronization service that provided over-the-air synchronization.",
+    "link": "https://blog.google/inside-google/company-announcements/winter-cleaning/",
+    "name": "Google Sync",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
