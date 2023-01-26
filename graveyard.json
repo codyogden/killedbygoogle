@@ -3,7 +3,7 @@
     "dateClose": "2022-01-06",
     "dateOpen": "2011-09-16",
     "description": "Google Native Client was a sandboxing technology for running native code from a web browser,",
-    "link": "https://developer.chrome.com/docs/native-client/",
+    "link": "https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html",
     "name": "Google Native Client",
     "type": "service"
   },
