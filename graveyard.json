@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2022-01-06",
+    "dateOpen": "2011-09-16",
+    "description": "Google Native Client was a sandboxing technology for running native code from a web browser,",
+    "link": "https://developer.chrome.com/docs/native-client/",
+    "name": "Google Native Client",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
