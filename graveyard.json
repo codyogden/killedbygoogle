@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2023-03-27",
+    "dateOpen": "2017-01-05",
+    "description": "Fitbit challenges and adventures were shared social fitness challenges where members of a group could compete and support each other to improve their step count over a period of time.",
+    "link": "https://www.theverge.com/2023/2/17/23603101/fitbit-google-challenges-adventures-community",
+    "name": "Fitbit Challenges and Adventures",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
