@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2023-02-23",
+    "dateOpen": "2017-03-25",
+    "description": "Kick Start is one of Google's online coding competitions offering programmers of all skill levels the opportunity to hone your skills through a series of online rounds hosted throughout the year.",
+    "link": "https://codeforces.com/blog/entry/113154",
+    "name": "Google Coding Competitions",
+    "type": "service"
+  },
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
