@@ -8,6 +8,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2023-02-23",
+    "dateOpen": "2003-10-01",
+    "description": "Google Code Jam, Kick Start, and Hash Node were competitive programming competitions open to programmers around the world.",
+    "link": "https://en.wikipedia.org/wiki/Google_Code_Jam",
+    "name": "Google Code Competitions",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-01-18",
     "dateOpen": "2019-11-19",
     "description": "Google Stadia was a cloud gaming service combining a WiFi gaming controller and allowed users to stream gameplay through web browsers, TV, mobile apps, and Chromecast.",
