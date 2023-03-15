@@ -2262,5 +2262,13 @@
     "link": "https://support.grasshopper.app/t/grasshopper-is-shutting-down-on-june-15-2023/61994",
     "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
     "type": "app"
+  },
+  {
+    "name": "Glass Enterprise Edition",
+    "dateOpen": "2017-07-01",
+    "dateClose": "2023-09-15",
+    "link": "https://support.google.com/glass-enterprise/customer/answer/13417888",
+    "description": "Glass Enterprise Edition was a head-up display for enterprise customers.",
+    "type": "hardware"
   }
 ]
