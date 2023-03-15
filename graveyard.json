@@ -2254,5 +2254,13 @@
     "link": "https://support.google.com/optimize/answer/12979939",
     "description": "Google Optimize was a web analytics and testing tool that allowed users to run experiments aimed at increasing visitor conversion rates and overall satisfaction.",
     "type": "service"
+  },
+  {
+    "name": "Grasshopper",
+    "dateOpen": "2018-04-18",
+    "dateClose": "2023-06-15",
+    "link": "https://support.grasshopper.app/t/grasshopper-is-shutting-down-on-june-15-2023/61994",
+    "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
+    "type": "app"
   }
 ]
