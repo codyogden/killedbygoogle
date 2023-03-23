@@ -1,5 +1,14 @@
 [
   {
+    "dateClose": "2023-03-17",
+    "dateOpen": "2014-01-01",
+    "description": "Jacquard was a small tag to make it easier and more intuitive for people to interact with technology in their everyday lives, without having to constantly pull out their devices or touch screens.",
+    "link": "https://www.androidpolice.com/google-project-jacquard-shutting-down/",
+    "name": "Jacquard",
+    "type": "hardware"
+  },
+
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
