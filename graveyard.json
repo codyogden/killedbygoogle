@@ -2257,6 +2257,14 @@
     "type": "service"
   },
   {
+    "name": "Google Street View (standalone app)",
+    "dateOpen": "2010-09-09",
+    "dateClose": "2023-03-21",
+    "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
+    "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
+    "type: "app"
+   },
+   {
     "name": "Google Optimize",
     "dateOpen": "2012-06-01",
     "dateClose": "2023-09-30",
