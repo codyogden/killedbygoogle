@@ -1,10 +1,27 @@
 [
   {
+    "dateClose": "2023-03-17",
+    "dateOpen": "2014-01-01",
+    "description": "Jacquard was a small tag to make it easier and more intuitive for people to interact with technology in their everyday lives, without having to constantly pull out their devices or touch screens.",
+    "link": "https://www.androidpolice.com/google-project-jacquard-shutting-down/",
+    "name": "Jacquard",
+    "type": "hardware"
+  },
+
+  {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
     "description": "Google Surveys was a business product by Google aimed at facilitating customized market research.",
     "link": "https://www.searchenginejournal.com/google-surveys-is-shutting-down/465287/",
     "name": "Google Surveys",
+    "type": "service"
+  },
+  {
+    "dateClose": "2023-02-23",
+    "dateOpen": "2003-10-01",
+    "description": "Google Code Jam, Kick Start, and Hash Code were competitive programming competitions open to programmers around the world.",
+    "link": "https://en.wikipedia.org/wiki/Google_Code_Jam",
+    "name": "Google Code Competitions",
     "type": "service"
   },
   {
@@ -147,7 +164,7 @@
     "dateClose": "2021-06-15",
     "dateOpen": "2011-05-10",
     "description": "Google Play Movies & TV, originally Google TV, was an app used to view purchased and rented media and was ultimately replaced with YouTube.",
-    "link": "https://en.wikipedia.org/wiki/Google_TV",
+    "link": "https://en.wikipedia.org/wiki/Google_TV_(service)",
     "name": "Google Play Movies & TV",
     "type": "app"
   },
@@ -386,7 +403,7 @@
   {
     "dateClose": "2019-09-03",
     "dateOpen": "2013-11-29",
-    "description": "YouTube app for Nintendo 3DS, 2DS, and New 3DS allowed users to stream YouTube videos on the portable gaming console.",
+    "description": "YouTube for Nintendo 3DS allowed users to stream YouTube videos on the portable gaming console.",
     "link": "https://9to5google.com/2019/08/26/youtube-nintendo-3ds-app-shut-down/",
     "name": "YouTube for Nintendo 3DS",
     "type": "app"
@@ -531,7 +548,7 @@
     "dateClose": "2006-05-08",
     "dateOpen": "2003-11-10",
     "description": "Google Deskbar was a small inset window on the Windows toolbar and allowed users to perform searches without leaving the desktop.",
-    "link": "https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
+    "link": "https://web.archive.org/web/20210225060348/https://www.computerweekly.com/news/2240053391/Google-launches-Deskbar-software",
     "name": "Google Deskbar",
     "type": "service"
   },
@@ -1115,7 +1132,7 @@
     "dateClose": "2007-12-31",
     "dateOpen": "2001-01-01",
     "description": "Google Zeitgeist was a weekly, monthly, and yearly snapshot in time of what people were searching for on Google all over the world.",
-    "link": "https://www.lifewire.com/google-zeitgeist-3481903",
+    "link": "https://web.archive.org/web/20210312230138/https://www.lifewire.com/google-zeitgeist-3481903",
     "name": "Zeitgeist",
     "type": "service"
   },
@@ -2240,11 +2257,27 @@
     "type": "service"
   },
   {
-    "name": "Google Street View app",
+    "name": "Google Street View (standalone app)",
     "dateOpen": "2010-09-09",
     "dateClose": "2023-03-21",
     "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
     "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
+    "type: "app"
+   },
+   {
+    "name": "Google Optimize",
+    "dateOpen": "2012-06-01",
+    "dateClose": "2023-09-30",
+    "link": "https://support.google.com/optimize/answer/12979939",
+    "description": "Google Optimize was a web analytics and testing tool that allowed users to run experiments aimed at increasing visitor conversion rates and overall satisfaction.",
+    "type": "service"
+  },
+  {
+    "name": "Grasshopper",
+    "dateOpen": "2018-04-18",
+    "dateClose": "2023-06-15",
+    "link": "https://support.grasshopper.app/t/grasshopper-is-shutting-down-on-june-15-2023/61994",
+    "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
     "type": "app"
   }
 ]
