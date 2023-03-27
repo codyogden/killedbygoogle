@@ -1184,14 +1184,6 @@
     "type": "service"
   },
   {
-    "dateClose": "2015-01-15",
-    "dateOpen": "2013-04-15",
-    "description": "Google Glass Explorer Edition was a wearable computer with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands.",
-    "link": "https://en.wikipedia.org/wiki/Google_Glass",
-    "name": "Google Glass Explorer Edition",
-    "type": "hardware"
-  },
-  {
     "dateClose": "2014-02-21",
     "dateOpen": "2012-11-30",
     "description": "BufferBox was a Canadian startup that provided consumers 24/7 convenience of picking up their online purchases.",
@@ -1264,12 +1256,12 @@
     "type": "service"
   },
   {
-    "dateClose": "2017-06-20",
+    "dateClose": "2023-09-15",
     "dateOpen": "2013-04-11",
-    "description": "Glass OS (Google XE) was a version of Google's Android operating system designed for Google Glass.",
-    "link": "https://en.wikipedia.org/wiki/Glass_OS",
-    "name": "Glass OS",
-    "type": "service"
+    "description": "Google Glass was a line of wearable computers running Glass OS with an optical head-mounted display and camera that allows the wearer to interact with various applications and the Internet via natural language voice commands which came in two editions: Google Glass Explorer Edition and Google Glass Enterprise Edition.",
+    "link": "https://en.wikipedia.org/wiki/Google_Glass",
+    "name": "Google Glass",
+    "type": "hardware"
   },
   {
     "dateClose": "2018-08-28",
