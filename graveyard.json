@@ -7,7 +7,6 @@
     "name": "Jacquard",
     "type": "hardware"
   },
-
   {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
@@ -2263,8 +2262,8 @@
     "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
     "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
     "type": "app"
-   },
-   {
+  },
+  {
     "name": "Google Optimize",
     "dateOpen": "2012-06-01",
     "dateClose": "2023-09-30",
@@ -2278,6 +2277,14 @@
     "dateClose": "2023-06-15",
     "link": "https://support.grasshopper.app/t/grasshopper-is-shutting-down-on-june-15-2023/61994",
     "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
+    "type": "app"
+  },
+  {
+    "name": "Chrome Cleanup Tool",
+    "dateOpen": "2014-11-11",
+    "dateClose": "2023-03-01",
+    "link": "https://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html",
+    "description": "Chrome Cleanup Tool was an application distributed to Chrome users on Windows to help find and remove unwanted software",
     "type": "app"
   }
 ]
