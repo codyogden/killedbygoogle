@@ -9,6 +9,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         '@': '-at',
     });
     res.setHeader('Cache-Control', 'max-age=3600, public');
+    res.setHeader('Access-Control-Allow-Origin', '*'); 
     return res.status(200).json(data.map((item: Product) => ({
         ...item,
         slug: slugify(item.name, {
