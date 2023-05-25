@@ -1,4 +1,12 @@
 [
+   {
+    "dateClose": "2023-06-26",
+    "dateOpen": "2017-11-29",
+    "description": "YouTube Stories allowed creators to post temporary videos that expire after 7 days. It was previously called YouTube Reels.",
+    "link": "https://support.google.com/youtube/thread/217640760",
+    "name": "YouTube Stories",
+    "type": "service"
+  },
   {
     "dateClose": "2023-03-17",
     "dateOpen": "2014-01-01",
@@ -7,7 +15,6 @@
     "name": "Jacquard",
     "type": "hardware"
   },
-
   {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
