@@ -1,4 +1,12 @@
 [
+    {
+    "dateClose": "2023-07-19",
+    "dateOpen": "2016-08-05",
+    "description": "Google Album Archive was a service where photos from Google products like Hangouts would be stored.",
+    "link": "https://cordcuttersnews.com/google-is-shutting-down-album-archive/",
+    "name": "Google Album Archive",
+    "type": "service"
+  },
   {
     "dateClose": "2023-09-30",
     "dateOpen": "2014-06-13",
