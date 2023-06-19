@@ -1,5 +1,13 @@
 [
-    {
+  {
+    "dateClose": "2023-06-26",
+    "dateOpen": "2017-11-29",
+    "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
+    "link": "https://www.theverge.com/2023/5/25/23736246/youtube-ending-stories-shorts-community-posts",
+    "name": "YouTube Stories",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-07-19",
     "dateOpen": "2016-08-05",
     "description": "Google Album Archive was a platform that allowed users to access and manage their archived photos and videos from various Google services, such as Hangouts and Picasa Web Albums.",
