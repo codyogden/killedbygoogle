@@ -1,0 +1,13 @@
+{
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "dotenv-cli": "^7.2.1",
+    "turbo": "^1.10.6"
+  },
+  "scripts": {
+    "dev": "dotenv -- turbo run dev"
+  }
+}
