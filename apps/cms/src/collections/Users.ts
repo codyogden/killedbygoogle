@@ -7,7 +7,7 @@ const Users: CollectionConfig = {
     useAsTitle: 'name',
   },
   access: {
-    read: () => true,
+    read: () => false,
   },
   fields: [
     {
