@@ -2296,11 +2296,11 @@
     "type": "service"
   },
   {
-    "name": "Grasshopper",
-    "dateOpen": "2018-04-18",
-    "dateClose": "2023-06-15",
-    "link": "https://www.androidpolice.com/google-grasshopper-code-learning-shut-down-date-revealed/",
-    "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
+    "name": "Google Input Tools on Windows",
+    "dateOpen": "2009-12-01",
+    "dateClose": "2018-05-01",
+    "link": "https://en.wikipedia.org/wiki/Google_IME",
+    "description": "Google Input Tools on Windows was an offline IME for 22 languages.",
     "type": "app"
   }
 ]
