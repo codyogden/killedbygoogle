@@ -7,6 +7,30 @@
     "name": "Google Native Client",
     "type": "service"
   },
+    "dateClose": "2023-06-26",
+    "dateOpen": "2017-11-29",
+    "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
+    "link": "https://www.theverge.com/2023/5/25/23736246/youtube-ending-stories-shorts-community-posts",
+    "name": "YouTube Stories",
+    "type": "service"
+  },
+  {
+    "dateClose": "2023-07-19",
+    "dateOpen": "2016-08-05",
+    "description": "Google Album Archive was a platform that allowed users to access and manage their archived photos and videos from various Google services, such as Hangouts and Picasa Web Albums.",
+    "link": "https://cordcuttersnews.com/google-is-shutting-down-album-archive/",
+    "name": "Google Album Archive",
+    "type": "service"
+  },
+  {
+    "dateClose": "2023-09-30",
+    "dateOpen": "2014-06-13",
+    "description": "Google Domains was a domain name registrar operated by Google.",
+    "link": "https://9to5google.com/2023/06/15/google-domains-squarespace/",
+    "name": "Google Domains",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-03-17",
     "dateOpen": "2014-01-01",
     "description": "Jacquard was a small tag to make it easier and more intuitive for people to interact with technology in their everyday lives, without having to constantly pull out their devices or touch screens.",
@@ -985,7 +1009,7 @@
   {
     "dateClose": "2014-01-31",
     "dateOpen": "2009-03-27",
-    "description": "Bump! is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information, photos, and files between devices.",
+    "description": "Bump! was an iOS and Android mobile app that enabled smartphone users to transfer contact information, photos, and files between devices.",
     "link": "https://en.wikipedia.org/wiki/Bump_(application)",
     "name": "Bump!",
     "type": "app"
@@ -2282,7 +2306,7 @@
     "name": "Grasshopper",
     "dateOpen": "2018-04-18",
     "dateClose": "2023-06-15",
-    "link": "https://support.grasshopper.app/t/grasshopper-is-shutting-down-on-june-15-2023/61994",
+    "link": "https://www.androidpolice.com/google-grasshopper-code-learning-shut-down-date-revealed/",
     "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
     "type": "app"
   }
