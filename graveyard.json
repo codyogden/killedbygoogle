@@ -2286,8 +2286,8 @@
     "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
     "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
     "type": "app"
-   },
-   {
+  },
+  {
     "name": "Google Optimize",
     "dateOpen": "2012-06-01",
     "dateClose": "2023-09-30",
@@ -2302,5 +2302,13 @@
     "link": "https://www.androidpolice.com/google-grasshopper-code-learning-shut-down-date-revealed/",
     "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
     "type": "app"
+  },
+  {
+    "name": "AdLingo",
+    "dateOpen": "2018-10-01",
+    "dateClose": "2023-01-20",
+    "link": "https://techcrunch.com/2023/01/20/area-120-googles-in-house-incubator-severely-impacted-by-alphabet-mass-layoffs/",
+    "description": "AdLingo was a marketing platform for Conversational Ads originally incubated inside Area 120 and eventually integrated into Google Business Messages before its final deprecation in 2023.",
+    "type": "service"
   }
 ]
