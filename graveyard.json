@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2024-11-01",
+    "dateOpen": "2016-06-10",
+    "description": "Firebase Dynamic Links was a service which allowed creating links which could behave as iOS links, Android App links, or browser links",
+    "link": "https://firebase.google.com/support/dynamic-links-faq",
+    "name": "Firebase Dynamic Links",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-06-26",
     "dateOpen": "2017-11-29",
     "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
