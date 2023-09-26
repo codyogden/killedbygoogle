@@ -2310,5 +2310,13 @@
     "link": "https://9to5google.com/2023/09/26/google-podcasts-youtube-music/",
     "description": "Google Podcasts was a podcast hosting platform and an Android podcast listening app.",
     "type": "app"
+  },
+  {
+    "name": "Google Basic Gmail View (HTML Version)",
+    "dateOpen": "2004-04-01",
+    "dateClose": "2023-12-31",
+    "link": "https://9to5google.com/2023/09/25/gmail-basic-html-removal/",
+    "description": "Basic HTML view of Gmail was a simplified version designed for slower connections and older devices.",
+    "type": "service"
   }
 ]
