@@ -2302,5 +2302,13 @@
     "link": "https://www.androidpolice.com/google-grasshopper-code-learning-shut-down-date-revealed/",
     "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
     "type": "app"
+  },
+  {
+    "name": "Google Podcasts",
+    "dateOpen": "2018-06-18",
+    "dateClose": "2024-12-31",
+    "link": "https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/",
+    "description": "Google Podcasts was a podcast hosting platform and an Android podasct listening app.",
+    "type": "service"
   }
 ]
