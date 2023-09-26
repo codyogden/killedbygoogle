@@ -2306,9 +2306,9 @@
   {
     "name": "Google Podcasts",
     "dateOpen": "2018-06-18",
-    "dateClose": "2024-12-31",
-    "link": "https://blog.youtube/news-and-events/podcast-destination-on-youtube-music/",
-    "description": "Google Podcasts was a podcast hosting platform and an Android podasct listening app.",
-    "type": "service"
+    "dateClose": "2024-09-30",
+    "link": "https://9to5google.com/2023/09/26/google-podcasts-youtube-music/",
+    "description": "Google Podcasts was a podcast hosting platform and an Android podcast listening app.",
+    "type": "app"
   }
 ]
