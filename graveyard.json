@@ -2286,8 +2286,8 @@
     "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
     "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
     "type": "app"
-   },
-   {
+  },
+  {
     "name": "Google Optimize",
     "dateOpen": "2012-06-01",
     "dateClose": "2023-09-30",
@@ -2309,6 +2309,22 @@
     "dateClose": "2024-09-30",
     "link": "https://9to5google.com/2023/09/26/google-podcasts-youtube-music/",
     "description": "Google Podcasts was a podcast hosting platform and an Android podcast listening app.",
+    "type": "app"
+  },
+  {
+    "name": "Jamboard",
+    "dateOpen": "2017-05-23",
+    "dateClose": "2024-09-30",
+    "link": "https://9to5google.com/2023/09/28/google-jamboard/",
+    "description": "Jamboard digital 4K touchscreen whiteboard allowed to collaborate using Google Workspace services.",
+    "type": "hardware"
+  },
+  {
+    "name": "Google Jamboard",
+    "dateOpen": "2016-10-25",
+    "dateClose": "2024-12-31",
+    "link": "https://9to5google.com/2023/09/28/google-jamboard/",
+    "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
   }
 ]
