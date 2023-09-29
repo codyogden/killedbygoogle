@@ -2310,5 +2310,13 @@
     "link": "https://9to5google.com/2023/09/26/google-podcasts-youtube-music/",
     "description": "Google Podcasts was a podcast hosting platform and an Android podcast listening app.",
     "type": "app"
+  },
+  {
+    "name": "Google Jamboard",
+    "dateOpen": "2017-05-23",
+    "dateClose": "2024-12-31",
+    "link": "https://support.google.com/jamboard/answer/14084927",
+    "description": "Jamboard was a digital interactive whiteboard developed by Google to work with Google Workspace",
+    "type": "app"
   }
 ]
