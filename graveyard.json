@@ -314,7 +314,7 @@
   {
     "dateClose": "2020-03-19",
     "dateOpen": "2018-05-09",
-    "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material-based design system for your app.",
+    "description": "Material Theme Editor was a plugin for Sketch App which aloowed you to create a material-based design system for your app.",
     "link": "https://medium.com/google-design/whats-next-for-material-design-s-theming-tools-f65014ffcce7",
     "name": "Material Theme Editor",
     "type": "app"
@@ -322,7 +322,7 @@
   {
     "dateClose": "2020-02-17",
     "dateOpen": "2015-09-27",
-    "description": "Google Station is a service that gives partners an easy set of tools to roll out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable, and safe Wi-Fi zones.",
+    "description": "Google Station was a service that gave partners an easy set of tools to roll out Wi-Fi hotspots in public places. Google Station provided software and guidance on hardware to turn fiber connections into fast, reliable, and safe Wi-Fi zones.",
     "link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
     "name": "Google Station",
     "type": "service"
@@ -458,7 +458,7 @@
   {
     "dateClose": "2019-09-30",
     "dateOpen": "2011-01-27",
-    "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery is updated.",
+    "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery was updated.",
     "link": "https://maps.googleblog.com/2011/01/sign-up-for-imagery-update-alert.html",
     "name": "Follow Your World",
     "type": "service"
@@ -1466,7 +1466,7 @@
   {
     "dateClose": "2011-10-13",
     "dateOpen": "2010-12-15",
-    "description": "ZygoteBody, formerly Google Body, is a web application by Zygote Media Group that renders manipulable 3D anatomical models of the human body.",
+    "description": "ZygoteBody, formerly Google Body, was a web application by Zygote Media Group that rendered manipulable 3D anatomical models of the human body.",
     "link": "https://en.wikipedia.org/wiki/ZygoteBody",
     "name": "ZygoteBody",
     "type": "service"
@@ -1522,7 +1522,7 @@
   {
     "dateClose": "2011-07-20",
     "dateOpen": "2009-11-17",
-    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It is built on top of image search by grouping images with similar visual and semantic qualities.",
+    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It was built on top of image search by grouping images with similar visual and semantic qualities.",
     "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
     "name": "Google Image Swirl",
     "type": "service"
@@ -1930,7 +1930,7 @@
   {
     "dateClose": "2019-10-01",
     "dateOpen": "2013-11-21",
-    "description": "Message Center is a web console where Gmail users view and manage spam email messages.",
+    "description": "Message Center was a web console where Gmail users could view and manage spam email messages.",
     "link": "https://support.google.com/a/answer/9275489",
     "name": "Message Center",
     "type": "service"
@@ -1994,7 +1994,7 @@
   {
     "dateClose": "2021-06-30",
     "dateOpen": "2015-08-01",
-    "description": "Expeditions is a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
+    "description": "Expeditions was a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
     "link": "https://en.wikipedia.org/wiki/Google_Expeditions",
     "name": "Expeditions",
     "type": "app"
@@ -2074,7 +2074,7 @@
   {
     "dateClose": "2021-12-16",
     "dateOpen": "2018-05-08",
-    "description": "Material Gallery is a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
+    "description": "Material Gallery was a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
     "link": "https://support.google.com/materialgallery/answer/11044972?hl=en&ref_topic=11045865",
     "name": "Material Gallery",
     "type": "service"
