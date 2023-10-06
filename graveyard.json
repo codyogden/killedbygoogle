@@ -2310,5 +2310,29 @@
     "link": "https://support.google.com/pixelpass/answer/13968577",
     "description": "A way to help users save money by bundling Pixel phones with Google services.",
     "type": "service"
+  },
+  }
+    "name": "Google Podcasts",
+    "dateOpen": "2018-06-18",
+    "dateClose": "2024-09-30",
+    "link": "https://9to5google.com/2023/09/26/google-podcasts-youtube-music/",
+    "description": "Google Podcasts was a podcast hosting platform and an Android podcast listening app.",
+    "type": "app"
+  },
+  {
+    "name": "Jamboard",
+    "dateOpen": "2017-05-23",
+    "dateClose": "2024-09-30",
+    "link": "https://9to5google.com/2023/09/28/google-jamboard/",
+    "description": "Jamboard was a digital 4K touchscreen whiteboard device that allowed to collaborate using Google Workspace services.",
+    "type": "hardware"
+  },
+  {
+    "name": "Google Jamboard",
+    "dateOpen": "2016-10-25",
+    "dateClose": "2024-12-31",
+    "link": "https://9to5google.com/2023/09/28/google-jamboard/",
+    "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
+    "type": "app"
   }
 ]
