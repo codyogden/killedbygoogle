@@ -2304,6 +2304,14 @@
     "type": "app"
   },
   {
+    "name": "Pixel Pass",
+    "dateOpen": "2021-10-28",
+    "dateClose": "2023-08-29",
+    "link": "https://support.google.com/pixelpass/answer/13968577",
+    "description": "A way to help users save money by bundling Pixel phones with Google services.",
+    "type": "service"
+  },
+  {
     "name": "Google Podcasts",
     "dateOpen": "2018-06-18",
     "dateClose": "2024-09-30",
