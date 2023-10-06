@@ -2311,7 +2311,7 @@
     "description": "A way to help users save money by bundling Pixel phones with Google services.",
     "type": "service"
   },
-  }
+  {
     "name": "Google Podcasts",
     "dateOpen": "2018-06-18",
     "dateClose": "2024-09-30",
