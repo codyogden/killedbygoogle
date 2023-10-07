@@ -136,7 +136,7 @@ const Footer = () => (
                     <SocialLink
                         url="https://twitter.com/killedbygoogle"
                         altText="Twitter"
-                        imgSrc='https://static.killedbygoogle.com/com/twiter.svg'
+                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
                     />
                     <SocialLink
                         url="https://github.com/codyogden/killedbygoogle"
