@@ -23,11 +23,11 @@ module.exports = {
         return [
             {
                 source: '/umami.js',
-                destination: 'https://analytics.bale.media/umami.js'
+                destination: 'https://analytics.bale.media/script.js'
             },
             {
-                source: '/api/collect',
-                destination: 'https://analytics.bale.media/api/collect',
+                source: '/api/send',
+                destination: 'https://analytics.bale.media/api/send',
             },
             {
                 source: '/social/:path*',
