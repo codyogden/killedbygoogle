@@ -22,6 +22,10 @@ module.exports = {
     rewrites() {
         return [
             {
+                source: '/_next/static/umami.js',
+                destination: 'https://analytics.bale.media/script.js'
+            },
+            {
                 source: '/umami.js',
                 destination: 'https://analytics.bale.media/script.js'
             },
