@@ -11,7 +11,7 @@ declare global {
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     return <>
-        <script async defer data-website-id={process.env.UMAMI_ID} src="/umami.js" />
+        <script async defer data-website-id={process.env.UMAMI_ID} src="/_next/static/umami.js" />
         <Component {...pageProps} />
     </>
 }
