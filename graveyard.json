@@ -144,6 +144,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2024-04-08",
+    "dateOpen": "2009-01-15",
+    "description": "Dropcam was a line of Wi-Fi video streaming cameras acquired by Google in 2014.",
+    "link": "https://en.wikipedia.org/wiki/Dropcam",
+    "name": "DropCam",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2021-12-11",
     "dateOpen": "2000-12-11",
     "description": "Google Toolbar was a web browser toolbar that provided a search box in web browsers like Internet Explorer and Firefox.",
