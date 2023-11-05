@@ -1,12 +1,5 @@
 [
   {
-    "dateClose": "2013-01-30",
-    "dateOpen": "2009-02-09",
-    "description": "Google Sync was a file synchronization service that provided over-the-air synchronization.",
-    "link": "https://blog.google/inside-google/company-announcements/winter-cleaning/",
-    "name": "Google Sync",
-    "type": "service"
-  },
     "dateClose": "2023-06-26",
     "dateOpen": "2017-11-29",
     "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
@@ -796,6 +789,14 @@
     "description": "Google URL Shortener, also known as goo.gl, was a URL shortening service.",
     "link": "https://en.wikipedia.org/wiki/Google_URL_Shortener",
     "name": "Google URL Shortener",
+    "type": "service"
+  },
+  {
+    "dateClose": "2013-01-30",
+    "dateOpen": "2009-02-09",
+    "description": "Google Sync was a file synchronization service that provided over-the-air synchronization.",
+    "link": "https://blog.google/inside-google/company-announcements/winter-cleaning/",
+    "name": "Google Sync",
     "type": "service"
   },
   {
