@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Google News Magazine Subscription",
+    "dateOpen": "2012-03-08",
+    "dateClose": "2024-12-18",
+    "link": "https://www.theverge.com/2023/11/16/23963942/google-news-hammers-the-final-nail-into-its-magazine-subscriptions-coffin",
+    "description": "Print replica magazines in Google News, which are the PDF versions of print pages you could view on phones or via desktop.",
+    "type": "service"
   }
 ]
