@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Google Cloud Container Registry",
+    "dateOpen": "2015-01-23",
+    "dateClose": "2024-05-15",
+    "link": "https://cloud.google.com/container-registry/docs/deprecations/container-registry-deprecation",
+    "description": "Google Cloud Container Registry was a private registry for hosting docker images in Google Cloud. ",
+    "type": "service"
   }
 ]
