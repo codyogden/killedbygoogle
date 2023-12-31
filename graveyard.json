@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+  	"name": "Google Groups Usenet Support",
+  	"dateOpen": "2001-02-12",
+  	"dateClose": "2024-02-22",
+  	"link": "https://www.theregister.com/2023/12/18/google_ends_usenet_links/",
+  	"description": "Google Groups' support for Usenet allowed users to participate in Usenet groups.",
+  	"type": "service"
   }
 ]
