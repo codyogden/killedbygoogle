@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Google Earth View",
+    "dateOpen": "2014-12-02",
+    "dateClose": "2024-01-29",
+    "link": "https://9to5google.com/2024/01/29/google-shuts-down-earth-view-wallpaper-collection/",
+    "description": "Google Earth View was a browsable wallpaper gallery that showcased high resolution images from Google Earth.",
+    "type": "app"
   }
 ]
