@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Google Pay",
+    "dateOpen": "2020-11-18",
+    "dateClose": "2024-06-04",
+    "link": "https://9to5google.com/2024/02/22/gpay-app-p2p/",
+    "description": "Google Pay was a mobile app that allowed users to make in-person payments with merchants and send and receive payments with family and friends, as well as keep track of spending with their Google Pay balance and other connected accounts.",
+    "type": "app"
   }
 ]
