@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Buy On Google",
+    "dateOpen": "2018-10-03",
+    "dateClose": "2023-09-26",
+    "link": "https://web.archive.org/web/20240229162408/https://support.google.com/merchants/answer/13644745",
+    "description": "Buy On Google was part of Google Shopping and allowed customers to buy products and checkout directly on Google.",
+    "type": "service"
   }
 ]
