@@ -1,4 +1,12 @@
 [
+    {
+    "dateClose": "2023-06-20",
+    "dateOpen": "2018-05-08",
+    "description": "Google Assistant kills off support for third-party note and list apps.",
+    "link": "https://www.androidpolice.com/google-assistant-ending-support-third-party-notes-lists/",
+    "name": "Google Assistant notes & lists",
+    "type": "service"
+  },
   {
     "dateClose": "2023-06-26",
     "dateOpen": "2017-11-29",
