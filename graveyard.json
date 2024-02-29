@@ -1,5 +1,13 @@
 [
   {
+    "dateClose": "2023-11-27",
+    "dateOpen": "2020-08-04",
+    "description": "Google Assistant's Animal of the Day responded with fun facts about a new animal every day.",
+    "link": "https://old.reddit.com/r/googlehome/comments/17keqri/animal_of_the_day_discontinuing_november_27th/",
+    "name": "Animal of the Day",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-06-26",
     "dateOpen": "2017-11-29",
     "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
