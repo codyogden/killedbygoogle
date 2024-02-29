@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Google Bard",
+    "dateOpen": "2023-03-21",
+    "dateClose": "2024-02-08",
+    "link": "https://blog.google/products/gemini/bard-gemini-advanced-app/",
+    "description": "Google Bard was a generative artificial intelligence chatbot which has now been replaced by Gemini",
+    "type": "service"
   }
 ]
