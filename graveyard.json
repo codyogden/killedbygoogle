@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "People Cards",
+    "dateOpen": "2020-08-11",
+    "dateClose": "2024-04-07",
+    "link": "https://odishatv.in/news/technology/google-to-remove-people-cards-from-search-engine-229662",
+    "description": "People Cards was a crowdsourced knowledge base to enhance search results.",
+    "type": "service"
   }
 ]
