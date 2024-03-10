@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Order With Google",
+    "dateOpen": "2019-05-23",
+    "dateClose": "2024-06-30",
+    "link": "https://www.restaurantbusinessonline.com/technology/google-scale-back-its-restaurant-ordering-feature",
+    "description": "Order With Google End-to-End allowed users to order food directly from Google Maps and Google Search without the need to install food delivery services' apps.",
+    "type": "service"
   }
 ]
