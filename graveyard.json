@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Google Cloud Debugger",
+    "dateOpen": "2016-10-20",
+    "dateClose": "2023-05-31",
+    "link": "https://cloud.google.com/stackdriver/docs/deprecations/debugger-deprecation",
+    "description": "Google Cloud Debugger (part of GCP Operations Suite) helped developers debug their application code on Google Cloud without stopping or slowing it down.",
+    "type": "service"
   }
 ]
