@@ -2342,5 +2342,13 @@
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
     "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
     "type": "app"
+  },
+  {
+    "name": "Keen",
+    "dateOpen": "2020-06-18",
+    "dateClose": "2024-03-24",
+    "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
+    "description": "Keen was a Pinterest-style platform with ML recommendations.",
+    "type": "app"
   }
 ]
