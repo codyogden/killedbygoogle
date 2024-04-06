@@ -115,6 +115,11 @@ const isValidDate = async (value, dateOpen = false) => {
 
     const isConfirmed = await confirm.run();
 
+    if (!isConfirmed) {
+        console.log(`Nothing was changed!`);
+        return;
+    }
+
     graveyardData.push(product);
 
     fs.writeFileSync(graveyardFilePath, `${JSON.stringify(graveyardData, null, 2)}\n`);
