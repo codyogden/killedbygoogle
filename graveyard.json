@@ -1,5 +1,13 @@
 [
   {
+    "name": "Google VPN",
+    "dateClose": "2024-12-31",
+    "dateOpen": "2020-10-29",
+    "description": "VPN by Google One is pitched as providing an “extra layer of online protection for your Android phone” and “peace of mind that your data is safe.” .",
+    "link": "https://9to5google.com/2024/04/11/google-one-vpn-discontinued/",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-06-26",
     "dateOpen": "2017-11-29",
     "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
