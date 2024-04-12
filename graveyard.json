@@ -1,9 +1,9 @@
 [
   {
-    "name": "Google VPN",
+    "name": "VPN by Google One",
     "dateClose": "2024-12-31",
     "dateOpen": "2020-10-29",
-    "description": "VPN by Google One is pitched as providing an “extra layer of online protection for your Android phone” and “peace of mind that your data is safe.” .",
+    "description": "VPN by Google One was a virtual private network service that provides users encrypted transit of their data and network activity and allowed them to mask their IP address.",
     "link": "https://9to5google.com/2024/04/11/google-one-vpn-discontinued/",
     "type": "service"
   },
