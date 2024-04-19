@@ -125,7 +125,7 @@ const Footer = () => (
                 </div>
                 <CopyNotice>
                     <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
-                        &copy; 2023 Cody Ogden.
+                        &copy; {(new Date()).getFullYear()} Cody Ogden.
           </a>
           &nbsp;-&nbsp;
           <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
