@@ -1,5 +1,13 @@
 [
   {
+    "name": "foo.bar",
+    "dateClose": "2024-04-01",
+    "dateOpen": "2014-11-01",
+    "description": "foo.bar (or The Foobar Challenge) was a coding challenge used by Google to recruit programmers by inviting Google users with a popup on programming-related search queries.",
+    "link": "https://web.archive.org/web/20240327102723/https://foobar.withgoogle.com/",
+    "type": "service"
+  },
+  {
     "name": "VPN by Google One",
     "dateClose": "2024-06-20",
     "dateOpen": "2020-10-29",
