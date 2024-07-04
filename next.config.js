@@ -17,17 +17,22 @@ module.exports = {
                 destination: '/api/graveyard',
                 permanent: true,
             },
+            {
+                source: '/umami.js',
+                destination: '/_next/static/umami.js',
+                permanent: true,
+            }
         ];
     },
     rewrites() {
         return [
             {
-                source: '/umami.js',
-                destination: 'https://analytics.bale.media/umami.js'
+                source: '/_next/static/umami.js',
+                destination: 'https://analytics.bale.media/script.js'
             },
             {
-                source: '/api/collect',
-                destination: 'https://analytics.bale.media/api/collect',
+                source: '/api/send',
+                destination: 'https://analytics.bale.media/api/send',
             },
             {
                 source: '/social/:path*',
