@@ -4,7 +4,7 @@ import {
   format,
   formatDistanceStrict,
   parseISO,
-  formatDistanceToNow,
+  formatDistanceToNowStrict,
 } from 'date-fns';
 
 import { ProductWithSlug } from 'types/Product';
@@ -31,7 +31,7 @@ export default function Item(props: ProductWithSlug) {
 
   const dateOpen = parseISO(props.dateOpen);
   const dateClose = parseISO(props.dateClose);
-  const relativeDate = formatDistanceToNow(dateClose);
+  const relativeDate = formatDistanceToNowStrict(dateClose);
 
   const getYears = () => {
     const duration = formatDistanceStrict(dateClose, dateOpen);
