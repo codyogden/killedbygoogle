@@ -2,7 +2,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import {
   format,
-  formatDistance,
+  formatDistanceStrict,
   parseISO,
   formatDistanceToNow,
 } from 'date-fns';
@@ -34,7 +34,7 @@ export default function Item(props: ProductWithSlug) {
   const relativeDate = formatDistanceToNow(dateClose);
 
   const getYears = () => {
-    const duration = formatDistance(dateClose, dateOpen);
+    const duration = formatDistanceStrict(dateClose, dateOpen);
 
     if (!isPast()) {
       return ` It will be ${duration} old.`;
