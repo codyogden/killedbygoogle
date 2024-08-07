@@ -1,5 +1,13 @@
 [
   {
+    "name": "Chromecast",
+    "dateOpen": "2013-07-24",
+    "dateClose": "2024-08-06",
+    "link": "https://www.theverge.com/2024/8/6/24214471/google-chromecast-line-discontinued",
+    "description": "Chromecast was a line of digital media players that allowed users to play online content on a television.",
+    "type": "hardware"
+  },
+  {
     "name": "VPN by Google One",
     "dateClose": "2024-06-20",
     "dateOpen": "2020-10-29",
