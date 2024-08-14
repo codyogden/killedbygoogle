@@ -2366,5 +2366,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Container Registry",
+    "dateOpen": "2014-11-12",
+    "dateClose": "2025-03-15",
+    "link": "https://console.cloud.google.com/gcr",
+    "description": "Container registry is one of Google Cloud Provider services",
+    "type": "service"
   }
 ]
