@@ -1098,7 +1098,7 @@
   {
     "dateClose": "2008-08-31",
     "dateOpen": "2006-07-13",
-    "description": "Google Page Creator was a website creation and hosting service that allowed users to build basic websites with no HTML knowledge.",
+    "description": "Google Page Creator was a website creation and hosting service that allowed users to build basic websites with no HTML knowledge. Replaced by Google Sites, which lacks several Google Page Creator features.",
     "link": "https://en.wikipedia.org/wiki/Google_Page_Creator",
     "name": "Google Page Creator",
     "type": "service"
