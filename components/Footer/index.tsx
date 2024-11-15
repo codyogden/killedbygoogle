@@ -134,9 +134,9 @@ const Footer = () => (
                 </CopyNotice>
                 <SocialWrapper>
                     <SocialLink
-                        url="https://twitter.com/killedbygoogle"
-                        altText="Twitter"
-                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
+                        url="https://killedbygoogle.blue"
+                        altText="BlueSky"
+                        imgSrc='https://static.killedbygoogle.com/com/bsky.svg'
                     />
                     <SocialLink
                         url="https://github.com/codyogden/killedbygoogle"
