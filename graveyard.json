@@ -2366,5 +2366,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Nest Learning Thermostats (1st and 2nd gen)",
+    "dateOpen": "2011-10-25",
+    "dateClose": "2025-10-25",
+    "link": "https://www.tomsguide.com/home/smart-home/google-announces-end-of-support-for-1st-and-2nd-gen-nest-thermostats-what-you-need-to-know",
+    "description": "The Nest Learning Thermostats (1st and 2nd gen) were the first iterations Nest's (then Google's) smart thermostats, and the only version available in Europe.",
+    "type": "hardware"
   }
 ]
