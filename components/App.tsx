@@ -44,7 +44,7 @@ const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                     <Search searchCallback={updateSearchTerm} />
                     <Filter
                         filterHandler={updateActiveFilter}
-                        items={items}
+                        items={listItems}
                     />
                 </Controls>
                 <List items={listItems} />

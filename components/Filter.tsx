@@ -46,7 +46,7 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   return (
     <label id="listFilter">
       <SRT>Filter Graveyard List</SRT>
-      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} instanceId="filter-select" />
+      <Select value={selectOptions[0]} options={selectOptions} onChange={changeHandler} instanceId="filter-select" />
     </label>
   );
 }
