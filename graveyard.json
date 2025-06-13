@@ -2366,5 +2366,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Google Play Instant Apps",
+    "dateOpen": "2017-01-23",
+    "dateClose": "2025-12-01",
+    "link": "https://www.theverge.com/news/686573/google-android-instant-apps-shutdown",
+    "description": "Play Instant Apps allowed users to try apps before installing them on their devices.",
+    "type": "service"
   }
 ]
