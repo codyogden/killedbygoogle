@@ -2366,5 +2366,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Google Search",
+    "dateOpen": "1998-09-15",
+    "dateClose": "2024-10-14",
+    "link": "https://search.google/ways-to-search/ai-overviews/",
+    "description": "Google Search was the world's most popular search engine, designed to connect users to information across the web. In 2024, it was effectively killed when AI Overviews replaced traditional search results, scraping content from websites without clicks or credit, and turning a once-powerful discovery engine into an ad-serving hallucination machine.",
+    "type": "service"
   }
 ]
