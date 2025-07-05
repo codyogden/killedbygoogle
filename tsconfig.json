@@ -6,9 +6,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "types": [
-      "@emotion/react/types/css-prop"
-    ],
+    "types": [],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -16,22 +14,28 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "baseUrl": ".",
     "paths": {
-      "@/": ["/*"],
+      "@/*": ["./*"],
       "@/components/*": ["components/*"],
-      "@/types/*": ["types/*"],
-    },
+      "@/types/*": ["types/*"]
+    }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

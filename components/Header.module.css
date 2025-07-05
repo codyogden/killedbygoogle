@@ -1,0 +1,26 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.brandingContainer {
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    display: block;
+    margin-right: 1rem;
+    width: 60px;
+}
+
+.title {
+    font-size: 2.75rem;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.headerLink {
+    border-bottom: 0;
+} 

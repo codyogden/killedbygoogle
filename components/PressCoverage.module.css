@@ -1,0 +1,49 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0;
+    width: 1000px;
+}
+
+.child {
+    flex: 0 0 25%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    .child {
+        flex: 0 0 50%;
+    }
+}
+
+.child img {
+    max-width: 100%;
+}
+
+.child a {
+    border: none;
+}
+
+.press {
+    background-color: #e1e1e1;
+    padding: 40px 0;
+}
+
+.title {
+    font-size: 1.25em;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+        margin-bottom: 0;
+    }
+} 
