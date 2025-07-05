@@ -1,9 +1,11 @@
+'use client';
+
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
 import SRT from 'components/SRT';
 
-// Import Styled Components
-import { SearchContainer, SearchBox } from 'components/Search/Search.atoms';
+// Import CSS Module
+import styles from './Search.module.css';
 
 interface SearchProps {
   searchCallback: Function
@@ -18,17 +20,18 @@ export default function Search({ searchCallback }: SearchProps) {
   }, [searchValue, searchCallback]);
 
   return (
-    <SearchContainer>
+    <div className={styles.searchContainer}>
       <label htmlFor="searchBox" aria-label="Search">
         <SRT>Search</SRT>
-        <SearchBox
+        <input
           id="searchBox"
+          className={styles.searchBox}
           placeholder="Search"
           type="text"
           value={searchValue}
           onChange={(event: React.FormEvent<HTMLInputElement>) => updateValue(event.currentTarget.value)}
         />
       </label>
-    </SearchContainer>
+    </div>
     );
 }

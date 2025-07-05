@@ -1,5 +1,4 @@
-import styled from '@emotion/styled';
-import { css } from '@emotion/react';
+import styles from './PressCoverage.module.css';
 
 const links = [
   {
@@ -50,58 +49,12 @@ const links = [
   },
 ];
 
-const Container = styled.ul(() => css({
-  alignItems: 'center',
-  display: 'flex',
-  flexFlow: 'row wrap',
-  justifyContent: 'center',
-  listStyleType: 'none',
-  margin: '0 auto',
-  maxWidth: '80%',
-  padding: 0,
-  width: '1000px',
-}));
-
-const Child = styled.li(() => css({
-  flex: '0 0 25%',
-  marginTop: '50px',
-
-  ['@media screen and ( max-width: 700px )']: {
-    flex: '0 0 50%',
-  },
-
-  ['img']: {
-    maxWidth: '100%',
-  },
-
-  ['a']: {
-    border: 'none',
-  },
-}));
-
-const Press = styled.div(() => css({
-  backgroundColor: '#e1e1e1',
-  padding: '40px 0',
-}));
-
-const Title = styled.h4(() => css({
-  fontSize: '1.25em',
-  fontWeight: 'normal',
-  margin: 0,
-  textAlign: 'center',
-  textTransform: 'uppercase',
-  
-  ['@media screen and ( max-width: 700px )']: {
-    marginBottom: 0,
-  },
-}));
-
 const PressCoverage = () => (
-  <Press>
-    <Title>As seen on</Title>
-    <Container>
+  <div className={styles.press}>
+    <h4 className={styles.title}>As seen on</h4>
+    <ul className={styles.container}>
       {links.map(link => (
-        <Child key={link.altText}>
+        <li key={link.altText} className={styles.child}>
           <a
             href={link.url}
             title={link.altText}
@@ -110,10 +63,10 @@ const PressCoverage = () => (
           >
             <img src={link.imgSrc} alt={link.altText} />
           </a>
-        </Child>
+        </li>
       ))}
-    </Container>
-  </Press>
+    </ul>
+  </div>
 );
 
 export default PressCoverage;

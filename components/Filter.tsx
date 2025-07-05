@@ -1,8 +1,9 @@
-import Select, { SingleValue } from 'react-select';
+'use client';
 
 import { SRT } from 'components';
 import { Product } from 'types/Product';
 import { FilterType } from 'types/Filter';
+import styles from './Filter.module.css';
 
 type Props = {
   items: Product[];
@@ -13,40 +14,27 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
 
   const getCount = (type: string) => items.filter(item => item.type === type).length;
 
-  type Option = {
-    value: string;
-    label: string;
-  }
-  const selectOptions: Option[] = [
-    {
-      value: FilterType.ALL,
-      label: `All (${items.length})`,
-    },
-    {
-      value: FilterType.APP,
-      label: `Apps (${getCount('app')})`,
-    },
-    {
-      value: FilterType.SERVICE,
-      label: `Services (${getCount('service')})`,
-    },
-    {
-      value: FilterType.HARDWARE,
-      label: `Hardware (${getCount('hardware')})`,
-    }
-  ];
-
-  const changeHandler = (arg: SingleValue<Option>): void => {
-    const filterVal = arg?.value as FilterType;
-      filterHandler(filterVal);
+  const changeHandler = (event: React.ChangeEvent<HTMLSelectElement>): void => {
+    const filterVal = event.target.value as FilterType;
+    filterHandler(filterVal);
     if (window.umami?.trackEvent)
       window.umami.trackEvent(filterVal, 'filter');
   }
 
   return (
-    <label id="listFilter">
+    <label id="listFilter" className={styles.filterLabel}>
       <SRT>Filter Graveyard List</SRT>
-      <Select defaultValue={selectOptions[0]} options={selectOptions} onChange={changeHandler} instanceId="filter-select" />
+      <select 
+        className={styles.filterSelect}
+        defaultValue={FilterType.ALL} 
+        onChange={changeHandler}
+        id="filter-select"
+      >
+        <option value={FilterType.ALL}>All ({items.length})</option>
+        <option value={FilterType.APP}>Apps ({getCount('app')})</option>
+        <option value={FilterType.SERVICE}>Services ({getCount('service')})</option>
+        <option value={FilterType.HARDWARE}>Hardware ({getCount('hardware')})</option>
+      </select>
     </label>
   );
 }

@@ -1,89 +1,39 @@
 import { FC } from 'react';
-import styled from '@emotion/styled';
-import { css } from '@emotion/react';
-
-// Import Styled Components
-import { FooterContainer, FlexWrap } from 'components/Footer/Footer.atoms';
 import { PressCoverage } from 'components';
 import Link from 'next/link';
+import styles from './Footer.module.css';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
     url,
     imgSrc,
     altText,
 }) => {
-    const style = {
-        border: 'none',
-    };
-
     return (
-        <Link href={url} passHref>
-            <a
-                css={{
-                    border: 'none',
-                }}
-                target='_blank'
-                rel='noopener noreferrer'
-            >
-                <img
-                    css={{
-                        width: '24px',
-                        height: '24px',
-                    }}
-                    width='24px'
-                    height='24px'
-                    src={imgSrc}
-                    alt={altText}
-                />
-            </a>
+        <Link href={url} className={styles.socialLink} target='_blank' rel='noopener noreferrer'>
+            <img
+                className={styles.socialImage}
+                width='24px'
+                height='24px'
+                src={imgSrc}
+                alt={altText}
+            />
         </Link>
     );
 };
 
-const CopyNotice = styled.div(() => css({
-    fontSize: '0.75em',
-    margin: '30px 0 20px 0',
-    textAlign: 'center',
-}));
-
-
-const Title = styled.div(() => css({
-    color: '#fafafa',
-    fontSize: '2.5em',
-    fontWeight: 'lighter',
-}));
-
-const FooterTitle = styled.div(() => css({
-    alignItems: 'center',
-    display: 'flex',
-    justifyContent: 'center',
-    paddingBottom: '20px',
-}));
-
-const SocialWrapper = styled.div(() => css({
-    display: 'flex',
-    justifyContent: 'center',
-    padding: '15px 0',
-
-    ['a']: {
-        display: 'block',
-        margin: '0 10px',
-    },
-}));
+// Components now use CSS modules
 
 const Footer = () => (
     <>
         <PressCoverage />
-        <FooterContainer>
-            <FlexWrap>
-                <FooterTitle>
-                    <div css={{
-                        marginRight: '10px',
-                    }}>
+        <footer className={styles.footerContainer}>
+            <div className={styles.flexWrap}>
+                <div className={styles.footerTitle}>
+                    <div className={styles.tombstoneIcon}>
                         <img height="60px" width="60px" src='https://static.killedbygoogle.com/com/tombstone-alt.svg' alt="Tombstone" />
                     </div>
-                    <Title>Killed by Google</Title>
-                </FooterTitle>
+                    <div className={styles.title}>Killed by Google</div>
+                </div>
                 <div>
                     <p>
                         Killed by Google is the Google graveyard; a free and open source
@@ -123,7 +73,7 @@ const Footer = () => (
             .
           </p>
                 </div>
-                <CopyNotice>
+                <div className={styles.copyNotice}>
                     <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
                         &copy; {(new Date()).getFullYear()} Cody Ogden.
           </a>
@@ -131,8 +81,8 @@ const Footer = () => (
           <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
                         Analytics
           </a>
-                </CopyNotice>
-                <SocialWrapper>
+                </div>
+                <div className={styles.socialWrapper}>
                     <SocialLink
                         url="https://killedbygoogle.blue"
                         altText="BlueSky"
@@ -143,9 +93,9 @@ const Footer = () => (
                         altText="GitHub"
                         imgSrc='https://static.killedbygoogle.com/com/github.svg'
                     />
-                </SocialWrapper>
-            </FlexWrap>
-        </FooterContainer>
+                </div>
+            </div>
+        </footer>
     </>
 );
 export default Footer;

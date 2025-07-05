@@ -9,18 +9,9 @@ import {
 
 import { ProductWithSlug } from 'types/Product';
 import Badge from 'components/Badge'; 
+import styles from './Item.module.css';
 
-const DeathIdiom = dynamic(() => import('./LeadPhrase'), { ssr: false });
-
-// Import Styled Components
-import {
-  AgeRange,
-  ContentContainer,
-  Description,
-  Icon,
-  IconContainer,
-  ListItem,
-} from './Item.atoms';
+const DeathIdiom = dynamic(() => import('./LeadPhrase'));
 
 export default function Item(props: ProductWithSlug) {
 
@@ -43,11 +34,13 @@ export default function Item(props: ProductWithSlug) {
   };
 
   const getIcon = () => {
-    return isPast() ? (
-      <Icon src='https://static.killedbygoogle.com/com/tombstone.svg' alt="Tombstone" />
-    ) : (
-      <Icon src='https://static.killedbygoogle.com/com/guillotine.svg' alt="Guillotine" />
-    );
+    return isPast() ? {
+      src: 'https://static.killedbygoogle.com/com/tombstone.svg',
+      alt: 'Tombstone'
+    } : {
+      src: 'https://static.killedbygoogle.com/com/guillotine.svg',
+      alt: 'Guillotine'
+    };
   };
 
   const ageRange = () => {
@@ -56,17 +49,17 @@ export default function Item(props: ProductWithSlug) {
     if (!isPast()) {
       const monthClose = format(dateClose, 'LLLL');
       return (
-        <AgeRange>
+        <div className={styles.ageRange}>
           <time dateTime={props.dateClose} title={`${props.dateClose}`}>
             {monthClose}
             <br />
             {yearClose}
           </time>
-        </AgeRange>
+        </div>
       );
     }
     return (
-      <AgeRange>
+      <div className={styles.ageRange}>
         <time dateTime={props.dateOpen} title={props.dateOpen}>
           {yearOpen}
         </time>
@@ -74,29 +67,29 @@ export default function Item(props: ProductWithSlug) {
         <time dateTime={props.dateClose} title={props.dateClose}>
           {yearClose}
         </time>
-      </AgeRange>
+      </div>
     );
   };
   return (
-    <ListItem>
-      <IconContainer>
-        {getIcon()}
+    <li className={styles.listItem}>
+      <div className={styles.iconContainer}>
+        <img className={styles.icon} src={getIcon().src} alt={getIcon().alt} />
         {ageRange()}
         <Badge content={props.type} />
-      </IconContainer>
-      <ContentContainer>
+      </div>
+      <div className={styles.contentContainer}>
         <h2>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             {props.name}
           </a>
         </h2>
-        <Description>
+        <p className={styles.description}>
           {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
           {props.description}
           {getYears()}
-        </Description>
-      </ContentContainer>
-    </ListItem>
+        </p>
+      </div>
+    </li>
   );
 }
 

@@ -1,6 +1,16 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     env: {
         mode: process.env.NODE_ENV,
+    },
+    // Enable Turbopack (now stable)
+    turbopack: {
+        rules: {
+            '*.svg': {
+                loaders: ['@svgr/webpack'],
+                as: '*.js',
+            },
+        },
     },
     webpack(config) {
         config.module.rules.push({
@@ -10,7 +20,7 @@ module.exports = {
 
         return config;
     },
-    redirects() {
+    async redirects() {
         return [
             {
                 source: '/graveyard.json',
@@ -24,7 +34,7 @@ module.exports = {
             }
         ];
     },
-    rewrites() {
+    async rewrites() {
         return [
             {
                 source: '/_next/static/umami.js',
@@ -41,3 +51,5 @@ module.exports = {
         ]
     },
 };
+
+module.exports = nextConfig;
