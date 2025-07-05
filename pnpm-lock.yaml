@@ -33,9 +33,6 @@ importers:
       '@babel/core':
         specifier: ^7.23.0
         version: 7.28.0
-      '@playwright/test':
-        specifier: ^1.40.0
-        version: 1.53.2
       '@svgr/webpack':
         specifier: ^8.1.0
         version: 8.1.0(typescript@5.8.3)
@@ -4419,6 +4416,7 @@ snapshots:
   '@playwright/test@1.53.2':
     dependencies:
       playwright: 1.53.2
+    optional: true
 
   '@rtsao/scc@1.1.0': {}
 
@@ -6549,13 +6547,15 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  playwright-core@1.53.2: {}
+  playwright-core@1.53.2:
+    optional: true
 
   playwright@1.53.2:
     dependencies:
       playwright-core: 1.53.2
     optionalDependencies:
       fsevents: 2.3.2
+    optional: true
 
   possible-typed-array-names@1.1.0: {}
 
