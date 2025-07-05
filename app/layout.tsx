@@ -1,5 +1,5 @@
 // Global Stylesheet
-import '../public/global.css';
+import './globals.css';
 import { ReactNode } from 'react';
 
 declare global {

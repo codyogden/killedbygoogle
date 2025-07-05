@@ -8,7 +8,6 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.23.0",
-    "@playwright/test": "^1.40.0",
     "@svgr/webpack": "^8.1.0",
     "@types/jest": "^29.5.0",
     "@types/lodash": "^4.14.202",
@@ -40,7 +39,6 @@
     "preview": "pnpm build && next export && npx http-server out/ -p 3000",
     "kill": "bin/kill",
     "lint": "next lint",
-    "test": "jest graveyard.test.ts",
-    "test:e2e": "playwright test"
+    "test": "jest graveyard.test.ts"
   }
 }
