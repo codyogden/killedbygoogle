@@ -2360,6 +2360,14 @@
     "type": "app"
   },
   {
+    "name": "Google Cache",
+    "dateOpen": "2000-02-22",
+    "dateClose": "2024-02-01",
+    "link": "https://9to5google.com/2024/02/02/google-search-cached-link/",
+    "description": "Google Cache was a tool to view cached/older versions of a website. It was one of the oldest products.",
+    "type": "service"
+  },
+  {
     "name": "Keen",
     "dateOpen": "2020-06-18",
     "dateClose": "2024-03-24",
