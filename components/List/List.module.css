@@ -77,17 +77,21 @@
 
 .adContainer :global(.carbon-wrap) {
     display: flex;
+    flex-direction: row;
+    align-items: stretch;
 }
 
 .adContainer :global(.carbon-img) {
     display: block;
     line-height: 1;
     margin: 0;
+    flex-shrink: 0;
 }
 
 .adContainer :global(.carbon-text) {
     align-items: center !important;
     display: flex !important;
+    flex: 1;
     font-size: 13px;
     line-height: 1.5;
     padding: 10px;
