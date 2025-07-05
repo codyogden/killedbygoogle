@@ -14,9 +14,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
-      - name: Install Yarn
-        run: npm install yarn
+      - name: Install pnpm
+        run: npm install -g pnpm
       - name: Install dependencies
-        run: yarn
+        run: pnpm install
       - name: Run Tests
-        run: yarn run test
+        run: pnpm run test
