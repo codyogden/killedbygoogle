@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Google Fit API",
+    "dateOpen": "2014-08-07",
+    "dateClose": "2025-06-30",
+    "link": "https://9to5google.com/2024/05/04/google-fit-api-shutdown/",
+    "description": "Google Fit provides Android and REST APIs to help developers build smarter health and wellness apps.",
+    "type": "service"
   }
 ]
