@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Privacy Sandbox",
+    "dateOpen": "2019-08-22",
+    "dateClose": "2025-04-22",
+    "link": "https://privacysandbox.com/news/privacy-sandbox-next-steps/",
+    "description": "Privacy Sandbox was to facilitate online advertising by sharing a subset of user private information without the use of third-party cookies.",
+    "type": "service"
   }
 ]
