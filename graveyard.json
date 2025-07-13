@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Service Weaver",
+    "dateOpen": "2023-02-06",
+    "dateClose": "2024-12-05",
+    "link": "https://github.com/ServiceWeaver/weaver/blob/main/README.md",
+    "description": "Service Weaver was a programming framework for writing, deploying, and managing distributed applications.",
+    "type": "service"
   }
 ]
