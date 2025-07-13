@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Cloud Source Repositories",
+    "dateOpen": "2018-06-03",
+    "dateClose": "2024-06-17",
+    "link": "https://cloud.google.com/source-repositories/docs/release-notes#May_15_2024",
+    "description": "Cloud Source Repositories were GCP hosted git repositories",
+    "type": "service"
   }
 ]
