@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Network Planner",
+    "dateOpen": "2019-03-20",
+    "dateClose": "2025-01-31",
+    "link": "https://www.lightreading.com/network-automation/google-to-retire-cbrs-network-planning-tool",
+    "description": "Network Planner was a CBRS network and spectrum planning service.",
+    "type": "service"
   }
 ]
