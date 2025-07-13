@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Task Mate",
+    "dateOpen": "2020-11-23",
+    "dateClose": "2022-12-24",
+    "link": "https://www.youtube.com/watch?v=UdcfHIOfXlA",
+    "description": "Task Mate was a paid crowdsourcing service that helps requester get data and users earn money",
+    "type": "service"
   }
 ]
