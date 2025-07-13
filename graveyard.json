@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Stack: PDF Scanner",                                                                                                                     
+    "dateOpen": "2021-03-01",
+    "dateClose": "2024-09-23",
+    "link": "https://9to5google.com/2024/06/25/google-stack-pdf-scanner/",                                                                                 
+    "description": "Stack: PDF Scanner by Google was a PDF scanner and document organizer whose functionality has been incorporated into the Google Drive",
+    "type": "app"
   }
 ]
