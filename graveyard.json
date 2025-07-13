@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Question Hub",
+    "dateOpen": "2019-08-08",
+    "dateClose": "2023-01-05",
+    "link": "https://searchengineland.com/google-question-hub-to-close-down-390375",
+    "description": "Question Hub was a service that identified unanswered user queries on Google and offered them to content creators to inspire targeted, informative content that fills existing content gaps on the web.",
+    "type": "service"
   }
 ]
