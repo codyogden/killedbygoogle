@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "AngularDart",
+    "dateOpen": "2013-09-05",
+    "dateClose": "2021-09-20",
+    "link": "https://github.com/angulardart",
+    "description": "AngularDart was a framework for building web applications using HTML, CSS, and Dart. It was an implementation of Angular in the Dart language.",
+    "type": "service"
   }
 ]
