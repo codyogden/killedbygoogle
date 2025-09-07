@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Nest Protect",
+    "dateOpen": "2013-10-08",
+    "dateClose": "2025-03-28",
+    "link": "https://www.theverge.com/news/638171/google-discontinuing-nest-protect-smoke-alarm-nest-x-yale-smart-lock",
+    "description": "Nest Protect was a smart smoke and carbon monoxide alarm that provided voice alerts, smartphone notifications, and integrated with other smart home devices.",
+    "type": "hardware"
   }
 ]
