@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Nest x Yale Lock",
+    "dateOpen": "2018-03-14",
+    "dateClose": "2018-03-28",
+    "link": "https://www.theverge.com/news/638171/google-discontinuing-nest-protect-smoke-alarm-nest-x-yale-smart-lock",
+    "description": "Nest x Yale lock was a smart deadbolt that allowed users to remotely lock and unlock their doors with the Nest app.",
+    "type": "hardware"
   }
 ]
