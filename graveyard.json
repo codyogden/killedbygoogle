@@ -2374,5 +2374,13 @@
     "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
     "description": "Keen was a Pinterest-style platform with ML recommendations.",
     "type": "app"
+  },
+  {
+    "name": "Tables by A120",
+    "dateOpen": "2020-03-05",
+    "dateClose": "2025-12-16",
+    "link": "https://en.wikipedia.org/wiki/Tables_(Google)",
+    "description": "Tables was a collaborative database platform and competitor to Airtable, focused on making project tracking more efficient with automation.",
+    "type": "service"
   }
 ]
