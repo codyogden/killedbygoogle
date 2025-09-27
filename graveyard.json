@@ -112,6 +112,14 @@
     "type": "app"
   },
   {
+    "dateClose": "2022-01-06",
+    "dateOpen": "2011-09-16",
+    "description": "Google Native Client was a sandboxing technology for running native code from a web browser,",
+    "link": "https://blog.chromium.org/2020/08/changes-to-chrome-app-support-timeline.html",
+    "name": "Google Native Client",
+    "type": "service"
+  },
+  {
     "dateClose": "2020-04-23",
     "dateOpen": "2014-11-20",
     "description": "Google Contributor was a program run by Google that allowed users in the Google Network of content sites to view the websites without any advertisements that are administered, sorted, and maintained by Google.",
