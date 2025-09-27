@@ -816,6 +816,14 @@
     "type": "service"
   },
   {
+    "dateClose": "2013-01-30",
+    "dateOpen": "2009-02-09",
+    "description": "Google Sync was a file synchronization service that provided over-the-air synchronization.",
+    "link": "https://blog.google/inside-google/company-announcements/winter-cleaning/",
+    "name": "Google Sync",
+    "type": "service"
+  },
+  {
     "dateClose": "2011-12-15",
     "dateOpen": "2010-02-09",
     "description": "Google Buzz was a social networking, microblogging and messaging tool that integrated with Gmail.",
