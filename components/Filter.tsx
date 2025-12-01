@@ -17,8 +17,6 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   const changeHandler = (event: React.ChangeEvent<HTMLSelectElement>): void => {
     const filterVal = event.target.value as FilterType;
     filterHandler(filterVal);
-    if (window.umami?.trackEvent)
-      window.umami.trackEvent(filterVal, 'filter');
   }
 
   return (

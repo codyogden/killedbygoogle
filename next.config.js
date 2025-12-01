@@ -12,14 +12,6 @@ const nextConfig = {
             },
         },
     },
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ["@svgr/webpack"]
-        });
-
-        return config;
-    },
     async redirects() {
         return [
             {
@@ -27,19 +19,10 @@ const nextConfig = {
                 destination: '/api/graveyard',
                 permanent: true,
             },
-            {
-                source: '/umami.js',
-                destination: '/_next/static/umami.js',
-                permanent: true,
-            }
         ];
     },
     async rewrites() {
         return [
-            {
-                source: '/_next/static/umami.js',
-                destination: 'https://analytics.bale.media/script.js'
-            },
             {
                 source: '/api/send',
                 destination: 'https://analytics.bale.media/api/send',
