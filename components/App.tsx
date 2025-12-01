@@ -34,11 +34,6 @@ const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
         }
     }, [searchTerm, activeFilter, items]);
 
-    useEffect(() => {
-        if(searchTerm !== '' && window.umami?.trackEvent)
-            window.umami.trackEvent(searchTerm, 'search');
-    }, [searchTerm]);
-
     return (
         <>
             {items.length ? <>
