@@ -2382,5 +2382,13 @@
     "link": "https://en.wikipedia.org/wiki/Tables_(Google)",
     "description": "Tables was a collaborative database platform and competitor to Airtable, focused on making project tracking more efficient with automation.",
     "type": "service"
+  },
+  {
+    "name": "Kaniko",
+    "dateOpen": "2018-01-25",
+    "dateClose": "2025-06-03",
+    "link": "https://github.com/GoogleContainerTools/kaniko/",
+    "description": "Kaniko was a tool to build container images from a Dockerfile, inside a container or Kubernetes cluster, without privileged access.",
+    "type": "app"
   }
 ]
