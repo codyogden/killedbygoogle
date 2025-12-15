@@ -1,5 +1,13 @@
 [
   {
+    "name": "Dark Web Report",
+    "dateOpen": "2023-03-08",
+    "dateClose": "2026-01-15",
+    "link": "https://support.google.com/websearch/answer/16767242",
+    "description": "A service that monitored the dark web for personal information and notified users if their data was found in data breaches.",
+    "type": "service"
+  },
+  {
     "name": "Chromecast",
     "dateOpen": "2013-07-24",
     "dateClose": "2024-08-06",
