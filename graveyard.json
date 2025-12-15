@@ -1,5 +1,13 @@
 [
   {
+    "name": "ClassyShark",
+    "dateOpen": "2015-11-03",
+    "dateClose": "2024-07-22",
+    "link": "https://github.com/google/android-classyshark",
+    "description": "ClassyShark was a standalone binary inspection tool for Android developers.",
+    "type": "app"
+  },
+  {
     "name": "Chromecast",
     "dateOpen": "2013-07-24",
     "dateClose": "2024-08-06",
