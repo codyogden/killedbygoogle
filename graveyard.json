@@ -2382,5 +2382,13 @@
     "link": "https://en.wikipedia.org/wiki/Tables_(Google)",
     "description": "Tables was a collaborative database platform and competitor to Airtable, focused on making project tracking more efficient with automation.",
     "type": "service"
+  },
+  {
+    "name": "Dark Web Reports",
+    "dateOpen": "2023-03-08",
+    "dateClose": "2026-01-15",
+    "link": "https://support.google.com/websearch/answer/16767242",
+    "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
+    "type": "service"
   }
 ]
