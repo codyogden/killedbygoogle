@@ -2390,5 +2390,13 @@
     "link": "https://support.google.com/websearch/answer/16767242",
     "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
     "type": "service"
+  },
+  {
+    "name": "Perspective API",
+    "dateOpen": "2017-02-23",
+    "dateClose": "2027-01-01",
+    "link": "https://web.archive.org/web/20260108004642/https://perspectiveapi.com/",
+    "description": "Perspective API was a tool to score the perceived negative impact a comment might have on a conversation.",
+    "type": "service"
   }
 ]
