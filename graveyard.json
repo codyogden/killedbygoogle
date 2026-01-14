@@ -2390,5 +2390,13 @@
     "link": "https://support.google.com/websearch/answer/16767242",
     "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
     "type": "service"
+  },
+  {
+    "name": "Tenor API",
+    "dateOpen": "2015-06-26",
+    "dateClose": "2026-06-30",
+    "link": "https://en.wikipedia.org/wiki/Tenor_(website)",
+    "description": "Tenor API was used for searching up and sharing GIFs in Tenor's database on other websites (notably Discord).",
+    "type": "service"
   }
 ]
