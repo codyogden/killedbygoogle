@@ -2390,5 +2390,13 @@
     "link": "https://support.google.com/websearch/answer/16767242",
     "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
     "type": "service"
+  },
+  {
+    "name": "Delve",
+    "dateOpen": "2020-10-13",
+    "dateClose": "2026-05-04",
+    "link": "https://www.archdaily.com/949392/sidewalk-labs-reimagines-urban-planning-with-new-delve-generative-design-tool",
+    "description": "Delve was a tool to help developers, architects and urban designers discover optimal design choices for neighborhood projects.",
+    "type": "service"
   }
 ]
