@@ -1,6 +1,6 @@
 .footerContainer {
-    background-color: #474747;
-    color: #fafafa;
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
     font-size: 1em;
     padding: 50px 0;
 }
@@ -37,7 +37,7 @@
 }
 
 .title {
-    color: #fafafa;
+    color: var(--footer-text);
     font-size: 2.5em;
     font-weight: lighter;
 }

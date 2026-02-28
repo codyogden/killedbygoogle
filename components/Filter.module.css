@@ -5,9 +5,10 @@
 
 .filterSelect {
   appearance: none;
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: var(--select-bg);
+  border: 1px solid var(--select-border);
   border-radius: 4px;
+  color: var(--text);
   padding: 8px 12px;
   font-size: 14px;
   font-family: inherit;
@@ -22,10 +23,10 @@
 
 .filterSelect:focus {
   outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  border-color: var(--select-focus);
+  box-shadow: 0 0 0 2px var(--select-focus-ring);
 }
 
 .filterSelect:hover {
-  border-color: #999;
-} 
+  border-color: var(--select-border-hover);
+}
