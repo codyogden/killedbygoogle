@@ -72,3 +72,9 @@
 .tombstoneIcon {
     margin-right: 10px;
 } 
+
+@media (prefers-color-scheme: dark) {
+    .footerContainer img {
+        filter: none;
+    }
+}
