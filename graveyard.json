@@ -1,5 +1,13 @@
 [
   {
+    "name": "Firebase Studio",
+    "dateOpen": "2023-08-08",
+    "dateClose": "2027-03-22",
+    "link": "https://en.wikipedia.org/wiki/Firebase_Studio",
+    "description": "Firebase Studio (formerly Project IDX) was an AI-driven, full-stack development environment designed to accelerate the app development lifecycle using AI agents.",
+    "type": "service"
+  },
+  {
     "name": "Chromecast",
     "dateOpen": "2013-07-24",
     "dateClose": "2024-08-06",
