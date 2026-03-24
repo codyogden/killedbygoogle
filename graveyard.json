@@ -2390,5 +2390,13 @@
     "link": "https://support.google.com/websearch/answer/16767242",
     "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
     "type": "service"
+  },
+  {
+    "name": "Doppl",
+    "dateOpen": "2025-06-26",
+    "dateClose": "2026-04-30",
+    "link": "https://labs.google/doppl",
+    "description": "Doppl was an early experimental AI app launched by Google Labs in June 2025 to create a \"digital twin\" or virtual model of yourself for trying on outfits.",
+    "type": "app"
   }
 ]
