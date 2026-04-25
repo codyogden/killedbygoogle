@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { PressCoverage } from 'components';
+import { PressCoverage } from '@/components';
 import Link from 'next/link';
 import styles from './Footer.module.css';
 
