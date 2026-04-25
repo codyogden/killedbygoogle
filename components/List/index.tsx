@@ -1,7 +1,7 @@
-import { ProductWithSlug } from 'types/Product';
+import { ProductWithSlug } from '@/types/Product';
 
-import { Carbon, SRT } from 'components';
-import Item from 'components/List/Item';
+import { Carbon, SRT } from '@/components';
+import Item from '@/components/List/Item';
 import styles from './List.module.css';
 import Link from 'next/link';
 
