@@ -2422,5 +2422,13 @@
     "link": "https://www.pcmag.com/news/rip-google-glass-enterprise-as-sales-for-smart-glasses-end",
     "description": "Glass Enterprise Edition was a head-up display for enterprise customers.",
     "type": "hardware"
+  },
+  {
+    "name": "YouTube for Wii",
+    "dateOpen": "2012-11-15",
+    "dateClose": "2022-10-27",
+    "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
+    "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
+    "type": "app"
   }
 ]
