@@ -2392,6 +2392,14 @@
     "type": "service"
   },
   {
+    "name": "Doppl",
+    "dateOpen": "2025-06-26",
+    "dateClose": "2026-04-30",
+    "link": "https://labs.google/doppl",
+    "description": "Doppl was an early experimental AI app launched by Google Labs in June 2025 to create a \"digital twin\" or virtual model of yourself for trying on outfits.",
+    "type": "app"
+  },
+  {
     "name": "Firebase Studio",
     "dateOpen": "2024-05-15",
     "dateClose": "2027-03-22",
