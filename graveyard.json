@@ -2398,5 +2398,29 @@
     "link": "https://labs.google/doppl",
     "description": "Doppl was an early experimental AI app launched by Google Labs in June 2025 to create a \"digital twin\" or virtual model of yourself for trying on outfits.",
     "type": "app"
+  },
+  {
+    "name": "Firebase Studio",
+    "dateOpen": "2024-05-15",
+    "dateClose": "2027-03-22",
+    "link": "https://firebase.google.com/docs/studio/migrating-project",
+    "description": "Firebase Studio is an agentic, cloud-based development environment that gives you powerful tools and AI agents directly in your browser.",
+    "type": "app"
+  },
+  {
+    "name": "Socratic",
+    "dateOpen": "2013-08-15",
+    "dateClose": "2024-08-31",
+    "link": "https://en.wikipedia.org/wiki/Socratic_(Google)",
+    "description": "Socratic was a free educational app that helped students with homework by scanning questions with a smartphone camera and offering step-by-step solutions.",
+    "type": "app"
+  },
+  {
+    "name": "Glass Enterprise Edition",
+    "dateOpen": "2017-07-01",
+    "dateClose": "2023-09-15",
+    "link": "https://www.pcmag.com/news/rip-google-glass-enterprise-as-sales-for-smart-glasses-end",
+    "description": "Glass Enterprise Edition was a head-up display for enterprise customers.",
+    "type": "hardware"
   }
 ]

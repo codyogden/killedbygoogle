@@ -7,8 +7,8 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import { ProductWithSlug } from 'types/Product';
-import Badge from 'components/Badge'; 
+import { ProductWithSlug } from '@/types/Product';
+import Badge from '@/components/Badge';
 import styles from './Item.module.css';
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'));

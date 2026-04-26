@@ -2,7 +2,7 @@
 
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
-import SRT from 'components/SRT';
+import SRT from '@/components/SRT';
 
 // Import CSS Module
 import styles from './Search.module.css';
