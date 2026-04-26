@@ -1,0 +1,74 @@
+.footerContainer {
+    background-color: #474747;
+    color: #fafafa;
+    font-size: 1em;
+    padding: 50px 0;
+}
+
+.flexWrap {
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+    width: 38em;
+}
+
+.flexWrap > div:nth-child(1) {
+    flex: 0 0 50%;
+}
+
+.flexWrap > div:nth-child(2) {
+    flex: 0 0 41.67%;
+}
+
+.flexWrap > div p {
+    line-height: 1.75;
+}
+
+.creatorTag {
+    font-size: 0.8em;
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.copyNotice {
+    font-size: 0.75em;
+    margin: 30px 0 20px 0;
+    text-align: center;
+}
+
+.title {
+    color: #fafafa;
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.footerTitle {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.socialWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.socialWrapper a {
+    display: block;
+    margin: 0 10px;
+}
+
+.socialLink {
+    border: none;
+}
+
+.socialImage {
+    width: 24px;
+    height: 24px;
+}
+
+.tombstoneIcon {
+    margin-right: 10px;
+} 

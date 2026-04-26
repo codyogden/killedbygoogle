@@ -1,6 +1,8 @@
+'use client';
+
 import _ from "lodash";
 import React, { useEffect, useState } from "react";
-import { FallbackAd } from 'components/List';
+import { FallbackAd } from '@/components/List';
 
 interface CarbonProps {
     name: string
