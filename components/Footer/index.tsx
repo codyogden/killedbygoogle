@@ -77,10 +77,6 @@ const Footer = () => (
                     <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
                         &copy; {(new Date()).getFullYear()} Cody Ogden.
           </a>
-          &nbsp;-&nbsp;
-          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
-                        Analytics
-          </a>
                 </div>
                 <div className={styles.socialWrapper}>
                     <SocialLink
