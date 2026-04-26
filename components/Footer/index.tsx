@@ -80,6 +80,11 @@ const Footer = () => (
                 </div>
                 <div className={styles.socialWrapper}>
                     <SocialLink
+                        url="https://x.com/killedbygoogle"
+                        altText="Twitter"
+                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
+                    />
+                    <SocialLink
                         url="https://killedbygoogle.blue"
                         altText="BlueSky"
                         imgSrc='https://static.killedbygoogle.com/com/bsky.svg'
