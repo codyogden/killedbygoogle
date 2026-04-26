@@ -1,8 +1,8 @@
 'use client';
 
-import { SRT } from 'components';
-import { Product } from 'types/Product';
-import { FilterType } from 'types/Filter';
+import { SRT } from '@/components';
+import { Product } from '@/types/Product';
+import { FilterType } from '@/types/Filter';
 import styles from './Filter.module.css';
 
 type Props = {
