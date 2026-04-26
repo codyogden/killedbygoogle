@@ -2390,5 +2390,13 @@
     "link": "https://support.google.com/websearch/answer/16767242",
     "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
     "type": "service"
+  },
+  {
+    "name": "Socratic",
+    "dateOpen": "2013-08-15",
+    "dateClose": "2024-08-31",
+    "link": "https://en.wikipedia.org/wiki/Socratic_(Google)",
+    "description": "Socratic was a free educational app that helped students with homework by scanning questions with a smartphone camera and offering step-by-step solutions.",
+    "type": "app"
   }
 ]
