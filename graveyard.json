@@ -2392,6 +2392,14 @@
     "type": "service"
   },
   {
+    "name": "Tenor API",
+    "dateOpen": "2015-06-26",
+    "dateClose": "2026-06-30",
+    "link": "https://en.wikipedia.org/wiki/Tenor_(website)",
+    "description": "Tenor API was used for searching up and sharing GIFs in Tenor's database on other websites (notably Discord).",
+    "type": "service"
+  },
+  {
     "name": "Doppl",
     "dateOpen": "2025-06-26",
     "dateClose": "2026-04-30",
