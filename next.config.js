@@ -1,16 +1,18 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     env: {
         mode: process.env.NODE_ENV,
     },
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ["@svgr/webpack"]
-        });
-
-        return config;
+    // Enable Turbopack (now stable)
+    turbopack: {
+        rules: {
+            '*.svg': {
+                loaders: ['@svgr/webpack'],
+                as: '*.js',
+            },
+        },
     },
-    redirects() {
+    async redirects() {
         return [
             {
                 source: '/graveyard.json',
@@ -19,15 +21,11 @@ module.exports = {
             },
         ];
     },
-    rewrites() {
+    async rewrites() {
         return [
             {
-                source: '/umami.js',
-                destination: 'https://analytics.bale.media/umami.js'
-            },
-            {
-                source: '/api/collect',
-                destination: 'https://analytics.bale.media/api/collect',
+                source: '/api/send',
+                destination: 'https://analytics.bale.media/api/send',
             },
             {
                 source: '/social/:path*',
@@ -36,3 +34,5 @@ module.exports = {
         ]
     },
 };
+
+module.exports = nextConfig;

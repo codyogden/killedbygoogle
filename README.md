@@ -26,7 +26,7 @@ If you are not familiar with or do not want to use `git`, submit a [new issue](h
 1. If you haven't already, start by [forking](https://help.github.com/en/articles/fork-a-repo) this repository. 
 1. [Create a new branch](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work) in your fork. Name it using the product you want to add 
 1. Switch to that branch (should happen automatically if you've just created it) and open the `graveyard.json` file
-1. Run `yarn && yarn kill` to start the product addition CLI. This will prompt you for the information and validate you entry as you go. It will write the product information into the `graveyard.json` file for you.
+1. Run `yarn && yarn kill` to start the product addition CLI. This will prompt you for the information and validate your entry as you go. It will write the product information into the `graveyard.json` file for you.
 1. After the CLI, run `yarn test` to ensure that the `graveyard.json` is formatted properly and all values are valid.
 1. Commit your work in git and [create a Pull Request (PR)](https://help.github.com/en/articles/creating-a-pull-request) using the newly created branch.
 

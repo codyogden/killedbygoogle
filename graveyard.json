@@ -1,5 +1,45 @@
 [
   {
+    "name": "Chromecast",
+    "dateOpen": "2013-07-24",
+    "dateClose": "2024-08-06",
+    "link": "https://www.theverge.com/2024/8/6/24214471/google-chromecast-line-discontinued",
+    "description": "Chromecast was a line of digital media players that allowed users to play online content on a television.",
+    "type": "hardware"
+  },
+  {
+    "name": "VPN by Google One",
+    "dateClose": "2024-06-20",
+    "dateOpen": "2020-10-29",
+    "description": "VPN by Google One was a virtual private network service that provided users encrypted transit of their data and network activity and allowed them to mask their IP address.",
+    "link": "https://9to5google.com/2024/04/11/google-one-vpn-discontinued/",
+    "type": "service"
+  },
+  {
+    "dateClose": "2023-06-26",
+    "dateOpen": "2017-11-29",
+    "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
+    "link": "https://www.theverge.com/2023/5/25/23736246/youtube-ending-stories-shorts-community-posts",
+    "name": "YouTube Stories",
+    "type": "service"
+  },
+  {
+    "dateClose": "2023-07-19",
+    "dateOpen": "2016-08-05",
+    "description": "Google Album Archive was a platform that allowed users to access and manage their archived photos and videos from various Google services, such as Hangouts and Picasa Web Albums.",
+    "link": "https://cordcuttersnews.com/google-is-shutting-down-album-archive/",
+    "name": "Google Album Archive",
+    "type": "service"
+  },
+  {
+    "dateClose": "2023-09-30",
+    "dateOpen": "2014-06-13",
+    "description": "Google Domains was a domain name registrar operated by Google.",
+    "link": "https://9to5google.com/2023/06/15/google-domains-squarespace/",
+    "name": "Google Domains",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-04-24",
     "dateOpen": "2014-01-01",
     "description": "Jacquard was a small tag to make it easier and more intuitive for people to interact with technology in their everyday lives, without having to constantly pull out their devices or touch screens.",
@@ -7,7 +47,6 @@
     "name": "Jacquard",
     "type": "app"
   },
-
   {
     "dateClose": "2022-11-01",
     "dateOpen": "2012-03-29",
@@ -121,10 +160,18 @@
     "type": "service"
   },
   {
+    "dateClose": "2024-04-08",
+    "dateOpen": "2009-01-15",
+    "description": "Dropcam was a line of Wi-Fi video streaming cameras acquired by Google in 2014.",
+    "link": "https://en.wikipedia.org/wiki/Dropcam",
+    "name": "DropCam",
+    "type": "hardware"
+  },
+  {
     "dateClose": "2021-12-11",
     "dateOpen": "2000-12-11",
     "description": "Google Toolbar was a web browser toolbar that provided a search box in web browsers like Internet Explorer and Firefox.",
-    "link": "https://en.wikipedia.org/wiki/Google_Toolbar",
+    "link": "https://arstechnica.com/gadgets/2021/12/happy-21st-birthday-to-google-toolbar-which-inexplicably-still-exists/",
     "name": "Google Toolbar",
     "type": "service"
   },
@@ -220,7 +267,7 @@
     "dateClose": "2021-03-31",
     "dateOpen": "2011-09-25",
     "description": "Google Crisis Map was a website that allowed to create, publish, and share maps by combining layers from anywhere on the web.",
-    "link": "https://support.google.com/maps/answer/10394155",
+    "link": "https://web.archive.org/web/20211209021628/https://support.google.com/maps/answer/10394155",
     "name": "Google Crisis Map",
     "type": "service"
   },
@@ -291,7 +338,7 @@
   {
     "dateClose": "2020-03-19",
     "dateOpen": "2018-05-09",
-    "description": "Material Theme Editor is a plugin for Sketch App which allows you to create a material-based design system for your app.",
+    "description": "Material Theme Editor was a plugin for Sketch App which allowed you to create a material-based design system for your app.",
     "link": "https://medium.com/google-design/whats-next-for-material-design-s-theming-tools-f65014ffcce7",
     "name": "Material Theme Editor",
     "type": "app"
@@ -299,7 +346,7 @@
   {
     "dateClose": "2020-02-17",
     "dateOpen": "2015-09-27",
-    "description": "Google Station is a service that gives partners an easy set of tools to roll out Wi-Fi hotspots in public places. Google Station provides software and guidance on hardware to turn fiber connections into fast, reliable, and safe Wi-Fi zones.",
+    "description": "Google Station was a service that gave partners an easy set of tools to roll out Wi-Fi hotspots in public places. Google Station provided software and guidance on hardware to turn fiber connections into fast, reliable, and safe Wi-Fi zones.",
     "link": "https://india.googleblog.com/2020/02/five-years-400-stations-and-thousands.html",
     "name": "Google Station",
     "type": "service"
@@ -435,7 +482,7 @@
   {
     "dateClose": "2019-09-30",
     "dateOpen": "2011-01-27",
-    "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery is updated.",
+    "description": "Follow Your World allowed users to register points of interest on Google Maps and receive email updates whenever the imagery was updated.",
     "link": "https://maps.googleblog.com/2011/01/sign-up-for-imagery-update-alert.html",
     "name": "Follow Your World",
     "type": "service"
@@ -979,7 +1026,7 @@
   {
     "dateClose": "2014-01-31",
     "dateOpen": "2009-03-27",
-    "description": "Bump! is a discontinued iOS and Android mobile app that enables smartphone users to transfer contact information, photos, and files between devices.",
+    "description": "Bump! was an iOS and Android mobile app that enabled smartphone users to transfer contact information, photos, and files between devices.",
     "link": "https://en.wikipedia.org/wiki/Bump_(application)",
     "name": "Bump!",
     "type": "app"
@@ -1124,7 +1171,7 @@
     "dateClose": "2009-03-30",
     "dateOpen": "2007-09-30",
     "description": "Google Shared Stuff was a web page sharing system that allowed users to bookmark pages and share them.",
-    "link": "https://www.google.com/s2/sharing/stuff",
+    "link": "https://web.archive.org/web/20080904000312/https://www.google.com/s2/sharing/stuff",
     "name": "Google Shared Stuff",
     "type": "service"
   },
@@ -1324,7 +1371,7 @@
     "dateClose": "2018-04-01",
     "dateOpen": "2008-11-13",
     "description": "Google's Site Search was a service that enabled any website to add a custom search field powered by Google.",
-    "link": "https://enterprise.google.com/search/products/gss.html",
+    "link": "https://web.archive.org/web/20180804001326/https://enterprise.google.com/search/products/gss.html",
     "name": "Google Site Search",
     "type": "service"
   },
@@ -1443,7 +1490,7 @@
   {
     "dateClose": "2011-10-13",
     "dateOpen": "2010-12-15",
-    "description": "ZygoteBody, formerly Google Body, is a web application by Zygote Media Group that renders manipulable 3D anatomical models of the human body.",
+    "description": "ZygoteBody, formerly Google Body, was a web application by Zygote Media Group that rendered manipulable 3D anatomical models of the human body.",
     "link": "https://en.wikipedia.org/wiki/ZygoteBody",
     "name": "ZygoteBody",
     "type": "service"
@@ -1499,7 +1546,7 @@
   {
     "dateClose": "2011-07-20",
     "dateOpen": "2009-11-17",
-    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It is built on top of image search by grouping images with similar visual and semantic qualities.",
+    "description": "Google Image Swirl was an enhancement to the image search tool that came out of Google Labs. It was built on top of image search by grouping images with similar visual and semantic qualities.",
     "link": "https://en.wikipedia.org/wiki/Google_Image_Swirl",
     "name": "Google Image Swirl",
     "type": "service"
@@ -1588,7 +1635,7 @@
     "dateClose": "2018-04-10",
     "dateOpen": "2010-07-01",
     "description": "A service that Google developed for long-tail travel clients. ITA Software will create a new, easier way for users to find better flight information online, which should encourage more users to make their flight purchases online.",
-    "link": "https://developers.google.com/qpx-express/",
+    "link": "https://web.archive.org/web/20190402190950/https://developers.google.com/qpx-express/",
     "name": "qpx-express-API",
     "type": "service"
   },
@@ -1748,7 +1795,7 @@
     "dateClose": "2019-01-15",
     "dateOpen": "2013-03-19",
     "description": "Google Realtime API provided ways to synchronize resources between devices. It operated on files stored on Google Drive.",
-    "link": "https://developers.google.com/realtime/deprecation",
+    "link": "https://web.archive.org/web/20181220223930/https://developers.google.com/realtime/deprecation",
     "name": "Google Realtime API",
     "type": "service"
   },
@@ -1764,7 +1811,7 @@
     "dateClose": "2013-11-11",
     "dateOpen": "2010-12-09",
     "description": "Google Trader was a classifieds service run by Google in Ghana, Uganda, Kenya, and Nigeria to help customers trade goods and services online.",
-    "link": "https://www.google.com.gh/local/trader/",
+    "link": "https://web.archive.org/web/20130313193605/https://www.google.com.gh/local/trader/",
     "name": "Google Trader",
     "type": "service"
   },
@@ -1828,7 +1875,7 @@
     "dateClose": "2019-12-04",
     "dateOpen": "2009-06-08",
     "description": "Google Translator Toolkit was a web application which allowed translators to edit and manage translations generated by Google Translate.",
-    "link": "https://support.google.com/translatortoolkit/answer/9462068",
+    "link": "https://web.archive.org/web/20191115163453/https://support.google.com/translatortoolkit/answer/9462068",
     "name": "Google Translator Toolkit",
     "type": "service"
   },
@@ -1907,8 +1954,8 @@
   {
     "dateClose": "2019-10-01",
     "dateOpen": "2013-11-21",
-    "description": "Message Center is a web console where Gmail users view and manage spam email messages.",
-    "link": "https://support.google.com/a/answer/9275489",
+    "description": "Message Center was a web console where Gmail users could view and manage spam email messages.",
+    "link": "https://web.archive.org/web/20200806193905/https://support.google.com/a/answer/9275489",
     "name": "Message Center",
     "type": "service"
   },
@@ -1971,7 +2018,7 @@
   {
     "dateClose": "2021-06-30",
     "dateOpen": "2015-08-01",
-    "description": "Expeditions is a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
+    "description": "Expeditions was a program for providing virtual reality experiences to school classrooms through Google Cardboard viewers, allowing educators to take their students on virtual field trips.",
     "link": "https://en.wikipedia.org/wiki/Google_Expeditions",
     "name": "Expeditions",
     "type": "app"
@@ -2004,7 +2051,7 @@
     "dateClose": "2021-06-30",
     "dateOpen": "2017-11-01",
     "description": "Poly was a distribution platform for creators to share 3D objects.",
-    "link": "https://support.google.com/poly/answer/10192635",
+    "link": "https://web.archive.org/web/20201202153708/https://support.google.com/poly/answer/10192635",
     "name": "Poly",
     "type": "service"
   },
@@ -2051,8 +2098,8 @@
   {
     "dateClose": "2021-12-16",
     "dateOpen": "2018-05-08",
-    "description": "Material Gallery is a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
-    "link": "https://support.google.com/materialgallery/answer/11044972?hl=en&ref_topic=11045865",
+    "description": "Material Gallery was a collaboration tool for UI designers, optimized for Google's Material Design, with mobile preview apps and a Sketch plugin.",
+    "link": "https://web.archive.org/web/20230706151910/https://support.google.com/materialgallery/answer/11044972",
     "name": "Material Gallery",
     "type": "service"
   },
@@ -2196,7 +2243,7 @@
     "name": "Conversational Actions",
     "dateOpen": "2016-10-04",
     "dateClose": "2023-06-13",
-    "link": "https://developers.google.com/assistant/conversational/overview",
+    "link": "https://web.archive.org/web/20230430231035/https://developers.google.com/assistant/conversational/overview",
     "description": "Conversational Actions extended the functionality of Google Assistant by allowing 3rd party developers to create custom experiences, or conversations, for users of Google Assistant.",
     "type": "service"
   },
@@ -2263,12 +2310,12 @@
     "link": "https://9to5google.com/2022/11/01/google-street-view-app-shutting-down/",
     "description": "Google Street View app was an Android and iOS app that enabled people to get a 360 degree view of locations around the world.",
     "type": "app"
-   },
-   {
+  },
+  {
     "name": "Google Optimize",
     "dateOpen": "2012-06-01",
     "dateClose": "2023-09-30",
-    "link": "https://support.google.com/optimize/answer/12979939",
+    "link": "https://web.archive.org/web/20230120214459/https://support.google.com/optimize/answer/12979939",
     "description": "Google Optimize was a web analytics and testing tool that allowed users to run experiments aimed at increasing visitor conversion rates and overall satisfaction.",
     "type": "service"
   },
@@ -2276,8 +2323,120 @@
     "name": "Grasshopper",
     "dateOpen": "2018-04-18",
     "dateClose": "2023-06-15",
-    "link": "https://support.grasshopper.app/t/grasshopper-is-shutting-down-on-june-15-2023/61994",
+    "link": "https://www.androidpolice.com/google-grasshopper-code-learning-shut-down-date-revealed/",
     "description": "Grasshopper was a free mobile and web app for aspiring programmers that taught introductory JavaScript and coding fundamentals using fun, bite-sized puzzles.",
+    "type": "app"
+  },
+  {
+    "name": "Pixel Pass",
+    "dateOpen": "2021-10-28",
+    "dateClose": "2023-08-29",
+    "link": "https://www.theverge.com/2023/8/30/23851107/google-graveyard-pixel-pass-subscription-phone-upgrades",
+    "description": "Pixel Pass was a program that allowed users to pay a monthly charge for their Pixel phone and upgrade immediately after two years.",
+    "type": "service"
+  },
+  {
+    "name": "Google Podcasts",
+    "dateOpen": "2018-06-18",
+    "dateClose": "2024-04-02",
+    "link": "https://9to5google.com/2023/09/26/google-podcasts-youtube-music/",
+    "description": "Google Podcasts was a podcast hosting platform and an Android podcast listening app.",
+    "type": "app"
+  },
+  {
+    "name": "Google Jamboard",
+    "dateOpen": "2016-10-25",
+    "dateClose": "2024-10-01",
+    "link": "https://9to5google.com/2023/09/28/google-jamboard/",
+    "description": "Google Jamboard was a web app, native whiteboard app, and standalone whiteboard hardware that offered a collaborative experience.",
+    "type": "app"
+  },
+  {
+    "name": "Google Cache",
+    "dateOpen": "2000-02-22",
+    "dateClose": "2024-02-01",
+    "link": "https://9to5google.com/2024/02/02/google-search-cached-link/",
+    "description": "Google Cache was a tool to view cached/older versions of a website. It was one of the oldest products.",
+    "type": "service"
+  },
+  {
+    "name": "Keen",
+    "dateOpen": "2020-06-18",
+    "dateClose": "2024-03-24",
+    "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
+    "description": "Keen was a Pinterest-style platform with ML recommendations.",
+    "type": "app"
+  },
+  {
+    "name": "Tables by A120",
+    "dateOpen": "2020-03-05",
+    "dateClose": "2025-12-16",
+    "link": "https://en.wikipedia.org/wiki/Tables_(Google)",
+    "description": "Tables was a collaborative database platform and competitor to Airtable, focused on making project tracking more efficient with automation.",
+    "type": "service"
+  },
+  {
+    "name": "Dark Web Reports",
+    "dateOpen": "2023-03-08",
+    "dateClose": "2026-01-15",
+    "link": "https://support.google.com/websearch/answer/16767242",
+    "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
+    "type": "service"
+  },
+  {
+    "name": "Tenor API",
+    "dateOpen": "2015-06-26",
+    "dateClose": "2026-06-30",
+    "link": "https://en.wikipedia.org/wiki/Tenor_(website)",
+    "description": "Tenor API was used for searching up and sharing GIFs in Tenor's database on other websites (notably Discord).",
+    "type": "service"
+  },
+  {
+    "name": "Doppl",
+    "dateOpen": "2025-06-26",
+    "dateClose": "2026-04-30",
+    "link": "https://labs.google/doppl",
+    "description": "Doppl was an early experimental AI app launched by Google Labs in June 2025 to create a \"digital twin\" or virtual model of yourself for trying on outfits.",
+    "type": "app"
+  },
+  {
+    "name": "Firebase Studio",
+    "dateOpen": "2024-05-15",
+    "dateClose": "2027-03-22",
+    "link": "https://firebase.google.com/docs/studio/migrating-project",
+    "description": "Firebase Studio is an agentic, cloud-based development environment that gives you powerful tools and AI agents directly in your browser.",
+    "type": "app"
+  },
+  {
+    "name": "Socratic",
+    "dateOpen": "2013-08-15",
+    "dateClose": "2024-08-31",
+    "link": "https://en.wikipedia.org/wiki/Socratic_(Google)",
+    "description": "Socratic was a free educational app that helped students with homework by scanning questions with a smartphone camera and offering step-by-step solutions.",
+    "type": "app"
+  },
+  {
+    "name": "Glass Enterprise Edition",
+    "dateOpen": "2017-07-01",
+    "dateClose": "2023-09-15",
+    "link": "https://www.pcmag.com/news/rip-google-glass-enterprise-as-sales-for-smart-glasses-end",
+    "description": "Glass Enterprise Edition was a head-up display for enterprise customers.",
+    "type": "hardware"
+  },
+  {
+    "name": "YouTube for Wii",
+    "dateOpen": "2012-11-15",
+    "dateClose": "2022-10-27",
+    "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
+    "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
+    "type": "app"
+  },
+  {
+    "name": "Steam for Chromebooks",
+    "dateOpen": "2022-11-01",
+    "dateClose": "2026-01-01",
+    "link": "https://9to5google.com/2025/08/07/steam-chromebook-2026/",
+    "description": "Steam for Chromebooks is an beta initiative that allowed users to install and run PC games via the Steam client.",
     "type": "app"
   }
 ]

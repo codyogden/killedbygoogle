@@ -7,10 +7,10 @@ type BadgeProps = {
 const styles = {
   padding: '.25rem',
   display: 'inline-block',
-  backgroundColor: 'hsl(0, 0%, 88%)',
+  backgroundColor: 'var(--badge-bg)',
   borderRadius: '0.25rem',
   marginTop: '0.30rem',
-  color: 'gray',
+  color: 'var(--badge-text)',
   fontSize: '0.7em',
   textTransform: 'capitalize' as const
 }
