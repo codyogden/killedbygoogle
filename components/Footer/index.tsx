@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { PressCoverage } from 'components';
+import { PressCoverage } from '@/components';
 import Link from 'next/link';
 import styles from './Footer.module.css';
 
@@ -77,12 +77,13 @@ const Footer = () => (
                     <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
                         &copy; {(new Date()).getFullYear()} Cody Ogden.
           </a>
-          &nbsp;-&nbsp;
-          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
-                        Analytics
-          </a>
                 </div>
                 <div className={styles.socialWrapper}>
+                    <SocialLink
+                        url="https://x.com/killedbygoogle"
+                        altText="Twitter"
+                        imgSrc='https://static.killedbygoogle.com/com/twitter.svg'
+                    />
                     <SocialLink
                         url="https://killedbygoogle.blue"
                         altText="BlueSky"

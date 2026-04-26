@@ -1,5 +1,53 @@
+/* Theme tokens default to light mode and are overridden for system dark mode. */
+:root {
+    --bg: #fafafa;
+    --text: #1f1f1f;
+    --border-muted: #cfcfcf;
+    --surface-muted: #e1e1e1;
+    --surface-elevated: hsl(0, 0%, 98%);
+    --select-bg: #ffffff;
+    --select-border: #cccccc;
+    --select-border-hover: #999999;
+    --select-focus: #007bff;
+    --select-focus-ring: rgba(0, 123, 255, 0.25);
+    --footer-bg: #474747;
+    --footer-text: #fafafa;
+    --ad-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, 0.1);
+    --ad-power-bg: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, 0.025) 5px, hsla(0, 0%, 0%, 0.025) 10px) hsla(203, 11%, 95%, 0.4);
+    --badge-bg: hsl(0, 0%, 88%);
+    --badge-text: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #121416;
+        --text: #e8ebef;
+        --border-muted: #55606e;
+        --surface-muted: #1b1f24;
+        --surface-elevated: #161a1f;
+        --select-bg: #1b1f24;
+        --select-border: #4a5563;
+        --select-border-hover: #6b7685;
+        --select-focus: #5aa7ff;
+        --select-focus-ring: rgba(90, 167, 255, 0.3);
+        --footer-bg: #0f1114;
+        --footer-text: #e8ebef;
+        --ad-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, 0.45);
+        --ad-power-bg: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 100%, 0.04) 5px, hsla(0, 0%, 100%, 0.04) 10px) hsla(212, 16%, 18%, 0.75);
+        --badge-bg: hsl(215, 14%, 24%);
+        --badge-text: #c7d2de;
+    }
+
+    img {
+        filter: invert(1);
+    }
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: var(--bg);
+    color: var(--text);
+    color-scheme: light dark;
     margin: 0;
 }
 

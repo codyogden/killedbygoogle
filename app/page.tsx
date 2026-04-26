@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
 import slugify from 'slugify';
 
 // Data
@@ -51,9 +51,13 @@ export const metadata: Metadata = {
             'msvalidate.01': '0C9605AF449480F57421EECCA9EB2B8A',
         },
     },
-    other: {
-        'theme-color': '#FAFAFA',
-    },
+};
+
+export const viewport: Viewport = {
+    themeColor: [
+        { media: '(prefers-color-scheme: light)', color: '#fafafa' },
+        { media: '(prefers-color-scheme: dark)', color: '#121416' },
+    ],
 };
 
 async function getProcessedItems(): Promise<ProductWithSlug[]> {

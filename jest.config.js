@@ -4,7 +4,9 @@ const config = {
   testEnvironment: 'node',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
   transform: {
-    '^.+\\.(ts|tsx)$': 'ts-jest',
+    '^.+\\.(ts|tsx)$': ['ts-jest', {
+      tsconfig: 'tsconfig.test.json',
+    }],
   },
   testMatch: ['**/*.test.(ts|tsx|js|jsx)'],
   moduleNameMapper: {

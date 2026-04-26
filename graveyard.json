@@ -2398,5 +2398,53 @@
     "link": "https://en.wikipedia.org/wiki/Tenor_(website)",
     "description": "Tenor API was used for searching up and sharing GIFs in Tenor's database on other websites (notably Discord).",
     "type": "service"
+  },
+  {
+    "name": "Doppl",
+    "dateOpen": "2025-06-26",
+    "dateClose": "2026-04-30",
+    "link": "https://labs.google/doppl",
+    "description": "Doppl was an early experimental AI app launched by Google Labs in June 2025 to create a \"digital twin\" or virtual model of yourself for trying on outfits.",
+    "type": "app"
+  },
+  {
+    "name": "Firebase Studio",
+    "dateOpen": "2024-05-15",
+    "dateClose": "2027-03-22",
+    "link": "https://firebase.google.com/docs/studio/migrating-project",
+    "description": "Firebase Studio is an agentic, cloud-based development environment that gives you powerful tools and AI agents directly in your browser.",
+    "type": "app"
+  },
+  {
+    "name": "Socratic",
+    "dateOpen": "2013-08-15",
+    "dateClose": "2024-08-31",
+    "link": "https://en.wikipedia.org/wiki/Socratic_(Google)",
+    "description": "Socratic was a free educational app that helped students with homework by scanning questions with a smartphone camera and offering step-by-step solutions.",
+    "type": "app"
+  },
+  {
+    "name": "Glass Enterprise Edition",
+    "dateOpen": "2017-07-01",
+    "dateClose": "2023-09-15",
+    "link": "https://www.pcmag.com/news/rip-google-glass-enterprise-as-sales-for-smart-glasses-end",
+    "description": "Glass Enterprise Edition was a head-up display for enterprise customers.",
+    "type": "hardware"
+  },
+  {
+    "name": "YouTube for Wii",
+    "dateOpen": "2012-11-15",
+    "dateClose": "2022-10-27",
+    "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
+    "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
+    "type": "app"
+  },
+  {
+    "name": "Steam for Chromebooks",
+    "dateOpen": "2022-11-01",
+    "dateClose": "2026-01-01",
+    "link": "https://9to5google.com/2025/08/07/steam-chromebook-2026/",
+    "description": "Steam for Chromebooks is an beta initiative that allowed users to install and run PC games via the Steam client.",
+    "type": "app"
   }
 ]
