@@ -5,7 +5,7 @@
 .searchBox {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #cfcfcf;
+    border-bottom: 1px solid var(--border-muted);
     box-sizing: border-box;
     display: block;
     font-size: 1.25em;
@@ -24,49 +24,49 @@
 }
 
 .searchBox::-webkit-input-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
     transition: all 100ms linear;
 }
 
 .searchBox::-moz-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
     transition: all 100ms linear;
 }
 
 .searchBox:-ms-input-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
     transition: all 100ms linear;
 }
 
 .searchBox:-moz-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
     transition: all 100ms linear;
 }
 
 .searchBox:hover::-webkit-input-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
 }
 
 .searchBox:hover::-moz-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
 }
 
 .searchBox:hover:-ms-input-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
 }
 
 .searchBox:focus::-webkit-input-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
 }
 
 .searchBox:focus::-moz-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
 }
 
 .searchBox:focus:-ms-input-placeholder {
-    color: #cfcfcf;
+    color: var(--border-muted);
 }
 
 .searchBox:focus:-moz-placeholder {
-    color: #cfcfcf;
-} 
+    color: var(--border-muted);
+}

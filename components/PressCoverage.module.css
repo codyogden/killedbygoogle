@@ -30,7 +30,7 @@
 }
 
 .press {
-    background-color: #e1e1e1;
+    background-color: var(--surface-muted);
     padding: 40px 0;
 }
 
