@@ -2392,6 +2392,14 @@
     "type": "service"
   },
   {
+    "name": "Firebase Studio",
+    "dateOpen": "2024-05-15",
+    "dateClose": "2027-03-22",
+    "link": "https://firebase.google.com/docs/studio/migrating-project",
+    "description": "Firebase Studio is an agentic, cloud-based development environment that gives you powerful tools and AI agents directly in your browser.",
+    "type": "app"
+  },
+  {
     "name": "Socratic",
     "dateOpen": "2013-08-15",
     "dateClose": "2024-08-31",
