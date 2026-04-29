@@ -2438,5 +2438,13 @@
     "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
     "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
+  },
+  {
+  	"name": "Google Groups Usenet Support",
+  	"dateOpen": "2001-02-12",
+  	"dateClose": "2024-02-22",
+  	"link": "https://www.theregister.com/2023/12/18/google_ends_usenet_links/",
+  	"description": "Google Groups' support for Usenet allowed users to participate in Usenet groups.",
+  	"type": "service"
   }
 ]
