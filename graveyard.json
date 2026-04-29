@@ -2438,5 +2438,13 @@
     "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
     "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
+  },
+  {
+    "name": "Google Earth View",
+    "dateOpen": "2014-12-02",
+    "dateClose": "2024-01-29",
+    "link": "https://9to5google.com/2024/01/29/google-shuts-down-earth-view-wallpaper-collection/",
+    "description": "Google Earth View was a browsable wallpaper gallery that showcased high resolution images from Google Earth.",
+    "type": "app"
   }
 ]
