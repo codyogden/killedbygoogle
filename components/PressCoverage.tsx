@@ -48,7 +48,7 @@ const links = [
 ];
 
 const PressCoverage = () => (
-  <div className="bg-muted py-10">
+  <div className="bg-muted mt-10 py-10">
     <h4 className="m-0 text-center text-[1.25em] font-normal uppercase">As seen on</h4>
     <ul className="mx-auto flex w-[1000px] max-w-[80%] list-none flex-row flex-wrap items-center justify-center p-0">
       {links.map((link) => (
