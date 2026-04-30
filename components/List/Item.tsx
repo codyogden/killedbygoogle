@@ -21,11 +21,17 @@ const GUILLOTINE = {
   alt: 'Guillotine',
 };
 
+const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;
+
 function Item(props: ProductWithSlug) {
   const dateOpen = parseISO(props.dateOpen);
   const dateClose = parseISO(props.dateClose);
-  const past = Date.now() > dateClose.getTime();
-  const relativeDate = formatDistanceToNow(dateClose);
+  const now = Date.now();
+  const past = now > dateClose.getTime();
+  // Items killed in the last month would render "X hours ago" at build time
+  // and a different "X hours ago" on the client, causing a visible flash.
+  // Coarse-grain to "recently" so the SSR and client strings match.
+  const recentlyKilled = past && now - dateClose.getTime() < ONE_MONTH_MS;
   const duration = formatDistance(dateClose, dateOpen);
   const icon = past ? TOMBSTONE : GUILLOTINE;
   const yearsLine = past ? ` It was ${duration} old.` : ` It will be ${duration} old.`;
@@ -69,7 +75,11 @@ function Item(props: ProductWithSlug) {
           </a>
         </h2>
         <p className="mx-0 mt-2 mb-0 text-[0.9em] leading-[1.5]">
-          {past ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} />}
+          {past
+            ? recentlyKilled
+              ? 'Killed recently, '
+              : `Killed ${formatDistanceToNow(dateClose)} ago, `
+            : <DeathIdiom relativeDate={formatDistanceToNow(dateClose)} />}
           {props.description}
           {yearsLine}
         </p>
