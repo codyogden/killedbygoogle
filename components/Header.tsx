@@ -7,7 +7,7 @@ const Header = () => (
                 <div className="mr-[10px]">
                     <img width="60px" height="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" alt="Tombstone" />
                 </div>
-                <h1 className="m-0 whitespace-nowrap text-[2.5em] font-light">Killed by Google</h1>
+                <h1 className="m-0 whitespace-nowrap text-[2.5em] font-thin">Killed by Google</h1>
             </div>
         </Link>
     </header>
