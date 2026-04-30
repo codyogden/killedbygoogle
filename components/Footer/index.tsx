@@ -23,7 +23,7 @@ const Footer = () => (
     <>
         <PressCoverage />
         <footer className="bg-footer-bg text-footer-text py-[50px] text-base [&_img]:dark:filter-none">
-            <div className="mx-auto w-[38em] max-w-[90%] text-center [&>div_p]:leading-[1.75]">
+            <div className="mx-auto w-[38em] max-w-[90%] text-center [&>div_p]:my-4 [&>div_p]:leading-[1.75]">
                 <div className="flex items-center justify-center pb-5">
                     <div className="mr-[10px] size-16">
                         <img height="60px" width="60px" src="https://static.killedbygoogle.com/com/tombstone-alt.svg" alt="Tombstone" />
