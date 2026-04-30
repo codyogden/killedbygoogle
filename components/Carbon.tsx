@@ -1,6 +1,5 @@
 'use client';
 
-import _ from "lodash";
 import React, { useEffect, useState } from "react";
 import { FallbackAd } from '@/components/List';
 
@@ -34,7 +33,7 @@ export default function Carbon(props: CarbonProps) {
         };
         script.addEventListener("load", () => {
             if (adShowing()) {
-                _.invoke((window as any)._carbonads, "refresh")
+                (window as any)._carbonads?.refresh?.();
                 updateForceUpdate(1);
             }
         });

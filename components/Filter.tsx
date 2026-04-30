@@ -1,5 +1,7 @@
 'use client';
 
+import { useMemo } from 'react';
+
 import { SRT } from '@/components';
 import { Product } from '@/types/Product';
 import { FilterType } from '@/types/Filter';
@@ -12,7 +14,13 @@ type Props = {
 
 const Filter: React.FC<Props> = ({ items, filterHandler }) => {
 
-  const getCount = (type: string) => items.filter(item => item.type === type).length;
+  const counts = useMemo(() => {
+    const c = { app: 0, service: 0, hardware: 0 };
+    for (const item of items) {
+      if (item.type in c) c[item.type as keyof typeof c]++;
+    }
+    return c;
+  }, [items]);
 
   const changeHandler = (event: React.ChangeEvent<HTMLSelectElement>): void => {
     const filterVal = event.target.value as FilterType;
@@ -22,16 +30,16 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   return (
     <label id="listFilter" className={styles.filterLabel}>
       <SRT>Filter Graveyard List</SRT>
-      <select 
+      <select
         className={styles.filterSelect}
-        defaultValue={FilterType.ALL} 
+        defaultValue={FilterType.ALL}
         onChange={changeHandler}
         id="filter-select"
       >
         <option value={FilterType.ALL}>All ({items.length})</option>
-        <option value={FilterType.APP}>Apps ({getCount('app')})</option>
-        <option value={FilterType.SERVICE}>Services ({getCount('service')})</option>
-        <option value={FilterType.HARDWARE}>Hardware ({getCount('hardware')})</option>
+        <option value={FilterType.APP}>Apps ({counts.app})</option>
+        <option value={FilterType.SERVICE}>Services ({counts.service})</option>
+        <option value={FilterType.HARDWARE}>Hardware ({counts.hardware})</option>
       </select>
     </label>
   );

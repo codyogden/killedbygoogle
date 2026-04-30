@@ -1,5 +1,5 @@
 import { describe, test, expect } from '@jest/globals';
-import moment from 'moment';
+import { isValid, parseISO } from 'date-fns';
 import slugify from 'slugify';
 
 import { Product, ProductType } from './types/Product';
@@ -55,18 +55,16 @@ describe('graveyard.json', () => {
 
     test('Dates are valid', () => {
       data.forEach((product: Product) => {
-        const dateClose = moment(product.dateClose);
-        const dateOpen = moment(product.dateOpen);
-        expect(dateClose.isValid()).toBe(true);
-        expect(dateOpen.isValid()).toBe(true);
+        expect(isValid(parseISO(product.dateClose))).toBe(true);
+        expect(isValid(parseISO(product.dateOpen))).toBe(true);
       });
     });
 
     test('`dateClose` is after `dateOpen`', () => {
       data.forEach((product: Product) => {
-        const dateClose = moment(product.dateClose);
-        const dateOpen = moment(product.dateOpen);
-        expect(dateClose.isAfter(dateOpen)).toBe(true);
+        const dateClose = parseISO(product.dateClose);
+        const dateOpen = parseISO(product.dateOpen);
+        expect(dateClose.getTime()).toBeGreaterThan(dateOpen.getTime());
       });
     });
   });

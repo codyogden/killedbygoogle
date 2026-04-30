@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { memo } from 'react';
 import dynamic from 'next/dynamic';
 import {
   format,
   formatDistance,
-  parseISO,
   formatDistanceToNow,
+  parseISO,
 } from 'date-fns';
 
 import { ProductWithSlug } from '@/types/Product';
@@ -13,68 +13,54 @@ import styles from './Item.module.css';
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'));
 
-export default function Item(props: ProductWithSlug) {
+const TOMBSTONE = {
+  src: 'https://static.killedbygoogle.com/com/tombstone.svg',
+  alt: 'Tombstone',
+};
+const GUILLOTINE = {
+  src: 'https://static.killedbygoogle.com/com/guillotine.svg',
+  alt: 'Guillotine',
+};
 
-  const isPast = () => {
-    return new Date() > new Date(props.dateClose);
-  };
-
-
+function Item(props: ProductWithSlug) {
   const dateOpen = parseISO(props.dateOpen);
   const dateClose = parseISO(props.dateClose);
+  const past = Date.now() > dateClose.getTime();
   const relativeDate = formatDistanceToNow(dateClose);
+  const duration = formatDistance(dateClose, dateOpen);
+  const icon = past ? TOMBSTONE : GUILLOTINE;
+  const yearsLine = past ? ` It was ${duration} old.` : ` It will be ${duration} old.`;
 
-  const getYears = () => {
-    const duration = formatDistance(dateClose, dateOpen);
-
-    if (!isPast()) {
-      return ` It will be ${duration} old.`;
-    }
-    return ` It was ${duration} old.`;
-  };
-
-  const getIcon = () => {
-    return isPast() ? {
-      src: 'https://static.killedbygoogle.com/com/tombstone.svg',
-      alt: 'Tombstone'
-    } : {
-      src: 'https://static.killedbygoogle.com/com/guillotine.svg',
-      alt: 'Guillotine'
-    };
-  };
-
-  const ageRange = () => {
-    const yearOpen = dateOpen.getFullYear();
-    const yearClose = dateClose.getFullYear();
-    if (!isPast()) {
-      const monthClose = format(dateClose, 'LLLL');
-      return (
-        <div className={styles.ageRange}>
-          <time dateTime={props.dateClose} title={`${props.dateClose}`}>
-            {monthClose}
-            <br />
-            {yearClose}
-          </time>
-        </div>
-      );
-    }
-    return (
+  let ageRange: React.ReactNode;
+  if (past) {
+    ageRange = (
       <div className={styles.ageRange}>
         <time dateTime={props.dateOpen} title={props.dateOpen}>
-          {yearOpen}
+          {dateOpen.getFullYear()}
         </time>
         {' - '}
         <time dateTime={props.dateClose} title={props.dateClose}>
-          {yearClose}
+          {dateClose.getFullYear()}
         </time>
       </div>
     );
-  };
+  } else {
+    ageRange = (
+      <div className={styles.ageRange}>
+        <time dateTime={props.dateClose} title={`${props.dateClose}`}>
+          {format(dateClose, 'LLLL')}
+          <br />
+          {dateClose.getFullYear()}
+        </time>
+      </div>
+    );
+  }
+
   return (
     <li className={styles.listItem}>
       <div className={styles.iconContainer}>
-        <img className={styles.icon} src={getIcon().src} alt={getIcon().alt} />
-        {ageRange()}
+        <img className={styles.icon} src={icon.src} alt={icon.alt} />
+        {ageRange}
         <Badge content={props.type} />
       </div>
       <div className={styles.contentContainer}>
@@ -84,12 +70,13 @@ export default function Item(props: ProductWithSlug) {
           </a>
         </h2>
         <p className={styles.description}>
-          {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
+          {past ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} />}
           {props.description}
-          {getYears()}
+          {yearsLine}
         </p>
       </div>
     </li>
   );
 }
 
+export default memo(Item);

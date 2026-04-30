@@ -1,6 +1,6 @@
 'use client';
 
-import { FC, useEffect, useState } from 'react';
+import { FC, useMemo, useState } from 'react';
 
 import { FilterType } from '@/types/Filter';
 import { ProductType, ProductWithSlug } from '@/types/Product';
@@ -13,26 +13,20 @@ import {
 } from '@/components';
 
 const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
-    const [listItems, updateListItems] = useState(items);
     const [searchTerm, updateSearchTerm] = useState('');
     const [activeFilter, updateActiveFilter] = useState<ProductType|FilterType>(FilterType.ALL);
 
-    useEffect(() => {
-        const regexp = new RegExp(searchTerm.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
-        const list = activeFilter === 'all' ? items :
-            items.filter(el => el.type === activeFilter);
-        // If search goes empty
-        if (searchTerm === '') {
-            // Reset the list.
-            updateListItems(list);
-        } else {
-            // Otherwise filter the list by name and description
-            updateListItems(list.filter(el =>
-                regexp.test(el.name.toLowerCase()) ||
-                regexp.test(el.description.toLowerCase())
-            ));
-        }
-    }, [searchTerm, activeFilter, items]);
+    const listItems = useMemo(() => {
+        const base = activeFilter === FilterType.ALL
+            ? items
+            : items.filter((el) => el.type === activeFilter);
+
+        if (!searchTerm) return base;
+
+        const escaped = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const re = new RegExp(escaped, 'i');
+        return base.filter((el) => re.test(el.name) || re.test(el.description));
+    }, [items, activeFilter, searchTerm]);
 
     return (
         <>
