@@ -28,7 +28,7 @@ const Footer = () => (
                     <div className="mr-[10px]">
                         <img height="60px" width="60px" src="https://static.killedbygoogle.com/com/tombstone-alt.svg" alt="Tombstone" />
                     </div>
-                    <div className="text-footer-text text-[2.5em] font-thin">Killed by Google</div>
+                    <div className="text-footer-text text-[2.5em] font-thin min-[701px]:text-[2.75rem]">Killed by Google</div>
                 </div>
                 <div>
                     <p>
