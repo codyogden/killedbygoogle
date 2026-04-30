@@ -25,7 +25,7 @@ const Footer = () => (
         <footer className="bg-footer-bg text-footer-text py-[50px] text-base [&_img]:dark:filter-none">
             <div className="mx-auto w-[38em] max-w-[90%] text-center [&>div_p]:leading-[1.75]">
                 <div className="flex items-center justify-center pb-5">
-                    <div className="mr-[10px] h-16">
+                    <div className="mr-[10px] size-16">
                         <img height="60px" width="60px" src="https://static.killedbygoogle.com/com/tombstone-alt.svg" alt="Tombstone" />
                     </div>
                     <div className="text-footer-text text-[2.5em] font-thin min-[701px]:text-[2.75rem]">Killed by Google</div>
