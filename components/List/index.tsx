@@ -24,8 +24,8 @@ type Props = {
 };
 
 const List: React.FC<Props> = ({ items }) => (
-    <ul className="mx-auto grid max-w-[1400px] list-none gap-12 p-0 grid-cols-[5px_2fr_5px] [&>li]:[grid-column:2] min-[851px]:grid-cols-[repeat(2,minmax(300px,1fr))] min-[851px]:[&>li]:[grid-column:auto] min-[1301px]:grid-cols-[repeat(3,minmax(300px,1fr))]">
-        <li className="ad-container mx-auto my-2 box-border flex max-w-full flex-[0_0_50%] items-center justify-center border-b-0 [&_h2]:m-0 [&_h2]:font-light min-[901px]:my-4 min-[901px]:flex-[0_0_30%]">
+    <ul className="mx-auto grid max-w-[1400px] list-none grid-cols-1 gap-y-8 p-0 min-[851px]:gap-12 min-[851px]:grid-cols-[repeat(2,minmax(300px,1fr))] min-[1301px]:grid-cols-[repeat(3,minmax(300px,1fr))]">
+        <li className="ad-container mx-auto box-border flex items-center justify-center border-b-0 [&_h2]:m-0 [&_h2]:font-light">
             <SRT>Advertisement</SRT>
             {showAd()}
         </li>

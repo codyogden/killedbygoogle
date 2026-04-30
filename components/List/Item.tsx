@@ -56,7 +56,7 @@ function Item(props: ProductWithSlug) {
   }
 
   return (
-    <li className="my-2 box-border flex [&_h2]:m-0 [&_h2]:font-light min-[901px]:my-4">
+    <li className="box-border flex gap-5 [&_h2]:m-0 [&_h2]:font-light">
       <div className="shrink-0 basis-[80px] text-center min-[901px]:basis-[100px]">
         <img className="mx-auto h-[50px] w-[50px]" src={icon.src} alt={icon.alt} />
         {ageRange}
