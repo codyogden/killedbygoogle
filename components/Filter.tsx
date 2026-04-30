@@ -2,18 +2,23 @@
 
 import { useMemo } from 'react';
 
-import { SRT } from '@/components';
+import SRT from '@/components/SRT';
 import { Product } from '@/types/Product';
 import { FilterType } from '@/types/Filter';
-import styles from './Filter.module.css';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
 
 type Props = {
   items: Product[];
   filterHandler: (b: FilterType) => void;
-}
+};
 
 const Filter: React.FC<Props> = ({ items, filterHandler }) => {
-
   const counts = useMemo(() => {
     const c = { app: 0, service: 0, hardware: 0 };
     for (const item of items) {
@@ -22,26 +27,25 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
     return c;
   }, [items]);
 
-  const changeHandler = (event: React.ChangeEvent<HTMLSelectElement>): void => {
-    const filterVal = event.target.value as FilterType;
-    filterHandler(filterVal);
-  }
-
   return (
-    <label id="listFilter" className={styles.filterLabel}>
+    <label id="listFilter" className="block">
       <SRT>Filter Graveyard List</SRT>
-      <select
-        className={styles.filterSelect}
+      <Select
         defaultValue={FilterType.ALL}
-        onChange={changeHandler}
-        id="filter-select"
+        onValueChange={(value) => filterHandler(value as FilterType)}
       >
-        <option value={FilterType.ALL}>All ({items.length})</option>
-        <option value={FilterType.APP}>Apps ({counts.app})</option>
-        <option value={FilterType.SERVICE}>Services ({counts.service})</option>
-        <option value={FilterType.HARDWARE}>Hardware ({counts.hardware})</option>
-      </select>
+        <SelectTrigger id="filter-select" className="w-full min-w-[200px]">
+          <SelectValue />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value={FilterType.ALL}>All ({items.length})</SelectItem>
+          <SelectItem value={FilterType.APP}>Apps ({counts.app})</SelectItem>
+          <SelectItem value={FilterType.SERVICE}>Services ({counts.service})</SelectItem>
+          <SelectItem value={FilterType.HARDWARE}>Hardware ({counts.hardware})</SelectItem>
+        </SelectContent>
+      </Select>
     </label>
   );
-}
+};
+
 export default Filter;

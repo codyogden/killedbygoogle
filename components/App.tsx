@@ -4,13 +4,11 @@ import { FC, useMemo, useState } from 'react';
 
 import { FilterType } from '@/types/Filter';
 import { ProductType, ProductWithSlug } from '@/types/Product';
-import {
-    Controls,
-    Filter,
-    List,
-    Loader,
-    Search,
-} from '@/components';
+import { Controls } from '@/components/Controls';
+import Filter from '@/components/Filter';
+import List from '@/components/List';
+import Loader from '@/components/Loader';
+import Search from '@/components/Search';
 
 const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
     const [searchTerm, updateSearchTerm] = useState('');

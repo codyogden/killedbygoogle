@@ -1,37 +1,34 @@
 'use client';
 
-/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useEffect, useState } from 'react';
-import SRT from '@/components/SRT';
 
-// Import CSS Module
-import styles from './Search.module.css';
+import SRT from '@/components/SRT';
+import { Input } from '@/components/ui/input';
 
 interface SearchProps {
-  searchCallback: Function
+  searchCallback: (value: string) => void;
 }
 
 export default function Search({ searchCallback }: SearchProps) {
-  const [searchValue, updateValue] = useState('');
+  const [searchValue, setSearchValue] = useState('');
 
   useEffect(() => {
-    const delayFn = setTimeout(() => searchCallback(searchValue), 350);
-    return () => clearTimeout(delayFn);
+    const id = setTimeout(() => searchCallback(searchValue), 350);
+    return () => clearTimeout(id);
   }, [searchValue, searchCallback]);
 
   return (
-    <div className={styles.searchContainer}>
+    <div className="box-border">
       <label htmlFor="searchBox" aria-label="Search">
         <SRT>Search</SRT>
-        <input
+        <Input
           id="searchBox"
-          className={styles.searchBox}
+          type="search"
           placeholder="Search"
-          type="text"
           value={searchValue}
-          onChange={(event: React.FormEvent<HTMLInputElement>) => updateValue(event.currentTarget.value)}
+          onChange={(event) => setSearchValue(event.currentTarget.value)}
         />
       </label>
     </div>
-    );
+  );
 }

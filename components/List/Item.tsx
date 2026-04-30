@@ -9,7 +9,6 @@ import {
 
 import { ProductWithSlug } from '@/types/Product';
 import Badge from '@/components/Badge';
-import styles from './Item.module.css';
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'));
 
@@ -34,7 +33,7 @@ function Item(props: ProductWithSlug) {
   let ageRange: React.ReactNode;
   if (past) {
     ageRange = (
-      <div className={styles.ageRange}>
+      <div className="text-[0.75em]">
         <time dateTime={props.dateOpen} title={props.dateOpen}>
           {dateOpen.getFullYear()}
         </time>
@@ -46,7 +45,7 @@ function Item(props: ProductWithSlug) {
     );
   } else {
     ageRange = (
-      <div className={styles.ageRange}>
+      <div className="text-[0.75em]">
         <time dateTime={props.dateClose} title={`${props.dateClose}`}>
           {format(dateClose, 'LLLL')}
           <br />
@@ -57,19 +56,19 @@ function Item(props: ProductWithSlug) {
   }
 
   return (
-    <li className={styles.listItem}>
-      <div className={styles.iconContainer}>
-        <img className={styles.icon} src={icon.src} alt={icon.alt} />
+    <li className="mx-auto my-2 box-border flex max-w-full flex-[0_0_50%] [&_h2]:m-0 [&_h2]:font-light min-[901px]:my-4 min-[901px]:flex-[0_0_30%]">
+      <div className="basis-[100px] shrink-0 text-center">
+        <img className="h-[50px] w-[50px]" src={icon.src} alt={icon.alt} />
         {ageRange}
         <Badge content={props.type} />
       </div>
-      <div className={styles.contentContainer}>
+      <div className="pb-5">
         <h2>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             {props.name}
           </a>
         </h2>
-        <p className={styles.description}>
+        <p className="mx-0 mt-2 mb-0 pr-8 text-[0.9em] leading-[1.5]">
           {past ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} />}
           {props.description}
           {yearsLine}

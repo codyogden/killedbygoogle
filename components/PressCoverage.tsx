@@ -1,5 +1,3 @@
-import styles from './PressCoverage.module.css';
-
 const links = [
   {
     url:
@@ -50,18 +48,22 @@ const links = [
 ];
 
 const PressCoverage = () => (
-  <div className={styles.press}>
-    <h4 className={styles.title}>As seen on</h4>
-    <ul className={styles.container}>
-      {links.map(link => (
-        <li key={link.altText} className={styles.child}>
+  <div className="bg-muted py-10">
+    <h4 className="m-0 text-center text-[1.25em] font-normal uppercase">As seen on</h4>
+    <ul className="mx-auto flex w-[1000px] max-w-[80%] list-none flex-row flex-wrap items-center justify-center p-0">
+      {links.map((link) => (
+        <li
+          key={link.altText}
+          className="mt-[50px] flex-[0_0_50%] min-[701px]:flex-[0_0_25%]"
+        >
           <a
             href={link.url}
             title={link.altText}
             target="_blank"
             rel="noopener noreferrer"
+            className="border-0"
           >
-            <img src={link.imgSrc} alt={link.altText} />
+            <img src={link.imgSrc} alt={link.altText} className="max-w-full" />
           </a>
         </li>
       ))}
