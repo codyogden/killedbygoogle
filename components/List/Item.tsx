@@ -56,7 +56,7 @@ function Item(props: ProductWithSlug) {
   }
 
   return (
-    <li className="box-border flex gap-5 [&_h2]:m-0 [&_h2]:font-light">
+    <li className="box-border flex gap-5 px-4 [&_h2]:m-0 [&_h2]:font-light min-[701px]:px-8">
       <div className="shrink-0 basis-[80px] text-center min-[901px]:basis-[100px]">
         <img className="mx-auto h-[50px] w-[50px]" src={icon.src} alt={icon.alt} />
         {ageRange}
@@ -68,7 +68,7 @@ function Item(props: ProductWithSlug) {
             {props.name}
           </a>
         </h2>
-        <p className="mx-0 mt-2 mb-0 pr-4 text-[0.9em] leading-[1.5] min-[701px]:pr-8">
+        <p className="mx-0 mt-2 mb-0 text-[0.9em] leading-[1.5]">
           {past ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} />}
           {props.description}
           {yearsLine}
