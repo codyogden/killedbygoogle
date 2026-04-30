@@ -3,6 +3,14 @@ const nextConfig = {
     env: {
         mode: process.env.NODE_ENV,
     },
+    compress: true,
+    experimental: {
+        optimizePackageImports: ['date-fns'],
+    },
+    images: {
+        formats: ['image/avif', 'image/webp'],
+        minimumCacheTTL: 60 * 60 * 24 * 365,
+    },
     // Enable Turbopack (now stable)
     turbopack: {
         rules: {

@@ -1,95 +1,91 @@
-import React from 'react';
+import React, { memo } from 'react';
 import dynamic from 'next/dynamic';
 import {
   format,
   formatDistance,
-  parseISO,
   formatDistanceToNow,
+  parseISO,
 } from 'date-fns';
 
 import { ProductWithSlug } from '@/types/Product';
 import Badge from '@/components/Badge';
-import styles from './Item.module.css';
 
 const DeathIdiom = dynamic(() => import('./LeadPhrase'));
 
-export default function Item(props: ProductWithSlug) {
+const TOMBSTONE = {
+  src: 'https://static.killedbygoogle.com/com/tombstone.svg',
+  alt: 'Tombstone',
+};
+const GUILLOTINE = {
+  src: 'https://static.killedbygoogle.com/com/guillotine.svg',
+  alt: 'Guillotine',
+};
 
-  const isPast = () => {
-    return new Date() > new Date(props.dateClose);
-  };
+const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;
 
-
+function Item(props: ProductWithSlug) {
   const dateOpen = parseISO(props.dateOpen);
   const dateClose = parseISO(props.dateClose);
-  const relativeDate = formatDistanceToNow(dateClose);
+  const now = Date.now();
+  const past = now > dateClose.getTime();
+  // Items killed in the last month would render "X hours ago" at build time
+  // and a different "X hours ago" on the client, causing a visible flash.
+  // Coarse-grain to "recently" so the SSR and client strings match.
+  const recentlyKilled = past && now - dateClose.getTime() < ONE_MONTH_MS;
+  const duration = formatDistance(dateClose, dateOpen);
+  const icon = past ? TOMBSTONE : GUILLOTINE;
+  const yearsLine = past ? ` It was ${duration} old.` : ` It will be ${duration} old.`;
 
-  const getYears = () => {
-    const duration = formatDistance(dateClose, dateOpen);
-
-    if (!isPast()) {
-      return ` It will be ${duration} old.`;
-    }
-    return ` It was ${duration} old.`;
-  };
-
-  const getIcon = () => {
-    return isPast() ? {
-      src: 'https://static.killedbygoogle.com/com/tombstone.svg',
-      alt: 'Tombstone'
-    } : {
-      src: 'https://static.killedbygoogle.com/com/guillotine.svg',
-      alt: 'Guillotine'
-    };
-  };
-
-  const ageRange = () => {
-    const yearOpen = dateOpen.getFullYear();
-    const yearClose = dateClose.getFullYear();
-    if (!isPast()) {
-      const monthClose = format(dateClose, 'LLLL');
-      return (
-        <div className={styles.ageRange}>
-          <time dateTime={props.dateClose} title={`${props.dateClose}`}>
-            {monthClose}
-            <br />
-            {yearClose}
-          </time>
-        </div>
-      );
-    }
-    return (
-      <div className={styles.ageRange}>
+  let ageRange: React.ReactNode;
+  if (past) {
+    ageRange = (
+      <div className="text-[0.75em]">
         <time dateTime={props.dateOpen} title={props.dateOpen}>
-          {yearOpen}
+          {dateOpen.getFullYear()}
         </time>
         {' - '}
         <time dateTime={props.dateClose} title={props.dateClose}>
-          {yearClose}
+          {dateClose.getFullYear()}
         </time>
       </div>
     );
-  };
+  } else {
+    ageRange = (
+      <div className="text-[0.75em]">
+        <time dateTime={props.dateClose} title={`${props.dateClose}`}>
+          {format(dateClose, 'LLLL')}
+          <br />
+          {dateClose.getFullYear()}
+        </time>
+      </div>
+    );
+  }
+
   return (
-    <li className={styles.listItem}>
-      <div className={styles.iconContainer}>
-        <img className={styles.icon} src={getIcon().src} alt={getIcon().alt} />
-        {ageRange()}
+    <li className="box-border flex gap-5 px-4 [&_h2]:m-0 [&_h2]:font-light min-[701px]:px-0">
+      <div className="shrink-0 basis-[80px] text-center min-[901px]:basis-[100px]">
+        <img className="mx-auto h-[50px] w-[50px]" src={icon.src} alt={icon.alt} />
+        {ageRange}
         <Badge content={props.type} />
       </div>
-      <div className={styles.contentContainer}>
-        <h2>
+      <div className="min-w-0 flex-1 pb-5">
+        <h2 className="text-[1.15em]">
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             {props.name}
           </a>
         </h2>
-        <p className={styles.description}>
-          {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
+        <p className="mx-0 mt-2 mb-0 text-[0.9em] leading-[1.5]">
+          {past
+            ? recentlyKilled
+              ? 'Killed recently, '
+              : `Killed ${formatDistanceToNow(dateClose)} ago, `
+            : <DeathIdiom relativeDate={formatDistanceToNow(dateClose)} />}
           {props.description}
-          {getYears()}
+          {yearsLine}
         </p>
       </div>
     </li>
   );
 }
 
+export default memo(Item);

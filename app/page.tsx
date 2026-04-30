@@ -1,14 +1,12 @@
 import { Metadata, Viewport } from 'next';
-import slugify from 'slugify';
 
 // Data
-import graveyard from '../graveyard.json';
+import { processedItems } from '../lib/graveyard';
 
 // Components
 import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
-import { ProductWithSlug, ProductType } from '../types/Product';
 
 export const metadata: Metadata = {
     title: 'Google Graveyard - Killed by Google',
@@ -60,31 +58,13 @@ export const viewport: Viewport = {
     ],
 };
 
-async function getProcessedItems(): Promise<ProductWithSlug[]> {
-    slugify.extend({
-        '+': '-plus',
-        '@': '-at',
-    });
-
-    const processed = graveyard.map((item) => ({
-        ...item,
-        type: item.type as ProductType,
-        slug: slugify(item.name, {
-            lower: true,
-        })
-    })).sort((a, b) => (new Date(b.dateClose)).getTime() - (new Date(a.dateClose)).getTime());
-
-    return processed;
-}
-
-export default async function HomePage() {
-    const items = await getProcessedItems();
-
+export default function HomePage() {
     return (
         <>
             <Header />
-            <App items={items} />
+            <App items={processedItems} />
             <Footer />
         </>
     );
-} 
+}
+
