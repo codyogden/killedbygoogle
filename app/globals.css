@@ -41,10 +41,6 @@
         --badge-bg: hsl(215, 14%, 24%);
         --badge-text: #c7d2de;
     }
-
-    img {
-        filter: invert(1);
-    }
 }
 
 @theme inline {
@@ -88,6 +84,15 @@
         color: currentColor;
         text-decoration: none;
         border-bottom: 1px dotted currentColor;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        img {
+            /* invert(100%) and invert(1) are stripped to bare `invert()` by
+               lightningcss, which is invalid CSS. Use a value just under 100% so
+               the optimizer keeps the argument. */
+            filter: invert(99.99%);
+        }
     }
 }
 
