@@ -56,19 +56,19 @@ function Item(props: ProductWithSlug) {
   }
 
   return (
-    <li className="mx-auto my-2 box-border flex max-w-full flex-[0_0_50%] [&_h2]:m-0 [&_h2]:font-light min-[901px]:my-4 min-[901px]:flex-[0_0_30%]">
-      <div className="basis-[100px] shrink-0 text-center">
-        <img className="h-[50px] w-[50px]" src={icon.src} alt={icon.alt} />
+    <li className="my-2 box-border flex [&_h2]:m-0 [&_h2]:font-light min-[901px]:my-4">
+      <div className="shrink-0 basis-[80px] text-center min-[901px]:basis-[100px]">
+        <img className="mx-auto h-[50px] w-[50px]" src={icon.src} alt={icon.alt} />
         {ageRange}
         <Badge content={props.type} />
       </div>
-      <div className="pb-5">
+      <div className="min-w-0 flex-1 pb-5">
         <h2>
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             {props.name}
           </a>
         </h2>
-        <p className="mx-0 mt-2 mb-0 pr-8 text-[0.9em] leading-[1.5]">
+        <p className="mx-0 mt-2 mb-0 text-[0.9em] leading-[1.5] min-[701px]:pr-8">
           {past ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} />}
           {props.description}
           {yearsLine}
