@@ -63,12 +63,12 @@ function Item(props: ProductWithSlug) {
         <Badge content={props.type} />
       </div>
       <div className="min-w-0 flex-1 pb-5">
-        <h2>
+        <h2 className="text-[1.15em]">
           <a href={props.link} target="_blank" rel="noopener noreferrer">
             {props.name}
           </a>
         </h2>
-        <p className="mx-0 mt-2 mb-0 text-[0.9em] leading-[1.5] min-[701px]:pr-8">
+        <p className="mx-0 mt-2 mb-0 pr-4 text-[0.9em] leading-[1.5] min-[701px]:pr-8">
           {past ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} />}
           {props.description}
           {yearsLine}
