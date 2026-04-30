@@ -35,7 +35,7 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
         defaultValue={FilterType.ALL}
         onChange={(event) => filterHandler(event.target.value as FilterType)}
         style={CHEVRON_BG}
-        className="block min-w-[200px] cursor-pointer appearance-none rounded border border-input bg-popover bg-no-repeat px-3 py-2 pr-8 font-[inherit] text-sm text-foreground hover:border-input-hover focus:border-ring focus:ring-2 focus:ring-ring/25 focus:outline-none"
+        className="block w-full min-w-[200px] cursor-pointer appearance-none rounded border border-input bg-popover bg-no-repeat px-3 py-2 pr-8 font-[inherit] text-sm text-foreground hover:border-input-hover focus:border-ring focus:ring-2 focus:ring-ring/25 focus:outline-none"
       >
         <option value={FilterType.ALL}>All ({items.length})</option>
         <option value={FilterType.APP}>Apps ({counts.app})</option>
