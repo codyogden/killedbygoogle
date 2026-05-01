@@ -13,4 +13,11 @@ export interface Product {
   type: ProductType;
 }
 
-export type ProductWithSlug = Product & { slug: string };
+export type ProductWithSlug = Product & {
+  slug: string;
+  dateCloseMs: number;
+  dateOpenYear: number;
+  dateCloseYear: number;
+  dateCloseMonth: string;
+  duration: string;
+};

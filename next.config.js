@@ -11,15 +11,6 @@ const nextConfig = {
         formats: ['image/avif', 'image/webp'],
         minimumCacheTTL: 60 * 60 * 24 * 365,
     },
-    // Enable Turbopack (now stable)
-    turbopack: {
-        rules: {
-            '*.svg': {
-                loaders: ['@svgr/webpack'],
-                as: '*.js',
-            },
-        },
-    },
     async redirects() {
         return [
             {

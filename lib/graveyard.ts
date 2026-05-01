@@ -1,3 +1,4 @@
+import { format, formatDistance, parseISO } from 'date-fns';
 import slugify from 'slugify';
 
 import graveyard from '../graveyard.json';
@@ -9,12 +10,18 @@ slugify.extend({
 });
 
 export const processedItems: ProductWithSlug[] = (graveyard as Product[])
-    .map((item) => ({
-        ...item,
-        type: item.type as ProductType,
-        slug: slugify(item.name, { lower: true }),
-    }))
-    .sort(
-        (a, b) =>
-            new Date(b.dateClose).getTime() - new Date(a.dateClose).getTime(),
-    );
+    .map((item) => {
+        const dateOpen = parseISO(item.dateOpen);
+        const dateClose = parseISO(item.dateClose);
+        return {
+            ...item,
+            type: item.type as ProductType,
+            slug: slugify(item.name, { lower: true }),
+            dateCloseMs: dateClose.getTime(),
+            dateOpenYear: dateOpen.getFullYear(),
+            dateCloseYear: dateClose.getFullYear(),
+            dateCloseMonth: format(dateClose, 'LLLL'),
+            duration: formatDistance(dateClose, dateOpen),
+        };
+    })
+    .sort((a, b) => b.dateCloseMs - a.dateCloseMs);

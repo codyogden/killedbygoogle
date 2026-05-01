@@ -63,7 +63,13 @@ const PressCoverage = () => (
             rel="noopener noreferrer"
             className="border-0"
           >
-            <img src={link.imgSrc} alt={link.altText} className="max-w-full" />
+            <img
+              src={link.imgSrc}
+              alt={link.altText}
+              className="max-w-full"
+              loading="lazy"
+              decoding="async"
+            />
           </a>
         </li>
       ))}

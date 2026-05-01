@@ -87,10 +87,10 @@
     }
 
     @media (prefers-color-scheme: dark) {
-        img {
-            /* invert(100%) and invert(1) are stripped to bare `invert()` by
-               lightningcss, which is invalid CSS. Use a value just under 100% so
-               the optimizer keeps the argument. */
+        /* Opt-in via .invert-on-dark; avoids paint-time filter cost on hundreds
+           of icons and never affects color images like press logos.
+           99.99% (vs 100%) is to stop lightningcss from stripping the argument. */
+        .invert-on-dark {
             filter: invert(99.99%);
         }
     }

@@ -1,44 +1,44 @@
 'use client';
 
-import { FC, useMemo, useState } from 'react';
+import { FC, startTransition, useEffect, useState } from 'react';
 
 import { FilterType } from '@/types/Filter';
-import { ProductType, ProductWithSlug } from '@/types/Product';
+import { ProductType } from '@/types/Product';
 import { Controls } from '@/components/Controls';
-import Filter from '@/components/Filter';
-import List from '@/components/List';
-import Loader from '@/components/Loader';
+import Filter, { FilterCounts } from '@/components/Filter';
 import Search from '@/components/Search';
 
-const App: FC<{ items: ProductWithSlug[] }> = ({ items }) => {
-    const [searchTerm, updateSearchTerm] = useState('');
-    const [activeFilter, updateActiveFilter] = useState<ProductType|FilterType>(FilterType.ALL);
+const App: FC<{ counts: FilterCounts }> = ({ counts }) => {
+    const [searchTerm, setSearchTerm] = useState('');
+    const [activeFilter, setActiveFilter] =
+        useState<ProductType | FilterType>(FilterType.ALL);
 
-    const listItems = useMemo(() => {
-        const base = activeFilter === FilterType.ALL
-            ? items
-            : items.filter((el) => el.type === activeFilter);
-
-        if (!searchTerm) return base;
-
-        const escaped = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const re = new RegExp(escaped, 'i');
-        return base.filter((el) => re.test(el.name) || re.test(el.description));
-    }, [items, activeFilter, searchTerm]);
+    useEffect(() => {
+        const apply = () => {
+            const items =
+                document.querySelectorAll<HTMLLIElement>('li[data-product]');
+            const needle = searchTerm.toLowerCase();
+            for (const li of items) {
+                const matchesType =
+                    activeFilter === FilterType.ALL ||
+                    li.dataset.type === activeFilter;
+                const matchesSearch =
+                    !needle ||
+                    li.dataset.name?.includes(needle) ||
+                    li.dataset.description?.includes(needle);
+                const hide = !(matchesType && matchesSearch);
+                if (li.hidden !== hide) li.hidden = hide;
+            }
+        };
+        startTransition(apply);
+    }, [searchTerm, activeFilter]);
 
     return (
-        <>
-            {items.length ? <>
-                <Controls>
-                    <Search searchCallback={updateSearchTerm} />
-                    <Filter
-                        filterHandler={updateActiveFilter}
-                        items={items}
-                    />
-                </Controls>
-                <List items={listItems} />
-            </> : <Loader />}
-        </>
+        <Controls>
+            <Search searchCallback={setSearchTerm} />
+            <Filter counts={counts} filterHandler={setActiveFilter} />
+        </Controls>
     );
-}
+};
+
 export default App;

@@ -7,6 +7,8 @@ import { processedItems } from '../lib/graveyard';
 import Header from '../components/Header';
 import App from '../components/App';
 import Footer from '../components/Footer';
+import List from '../components/List';
+import { FilterCounts } from '../components/Filter';
 
 export const metadata: Metadata = {
     title: 'Google Graveyard - Killed by Google',
@@ -58,13 +60,22 @@ export const viewport: Viewport = {
     ],
 };
 
+function buildCounts(): FilterCounts {
+    const counts: FilterCounts = { all: processedItems.length, app: 0, service: 0, hardware: 0 };
+    for (const item of processedItems) {
+        if (item.type in counts) counts[item.type as 'app' | 'service' | 'hardware']++;
+    }
+    return counts;
+}
+
 export default function HomePage() {
+    const counts = buildCounts();
     return (
         <>
             <Header />
-            <App items={processedItems} />
+            <App counts={counts} />
+            <List items={processedItems} />
             <Footer />
         </>
     );
 }
-

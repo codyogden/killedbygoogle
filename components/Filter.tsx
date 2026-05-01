@@ -1,13 +1,17 @@
 'use client';
 
-import { useMemo } from 'react';
-
 import SRT from '@/components/SRT';
-import { Product } from '@/types/Product';
 import { FilterType } from '@/types/Filter';
 
+export type FilterCounts = {
+  all: number;
+  app: number;
+  service: number;
+  hardware: number;
+};
+
 type Props = {
-  items: Product[];
+  counts: FilterCounts;
   filterHandler: (b: FilterType) => void;
 };
 
@@ -18,32 +22,22 @@ const CHEVRON_BG = {
   backgroundSize: '16px 16px',
 } as const;
 
-const Filter: React.FC<Props> = ({ items, filterHandler }) => {
-  const counts = useMemo(() => {
-    const c = { app: 0, service: 0, hardware: 0 };
-    for (const item of items) {
-      if (item.type in c) c[item.type as keyof typeof c]++;
-    }
-    return c;
-  }, [items]);
-
-  return (
-    <label id="listFilter" className="block">
-      <SRT>Filter Graveyard List</SRT>
-      <select
-        id="filter-select"
-        defaultValue={FilterType.ALL}
-        onChange={(event) => filterHandler(event.target.value as FilterType)}
-        style={CHEVRON_BG}
-        className="block w-full min-w-[200px] cursor-pointer appearance-none rounded border border-input bg-popover bg-no-repeat px-3 py-2 pr-8 font-[inherit] text-sm text-foreground hover:border-input-hover focus:border-ring focus:ring-2 focus:ring-ring/25 focus:outline-none"
-      >
-        <option value={FilterType.ALL}>All ({items.length})</option>
-        <option value={FilterType.APP}>Apps ({counts.app})</option>
-        <option value={FilterType.SERVICE}>Services ({counts.service})</option>
-        <option value={FilterType.HARDWARE}>Hardware ({counts.hardware})</option>
-      </select>
-    </label>
-  );
-};
+const Filter: React.FC<Props> = ({ counts, filterHandler }) => (
+  <label id="listFilter" className="block">
+    <SRT>Filter Graveyard List</SRT>
+    <select
+      id="filter-select"
+      defaultValue={FilterType.ALL}
+      onChange={(event) => filterHandler(event.target.value as FilterType)}
+      style={CHEVRON_BG}
+      className="block w-full min-w-[200px] cursor-pointer appearance-none rounded border border-input bg-popover bg-no-repeat px-3 py-2 pr-8 font-[inherit] text-sm text-foreground hover:border-input-hover focus:border-ring focus:ring-2 focus:ring-ring/25 focus:outline-none"
+    >
+      <option value={FilterType.ALL}>All ({counts.all})</option>
+      <option value={FilterType.APP}>Apps ({counts.app})</option>
+      <option value={FilterType.SERVICE}>Services ({counts.service})</option>
+      <option value={FilterType.HARDWARE}>Hardware ({counts.hardware})</option>
+    </select>
+  </label>
+);
 
 export default Filter;

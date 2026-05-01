@@ -10,11 +10,13 @@ const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
 }) => (
     <Link href={url} className="border-0" target="_blank" rel="noopener noreferrer">
         <img
-            className="h-6 w-6 dark:filter-none"
-            width="24px"
-            height="24px"
+            className="h-6 w-6"
+            width="24"
+            height="24"
             src={imgSrc}
             alt={altText}
+            loading="lazy"
+            decoding="async"
         />
     </Link>
 );
@@ -22,11 +24,19 @@ const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
 const Footer = () => (
     <>
         <PressCoverage />
-        <footer className="bg-footer-bg text-footer-text py-[50px] text-base [&_img]:dark:filter-none">
+        <footer className="bg-footer-bg text-footer-text py-[50px] text-base">
             <div className="mx-auto w-[38em] max-w-[90%] text-center [&>div_p]:my-4 [&>div_p]:leading-[1.75]">
                 <div className="flex items-center justify-center pb-5">
                     <div className="mr-[10px] size-16">
-                        <img height="60px" width="60px" src="https://static.killedbygoogle.com/com/tombstone-alt.svg" alt="Tombstone" />
+                        <img
+                            className="invert-on-dark"
+                            height="60"
+                            width="60"
+                            src="https://static.killedbygoogle.com/com/tombstone-alt.svg"
+                            alt="Tombstone"
+                            loading="lazy"
+                            decoding="async"
+                        />
                     </div>
                     <div className="text-footer-text text-[2.5em] font-thin min-[701px]:text-[2.75rem]">Killed by Google</div>
                 </div>

@@ -5,7 +5,15 @@ const Header = () => (
         <Link href="/" className="border-b-0" rel="noreferrer noopener">
             <div className="flex items-center">
                 <div className="mr-[10px] size-16">
-                    <img width="60px" height="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" alt="Tombstone" />
+                    <img
+                        className="invert-on-dark"
+                        width="60"
+                        height="60"
+                        src="https://static.killedbygoogle.com/com/tombstone.svg"
+                        alt="Tombstone"
+                        fetchPriority="high"
+                        decoding="async"
+                    />
                 </div>
                 <h1 className="m-0 whitespace-nowrap text-[2.5em] font-thin min-[701px]:text-[2.75rem]">Killed by Google</h1>
             </div>

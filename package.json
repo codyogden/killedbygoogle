@@ -8,7 +8,6 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.29.0",
-    "@svgr/webpack": "^8.1.0",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
@@ -22,13 +21,11 @@
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "@radix-ui/react-select": "^2.2.6",
     "@tailwindcss/postcss": "^4.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "date-fns": "^4.1.0",
     "enquirer": "^2.4.1",
-    "lucide-react": "^1.14.0",
     "next": "16.2.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
