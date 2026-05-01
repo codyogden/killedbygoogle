@@ -66,7 +66,7 @@ const PressCoverage = () => (
             <img
               src={link.imgSrc}
               alt={link.altText}
-              className="max-w-full"
+              className="invert-on-dark max-w-full"
               loading="lazy"
               decoding="async"
             />

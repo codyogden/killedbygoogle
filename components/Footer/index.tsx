@@ -29,7 +29,6 @@ const Footer = () => (
                 <div className="flex items-center justify-center pb-5">
                     <div className="mr-[10px] size-16">
                         <img
-                            className="invert-on-dark"
                             height="60"
                             width="60"
                             src="https://static.killedbygoogle.com/com/tombstone-alt.svg"
