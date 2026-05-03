@@ -29,7 +29,6 @@
     "date-fns": "^4.1.0",
     "enquirer": "^2.4.1",
     "lucide-react": "^1.14.0",
-    "moment": "^2.30.1",
     "next": "16.2.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
