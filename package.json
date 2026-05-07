@@ -15,7 +15,7 @@
     "@types/react-dom": "^19.2.3",
     "dotenv": "^17.4.2",
     "eslint": "^9.39.4",
-    "eslint-config-next": "^16.2.4",
+    "eslint-config-next": "^16.2.5",
     "jest": "^30.3.0",
     "jest-resolve": "^30.3.0",
     "ts-jest": "^29.4.9",
