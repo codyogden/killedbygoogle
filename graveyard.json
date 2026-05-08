@@ -2438,5 +2438,13 @@
     "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
     "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
+  },
+  {
+    "name": "ld.gold",
+    "dateOpen": "2008-03-22",
+    "dateClose": "2025-02-02",
+    "link": "https://sourceware.org/binutils/",
+    "description": "ld.gold was a linker for ELF files, designed to be faster than GNU's ld.bfd, especially for larger C++ applications.",
+    "type": "app"
   }
 ]
