@@ -1,19 +1,5 @@
-import styled from '@emotion/styled';
-import { css } from '@emotion/react';
-
-export const Controls = styled.div(() => css({
-    display: 'grid',
-    gap: '2rem',
-    gridTemplateColumns: '1fr 200px',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    maxWidth: '600px',
-    padding: '1rem 0 4rem 0',
-
-    ['@media screen and ( max-width: 700px )']: {
-        gap: '8px',
-        gridTemplateColumns: '1fr',
-        gridTemplateRows: '1fr 1fr',
-        maxWidth: '80%'
-    }
-}));
+export const Controls = ({ children }: { children: React.ReactNode }) => (
+    <div className="mx-auto grid max-w-[80%] grid-cols-1 grid-rows-2 gap-2 pt-4 pb-16 min-[701px]:max-w-[600px] min-[701px]:grid-cols-[1fr_200px] min-[701px]:grid-rows-1 min-[701px]:gap-8">
+        {children}
+    </div>
+);

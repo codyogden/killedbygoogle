@@ -1,5 +1,21 @@
 [
   {
+    "name": "Chromecast",
+    "dateOpen": "2013-07-24",
+    "dateClose": "2024-08-06",
+    "link": "https://www.theverge.com/2024/8/6/24214471/google-chromecast-line-discontinued",
+    "description": "Chromecast was a line of digital media players that allowed users to play online content on a television.",
+    "type": "hardware"
+  },
+  {
+    "name": "VPN by Google One",
+    "dateClose": "2024-06-20",
+    "dateOpen": "2020-10-29",
+    "description": "VPN by Google One was a virtual private network service that provided users encrypted transit of their data and network activity and allowed them to mask their IP address.",
+    "link": "https://9to5google.com/2024/04/11/google-one-vpn-discontinued/",
+    "type": "service"
+  },
+  {
     "dateClose": "2023-06-26",
     "dateOpen": "2017-11-29",
     "description": "YouTube Stories (originally YouTube Reels) allowed creators to post temporary videos that would expire after seven days.",
@@ -24,12 +40,12 @@
     "type": "service"
   },
   {
-    "dateClose": "2023-03-17",
+    "dateClose": "2023-04-24",
     "dateOpen": "2014-01-01",
     "description": "Jacquard was a small tag to make it easier and more intuitive for people to interact with technology in their everyday lives, without having to constantly pull out their devices or touch screens.",
     "link": "https://www.androidpolice.com/google-project-jacquard-shutting-down/",
     "name": "Jacquard",
-    "type": "hardware"
+    "type": "app"
   },
   {
     "dateClose": "2022-11-01",
@@ -155,7 +171,7 @@
     "dateClose": "2021-12-11",
     "dateOpen": "2000-12-11",
     "description": "Google Toolbar was a web browser toolbar that provided a search box in web browsers like Internet Explorer and Firefox.",
-    "link": "https://en.wikipedia.org/wiki/Google_Toolbar",
+    "link": "https://arstechnica.com/gadgets/2021/12/happy-21st-birthday-to-google-toolbar-which-inexplicably-still-exists/",
     "name": "Google Toolbar",
     "type": "service"
   },
@@ -2328,19 +2344,99 @@
     "type": "app"
   },
   {
-    "name": "Jamboard",
-    "dateOpen": "2017-05-23",
-    "dateClose": "2024-09-30",
+    "name": "Google Jamboard",
+    "dateOpen": "2016-10-25",
+    "dateClose": "2024-10-01",
     "link": "https://9to5google.com/2023/09/28/google-jamboard/",
-    "description": "Jamboard was a digital 4K touchscreen whiteboard device that allowed to collaborate using Google Workspace services.",
+    "description": "Google Jamboard was a web app, native whiteboard app, and standalone whiteboard hardware that offered a collaborative experience.",
+    "type": "app"
+  },
+  {
+    "name": "Google Cache",
+    "dateOpen": "2000-02-22",
+    "dateClose": "2024-02-01",
+    "link": "https://9to5google.com/2024/02/02/google-search-cached-link/",
+    "description": "Google Cache was a tool to view cached/older versions of a website. It was one of the oldest products.",
+    "type": "service"
+  },
+  {
+    "name": "Keen",
+    "dateOpen": "2020-06-18",
+    "dateClose": "2024-03-24",
+    "link": "https://www.androidpolice.com/google-keen-shutdown-area-120-experiment/",
+    "description": "Keen was a Pinterest-style platform with ML recommendations.",
+    "type": "app"
+  },
+  {
+    "name": "Tables by A120",
+    "dateOpen": "2020-03-05",
+    "dateClose": "2025-12-16",
+    "link": "https://en.wikipedia.org/wiki/Tables_(Google)",
+    "description": "Tables was a collaborative database platform and competitor to Airtable, focused on making project tracking more efficient with automation.",
+    "type": "service"
+  },
+  {
+    "name": "Dark Web Reports",
+    "dateOpen": "2023-03-08",
+    "dateClose": "2026-01-15",
+    "link": "https://support.google.com/websearch/answer/16767242",
+    "description": "Dark Web Reports was a dark web scanner that searched for personal info leaks.",
+    "type": "service"
+  },
+  {
+    "name": "Tenor API",
+    "dateOpen": "2015-06-26",
+    "dateClose": "2026-06-30",
+    "link": "https://en.wikipedia.org/wiki/Tenor_(website)",
+    "description": "Tenor API was used for searching up and sharing GIFs in Tenor's database on other websites (notably Discord).",
+    "type": "service"
+  },
+  {
+    "name": "Doppl",
+    "dateOpen": "2025-06-26",
+    "dateClose": "2026-04-30",
+    "link": "https://labs.google/doppl",
+    "description": "Doppl was an early experimental AI app launched by Google Labs in June 2025 to create a \"digital twin\" or virtual model of yourself for trying on outfits.",
+    "type": "app"
+  },
+  {
+    "name": "Firebase Studio",
+    "dateOpen": "2024-05-15",
+    "dateClose": "2027-03-22",
+    "link": "https://firebase.google.com/docs/studio/migrating-project",
+    "description": "Firebase Studio is an agentic, cloud-based development environment that gives you powerful tools and AI agents directly in your browser.",
+    "type": "app"
+  },
+  {
+    "name": "Socratic",
+    "dateOpen": "2013-08-15",
+    "dateClose": "2024-08-31",
+    "link": "https://en.wikipedia.org/wiki/Socratic_(Google)",
+    "description": "Socratic was a free educational app that helped students with homework by scanning questions with a smartphone camera and offering step-by-step solutions.",
+    "type": "app"
+  },
+  {
+    "name": "Glass Enterprise Edition",
+    "dateOpen": "2017-07-01",
+    "dateClose": "2023-09-15",
+    "link": "https://www.pcmag.com/news/rip-google-glass-enterprise-as-sales-for-smart-glasses-end",
+    "description": "Glass Enterprise Edition was a head-up display for enterprise customers.",
     "type": "hardware"
   },
   {
-    "name": "Google Jamboard",
-    "dateOpen": "2016-10-25",
-    "dateClose": "2024-12-31",
-    "link": "https://9to5google.com/2023/09/28/google-jamboard/",
-    "description": "Google Jamboard was a web and native whiteboard app that offered a rich collaborative experience.",
+    "name": "Steam for Chromebooks",
+    "dateOpen": "2022-11-01",
+    "dateClose": "2026-01-01",
+    "link": "https://9to5google.com/2025/08/07/steam-chromebook-2026/",
+    "description": "Steam for Chromebooks is an beta initiative that allowed users to install and run PC games via the Steam client.",
+    "type": "app"
+  },
+  {
+    "name": "YouTube for Wii",
+    "dateOpen": "2012-11-15",
+    "dateClose": "2022-10-27",
+    "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
+    "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
   },
   {

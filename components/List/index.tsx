@@ -1,111 +1,8 @@
-import styled from '@emotion/styled';
-import { css } from '@emotion/react';
+import { ProductWithSlug } from '@/types/Product';
 
-import { ProductWithSlug } from 'types/Product';
-
-import { Carbon, SRT } from 'components';
-import Item from 'components/List/Item';
-import {
-    ListItem,
-} from 'components/List/Item.atoms';
-import { ListContainer } from 'components/List/List.atoms';
-import Link from 'next/link';
-
-
-const AdContainer = styled(ListItem)(() => css({
-    alignItems: 'center',
-    borderBottom: 0,
-    display: 'flex',
-    justifyContent: 'center',
-
-    ['#carbonads']: {
-        backgroundColor: 'hsl(0, 0%, 98%)',
-        boxShadow: '0 1px 4px 1px hsla(0, 0%, 0%, .1)',
-        display: 'flex',
-        fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-        maxWidth: '330px',
-        minHeight: '125px',
-
-        ['a']: {
-            border: 'none !important',
-            color: 'inherit',
-            textDecoration: 'none !important',
-
-            ['&:hover']: {
-                color: 'inherit',
-            },
-        },
-
-        ['span']: {
-            display: 'block',
-            overflow: 'hidden',
-            position: 'relative',
-        },
-
-        ['.carbon-wrap']: {
-            display: 'flex',
-        },
-
-        ['& + a']: {
-            display: 'none !importnt',
-        },
-    },
-
-    ['.carbon-img']: {
-        display: 'block',
-        lineHeight: 1,
-        margin: 0,
-    },
-
-    ['.carbon-text']: {
-        alignItems: 'center !important',
-        display: 'flex !important',
-        fontSize: '13px',
-        lineHeight: 1.5,
-        padding: '10px',
-        paddingLeft: '10px !important',
-        textAlign: 'left',
-    },
-
-    ['.carbon-poweredby']: {
-        background: 'repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4)',
-        display: 'block',
-        fontSize: '9px',
-        fontWeight: 600,
-        letterSpacing: '0.5px',
-        lineHeight: 1,
-        padding: '8px 10px',
-        textAlign: 'center',
-        textTransform: 'uppercase',
-    },
-}));
-
-const AdPlaceholder = styled.a(() => css({
-    alignItems: 'center',
-    backgroundColor: 'hsl(0, 0%, 98%)',
-    borderBottom: 0,
-    display: 'flex',
-    fontSize: '0.9rem',
-    height: '125px',
-    justifyContent: 'center',
-    textAlign: 'center',
-    width: '330px',
-
-    ['img']: {
-        height: '40px',
-        marginBottom: '0.5rem',
-        width: '40px',
-    },
-
-    ['& > div']: {
-        alignItems: 'center',
-        display: 'flex',
-        flexFlow: 'column nowrap',
-        justifyContent: 'center',
-    },
-}));
+import Carbon from '@/components/Carbon';
+import SRT from '@/components/SRT';
+import Item from '@/components/List/Item';
 
 export const FallbackAd = () => <></>;
 
@@ -119,24 +16,23 @@ const showAd = () => {
                 fallback={<FallbackAd />}
             />
         );
-    return <FallbackAd />
+    return <FallbackAd />;
 };
 
 type Props = {
-    items: ProductWithSlug[]
-}
+    items: ProductWithSlug[];
+};
 
 const List: React.FC<Props> = ({ items }) => (
-    <ListContainer>
-        <AdContainer>
+    <ul className="mx-auto grid max-w-[1400px] list-none grid-cols-1 gap-y-8 p-0 min-[851px]:gap-12 min-[851px]:grid-cols-[repeat(2,minmax(300px,1fr))] min-[1301px]:grid-cols-[repeat(3,minmax(300px,1fr))]">
+        <li className="ad-container mx-auto box-border flex items-center justify-center border-b-0 [&_h2]:m-0 [&_h2]:font-light">
             <SRT>Advertisement</SRT>
             {showAd()}
-        </AdContainer>
-        {items.map(item => (
+        </li>
+        {items.map((item) => (
             <Item key={item.slug} {...item} />
         ))}
-    </ListContainer>
+    </ul>
 );
-
 
 export default List;

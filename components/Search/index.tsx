@@ -1,34 +1,34 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-import React, { useEffect, useState } from 'react';
-import SRT from 'components/SRT';
+'use client';
 
-// Import Styled Components
-import { SearchContainer, SearchBox } from 'components/Search/Search.atoms';
+import React, { useEffect, useState } from 'react';
+
+import SRT from '@/components/SRT';
+import { Input } from '@/components/ui/input';
 
 interface SearchProps {
-  searchCallback: Function
+  searchCallback: (value: string) => void;
 }
 
 export default function Search({ searchCallback }: SearchProps) {
-  const [searchValue, updateValue] = useState('');
+  const [searchValue, setSearchValue] = useState('');
 
   useEffect(() => {
-    const delayFn = setTimeout(() => searchCallback(searchValue), 350);
-    return () => clearTimeout(delayFn);
+    const id = setTimeout(() => searchCallback(searchValue), 350);
+    return () => clearTimeout(id);
   }, [searchValue, searchCallback]);
 
   return (
-    <SearchContainer>
+    <div className="box-border">
       <label htmlFor="searchBox" aria-label="Search">
         <SRT>Search</SRT>
-        <SearchBox
+        <Input
           id="searchBox"
+          type="search"
           placeholder="Search"
-          type="text"
           value={searchValue}
-          onChange={(event: React.FormEvent<HTMLInputElement>) => updateValue(event.currentTarget.value)}
+          onChange={(event) => setSearchValue(event.currentTarget.value)}
         />
       </label>
-    </SearchContainer>
-    );
+    </div>
+  );
 }

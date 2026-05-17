@@ -1,6 +1,7 @@
-import _ from "lodash";
+'use client';
+
 import React, { useEffect, useState } from "react";
-import { FallbackAd } from 'components/List';
+import { FallbackAd } from '@/components/List';
 
 interface CarbonProps {
     name: string
@@ -32,7 +33,7 @@ export default function Carbon(props: CarbonProps) {
         };
         script.addEventListener("load", () => {
             if (adShowing()) {
-                _.invoke((window as any)._carbonads, "refresh")
+                (window as any)._carbonads?.refresh?.();
                 updateForceUpdate(1);
             }
         });

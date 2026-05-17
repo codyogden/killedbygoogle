@@ -1,35 +1,36 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     env: {
         mode: process.env.NODE_ENV,
     },
-    webpack(config) {
-        config.module.rules.push({
-            test: /\.svg$/,
-            use: ["@svgr/webpack"]
-        });
-
-        return config;
+    compress: true,
+    experimental: {
+        optimizePackageImports: ['date-fns'],
     },
-    redirects() {
+    images: {
+        formats: ['image/avif', 'image/webp'],
+        minimumCacheTTL: 60 * 60 * 24 * 365,
+    },
+    // Enable Turbopack (now stable)
+    turbopack: {
+        rules: {
+            '*.svg': {
+                loaders: ['@svgr/webpack'],
+                as: '*.js',
+            },
+        },
+    },
+    async redirects() {
         return [
             {
                 source: '/graveyard.json',
                 destination: '/api/graveyard',
                 permanent: true,
             },
-            {
-                source: '/umami.js',
-                destination: '/_next/static/umami.js',
-                permanent: true,
-            }
         ];
     },
-    rewrites() {
+    async rewrites() {
         return [
-            {
-                source: '/_next/static/umami.js',
-                destination: 'https://analytics.bale.media/script.js'
-            },
             {
                 source: '/api/send',
                 destination: 'https://analytics.bale.media/api/send',
@@ -41,3 +42,5 @@ module.exports = {
         ]
     },
 };
+
+module.exports = nextConfig;

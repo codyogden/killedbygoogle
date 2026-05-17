@@ -1,6 +1,3 @@
-import styled from '@emotion/styled';
-import { css } from '@emotion/react';
-
 const links = [
   {
     url:
@@ -50,70 +47,28 @@ const links = [
   },
 ];
 
-const Container = styled.ul(() => css({
-  alignItems: 'center',
-  display: 'flex',
-  flexFlow: 'row wrap',
-  justifyContent: 'center',
-  listStyleType: 'none',
-  margin: '0 auto',
-  maxWidth: '80%',
-  padding: 0,
-  width: '1000px',
-}));
-
-const Child = styled.li(() => css({
-  flex: '0 0 25%',
-  marginTop: '50px',
-
-  ['@media screen and ( max-width: 700px )']: {
-    flex: '0 0 50%',
-  },
-
-  ['img']: {
-    maxWidth: '100%',
-  },
-
-  ['a']: {
-    border: 'none',
-  },
-}));
-
-const Press = styled.div(() => css({
-  backgroundColor: '#e1e1e1',
-  padding: '40px 0',
-}));
-
-const Title = styled.h4(() => css({
-  fontSize: '1.25em',
-  fontWeight: 'normal',
-  margin: 0,
-  textAlign: 'center',
-  textTransform: 'uppercase',
-  
-  ['@media screen and ( max-width: 700px )']: {
-    marginBottom: 0,
-  },
-}));
-
 const PressCoverage = () => (
-  <Press>
-    <Title>As seen on</Title>
-    <Container>
-      {links.map(link => (
-        <Child key={link.altText}>
+  <div className="bg-muted mt-10 py-10">
+    <h4 className="m-0 text-center text-[1.25em] font-normal uppercase">As seen on</h4>
+    <ul className="mx-auto flex w-[1000px] max-w-[80%] list-none flex-row flex-wrap items-center justify-center p-0">
+      {links.map((link) => (
+        <li
+          key={link.altText}
+          className="mt-[50px] flex-[0_0_50%] min-[701px]:flex-[0_0_25%]"
+        >
           <a
             href={link.url}
             title={link.altText}
             target="_blank"
             rel="noopener noreferrer"
+            className="border-0"
           >
-            <img src={link.imgSrc} alt={link.altText} />
+            <img src={link.imgSrc} alt={link.altText} className="max-w-full" />
           </a>
-        </Child>
+        </li>
       ))}
-    </Container>
-  </Press>
+    </ul>
+  </div>
 );
 
 export default PressCoverage;

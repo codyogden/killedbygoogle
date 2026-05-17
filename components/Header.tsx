@@ -1,45 +1,16 @@
 import Link from 'next/link';
-import styled from '@emotion/styled';
-import { css } from '@emotion/react';
-
-const HeaderContainer = styled.header(() => css({
-    display: 'flex',
-    justifyContent: 'center',
-    padding: '3rem',
-}));
-
-const BrandingContainer = styled.div(() => css({
-    alignItems: 'center',
-    display: 'flex',
-}));
-
-const Logo = styled.div(() => css({
-    display: 'block',
-    marginRight: '1rem',
-    width: '60px',
-}));
-
-const Title = styled.h1(() => css({
-    fontSize: '2.75rem',
-    fontWeight: 'lighter',
-    margin: 0,
-}));
 
 const Header = () => (
-    <HeaderContainer>
-        <Link href="/" passHref>
-            <a rel="noreferrer noopener" css={{
-                borderBottom: 0,
-            }}>
-                <BrandingContainer>
-                        <Logo>
-                            <img width="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" height="60px" alt="Tombstone" />
-                        </Logo>
-                        <Title>Killed by Google</Title>
-                </BrandingContainer>
-            </a>
+    <header className="flex justify-center p-6 min-[701px]:p-12">
+        <Link href="/" className="border-b-0" rel="noreferrer noopener">
+            <div className="flex items-center">
+                <div className="mr-[10px] size-16">
+                    <img width="60px" height="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" alt="Tombstone" />
+                </div>
+                <h1 className="m-0 whitespace-nowrap text-[2.5em] font-thin min-[701px]:text-[2.75rem]">Killed by Google</h1>
+            </div>
         </Link>
-    </HeaderContainer>
+    </header>
 );
 
 export default Header;
