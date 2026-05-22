@@ -1,5 +1,13 @@
 [
   {
+    "name": "Project Mariner",
+    "dateOpen": "2024-12-11",
+    "dateClose": "2026-05-04",
+    "link": "https://en.wikipedia.org/wiki/Project_Mariner",
+    "description": "Project Mariner was a research prototype AI agent by Google DeepMind that could browse the web on a user's behalf to perform tasks like online shopping, information retrieval, and form-filling.",
+    "type": "service"
+  },
+  {
     "name": "Chromecast",
     "dateOpen": "2013-07-24",
     "dateClose": "2024-08-06",
