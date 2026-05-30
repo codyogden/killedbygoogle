@@ -2438,5 +2438,13 @@
     "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
     "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
+  },
+  {
+    "name": "Be Internet Awesome World (Roblox)",
+    "dateOpen": "2024-09-25",
+    "dateClose": "2026-06-20",
+    "link": "https://www.roblox.com/games/17756790122/Google-Be-Internet-Awesome-World",
+    "description": "Be Internet Awesome World was an experience on Roblox that teached kids how to be safe on the internet.",
+    "type": "app"
   }
 ]
