@@ -2438,5 +2438,13 @@
     "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
     "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
+  },
+  {
+    "name": "Perspective API",
+    "dateOpen": "2017-02-23",
+    "dateClose": "2027-01-01",
+    "link": "https://en.wikipedia.org/wiki/Jigsaw_(company)#Perspective",
+    "description": "Perspective API was a tool for web publishers to identify toxic comments.",
+    "type": "service"
   }
 ]
