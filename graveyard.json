@@ -2438,5 +2438,13 @@
     "link": "https://en.wikipedia.org/wiki/YouTube_TV_app#Nintendo_Wii",
     "description": "YouTube for Nintendo Wii was an app that let Wii and Wii U users stream YouTube videos on their TVs.",
     "type": "app"
+  },
+  {
+    "name": "Pixel Studio",
+    "dateOpen": "2024-08-13",
+    "dateClose": "2026-06-05",
+    "link": "https://9to5google.com/2026/06/05/google-shuts-down-pixel-studio-with-the-latest-app-update/",
+    "description": "Pixel Studio allowed users to quickly generate AI images using a prompt and provided a library of past generative images.",
+    "type": "app"
   }
 ]
