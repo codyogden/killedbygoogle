@@ -1,5 +1,13 @@
 [
   {
+    "name": "Project Mariner",
+    "dateOpen": "2024-12-11",
+    "dateClose": "2026-05-04",
+    "link": "https://x.com/ZeffMax/status/2051824497242833234",
+    "description": "Project Mariner was a research prototype that enabled AI agents to autonomously use web browsers.",
+    "type": "service"
+  },
+  {
     "name": "Chromecast",
     "dateOpen": "2013-07-24",
     "dateClose": "2024-08-06",
