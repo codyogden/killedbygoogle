@@ -2446,5 +2446,13 @@
     "link": "https://9to5google.com/2026/06/05/google-shuts-down-pixel-studio-with-the-latest-app-update/",
     "description": "Pixel Studio allowed users to quickly generate AI images using a prompt and provided a library of past generative images.",
     "type": "app"
+  },
+  {
+    "name": "Spectrum Access System",
+    "dateOpen": "2020-01-27",
+    "dateClose": "2027-06-10",
+    "link": "https://www.fierce-network.com/wireless/google-exits-cbrs-sas-administration-business",
+    "description": "Spectrum Access System (SAS) was a cloud-based platform that managed and coordinated shared access to Citizens Broadband Radio Service (CBRS) spectrum in the 3.5 GHz band.",
+    "type": "service"
   }
 ]
