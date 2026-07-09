@@ -2446,5 +2446,13 @@
     "link": "https://9to5google.com/2026/06/05/google-shuts-down-pixel-studio-with-the-latest-app-update/",
     "description": "Pixel Studio allowed users to quickly generate AI images using a prompt and provided a library of past generative images.",
     "type": "app"
+  },
+  {
+    "name": "Google Earth Pro",
+    "dateOpen": "2001-06-10",
+    "dateClose": "2027-06-25",
+    "link": "https://www.theverge.com/tech/962479/get-google-earth-pro-while-you-still-can",
+    "description": "Google Earth Pro is a desktop app that gives users access to Google Earth with more advanced features.",
+    "type": "app"
   }
 ]
