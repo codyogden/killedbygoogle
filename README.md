@@ -35,12 +35,15 @@ For code contributions outside of `graveyard.json`, check out the [Contributing 
 ### Editorial Guidelines
 
 #### Description
-The description should be a single sentence describing the product. It should begin with the products name. For example, "Google Reader was an RSS/Atom feed aggregator." It will be attached to a generated sentence like "Killed about 5 years ago, Google Reader was an RSS/Atom feed aggregator."
+
+The description should be a single sentence describing the product. It should begin with the product's name. For example, "Google Reader was an RSS/Atom feed aggregator." It will be attached to a generated sentence like "Killed about 5 years ago, Google Reader was an RSS/Atom feed aggregator."
 
 Please be respectful, only use past tense.
 
 #### Link
+
 Link should be a resource that mentions the discontinuation date and talks about the product. Links to Wikipedia or a news organization should be prioritized. **Please do not use Google Support articles, linking to the product's URL, the product's marketing URL, or other Google-provided links.** Google removes these links quickly after a service is ended.
 
 #### Type
+
 The type should be either `app`, `service`, or `hardware` as a string.
