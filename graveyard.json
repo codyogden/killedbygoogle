@@ -2454,5 +2454,13 @@
     "link": "https://www.theverge.com/tech/962479/get-google-earth-pro-while-you-still-can",
     "description": "Google Earth Pro was a desktop app that gave users access to Google Earth with more advanced features.",
     "type": "app"
+  },
+  {
+    "name": "Premium print series",
+    "dateOpen": "2020-10-20",
+    "dateClose": "2026-07-01",
+    "link": "https://photos.google.com/printseries",
+    "description": "Google Premium Print Series was a subscription service that used machine learning to select 10 of your top monthly images and send them directly to you.",
+    "type": "service"
   }
 ]
