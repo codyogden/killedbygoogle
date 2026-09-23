@@ -2440,6 +2440,14 @@
     "type": "app"
   },
   {
+    "name": "Google Checks",
+    "dateOpen": "2023-03-03",
+    "dateClose": "2026-09-30",
+    "link": "https://dev.to/jamilxt/google-checks-is-shutting-down-what-the-privacy-compliance-platform-deprecation-means-for-4h7k",
+    "description": "Google Checks was a privacy and compliance platform that helped businesses manage their data protection efforts.",
+    "type": "app"
+  },
+  {
     "name": "Pixel Studio",
     "dateOpen": "2024-08-13",
     "dateClose": "2026-06-05",
