@@ -2462,5 +2462,13 @@
     "link": "https://en.wikipedia.org/wiki/ChromeOS",
     "description": "ChromeOS was an operating system that powered Chromebooks, Chromeboxes, tablets, and other devices.",
     "type": "app"
+  },
+  {
+    "name": "Firebase Test Lab",
+    "dateOpen":"2016-06-29",
+    "dateClose":"2027-09-30",
+    "link": "https://firebase.google.com/support/releases#september_30_2026",
+    "description": "Firebase Test Lab was a cloud-based testing service for running automated tests on emulated and real Android and iOS devices.",
+    "type":"service"
   }
 ]
