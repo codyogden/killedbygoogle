@@ -1,5 +1,13 @@
 [
   {
+    "name": "Google Gemini (CLI and Code Assist)",
+    "dateOpen": "2025-06-25",
+    "dateClose": "2026-06-18",
+    "description": "Google Gemini CLI and consumer-level versions of Gemini Code Assist were AI development tools that integrated Gemini capabilities directly into terminal and IDE environments for individual users. They were discontinued in favor of the unified Antigravity platform.",
+    "link": "https://github.com/google-gemini/gemini-cli",
+    "type": "app"
+  },
+  {
     "name": "Chromecast",
     "dateOpen": "2013-07-24",
     "dateClose": "2024-08-06",
