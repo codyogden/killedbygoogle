@@ -2462,5 +2462,13 @@
     "link": "https://en.wikipedia.org/wiki/ChromeOS",
     "description": "ChromeOS was an operating system that powered Chromebooks, Chromeboxes, tablets, and other devices.",
     "type": "app"
+  },
+  {
+    "name": "Google Assistant",
+    "dateOpen": "2016-05-18",
+    "dateClose": "2026-09-28",
+    "link": "https://9to5google.com/2026/09/28/google-assistant-gemini-android/",
+    "description": "Google Assistant is a virtual assistant software application developed by Google that is primarily available on home automation and mobile devices.",
+    "type": "app"
   }
 ]
