@@ -2462,5 +2462,13 @@
     "link": "https://en.wikipedia.org/wiki/ChromeOS",
     "description": "ChromeOS was an operating system that powered Chromebooks, Chromeboxes, tablets, and other devices.",
     "type": "app"
+  },
+  {
+    "name": "Google Jules",
+    "dateOpen": "2025-05-20",
+    "dateClose": "2026-12-31",
+    "link": "https://web.archive.org/web/20261029192234/https://jules.google/docs/changelog/2026-10-29/",
+    "description": "Google Jules was an asynchronous, cloud-based AI coding agent that worked on tasks in GitHub repositories and opened pull requests.",
+    "type": "service"
   }
 ]
