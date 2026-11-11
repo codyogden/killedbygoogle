@@ -2478,5 +2478,13 @@
     "link": "https://web.archive.org/web/20261029192234/https://jules.google/docs/changelog/2026-10-29/",
     "description": "Google Jules was an asynchronous, cloud-based AI coding agent that worked on tasks in GitHub repositories and opened pull requests.",
     "type": "service"
+  },
+  {
+    "name": "Firebase Test Lab",
+    "dateOpen": "2016-06-29",
+    "dateClose": "2027-09-30",
+    "link": "https://firebase.google.com/support/releases#september_30_2026",
+    "description": "Firebase Test Lab was a cloud-based testing service for running automated tests on emulated and real Android and iOS devices.",
+    "type": "service"
   }
 ]
