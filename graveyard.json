@@ -2486,5 +2486,13 @@
     "link": "https://firebase.google.com/support/releases#september_30_2026",
     "description": "Firebase Test Lab was a cloud-based testing service for running automated tests on emulated and real Android and iOS devices.",
     "type": "service"
+  },
+  {
+    "name": "Android Instant Apps",
+    "dateOpen": "2017-01-23",
+    "dateClose": "2025-12-01",
+    "link": "https://arstechnica.com/gadgets/2025/06/another-one-for-the-graveyard-google-to-kill-instant-apps-in-december/",
+    "description": "Android Instant Apps was a feature that let users run parts of Android apps from a link without installing them.",
+    "type": "service"
   }
 ]
